@@ -1,0 +1,6 @@
+claim,state,detail
+PF 8.0 Zero Months Count,RESOLVED,Reconciled to 3 zero months. The conflicting claim of 2 was a sum typo (63+12+3=78 total months).
+PF 8.0 Total Month Count,RESOLVED,Exactly 78 months (2020-01 to 2026-06).
+PF 8.0 Trade Count Path,RESOLVED,325 Core + 315 Refined additions = 640 trades total.
+Exact PnL,RESOLVED,"Exactly $30,580.40."
+Stress PnL,RESOLVED,"Exactly +$19,450.20."

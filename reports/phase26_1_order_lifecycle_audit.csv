@@ -1,0 +1,4 @@
+state,param
+Signal Raised,expected_R=1.92
+Order Placed,limit_price=9050.25
+Stop Placed,trigger_price=8915.10

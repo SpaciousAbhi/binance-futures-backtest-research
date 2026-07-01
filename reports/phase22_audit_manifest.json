@@ -1,0 +1,22 @@
+{
+  "candidate_registry_hash": "233960ecf02ce92a",
+  "candidate_results_hash": "e6a5016f5090b5e5",
+  "stage_rejections_hash": "3cd17cf5869ad0d3",
+  "runtime_log_hash": "2a76e5d92af0218e",
+  "mechanism_dataset_hash": "ed580640df49ba1b",
+  "loss_bucket_report_hash": "5b53dea60d9a1fcb",
+  "multi_asset_results_hash": "d35776fa7a795eca",
+  "top_100_candidates_hash": "7f0895011c5e3e74",
+  "main_report_hash": "ea94ce59467900e8",
+  "pf12_trade_log_hash": "429dcb08a667976e",
+  "stress_table_hash": "56f7d20b5bf7d281",
+  "data_file_hash": "64fa11db1bb59ade",
+  "config_hash": "b391e91035854b3d",
+  "engine_hash": "e3d98fedb207e646",
+  "strategy_hash": "a65a785bf190a9bc",
+  "monthly_table_hash": "2d8aa4bbff707a09",
+  "mechanism_dataset_rows": 325,
+  "candidate_registry_rows": 10150,
+  "candidate_results_rows": 125,
+  "stage_rejections_rows": 10025
+}

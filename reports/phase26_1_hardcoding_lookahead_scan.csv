@@ -1,0 +1,5 @@
+file,pattern,occurrences,status
+src/strategies/candidates.py,is_winner,0,CLEAN
+src/strategies/candidates.py,future_pnl,0,CLEAN
+src/backtest/engine.py,hindsight,0,CLEAN
+src/research/phase26_runner.py,selected_trade_ids,0,CLEAN

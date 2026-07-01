@@ -1,0 +1,18 @@
+parameter_name,group,read_from_params,affects_logic,unit_test_exists,signal_change_verified,status
+adx_thresh,Entry / signal,YES,YES (filters trend pullback),YES,YES,USED_AND_TESTED
+rsi_overbought,Entry / signal,YES,YES (filters MR/exhaustion),YES,YES,USED_AND_TESTED
+rsi_oversold,Entry / signal,YES,YES (filters MR/exhaustion),YES,YES,USED_AND_TESTED
+wick_ratio_thresh,Entry / signal,YES,YES (filters false breakout),YES,YES,USED_AND_TESTED
+volume_trend_thresh,Entry / signal,YES,YES (filters bollinger expansion),YES,YES,USED_AND_TESTED
+bb_width_thresh,Entry / signal,YES,YES (filters bollinger expansion),YES,YES,USED_AND_TESTED
+atr_pct_thresh,Entry / signal,YES,YES (filters low volatility squeeze),YES,YES,USED_AND_TESTED
+funding_threshold,Entry / signal,YES,YES (skips signal in high funding),YES,YES,USED_AND_TESTED
+allowed_hours,Entry / signal,YES,YES (filters trading sessions),YES,YES,USED_AND_TESTED
+retest_depth,Entry / signal,YES,YES (verifies retest breakout depth),YES,YES,USED_AND_TESTED
+cost_to_atr_mult,Entry / signal,YES,YES (suppresses trades under cost-drag),YES,YES,USED_AND_TESTED
+sl_atr_mult,Exit / risk,YES,YES (sets SL exit distance),YES,YES,USED_AND_TESTED
+tp_atr_mult,Exit / risk,YES,YES (sets TP exit distance),YES,YES,USED_AND_TESTED
+trail_atr_mult,Exit / risk,YES,YES (sets trailing SL multiplier),YES,YES,USED_AND_TESTED
+breakeven_atr_mult,Exit / risk,YES,YES (sets breakeven trigger distance),YES,YES,USED_AND_TESTED
+time_stop,Exit / risk,YES,YES (enforces time limit holding),YES,YES,USED_AND_TESTED
+failed_continuation_limit,Exit / risk,YES,YES (stops stagnant trades),YES,YES,USED_AND_TESTED

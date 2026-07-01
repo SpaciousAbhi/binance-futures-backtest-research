@@ -1,0 +1,17 @@
+{
+  "data_hash": "b44384e78e75b9b7",
+  "config_hash": "b391e91035854b3d",
+  "engine_hash": "e3d98fedb207e646",
+  "pf12_strategy_hash": "941f5208cfa80ca0",
+  "pf70_strategy_router_hash": "4cc4fef05cf7b872",
+  "phase28_pf81_truth_lock_hash": "ed4f4991d881dd84",
+  "phase28_benchmark_stack_preservation_hash": "f42585a5b7aff97c",
+  "phase28_sleeve_contribution_matrix_hash": "233183ff91a01a53",
+  "phase28_entry_exit_rule_serialization_hash": "158c7bdf35624755",
+  "phase28_live_execution_flow_audit_hash": "f1240145093e17d3",
+  "phase28_full_metrics_matrix_hash": "fec8b78744b89403",
+  "phase28_negative_zero_month_forensics_hash": "1e1d77926d010c72",
+  "phase28_multi_asset_preservation_hash": "862c03d76249e620",
+  "phase28_stress_extreme_stress_preservation_hash": "232e711f7eb8b83c",
+  "phase28_no_lookahead_live_rule_audit_hash": "6e36baf2070a20fb"
+}

@@ -1,0 +1,3 @@
+metric,value,scenario,acceptable_gate,status
+Max Normal DD,0.115,normal,YES (<= 12.0% limit),PASS
+Worst Stress DD,0.185,combined adverse stale cancel,YES (Informative stress limit),RISK_WARNING

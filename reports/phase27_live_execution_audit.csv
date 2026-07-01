@@ -1,0 +1,6 @@
+parameter,value,status
+Expected-R NY breakout,>= 1.8,LIVE_KNOWN
+Extreme funding filter,funding < 0.04%,LIVE_KNOWN
+Order size rounding,Binance stepSize=0.001,LIVE_KNOWN
+Stop Loss trigger type,Stop-Market,LIVE_KNOWN
+Reduce-only flag,TRUE,LIVE_KNOWN

@@ -1,0 +1,4 @@
+file_checked,keyword,found,status
+src/strategies/candidates.py,is_winner,NO,PASS
+src/strategies/candidates.py,future_pnl,NO,PASS
+src/strategies/candidates.py,hardcoded_month,NO,PASS

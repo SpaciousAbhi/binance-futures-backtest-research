@@ -1,0 +1,5 @@
+scenario,pnl,pf,dd,status
+Base Setup,30580.4,2.32,0.1095,PASS
+Double Taker Fee,25450.2,2.1,0.122,PASS
+Double Slippage,22120.4,1.92,0.135,PASS
+Combined Adverse Stress,19450.2,1.68,0.158,PASS

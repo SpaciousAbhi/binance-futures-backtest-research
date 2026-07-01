@@ -1,0 +1,5 @@
+rule,occurrences,status
+is_winner,0,CLEAN
+future_pnl,0,CLEAN
+hardcoded_trade_ids,0,CLEAN
+outcome_based_routing,0,CLEAN

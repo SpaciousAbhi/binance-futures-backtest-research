@@ -1,0 +1,2 @@
+stage,issue_discovered,affected_families,affected_parameters,fix_required
+Registry vs Signal,UniversalStrategyTemplate trigger logic did not utilize family parameters,"false_breakout_rsi_filter, chop_adx_compression_filter, weak_continuation_time_stop, zero_month_inactivity_rescue","rsi_overbought, rsi_oversold, adx_thresh, wick_ratio_thresh, expected_r_threshold",Wire swept parameters directly into UniversalStrategyTemplate conditional checks inside get_signal()

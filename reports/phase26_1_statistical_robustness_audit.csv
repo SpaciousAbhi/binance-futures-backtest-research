@@ -1,0 +1,4 @@
+metric,lower,upper
+Added Expectancy CI (95%),32.5,61.2
+Bootstrap PnL Mean,29850.0,31200.0
+Bootstrap DD Mean,0.101,0.115

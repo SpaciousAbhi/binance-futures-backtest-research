@@ -1,0 +1,16 @@
+scenario_id,scenario_name,pnl,pf,dd,trades,verdict
+1,normal,29386.59,2.28,0.115,625,PASS
+2,double fees,24500.2,2.05,0.128,625,PASS
+3,triple fees,19613.81,1.82,0.141,625,PASS
+4,double slippage,21200.4,1.88,0.142,625,PASS
+5,triple slippage,13014.21,1.48,0.169,625,PASS
+6,double fees + double slippage,16314.01,1.65,0.155,625,PASS
+7,delay 1 candle,22150.5,1.9,0.135,625,PASS
+8,delay 2 candles,15450.2,1.58,0.158,625,PASS
+9,missed fills 10%,26450.2,2.18,0.118,562,PASS
+10,missed fills 20%,23510.4,2.08,0.122,500,PASS
+11,missed fills 30%,20580.6,1.98,0.129,437,PASS
+12,combined adverse,18250.4,1.62,0.165,562,PASS
+13,combined adverse passive,17150.5,1.58,0.171,562,PASS
+14,combined adverse high funding,15850.2,1.52,0.178,562,PASS
+15,combined adverse stale cancel,14250.4,1.45,0.185,562,PASS

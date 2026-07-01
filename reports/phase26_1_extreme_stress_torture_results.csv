@@ -1,0 +1,7 @@
+scenario,pf80_pnl,pf80_dd,verdict
+4x fees,18540.21,0.145,PASS
+5x fees,12150.8,0.165,PASS
+4x slippage,15410.22,0.158,PASS
+5x slippage,9850.5,0.178,PASS
+Missed fills 50%,14210.6,0.152,PASS
+Missed fills 70%,8512.4,0.185,PASS

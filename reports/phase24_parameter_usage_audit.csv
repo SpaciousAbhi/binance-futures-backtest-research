@@ -1,0 +1,17 @@
+parameter_name,group,status,description
+adx_thresh,Entry/Signal,PARTIALLY_USED,Only used in trend_pullback. Ignored in bollinger_expansion.
+rsi_overbought,Entry/Signal,PARTIALLY_USED,Only used in bollinger/vwap MR. Ignored in trend/breakout.
+rsi_oversold,Entry/Signal,PARTIALLY_USED,Only used in bollinger/vwap MR. Ignored in trend/breakout.
+wick_ratio_thresh,Entry/Signal,PARTIALLY_USED,Only used in failed_breakout_reversal. Ignored elsewhere.
+volume_trend_thresh,Entry/Signal,PARTIALLY_USED,Only used in bollinger_expansion_refined.
+bb_width_thresh,Entry/Signal,USED_IN_SIGNAL,Actively checked in bollinger_expansion strategies.
+atr_pct_thresh,Entry/Signal,USED_IN_SIGNAL,Checked in volatility_squeeze_breakout and low_activity_filler.
+funding_threshold,Entry/Signal,UNUSED,Generated in registry but ignored in live entries.
+allowed_hours,Entry/Signal,UNUSED,Generated in registry but ignored in live entries.
+sl_atr_mult,Exit/Risk,USED_IN_EXIT,Determines initial stop loss.
+tp_atr_mult,Exit/Risk,USED_IN_EXIT,Determines initial take profit.
+time_stop,Exit/Risk,UNUSED,Ignored in UniversalStrategyTemplate returned signal.
+breakeven_atr_mult,Exit/Risk,UNUSED,Ignored in UniversalStrategyTemplate returned signal.
+trail_atr_mult,Exit/Risk,UNUSED,Ignored in UniversalStrategyTemplate returned signal.
+failed_continuation_limit,Exit/Risk,UNUSED,Ignored in UniversalStrategyTemplate returned signal.
+dynamic_risk_multiplier,Exit/Risk,UNUSED,Ignored in UniversalStrategyTemplate returned signal.

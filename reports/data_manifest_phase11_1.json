@@ -1,0 +1,46 @@
+{
+  "symbol": "BTCUSDT",
+  "market_type": "Perpetual Futures (Binance USD-M)",
+  "generation_time_utc": "2026-06-30 14:00:59 UTC",
+  "files": {
+    "1h_processed": {
+      "path": "data/processed/BTCUSDT_1h_processed.csv",
+      "hash": "353b5577fbe863330549a4dcd88a28567237cb484310676caff1475267d23329",
+      "row_count": 56881,
+      "first_timestamp": 1577836800000,
+      "last_timestamp": 1782604800000,
+      "first_datetime_utc": "2020-01-01 00:00:00+00:00",
+      "last_datetime_utc": "2026-06-28 00:00:00+00:00",
+      "missing_candles": 0,
+      "duplicate_candles": 0,
+      "nan_count": 0,
+      "funding_coverage_pct": 100.0
+    },
+    "15m_processed": {
+      "path": "data/processed/BTCUSDT_15m_processed.csv",
+      "hash": "33a6f59eb1d7700c89299bb65ade626d465fffd9584257ad83f179a35a5c1320",
+      "row_count": 227521,
+      "first_timestamp": 1577836800000,
+      "last_timestamp": 1782604800000,
+      "first_datetime_utc": "2020-01-01 00:00:00+00:00",
+      "last_datetime_utc": "2026-06-28 00:00:00+00:00",
+      "missing_candles": 0,
+      "duplicate_candles": 0,
+      "nan_count": 0,
+      "funding_coverage_pct": 100.0
+    },
+    "5m_processed": {
+      "path": "data/processed/BTCUSDT_5m_processed.csv",
+      "hash": "2baf36eeb9165dc874f8d0b004d31415171528745f6e1c4ec58f1176115526bf",
+      "row_count": 682561,
+      "first_timestamp": 1577836800000,
+      "last_timestamp": 1782604800000,
+      "first_datetime_utc": "2020-01-01 00:00:00+00:00",
+      "last_datetime_utc": "2026-06-28 00:00:00+00:00",
+      "missing_candles": 0,
+      "duplicate_candles": 0,
+      "nan_count": 0,
+      "funding_coverage_pct": 100.0
+    }
+  }
+}

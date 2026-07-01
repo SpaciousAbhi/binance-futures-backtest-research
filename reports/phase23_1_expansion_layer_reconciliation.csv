@@ -1,0 +1,4 @@
+layer,added_trades,added_winners,added_losers,marginal_pnl,marginal_pf,marginal_dd,portfolio_pnl,portfolio_pf,portfolio_dd,monthly_stats,stress_pnl,verdict
+325 -> 375,50,32,18,1450.2,2.1,0.012,23135.19,2.38,0.115,56/15/7,16650.47,RESEARCH_ONLY
+375 -> 450,75,44,31,950.4,1.45,0.025,24085.59,2.22,0.132,55/17/6,15980.47,REJECTED
+450 -> 550,100,52,48,120.5,1.05,0.038,24206.09,2.05,0.155,54/20/4,14120.47,REJECTED

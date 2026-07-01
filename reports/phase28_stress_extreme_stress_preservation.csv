@@ -1,0 +1,4 @@
+scenario,pnl,pf,dd
+Combined Adverse,20150.8,1.72,0.145
+Missed Fills 30%,21450.2,1.85,0.132
+Monte Carlo worst path,17850.5,1.58,0.165

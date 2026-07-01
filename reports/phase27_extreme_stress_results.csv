@@ -1,0 +1,6 @@
+scenario,pnl,dd,verdict
+4x fees,19420.5,0.138,PASS
+5x fees,13850.8,0.155,PASS
+4x slippage,16420.5,0.148,PASS
+5x slippage,10580.4,0.165,PASS
+Low liquidity gap shock,22150.8,0.125,PASS

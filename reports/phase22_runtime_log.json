@@ -1,0 +1,104 @@
+{
+  "start_time": "2026-07-01T16:01:41.610159",
+  "stage_timestamps": {
+    "module_0_truth_lock": 33.463,
+    "module_1_mechanism_buckets": 1.433,
+    "module_2_registry": 0.59,
+    "module_3_stage_1_static_audit": 0.118,
+    "module_3_stage_2_cheap_scan": 2163.976,
+    "module_3_stage_3_full_backtest": 142.408
+  },
+  "actual_candidate_evaluations": 10150,
+  "actual_backtest_calls": 125,
+  "avg_seconds_per_cheap_scan": 0.2132,
+  "avg_seconds_per_full_backtest": 1.1393,
+  "interrupted_resumed": "none",
+  "batch_checkpoints": [
+    {
+      "offset": 500,
+      "duration_seconds": 124.987
+    },
+    {
+      "offset": 1000,
+      "duration_seconds": 131.467
+    },
+    {
+      "offset": 1500,
+      "duration_seconds": 140.823
+    },
+    {
+      "offset": 2000,
+      "duration_seconds": 150.364
+    },
+    {
+      "offset": 2500,
+      "duration_seconds": 122.114
+    },
+    {
+      "offset": 3000,
+      "duration_seconds": 116.484
+    },
+    {
+      "offset": 3500,
+      "duration_seconds": 128.403
+    },
+    {
+      "offset": 4000,
+      "duration_seconds": 100.457
+    },
+    {
+      "offset": 4500,
+      "duration_seconds": 91.19
+    },
+    {
+      "offset": 5000,
+      "duration_seconds": 91.304
+    },
+    {
+      "offset": 5500,
+      "duration_seconds": 88.725
+    },
+    {
+      "offset": 6000,
+      "duration_seconds": 82.049
+    },
+    {
+      "offset": 6500,
+      "duration_seconds": 90.317
+    },
+    {
+      "offset": 7000,
+      "duration_seconds": 89.153
+    },
+    {
+      "offset": 7500,
+      "duration_seconds": 98.573
+    },
+    {
+      "offset": 8000,
+      "duration_seconds": 94.385
+    },
+    {
+      "offset": 8500,
+      "duration_seconds": 91.102
+    },
+    {
+      "offset": 9000,
+      "duration_seconds": 90.953
+    },
+    {
+      "offset": 9500,
+      "duration_seconds": 120.393
+    },
+    {
+      "offset": 10000,
+      "duration_seconds": 91.391
+    },
+    {
+      "offset": 10150,
+      "duration_seconds": 29.341
+    }
+  ],
+  "end_time": "2026-07-01T16:40:43.937693",
+  "total_runtime_seconds": 2342.327
+}

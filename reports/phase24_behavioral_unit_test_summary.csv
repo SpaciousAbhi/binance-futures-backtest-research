@@ -1,0 +1,5 @@
+test_name,status,duration,assertion
+test_adx_thresh_wiring,PASSED,0.15s,Varying adx_thresh from 15 to 35 changes trade entry signals
+test_rsi_filters_wiring,PASSED,0.12s,Varying rsi_overbought/oversold limits filters entries correctly
+test_wick_ratio_wiring,PASSED,0.18s,Wick ratio thresh filters false breakouts
+test_exits_and_time_stops,PASSED,0.22s,Changing time_stop and failed_continuation_limit alters exits

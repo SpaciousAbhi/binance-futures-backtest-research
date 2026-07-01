@@ -1,0 +1,6 @@
+hardening_rule,trades_removed,winners_clipped,losers_removed,pnl,pf,dd,stress_pnl
+Base Setup (No filter),0,0,0,30580.4,2.32,0.1095,19450.2
+NY Liquidity Filter (Volume > 1.2 * SMA),8,1,7,30980.2,2.35,0.109,19850.4
+NY Breakout Expected-R >= 1.8,15,0,15,31250.8,2.38,0.1085,20150.8
+NY Wick Confirmation,22,4,18,30450.1,2.33,0.1092,19350.2
+NY Session Partial Disable,45,15,30,29150.4,2.29,0.112,18120.4

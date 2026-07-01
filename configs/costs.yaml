@@ -1,0 +1,6 @@
+maker_fee: 0.0002 # 0.02%
+taker_fee: 0.0005 # 0.05%
+slippage: 0.0005  # 0.05% price slippage per execution
+funding_interval_hours: 8
+initial_capital: 10000.0
+position_risk_pct: 0.01 # Risk 1% of capital per trade if using risk-based sizing

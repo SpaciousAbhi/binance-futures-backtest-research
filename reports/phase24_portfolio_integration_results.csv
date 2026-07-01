@@ -1,0 +1,4 @@
+candidate_id,type,portfolio_pnl,portfolio_pf,portfolio_dd,verdict
+C24_015,sleeve_addition,21850.5,2.41,0.1095,REJECTED_PF_DROPPED
+C24_112,sleeve_addition,20450.2,2.3,0.115,REJECTED_PNL_DD_WORSE
+C24_221,zero_month_rescue,22120.4,2.38,0.112,RESEARCH_ONLY

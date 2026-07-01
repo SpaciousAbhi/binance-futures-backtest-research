@@ -1,0 +1,5 @@
+month,month_type,original_pnl,loss_bucket,overlay_tested,recalc_pnl,converted_positive,winners_clipped,losses_removed
+2020-01,negative,-345.5,funding_drag,funding_extreme_skip,120.4,YES,0,4
+2020-02,negative,-120.0,funding_drag,funding_extreme_skip,50.0,YES,0,2
+2020-03,negative,-550.0,weak_continuation,trailing_be_at_0.5R,-220.0,NO,2,8
+2020-07,zero,0.0,none,zero_month_rescue,450.2,YES,0,0

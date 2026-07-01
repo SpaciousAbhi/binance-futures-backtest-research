@@ -1,0 +1,3 @@
+month,month_type,candidate_id,recalc_pnl,original_pnl,converted_positive,winners_clipped,losses_removed
+2020-03,negative,C24_015,-350.2,-550.0,NO,2,5
+2020-07,zero,C24_221,435.5,0.0,YES,0,0

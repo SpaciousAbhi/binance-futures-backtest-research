@@ -1,0 +1,11 @@
+{
+  "phase25_candidate_registry_hash": "10127ef88049e7da",
+  "phase25_behavioral_dedup_report_hash": "b4f0a35f685f8c70",
+  "phase25_candidate_results_hash": "9cda19e148ae8537",
+  "phase25_portfolio_integration_results_hash": "959273ce9e11839c",
+  "phase25_expansion_layer_results_hash": "3a1c0a1e2deab3fa",
+  "phase25_negative_month_repair_table_hash": "a91566a2e0dd29a3",
+  "phase25_zero_month_rescue_table_hash": "f3b1b3d3f7e155ea",
+  "phase25_finalist_stress_results_hash": "ac2218324eec8754",
+  "phase25_precision_fusion_7_router_report_hash": "55c6c2d2d2a0f23e"
+}

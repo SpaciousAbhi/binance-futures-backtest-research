@@ -1,0 +1,17 @@
+{
+  "data_hash": "64fa11db1bb59ade",
+  "config_hash": "b391e91035854b3d",
+  "engine_hash": "e3d98fedb207e646",
+  "strategy_hash": "8e72528719cea4bd",
+  "trade_log_hash": "429dcb08a667976e",
+  "monthly_table_hash": "2d8aa4bbff707a09",
+  "stress_table_hash": "56f7d20b5bf7d281",
+  "phase23_loss_surgery_results_hash": "8b83dc8b81d0b243",
+  "phase23_winner_preservation_audit_hash": "c86091275db36f77",
+  "phase23_behavioral_dedup_report_hash": "c3ecd51cda618485",
+  "phase23_overlay_results_hash": "3e7f997e037e8ef6",
+  "phase23_expansion_layer_results_hash": "1dec7af45333100c",
+  "phase23_negative_month_repair_table_hash": "69181de7dfb088a9",
+  "phase23_zero_month_rescue_table_hash": "5d2d282ce49cf5d6",
+  "phase23_finalist_stress_results_hash": "b893841ef51b1472"
+}

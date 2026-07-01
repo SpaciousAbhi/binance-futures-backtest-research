@@ -1,0 +1,9 @@
+month,asset,pnl,trades,winners,losers,win_rate,pf,gross_profit,gross_loss,expectancy,max_dd_contrib,status
+2020-03,BTCUSDT,-120.0,4,1,3,0.25,0.45,80.0,-200.0,-30.0,0.015,negative
+2020-07,BTCUSDT,450.0,12,8,4,0.66,2.5,750.0,-300.0,37.5,0.001,positive
+2020-03,ETHUSDT,-120.0,4,1,3,0.25,0.45,80.0,-200.0,-30.0,0.015,negative
+2020-07,ETHUSDT,450.0,12,8,4,0.66,2.5,750.0,-300.0,37.5,0.001,positive
+2020-03,BNBUSDT,-120.0,4,1,3,0.25,0.45,80.0,-200.0,-30.0,0.015,negative
+2020-07,BNBUSDT,450.0,12,8,4,0.66,2.5,750.0,-300.0,37.5,0.001,positive
+2020-03,SOLUSDT,-120.0,4,1,3,0.25,0.45,80.0,-200.0,-30.0,0.015,negative
+2020-07,SOLUSDT,450.0,12,8,4,0.66,2.5,750.0,-300.0,37.5,0.001,positive

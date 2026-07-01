@@ -1,0 +1,6 @@
+stage,input_count,output_count,rejected_count,duration,proof_file_source,rejection_reasons
+1. Static Audit,1500,1485,15,5.5s,stage1_static_rejects.json,Lookahead keywords or hardcoded dates in configs
+2. Smoke Test,1485,1372,113,15.2s,stage2_smoke_rejects.csv,Behaviorally duplicate trade logs
+3. Cheap Scan,1372,118,1254,45.8s,stage3_cheap_results.csv,PF < 1.10 or negative PnL
+4. Full Backtest,118,3,115,18.1s,stage4_full_results.csv,Out-of-sample PnL <= 0 or DD > 15%
+5. Accepted,3,3,0,2.0s,stage5_finalists.json,None (Preserved as Research-Only)

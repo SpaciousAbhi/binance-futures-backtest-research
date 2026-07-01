@@ -1,0 +1,4 @@
+period,type,pnl,cause,avoidable
+2020-03,negative,-550.0,NY session breakout false signals,YES (NY Expected-R >= 1.8 applied)
+2021-06,negative,-340.0,Tokyo range squeeze whipsaws,NO (unavoidable cost)
+2020-07,zero,0.0,"Market inactive, volatility compressed",NO (appropriate selectiveness)

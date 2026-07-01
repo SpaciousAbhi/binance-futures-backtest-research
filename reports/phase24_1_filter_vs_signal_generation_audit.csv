@@ -1,0 +1,18 @@
+parameter_name,classification,can_increase_trades,implication_for_p25
+adx_thresh,FILTER_ONLY,NO (reduces bad trend pulls),Use lower thresh to expand setup frequency if filter is loose
+rsi_overbought,FILTER_ONLY,NO (reduces MR entries),Adjust range boundary to capture earlier mean reversions
+rsi_oversold,FILTER_ONLY,NO (reduces MR entries),Adjust range boundary to capture earlier mean reversions
+wick_ratio_thresh,FILTER_ONLY,NO (rejects false breakouts),Wick filters clip winners; keep filter relaxed in strong trends
+volume_trend_thresh,FILTER_ONLY,NO (filters expansion entries),Volume filter must be paired with low-volatility rescue triggers
+bb_width_thresh,SIGNAL_GENERATING,YES (defines breakout setups),Generate new breakouts when bands compress below threshold
+atr_pct_thresh,FILTER_ONLY,NO (prevents dead market entry),Keep relaxed to enable low-activity rescue fillers
+funding_threshold,FILTER_ONLY,NO (skips extreme funding trades),Crucial defensive overlay to protect against liquidation drag
+allowed_hours,FILTER_ONLY,NO (filters hours),Expand session parameters to allow Tokyo/London transitional breakout hours
+retest_depth,SIGNAL_GENERATING,YES (triggers pullback reclaim),Major signal generation source for Phase 25: buy second retests
+cost_to_atr_mult,FILTER_ONLY,NO (suppresses high friction trades),Allows zero-month rescue trades only if cost structure is clean
+sl_atr_mult,EXIT_MODIFYING,NO,Optimizing stop loss distance changes win rate and holding time
+tp_atr_mult,EXIT_MODIFYING,NO,Wider take profit improves expectancy in trending markets
+trail_atr_mult,EXIT_MODIFYING,NO,Dynamic trailing locks gains in high-volatility expansions
+breakeven_atr_mult,EXIT_MODIFYING,NO,BE stops save drawdown but can clip massive winners prematurely
+time_stop,EXIT_MODIFYING,NO,Protects capital by terminating stagnant range-bound trades
+failed_continuation_limit,EXIT_MODIFYING,NO,Exits immediately when price fails to expand after breakout

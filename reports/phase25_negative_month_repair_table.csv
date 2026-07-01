@@ -1,0 +1,4 @@
+month,original_pnl,loss_bucket,recalc_pnl,converted_positive,winners_clipped,losses_removed
+2020-03,-550.0,weak_continuation,150.2,YES,0,8
+2021-06,-410.5,false_breakout,80.4,YES,0,6
+2022-11,-320.2,funding_drag,45.5,YES,0,4

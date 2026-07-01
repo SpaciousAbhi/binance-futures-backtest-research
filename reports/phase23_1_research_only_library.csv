@@ -1,0 +1,4 @@
+overlay_name,exact_rule,reason_rejected,what_improved,what_damaged,future_condition,category
+funding_extreme_skip,Skip if abs(funding) > 0.05%,Slightly reduces trades without clean portfolio PF improvement,Drawdown & monthly stability,Trade count,Periods of high interest rates/funding spikes,KEEP_FOR_FUNDING_RESEARCH
+volume_confirm_breakout,Skip if Vol < 1.2 * rolling 20 SMA,Clips 8 winners for 15 losers,Profit Factor,Net PnL,Chop/low volume regimes,KEEP_FOR_FALSE_BREAKOUT_RESEARCH
+trailing_be_at_0.5R,Exit at BE once MFE reaches 0.5R,Clipped winners value close to saved loss,Max Drawdown,Net PnL,High volatility ranges,KEEP_FOR_WEAK_CONTINUATION_RESEARCH

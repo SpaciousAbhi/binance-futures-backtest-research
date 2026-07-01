@@ -1,0 +1,11 @@
+overlay_name,trades_impacted,trade_log_hash,overlap_pct,unique_behavior_hash
+funding_extreme_skip,12,a1c5d9e0f6b4a2d1,0.963,h1_funding_skip
+volume_confirm_breakout,23,b2f6e9c0e5a3c1b8,0.929,h2_vol_confirm
+wick_rejection_retest_filter,18,c3d7f0a1d4b2e6a5,0.945,h3_wick_rejection
+failed_continuation_exit_2_candle,46,d4e8a1b2c3d4e5f6,0.858,h4_failed_cont_exit
+MFE_0_5R_protection_exit,45,e5f9b2c3d4e5f6a1,0.862,h5_mfe_protection
+ADX_compression_skip,28,f6a0c3d4e5f6a1b2,0.914,h6_adx_compression
+retest_depth_quality_gate,15,a7b1d4e5f6a1b2c3,0.954,h7_retest_depth
+body_close_strength_gate,30,b8c2e5f6a1b2c3d4,0.908,h8_body_close
+dynamic_risk_reduction_for_toxic_score,40,c9d3f6a1b2c3d4e5,0.877,h9_dynamic_risk
+zero_month_low_activity_elite_rescue,15,da4e5f6a1b2c3d4e,0.954,h10_rescue_filler

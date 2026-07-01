@@ -1,0 +1,7 @@
+feature,type,status,validity
+Bollinger Band Breakout,entry,known_at_candle_close,VALID
+Midpoint Retest Depth,entry,known_at_candle_close,VALID
+Tokyo range low/high,entry,known_before_entry,VALID
+ATR volatility limit,entry,known_at_candle_close,VALID
+Sleeve Expected-R Gate,entry,known_at_candle_close,VALID
+Exit ATR SL/TP,exit,known_after_trade_is_open,VALID

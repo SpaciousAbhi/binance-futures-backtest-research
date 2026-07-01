@@ -1,0 +1,13 @@
+bucket_name,num_trades,total_pnl_damage,avg_R,month_contribution,repairable_live,live_known_feature_fix
+false_breakout,30,-4249.65,-1.017,2020-06|2020-10|2020-11,YES,volume_confirm
+range_chop,0,0.0,0.0,None,YES,none
+trend_whipsaw,12,-1580.08,-1.0203,2020-02|2020-03|2020-06,PARTIAL,volume_confirm
+funding_drag,25,-2917.57,-1.0242,2020-01|2020-02|2020-04,YES,funding_extreme_skip
+late_fill_adverse_selection,0,0.0,0.0,None,PARTIAL,none
+weak_continuation,46,-6540.74,-1.0197,2020-03|2020-05|2020-08,PARTIAL,volume_confirm
+volatility_compression,0,0.0,0.0,None,PARTIAL,none
+overextended_entry,0,0.0,0.0,None,PARTIAL,none
+stop_loss_too_tight,0,0.0,0.0,None,PARTIAL,none
+take_profit_too_far,0,0.0,0.0,None,PARTIAL,none
+time_decay,0,0.0,0.0,None,PARTIAL,none
+session_liquidity_issue,0,0.0,0.0,None,PARTIAL,none

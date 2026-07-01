@@ -1,0 +1,8 @@
+stage,trade_count,verdict
+Precision Fusion 1.2 Core,325,LOCKED
+Layer 1: 325 -> 375,375,ACCEPTED (50 trades added)
+Layer 2: 375 -> 450,450,ACCEPTED (75 trades added)
+Layer 3: 450 -> 550,550,ACCEPTED (100 trades added)
+Layer 4: 550 -> 650,650,REJECTED (100 candidates generated)
+Router Filtered Layer 4,625,"ACCEPTED (75 trades selected by expected-R gate, 25 rejected)"
+Precision Fusion 7.0 Final,625,SUCCESSFULLY RECONCILED

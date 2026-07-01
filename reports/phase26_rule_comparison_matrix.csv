@@ -1,0 +1,4 @@
+rule,pf12,pf70,impact
+Expected-R Gate,Strict (>= 2.0),Moderate (>= 1.5),PF drops but trades expand
+VWAP Reclaim Sleeve,Inactive,Active on 5m candles,"Adds 100 trades, PF 2.25"
+Tokyo Squeeze Rescue,Inactive,Active,Rescues 2 zero months

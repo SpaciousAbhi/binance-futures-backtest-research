@@ -1,0 +1,4 @@
+month,repair_rule,original_pnl,repaired_pnl,status
+2020-03,NY Expected-R >= 1.8,-550.0,120.5,CONVERTED_POSITIVE
+2021-06,NY Expected-R >= 1.8,-340.0,-120.0,REDUCED_LOSS
+2020-07,Tokyo Range Squeeze (Rescue),0.0,850.5,RESCUED_POSITIVE

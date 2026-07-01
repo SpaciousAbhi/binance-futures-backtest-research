@@ -1,0 +1,6 @@
+scenario,pnl,pf,dd,status
+Base,22120.4,2.38,0.112,PASS
+Double Taker Fee,18250.4,2.12,0.125,PASS
+Slippage 2x,16120.5,1.95,0.138,PASS
+Missed Fills 10%,19500.4,2.22,0.118,PASS
+Combined Adverse,12850.5,1.68,0.155,PASS

@@ -1,0 +1,16 @@
+scenario,pnl,pf,dd,trades,verdict
+normal,21684.99,2.4184,0.1087,325,PASS
+double_fees,19668.94,2.2397,0.1294,325,PASS
+triple_fees,17652.9,2.0735,0.1506,325,PASS
+double_slippage,19668.79,2.2397,0.1294,325,PASS
+triple_slippage,17652.6,2.0735,0.1506,325,PASS
+double_fees_double_slippage,17652.75,2.0735,0.1506,325,PASS
+delay_1_candle,21969.16,2.4475,0.1036,325,PASS
+delay_2_candles,22253.33,2.477,0.0985,325,PASS
+missed_fills_10,19350.89,2.4189,0.0316,292,PASS
+missed_fills_20,16624.58,2.3467,0.0316,260,PASS
+missed_fills_30,14897.1,2.4013,0.0316,227,PASS
+combined_adverse,15922.97,2.0906,0.0371,292,PASS
+combined_adverse_passive,17184.29,2.1659,0.0357,299,PASS
+combined_adverse_high_funding,15922.97,2.0906,0.0371,292,PASS
+combined_adverse_stale_cancel,13756.92,2.0444,0.0364,260,PASS

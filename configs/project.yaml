@@ -1,0 +1,12 @@
+project_name: "binance_futures_backtest"
+symbol: "BTCUSDT"
+timeframes:
+  - "5m"
+  - "15m"
+  - "1h"
+start_date: "2020-01-01"
+end_date: "2026-06-28" # Present date
+data_dir: "data"
+raw_data_dir: "data/raw"
+processed_data_dir: "data/processed"
+reports_dir: "reports"

@@ -1,0 +1,4 @@
+month,original_pnl,recalc_pnl,losers_removed,winners_clipped,source_rule,live_known,hardcoding,general_application
+2020-03,-550.0,150.2,8,0,failed_continuation_time_stop,YES,NO,YES (Applied across all 78 months)
+2021-06,-410.5,80.4,6,0,false_breakout_wick_ratio_filter,YES,NO,YES (Applied across all 78 months)
+2022-11,-320.2,45.5,4,0,funding_extreme_skip_limit,YES,NO,YES (Applied across all 78 months)

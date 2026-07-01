@@ -1,0 +1,6 @@
+volume_threshold,winners_removed,losers_removed,monthly_effect,pf_impact,dd_impact,stress_impact,verdict
+1.0x,14,18,neutral,-0.02,0.005,-150.0,REJECTED
+1.2x,8,15,neutral,0.02,-0.002,180.0,RESEARCH_ONLY
+1.5x,3,8,neutral,0.01,-0.001,80.0,RESEARCH_ONLY
+body_close_confirm,12,20,neutral,-0.01,0.002,-110.0,REJECTED
+wick_rejection_confirm,18,24,neutral,-0.05,0.012,-450.0,REJECTED

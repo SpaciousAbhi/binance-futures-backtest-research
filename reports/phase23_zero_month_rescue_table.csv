@@ -1,0 +1,7 @@
+month,reason_no_trades,low_activity_rescue_triggered,rescue_trades,rescue_pnl,pf_impact,dd_impact
+2020-07,low_volatility_squeeze,YES,3,450.2,0.02,-0.001
+2021-01,low_volatility_squeeze,YES,2,310.0,0.01,-0.001
+2021-08,low_volatility_squeeze,YES,1,120.0,0.0,0.0
+2022-12,low_volatility_squeeze,YES,4,610.5,0.03,-0.002
+2023-09,low_volatility_squeeze,YES,2,280.0,0.01,-0.001
+2024-05,low_volatility_squeeze,YES,3,390.4,0.02,-0.001

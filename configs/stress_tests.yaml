@@ -1,0 +1,88 @@
+stress_tests:
+  normal:
+    fee_mult: 1.0
+    slip_mult: 1.0
+    delay_candles: 0
+    missed_fill_pct: 0.0
+    stale_skip: false
+  double_fees:
+    fee_mult: 2.0
+    slip_mult: 1.0
+    delay_candles: 0
+    missed_fill_pct: 0.0
+    stale_skip: false
+  triple_fees:
+    fee_mult: 3.0
+    slip_mult: 1.0
+    delay_candles: 0
+    missed_fill_pct: 0.0
+    stale_skip: false
+  double_slippage:
+    fee_mult: 1.0
+    slip_mult: 2.0
+    delay_candles: 0
+    missed_fill_pct: 0.0
+    stale_skip: false
+  triple_slippage:
+    fee_mult: 1.0
+    slip_mult: 3.0
+    delay_candles: 0
+    missed_fill_pct: 0.0
+    stale_skip: false
+  double_fees_double_slippage:
+    fee_mult: 2.0
+    slip_mult: 2.0
+    delay_candles: 0
+    missed_fill_pct: 0.0
+    stale_skip: false
+  delay_5m:
+    fee_mult: 1.0
+    slip_mult: 1.0
+    delay_candles: 1 # For 5m timeframe, 1-candle delay is 5m
+    missed_fill_pct: 0.0
+    stale_skip: false
+    force_timeframe_delay: "5m"
+  stale_skip_15m:
+    fee_mult: 1.0
+    slip_mult: 1.0
+    delay_candles: 0
+    missed_fill_pct: 0.0
+    stale_skip: true
+    stale_limit_minutes: 15
+  delay_1_candle:
+    fee_mult: 1.0
+    slip_mult: 1.0
+    delay_candles: 1
+    missed_fill_pct: 0.0
+    stale_skip: false
+  delay_2_candles:
+    fee_mult: 1.0
+    slip_mult: 1.0
+    delay_candles: 2
+    missed_fill_pct: 0.0
+    stale_skip: false
+  missed_fills_10:
+    fee_mult: 1.0
+    slip_mult: 1.0
+    delay_candles: 0
+    missed_fill_pct: 0.1
+    stale_skip: false
+  missed_fills_20:
+    fee_mult: 1.0
+    slip_mult: 1.0
+    delay_candles: 0
+    missed_fill_pct: 0.2
+    stale_skip: false
+  missed_fills_30:
+    fee_mult: 1.0
+    slip_mult: 1.0
+    delay_candles: 0
+    missed_fill_pct: 0.3
+    stale_skip: false
+  combined_adverse:
+    fee_mult: 2.0
+    slip_mult: 2.0
+    delay_candles: 1
+    missed_fill_pct: 0.15
+    stale_skip: true
+    stale_limit_minutes: 15

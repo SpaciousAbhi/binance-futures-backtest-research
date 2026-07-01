@@ -1,0 +1,20 @@
+{
+  "candidate_registry_hash": "45dec5efa278d928",
+  "candidate_results_hash": "5cc42688b8ec13e8",
+  "stage_rejections_hash": "b5aa4211d839db56",
+  "runtime_log_hash": "422d9a779ff71384",
+  "mechanism_dataset_hash": "fd567dcc8671c48f",
+  "top_candidates_hash": "39fbc34ba45584a8",
+  "main_report_hash": "0600534e121e290e",
+  "pf12_trade_log_hash": "429dcb08a667976e",
+  "stress_table_hash": "d4c4babaa5998af1",
+  "data_file_hash": "64fa11db1bb59ade",
+  "config_hash": "b391e91035854b3d",
+  "engine_hash": "e3d98fedb207e646",
+  "strategy_hash": "3ba281b2d4c1647b",
+  "monthly_table_hash": "2d8aa4bbff707a09",
+  "mechanism_dataset_rows": 325,
+  "candidate_registry_rows": 2000,
+  "candidate_results_rows": 48,
+  "stage_rejections_rows": 160
+}

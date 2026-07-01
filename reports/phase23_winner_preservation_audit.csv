@@ -1,0 +1,5 @@
+proposed_filter,losers_removed,loss_saved,winners_removed,winner_profit_clipped,net_pnl_impact,pf_impact,dd_impact,stress_impact,verdict
+funding_extreme_skip,11,850.5,1,120.0,730.5,0.08,-0.005,650.0,ACCEPT
+volume_confirm_breakout,15,1240.2,8,980.5,259.7,0.02,-0.002,180.0,ACCEPT
+flat_ema_slope_filter,8,650.0,12,1450.0,-800.0,-0.12,0.015,-550.0,REJECT
+trailing_be_at_0.5R,30,2100.4,15,1850.0,250.4,0.03,-0.006,200.0,ACCEPT

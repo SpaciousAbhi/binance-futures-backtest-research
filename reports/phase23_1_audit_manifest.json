@@ -1,0 +1,18 @@
+{
+  "data_hash": "64fa11db1bb59ade",
+  "config_hash": "b391e91035854b3d",
+  "engine_hash": "e3d98fedb207e646",
+  "strategy_hash": "19c92863dd3c2970",
+  "trade_log_hash": "429dcb08a667976e",
+  "monthly_table_hash": "2d8aa4bbff707a09",
+  "stress_table_hash": "56f7d20b5bf7d281",
+  "phase23_1_overlay_accounting_hash": "4ffc71c8485520ab",
+  "phase23_1_funding_extreme_skip_audit_hash": "83551288d450cbd3",
+  "phase23_1_false_breakout_filter_audit_hash": "468b4ade2df98464",
+  "phase23_1_weak_continuation_audit_hash": "9077577eb6149245",
+  "phase23_1_expansion_layer_reconciliation_hash": "6d1ea21838b6d2d7",
+  "phase23_1_behavioral_dedup_root_cause_hash": "ed3470373edb0cff",
+  "phase23_1_behavioral_diversity_test_hash": "dbaaeaa66d0935fa",
+  "phase23_1_research_only_library_hash": "0ef5918a593c0dcc",
+  "phase23_1_negative_zero_month_impact_hash": "d9c2c68c59eb2d97"
+}

@@ -1,0 +1,18 @@
+{
+  "start_time": "2026-07-01T14:40:58.584633",
+  "end_time": "2026-07-01T14:45:36.197694",
+  "total_runtime_seconds": 277.613,
+  "multiprocessing_used": false,
+  "cache_used": false,
+  "candidate_generation_seconds": 0.083,
+  "static_audit_seconds": 0.015,
+  "cheap_scan_seconds": 203.411,
+  "full_backtest_seconds": 48.686,
+  "num_actual_backtest_calls": 48,
+  "avg_seconds_per_backtest": 1.0143,
+  "candidates_generated": 2000,
+  "candidates_after_static_audit": 1992,
+  "candidates_after_cheap_scan": 48,
+  "candidates_after_full_backtest": 48,
+  "candidates_accepted": 0
+}

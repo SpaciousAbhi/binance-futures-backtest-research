@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.git/
+
+# Large datasets exceeding GitHub limits or temporary raw files
+data/raw/
+data/processed/*_5m_processed.csv
+data/processed/*_5m_raw.csv
+
+# Local environment / IDEs
+.idea/
+.vscode/
+.venv/
+venv/
+ENV/

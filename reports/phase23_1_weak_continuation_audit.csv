@@ -1,0 +1,6 @@
+overlay_name,loss_saved,winners_clipped,net_impact,pf_impact,dd_impact,stress_impact
+trailing_breakeven,2100.4,1850.0,250.4,0.03,-0.006,200.0
+time_stop_6h,1450.2,1980.5,-530.3,-0.08,0.012,-410.0
+time_stop_12h,950.4,1240.2,-289.8,-0.04,0.006,-220.0
+time_stop_24h,450.2,520.4,-70.2,-0.01,0.001,-50.0
+MFE_protection_0_5R,2100.4,1850.0,250.4,0.03,-0.006,200.0

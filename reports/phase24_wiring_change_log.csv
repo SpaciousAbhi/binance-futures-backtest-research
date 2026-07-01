@@ -1,0 +1,3 @@
+timestamp,file_affected,lines,parameter_wired,action
+2026-07-01T12:00:00Z,src/strategies/candidates.py,677-733,"adx_thresh, rsi_overbought, rsi_oversold, wick_ratio_thresh, volume_trend_thresh, funding_threshold, allowed_hours, retest_depth",Wired directly into Bollinger Expansion breakout signal evaluation
+2026-07-01T12:05:00Z,src/strategies/candidates.py,1530-1572,"sl_atr_mult, tp_atr_mult, trail_atr_mult, breakeven_atr_mult, time_stop, failed_continuation_limit, cost_to_atr_mult",Wired exit and risk parameters directly into signal output dictionary

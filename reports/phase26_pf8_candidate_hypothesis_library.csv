@@ -1,0 +1,3 @@
+hypothesis_id,name,mechanism,expected_trades,expected_pnl,expected_pf
+H8_01,PF 7.0 Quality Refinement,Stricter expected-R (>= 1.8) on Tokyo squeeze,-50,1000.0,0.05
+H8_02,Harmful Trade Pruning,Filter out NY session breakouts under high funding (>0.04%),-25,4500.0,0.08

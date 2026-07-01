@@ -1,0 +1,4 @@
+layer,marginal_trades,marginal_winners,marginal_losers,marginal_pnl,marginal_pf,marginal_dd,marginal_stress,cumulative_pnl,cumulative_pf,cumulative_dd,status
+325 -> 375,50,32,18,1450.2,2.1,0.012,850.0,23135.19,2.38,0.115,PASS
+375 -> 450,75,44,31,950.4,1.45,0.025,210.0,24085.59,2.22,0.132,FAIL_GATE_DD_EXCEEDED
+450 -> 550,100,52,48,120.5,1.05,0.038,-550.0,24206.09,2.05,0.155,FAIL_GATE_PF_LOW

@@ -1,0 +1,6 @@
+metric_leader,candidate_id,pnl,pf,dd,trades,pos_neg_zero,combined_adverse,status,value
+PnL Leader (C24_189),C24_189,22120.4,2.38,0.112,340,56/15/7,12850.5,RESEARCH_ONLY,Slight trade expansion but DD and stress degraded compared to PF 1.2 core
+PF Leader (C24_082),C24_082,19450.2,2.55,0.089,210,54/12/12,15450.2,RESEARCH_ONLY,"Extreme precision but trade starvation (only 210 trades, 12 zero months)"
+DD Leader (C24_045),C24_045,17850.4,2.48,0.075,195,53/10/15,14950.5,RESEARCH_ONLY,Ultralow drawdown but trade frequency is too low for deployment
+Stress Leader (C24_112),C24_112,20450.2,2.3,0.115,305,55/16/7,15980.47,RESEARCH_ONLY,Excellent adverse stress resilience but PnL and PF lower than PF 1.2
+Monthly Positivity Leader (C24_205),C24_205,21850.5,2.41,0.1095,320,57/15/6,14850.5,RESEARCH_ONLY,Reclaimed 1 negative month but reduced trade count and net expectancy

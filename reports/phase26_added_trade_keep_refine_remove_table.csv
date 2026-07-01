@@ -1,0 +1,5 @@
+classification,trade_count,total_pnl,sleeve_source,action
+elite,40,18000.0,VWAP_reclaim,KEEP (unconditional)
+acceptable,185,22200.0,second_retest_entry,KEEP (unconditional)
+weak,50,-1000.0,Tokyo_session_squeeze,REFINE (increase expected-R to 1.8)
+harmful,25,-4500.0,session_breakout,REMOVE (filter out using funding extreme skip)

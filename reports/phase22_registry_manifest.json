@@ -1,0 +1,76 @@
+{
+  "candidate_count": 10150,
+  "family_diversity": {
+    "breakout_retest": 350,
+    "bb_atr_expansion": 350,
+    "volatility_compression_to_expansion": 350,
+    "trend_pullback_continuation": 350,
+    "failed_breakdown_reclaim": 350,
+    "vwap_reclaim": 350,
+    "ema50_ema200_pullback": 350,
+    "funding_safe_momentum": 350,
+    "session_impulse": 350,
+    "false_breakout_rsi_filter": 350,
+    "false_breakout_volume_confirm": 350,
+    "chop_adx_compression_filter": 350,
+    "chop_ema_slope_filter": 350,
+    "whipsaw_double_retest_confirm": 350,
+    "whipsaw_atr_expansion_gate": 350,
+    "funding_drag_momentum_align": 350,
+    "funding_drag_extreme_skip": 350,
+    "weak_continuation_time_stop": 350,
+    "weak_continuation_trailing_be": 350,
+    "time_decay_session_exit": 350,
+    "time_decay_weekend_flat": 350,
+    "zero_month_inactivity_rescue": 350,
+    "zero_month_low_activity_setup": 350,
+    "retest_wick_rejection_only": 350,
+    "retest_body_close_confirm": 350,
+    "overextended_atr_distance_cap": 350,
+    "session_liquidity_sweep_reclaim": 350,
+    "compression_bb_squeeze_trigger": 350,
+    "post_funding_volatility_cooldown": 350
+  },
+  "parameters_swept": {
+    "tp_atr_mults": [
+      1.5,
+      1.8,
+      2.0,
+      2.2,
+      2.5,
+      3.0,
+      3.5
+    ],
+    "sl_atr_mults": [
+      1.0,
+      1.2,
+      1.5,
+      1.8,
+      2.0,
+      2.2,
+      2.5
+    ],
+    "bb_width_threshs": [
+      0.03,
+      0.05,
+      0.06,
+      0.08,
+      0.1
+    ],
+    "adx_thresholds": [
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "expected_r_thresholds": [
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5
+    ]
+  },
+  "registry_file_hash": "233960ecf02ce92a"
+}

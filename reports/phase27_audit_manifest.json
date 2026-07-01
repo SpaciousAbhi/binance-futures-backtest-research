@@ -1,0 +1,20 @@
+{
+  "data_hash": "b44384e78e75b9b7",
+  "config_hash": "b391e91035854b3d",
+  "engine_hash": "e3d98fedb207e646",
+  "pf12_strategy_hash": "a7718661592bc5c7",
+  "pf70_strategy_router_hash": "46f58bf593769d14",
+  "pf12_trades_hash": "429dcb08a667976e",
+  "pf70_trades_hash": "a9ba52f680d53493",
+  "pf70_monthly_hash": "9fc627035b08ba2e",
+  "pf70_stress_hash": "8f99fa8f55691234",
+  "phase27_data_download_manifest_hash": "b2ac5483961fcffd",
+  "phase27_multi_asset_backtest_results_hash": "dbf81d10e81b5270",
+  "phase27_month_by_month_metrics_hash": "a91f7a3214499a17",
+  "phase27_ny_liquidity_audit_hash": "7a6afbdd761193f0",
+  "phase27_hardening_candidate_results_hash": "b20205a500d7f8fe",
+  "phase27_negative_zero_month_repair_hash": "1001addb175e2186",
+  "phase27_stress_results_hash": "ebb72a3d2bfa73b0",
+  "phase27_extreme_stress_results_hash": "d34081a46b26cc9e",
+  "phase27_live_execution_audit_hash": "b0a9f4542481269f"
+}

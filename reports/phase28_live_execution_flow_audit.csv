@@ -1,0 +1,5 @@
+step,description,status
+1,Candle close event,SHADOW_MODE_READY
+2,Data validation & timezone checks,SHADOW_MODE_READY
+10,"Tick/step size rounding (0.01 price, 0.001 size)",SHADOW_MODE_READY
+15,Reduce-only order placement on exchange book,SHADOW_MODE_READY

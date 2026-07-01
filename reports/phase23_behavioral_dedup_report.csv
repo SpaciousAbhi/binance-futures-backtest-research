@@ -1,0 +1,2 @@
+candidate_id,family,parameter_hash,trade_log_hash,monthly_result_hash,metric_signature_hash,overlap_with_pf12,cluster_size
+1250,trend_pullback_continuation,b0ead211127ef6fa,29e58d4946954bcb,6959e54a2788ad37,b5da51fb2b9a75a7,0.54,125

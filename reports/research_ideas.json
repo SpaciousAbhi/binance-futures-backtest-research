@@ -1,0 +1,3875 @@
+{
+  "generated_at": "2026-06-30 17:45:50 UTC",
+  "total_ideas": 112,
+  "total_ideas_count": 112,
+  "generated_ideas_count": 112,
+  "tested_ideas_count": 0,
+  "deferred_ideas_count": 0,
+  "failure_month_count": 0,
+  "lifecycle_status_counts": {
+    "GENERATED": 112,
+    "IMPLEMENTED": 0,
+    "TESTED": 0,
+    "REJECTED": 0,
+    "ACCEPTED": 0,
+    "DEFERRED_TO_PHASE_12": 0,
+    "NEEDS_DATA": 0,
+    "NEEDS_ENGINE_SUPPORT": 0
+  },
+  "ideas": [
+    {
+      "idea_id": "IDEA_TC_001",
+      "name": "EMA50 Pullback in Trend",
+      "hypothesis": "EMA50 pullback touch in strong EMA200 bull/bear trend",
+      "failure_category": "trend_exhaustion",
+      "expected_benefit": "Reduce losses at trend end",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TC group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "ema_50",
+        "ema_200"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 25",
+      "entry_rule": "Close crosses EMA50",
+      "exit_rule": "Trailing stop at swing high/low",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "12 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TC_002",
+      "name": "VWAP Pullback Reclaim",
+      "hypothesis": "VWAP reclaim touch from below in long trend",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Exploit pullbacks in strong trend",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TC group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "vwap",
+        "close"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "Close reclaim VWAP",
+      "exit_rule": "Close below VWAP",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_TC_003",
+      "name": "ADX Slope Continuation",
+      "hypothesis": "ADX slope acceleration continuation during breakout",
+      "failure_category": "trend_exhaustion",
+      "expected_benefit": "Catch momentum acceleration",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TC group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "adx_slope",
+        "close"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 30",
+      "entry_rule": "ADX slope > 0.5",
+      "exit_rule": "RSI divergence exit",
+      "stop_rule": "2.2x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TC_004",
+      "name": "EMA10 Momentum Rider",
+      "hypothesis": "EMA10 short-term momentum rider in high-volatility expansions",
+      "failure_category": "chop",
+      "expected_benefit": "Ride fast momentum moves",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TC group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "ema_10",
+        "close"
+      ],
+      "priority_score": 7.8,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct > 0.04",
+      "entry_rule": "Close above EMA10",
+      "exit_rule": "Trailing ATR exit",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "15 trades/month",
+      "cost_sensitivity": "High"
+    },
+    {
+      "idea_id": "IDEA_TC_005",
+      "name": "Impulse Pullback EMA20",
+      "hypothesis": "Impulse spike followed by 3-bar pullback to EMA20",
+      "failure_category": "chop",
+      "expected_benefit": "Enter pullback after volume spike",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TC group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "ema_20",
+        "close"
+      ],
+      "priority_score": 7.9,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 15",
+      "entry_rule": "Close reclaim EMA20",
+      "exit_rule": "Time stop 10 bars",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "11 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_TC_006",
+      "name": "Higher-High Continuation",
+      "hypothesis": "Breakout above 24h high with rising volume support",
+      "failure_category": "trend_exhaustion",
+      "expected_benefit": "Exploit breakouts above daily highs",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TC group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "high_24h",
+        "volume"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Volume > 1.2x MA",
+      "entry_rule": "Close above high_24h",
+      "exit_rule": "Trailing stop 2x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TC_007",
+      "name": "Trend Pullback Failed Breakdown",
+      "hypothesis": "EMA50 pullback reclaim after a failed breakdown of daily low",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Enter pullback on failed ranges",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TC group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "low_daily",
+        "ema_50"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 25",
+      "entry_rule": "Reclaim daily low",
+      "exit_rule": "EMA50 cross exit",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "7 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TC_008",
+      "name": "RSI Pullback Rider",
+      "hypothesis": "RSI pulling back to 50 in a strong trend before continuation",
+      "failure_category": "chop",
+      "expected_benefit": "Oscillator pullback in trend",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TC group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "rsi_14",
+        "close"
+      ],
+      "priority_score": 7.7,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "RSI crosses 50",
+      "exit_rule": "RSI overbought exit",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_BR_009",
+      "name": "Breakout Level Retest",
+      "hypothesis": "Price breaks BB band and retests the exact band breakout price",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Verify breakout support/resistance",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under BR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "bb_upper",
+        "bb_lower"
+      ],
+      "priority_score": 8.8,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "Limit order at breakout level",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_BR_010",
+      "name": "Breakout 15m Retest",
+      "hypothesis": "1h breakout verified by 15m pullback and support reclaim",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Reduce whipsaws on breakout confirmation",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under BR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close_15m",
+        "close_1h"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 15",
+      "entry_rule": "15m reclaim close_1h",
+      "exit_rule": "Trailing stop 15m ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_BR_011",
+      "name": "Breakout 5m Retest",
+      "hypothesis": "1h breakout verified by 5m pullback to VWAP and reclaim",
+      "failure_category": "chop",
+      "expected_benefit": "Tighter entry stops on 5m",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under BR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "vwap_5m",
+        "close_1h"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "5m reclaim VWAP",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "12 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_BR_012",
+      "name": "Retest Limit Entry",
+      "hypothesis": "Pullback limit entry placed at 1h breakout level to avoid slippage",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Capture maker rebate and eliminate entry slip",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under BR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close_1h"
+      ],
+      "priority_score": 8.6,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct < 0.03",
+      "entry_rule": "Limit order at breakout level",
+      "exit_rule": "Taker stop-loss",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "11 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_BR_013",
+      "name": "Breakout Skip No Retest",
+      "hypothesis": "Skip entry if price moves too fast without any retest within 3 candles",
+      "failure_category": "low_activity",
+      "expected_benefit": "Avoid chasing running extensions",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under BR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close_1h"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "Pulled back to breakout level",
+      "exit_rule": "Trailing exit",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_BR_014",
+      "name": "Failed Retest Reversal",
+      "hypothesis": "Enter reversal if breakout level retest fails and closes back inside range",
+      "failure_category": "chop",
+      "expected_benefit": "Fade failed breakout levels",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under BR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close_1h"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Close back inside range",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_BR_015",
+      "name": "Close Above Level Continuation",
+      "hypothesis": "Enter continuation only after two consecutive closes above breakout level",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Filter out single-candle spike traps",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under BR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close_1h"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 25",
+      "entry_rule": "2 closes above level",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "7 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_BR_016",
+      "name": "Retest with Volume Surge",
+      "hypothesis": "Confirm breakout level retest only if volume is rising on the reclaim",
+      "failure_category": "volume_weakness",
+      "expected_benefit": "Filter breakouts with no participation",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under BR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "volume",
+        "close_1h"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "Reclaim with volume > MA",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_VE_017",
+      "name": "ATR Percentile Expansion",
+      "hypothesis": "ATR rising above 80th percentile on 1h timeframe",
+      "failure_category": "chop",
+      "expected_benefit": "Avoid breakouts in low volatility",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under VE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_pct"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "ATR crosses 80th percentile",
+      "exit_rule": "Trailing stop 1.5x ATR",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "12 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_VE_018",
+      "name": "Bollinger Width Expansion",
+      "hypothesis": "Bollinger Band width rising above 70th percentile",
+      "failure_category": "chop",
+      "expected_benefit": "Identify range contraction release",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under VE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "bb_width_pct"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "BB width rises",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "11 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_VE_019",
+      "name": "Range Contraction Breakout",
+      "hypothesis": "Entering breakout after a long range contraction period (width < 0.02)",
+      "failure_category": "low_activity",
+      "expected_benefit": "Exploit low volatility compression moves",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under VE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "bb_width"
+      ],
+      "priority_score": 8.6,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 15",
+      "entry_rule": "Close outside contraction bands",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "2.5x ATR",
+      "expected_frequency": "6 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_VE_020",
+      "name": "Volatility Exhaustion Reversal",
+      "hypothesis": "Fading extreme volatility expansions when volume drops",
+      "failure_category": "trend_exhaustion",
+      "expected_benefit": "Capture peak exhaustion reversals",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under VE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "volume",
+        "atr_pct"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct > 0.05",
+      "entry_rule": "Volume drop + wick rejection",
+      "exit_rule": "Reversal stop",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "5 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_VE_021",
+      "name": "Failed Volatility Expansion",
+      "hypothesis": "Reversal entry when volatility spike fails to follow through",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Fade fake news spikes",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under VE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_pct",
+        "close"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Close back inside bands",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_VE_022",
+      "name": "High-Vol Trend Continuation",
+      "hypothesis": "Adding to positions when ATR rises in trend direction",
+      "failure_category": "chop",
+      "expected_benefit": "Pyramid during high-conviction trends",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under VE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_14",
+        "ema_50"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 30",
+      "entry_rule": "ATR rising + trend touch",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_VE_023",
+      "name": "Low-Vol Fakeout Avoidance",
+      "hypothesis": "Gating all breakout signals if ATR is below 15th percentile",
+      "failure_category": "chop",
+      "expected_benefit": "Skip fake breakouts in flat ranges",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under VE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_pct"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 15",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_VE_024",
+      "name": "Volatility Channel Breakout",
+      "hypothesis": "Close outside a Keltner Channel with rising ATR",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Rely on dual-channel filters",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under VE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "keltner_channel",
+        "atr"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "Close outside channel",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_LS_025",
+      "name": "Prior Day High Sweep",
+      "hypothesis": "Price sweeps prior day high and closes back inside daily range",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Fade daily high stop runs",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under LS group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "prior_day_high",
+        "close"
+      ],
+      "priority_score": 8.9,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Close below prior day high",
+      "exit_rule": "Reversal target",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_LS_026",
+      "name": "Prior Day Low Sweep",
+      "hypothesis": "Price sweeps prior day low and closes back above daily range",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Fade daily low stop runs",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under LS group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "prior_day_low",
+        "close"
+      ],
+      "priority_score": 8.9,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Close above prior day low",
+      "exit_rule": "Reversal target",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_LS_027",
+      "name": "Session High Sweep Reclaim",
+      "hypothesis": "Sweeping Asian session high and reclaiming inside London session",
+      "failure_category": "chop",
+      "expected_benefit": "Capture session sweep reclaims",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under LS group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "asian_high",
+        "close"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "London close below asian_high",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_LS_028",
+      "name": "Session Low Sweep Reclaim",
+      "hypothesis": "Sweeping Asian session low and reclaiming inside London session",
+      "failure_category": "chop",
+      "expected_benefit": "Capture session sweep reclaims",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under LS group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "asian_low",
+        "close"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "London close above asian_low",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_LS_029",
+      "name": "Swing High Sweep",
+      "hypothesis": "Sweeping local swing high and reclaiming with wick rejection >= 0.50",
+      "failure_category": "chop",
+      "expected_benefit": "Fade local swing high stop run",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under LS group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "swing_high",
+        "wick_ratio"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Close below swing_high",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_LS_030",
+      "name": "Swing Low Sweep",
+      "hypothesis": "Sweeping local swing low and reclaiming with wick rejection >= 0.50",
+      "failure_category": "chop",
+      "expected_benefit": "Fade local swing low stop run",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under LS group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "swing_low",
+        "wick_ratio"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Close above swing_low",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_LS_031",
+      "name": "Wick Rejection Stop Run",
+      "hypothesis": "Large wick rejection at swing high/low indicating liquidity sweep",
+      "failure_category": "stop_issue",
+      "expected_benefit": "Exploit institutional stop absorption",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under LS group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "wick_ratio",
+        "close"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 25",
+      "entry_rule": "Wick ratio >= 0.50",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "12 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_LS_032",
+      "name": "Sweep with Volume Surge",
+      "hypothesis": "Confirming liquidity sweep only if volume is extremely high on sweep bar",
+      "failure_category": "volume_weakness",
+      "expected_benefit": "Filter out low-participation sweeps",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under LS group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "volume",
+        "close"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Sweep close with volume > 2x MA",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_SB_033",
+      "name": "Asian Range Breakout",
+      "hypothesis": "Breakout above/below Asian range during London Open",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Ride London momentum breakouts",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under SB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "asian_high",
+        "asian_low"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "London close outside range",
+      "exit_rule": "Trailing exit",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_SB_034",
+      "name": "Asian Range Fade",
+      "hypothesis": "Fading Asian boundaries during low-volatility Asian Session",
+      "failure_category": "chop",
+      "expected_benefit": "Fade range boundaries at night",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under SB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "asian_high",
+        "asian_low"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 15",
+      "entry_rule": "Touch boundary",
+      "exit_rule": "Target 1.5x ATR",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "15 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_SB_035",
+      "name": "London Open Continuation",
+      "hypothesis": "Ride London open trend expansion after 08:00 UTC",
+      "failure_category": "trend_exhaustion",
+      "expected_benefit": "Capture early session momentum",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under SB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close",
+        "volume"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 25",
+      "entry_rule": "Time is 08:00 UTC + trend",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "2.2x ATR",
+      "expected_frequency": "12 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_SB_036",
+      "name": "London Fakeout Reversal",
+      "hypothesis": "London breakout fails and price reverses back below Asian range",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Fade false London open breakouts",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under SB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "asian_high",
+        "close"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Reenter Asian range",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_SB_037",
+      "name": "NY Open Sweep Reclaim",
+      "hypothesis": "NY session sweeps daily high/low and reclaims",
+      "failure_category": "chop",
+      "expected_benefit": "Fade NY open volatility spikes",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under SB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "daily_high",
+        "daily_low"
+      ],
+      "priority_score": 8.6,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "NY open sweep reclaim",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "11 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_SB_038",
+      "name": "NY Trend Continuation",
+      "hypothesis": "NY session continuation after pullback to London VWAP",
+      "failure_category": "trend_exhaustion",
+      "expected_benefit": "Add to trend during NY session",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under SB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "vwap_london",
+        "close"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 25",
+      "entry_rule": "NY open pullback to VWAP",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "2.5x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_SB_039",
+      "name": "Post-NY Volatility Fade",
+      "hypothesis": "Fading late NY ranges (after 20:00 UTC) as volatility decays",
+      "failure_category": "chop",
+      "expected_benefit": "Range scalp quiet late NY session",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under SB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 7.8,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct < 0.02",
+      "entry_rule": "Touch local boundary",
+      "exit_rule": "Target 1.0x ATR",
+      "stop_rule": "1.2x ATR",
+      "expected_frequency": "13 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_SB_040",
+      "name": "Session-Specific Sizing",
+      "hypothesis": "Scale down position sizes in notoriously fakeout-heavy Asian sessions",
+      "failure_category": "chop",
+      "expected_benefit": "Reduce Asian session exposure",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under SB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Time is 00:00-08:00",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_FB_041",
+      "name": "Extreme Funding Reversal",
+      "hypothesis": "Fade breakouts when absolute funding rate is >= 0.03%",
+      "failure_category": "funding_drag",
+      "expected_benefit": "Exploit overleveraged funding exhaustion",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under FB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.7,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Extreme funding + wick rejection",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "6 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_FB_042",
+      "name": "Funding Divergence Reversal",
+      "hypothesis": "Price rising while funding rate drops, indicating spot-driven sweep",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Spots spot-futures divergence",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under FB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate",
+        "close"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Price rising + funding falling",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_FB_043",
+      "name": "Funding plus Sideways Range",
+      "hypothesis": "Mean reversion at range boundaries when funding rate is flat",
+      "failure_category": "chop",
+      "expected_benefit": "Filter mean reversion by funding rate",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under FB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate",
+        "close"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 15",
+      "entry_rule": "Touch range boundary + funding flat",
+      "exit_rule": "Target 1.5x ATR",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "12 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_FB_044",
+      "name": "Funding Extreme Pullback",
+      "hypothesis": "EMA50 pullback touch when funding rate is in trend direction",
+      "failure_category": "trend_exhaustion",
+      "expected_benefit": "Enter pullback aligned with funding bias",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under FB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate",
+        "ema_50"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 25",
+      "entry_rule": "Touch EMA50 + funding aligned",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "2.5x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_FB_045",
+      "name": "Funding Exhaustion Reversal",
+      "hypothesis": "Extreme negative funding rate reversals in sideways consolidation",
+      "failure_category": "chop",
+      "expected_benefit": "Fade capitulation shorts at range lows",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under FB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Extreme negative funding + consolidate",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "7 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_FB_046",
+      "name": "Funding Cost Avoidance",
+      "hypothesis": "Skip entries 1 hour before funding boundary if expected hold is short",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Avoid funding fee payments",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under FB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Hold crosses boundary",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_FB_047",
+      "name": "Funding-Window Skip",
+      "hypothesis": "Close positions 15 mins before funding rate payment if PnL is flat",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Avoid funding fee payments",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under FB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Hold crosses boundary",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_FB_048",
+      "name": "Funding Carry Filter",
+      "hypothesis": "Filter out trend breakouts that would pay extreme funding fees",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Filter breakouts by carry drag",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under FB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Breakout pays extreme fee",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RB_049",
+      "name": "Asian Range Mean Reversion",
+      "hypothesis": "Price reverts to mean inside low-volatility session ranges",
+      "failure_category": "chop",
+      "expected_benefit": "Mean reversion in session range",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "asian_high",
+        "asian_low"
+      ],
+      "priority_score": 8.9,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Touch boundary",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "15 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_RB_050",
+      "name": "VWAP Deviation Return",
+      "hypothesis": "Reverting back to VWAP after price deviates past 2.0x ATR",
+      "failure_category": "chop",
+      "expected_benefit": "Scale deviation return trades",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "vwap",
+        "atr_14"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 15",
+      "entry_rule": "Price deviates > 2.0x ATR",
+      "exit_rule": "Return to VWAP",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "12 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_RB_051",
+      "name": "Low Vol Range Scalping",
+      "hypothesis": "Scalping range boundaries during low volatility ATR periods",
+      "failure_category": "chop",
+      "expected_benefit": "Low-vol range mean reversion",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct < 0.02",
+      "entry_rule": "Touch range boundary",
+      "exit_rule": "Target 1.5x ATR",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "14 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_RB_052",
+      "name": "RSI Exhaustion MR",
+      "hypothesis": "Mean reversion at boundaries when RSI is overbought/oversold",
+      "failure_category": "false_breakout",
+      "expected_benefit": "RSI extreme mean reversion",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "rsi_14"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "RSI > 75 or < 25",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "11 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RB_053",
+      "name": "Range Midpoint Reversion",
+      "hypothesis": "Entering reversion trades targeting the 24h range midpoint",
+      "failure_category": "chop",
+      "expected_benefit": "Revert to range center",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Touch range extreme",
+      "exit_rule": "Midpoint take profit",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RB_054",
+      "name": "Volatility Exhaustion MR",
+      "hypothesis": "Mean reversion when ATR is extreme but price stays inside bands",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Reversion after fakeout expansions",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_pct"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 15",
+      "entry_rule": "Extreme ATR + inside bands",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RB_055",
+      "name": "Failed Volatility Expansion MR",
+      "hypothesis": "Fading volatility expansion attempts that return to range",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Revert after breakout failure",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Reenter Bollinger Bands",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RB_056",
+      "name": "RSI Divergence MR",
+      "hypothesis": "Range reversion entry on 1h RSI divergence at swing high/low",
+      "failure_category": "trend_exhaustion",
+      "expected_benefit": "Exploit range exhaustions",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RB group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "rsi_14",
+        "close"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "RSI divergence at extreme",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.2x ATR",
+      "expected_frequency": "7 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EA_057",
+      "name": "5m Micro Trigger after 1h Bias",
+      "hypothesis": "Triggering entry on 5m close reclaiming EMA20 to reduce slippage",
+      "failure_category": "stop_issue",
+      "expected_benefit": "Tighter entry stops on 5m",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EA group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close_5m",
+        "ema_20_5m"
+      ],
+      "priority_score": 8.9,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "5m close reclaim EMA20",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "12 trades/month",
+      "cost_sensitivity": "Medium"
+    },
+    {
+      "idea_id": "IDEA_EA_058",
+      "name": "Stop Distance Optimization",
+      "hypothesis": "Dynamic stop distance scaled by recent 15m ATR to avoid noise hits",
+      "failure_category": "stop_issue",
+      "expected_benefit": "Reduce premature stop hit rate",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EA group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_15m"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 25",
+      "entry_rule": "Dynamic SL 2.2x 15m ATR",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.2x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EA_059",
+      "name": "Cost-Aware Trade Gating",
+      "hypothesis": "Skip breakout trades when historical slippage is spiked",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Gate trades during illiquid periods",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EA group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "slippage_history"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Slippage > 0.1%",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EA_060",
+      "name": "Post-Only Entry No Fallback",
+      "hypothesis": "Entering breakouts with post-only limit orders to avoid taker fees",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Capture maker rebate on all entries",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EA group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct < 0.03",
+      "entry_rule": "Limit post-only order",
+      "exit_rule": "Taker stop-loss",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EA_061",
+      "name": "Post-Only Timed Fallback",
+      "hypothesis": "Post-only entry; if not filled in 3 bars, fallback to taker market",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Capture maker fills with taker fallback safety",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EA group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct < 0.03",
+      "entry_rule": "Limit order with 3 bar fallback",
+      "exit_rule": "Taker stop-loss",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "11 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EA_062",
+      "name": "Passive Entry Market SL",
+      "hypothesis": "Passive limit entry at breakout price, with market taker SL protection",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Capture maker rebate, preserve stop safety",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EA group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.6,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct < 0.03",
+      "entry_rule": "Limit entry + market SL",
+      "exit_rule": "Market stop-loss",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "11 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EA_063",
+      "name": "Passive Entry and TP",
+      "hypothesis": "Limit entry and limit TP to capture maker fees on both sides",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Maker execution on both entry and exit",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EA group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.7,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct < 0.03",
+      "entry_rule": "Limit entry + limit TP",
+      "exit_rule": "Taker stop-loss",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EA_064",
+      "name": "Spread-Aware Limit Offset",
+      "hypothesis": "Limit order offset by half the spread to improve queue priority",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Improve limit fill rates",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EA group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "spread"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ATR_pct < 0.03",
+      "entry_rule": "Limit order + offset",
+      "exit_rule": "Taker stop-loss",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "11 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RR_065",
+      "name": "Chop Regime Risk Halving",
+      "hypothesis": "Halving risk (0.5x) when regime_toxic_chop is active",
+      "failure_category": "chop",
+      "expected_benefit": "Reduce losses in sideways chop",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "regime_toxic_chop"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Chop active",
+      "entry_rule": "Apply risk_mult=0.5",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RR_066",
+      "name": "Regime-Conditional Risk Multiplier",
+      "hypothesis": "Dynamic risk multiplier based on active market regime",
+      "failure_category": "wrong_fusion_priority",
+      "expected_benefit": "Scale risk in high-conviction trends",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "regime_bull_trend",
+        "regime_bear_trend",
+        "regime_toxic_chop"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Filter active",
+      "entry_rule": "Apply scale_risk dict",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RR_067",
+      "name": "Monthly-DD Throttle",
+      "hypothesis": "Halving risk when MTD DD is >= 1.5% to prevent compounding",
+      "failure_category": "risk_too_high",
+      "expected_benefit": "Prevent runaway monthly drawdowns",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "live_metrics.monthly_dd"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "MTD DD >= 1.5%",
+      "entry_rule": "Apply risk_mult=0.5",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RR_068",
+      "name": "Loss-Streak Risk Reduction",
+      "hypothesis": "Halving risk after 3 consecutive losses to protect capital",
+      "failure_category": "risk_too_high",
+      "expected_benefit": "Protect capital during bad streaks",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "live_metrics.consecutive_losses"
+      ],
+      "priority_score": 7.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Consecutive losses >= 3",
+      "entry_rule": "Apply risk_mult=0.5",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RR_069",
+      "name": "Vol-Adjusted Sizing",
+      "hypothesis": "Scale position size inversely to 14-bar ATR to keep dollar risk constant",
+      "failure_category": "stop_issue",
+      "expected_benefit": "Keep dollar risk constant across volatility regimes",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_14"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Filter active",
+      "entry_rule": "Scale size by ATR",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RR_070",
+      "name": "High-Expectancy Risk Boost",
+      "hypothesis": "Increase risk to 1.25x in proven high-expectancy trend regimes",
+      "failure_category": "wrong_fusion_priority",
+      "expected_benefit": "Maximize profit in high-conviction regimes",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "regime_bull_trend"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Bull trend active",
+      "entry_rule": "Apply risk_mult=1.25",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RR_071",
+      "name": "Funding Drag Risk Reduction",
+      "hypothesis": "Halving risk when entering trades that carry high funding fee rates",
+      "failure_category": "funding_drag",
+      "expected_benefit": "Minimize funding fee exposure",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Absolute funding >= 0.02%",
+      "entry_rule": "Apply risk_mult=0.5",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_RR_072",
+      "name": "Selectivity Throttle",
+      "hypothesis": "Increase entry selectivity thresholds after monthly drawdown exceeds 2%",
+      "failure_category": "risk_too_high",
+      "expected_benefit": "Recover monthly drawdown safely",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under RR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "live_metrics.monthly_dd"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "MTD DD >= 2.0%",
+      "entry_rule": "Selectivity filter active",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EO_073",
+      "name": "Static TP/SL Optimization",
+      "hypothesis": "Optimizing static TP and SL ATR multipliers dynamically",
+      "failure_category": "target_issue",
+      "expected_benefit": "Verify best baseline targets",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EO group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Filter active",
+      "entry_rule": "Static SL/TP",
+      "exit_rule": "Static target",
+      "stop_rule": "Static stop",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EO_074",
+      "name": "ATR-Scaled TP/SL",
+      "hypothesis": "TP and SL scaled dynamically by 14-bar ATR",
+      "failure_category": "stop_issue",
+      "expected_benefit": "Adjust targets to current volatility",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EO group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_14"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Filter active",
+      "entry_rule": "ATR SL/TP",
+      "exit_rule": "ATR take profit",
+      "stop_rule": "ATR stop",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EO_075",
+      "name": "Regime-Dependent Exits",
+      "hypothesis": "asymmetric TP and SL multipliers based on volatility regimes",
+      "failure_category": "target_issue",
+      "expected_benefit": "Adjust exits to market regime",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EO group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "regime_bull_trend",
+        "regime_toxic_chop"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Filter active",
+      "entry_rule": "Regime SL/TP",
+      "exit_rule": "Regime take profit",
+      "stop_rule": "Regime stop",
+      "expected_frequency": "10 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EO_076",
+      "name": "Breakeven after MFE",
+      "hypothesis": "Move stop to breakeven after price reaches 1.5x ATR profit (MFE)",
+      "failure_category": "stop_issue",
+      "expected_benefit": "Protect profitable trades from reversing",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EO group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close",
+        "atr_14"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "MFE >= 1.5x ATR",
+      "entry_rule": "Move SL to entry",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EO_077",
+      "name": "Trailing in Trends Only",
+      "hypothesis": "Trailing stops active only in proven trend regimes (ADX >= 25)",
+      "failure_category": "trend_exhaustion",
+      "expected_benefit": "Avoid premature exits in range regimes",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EO group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "adx_14"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX >= 25",
+      "entry_rule": "Trailing stop active",
+      "exit_rule": "Trailing exit",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EO_078",
+      "name": "Partial Profit Take",
+      "hypothesis": "Close 50% of position at 1.5x ATR and trail remaining 50%",
+      "failure_category": "target_issue",
+      "expected_benefit": "Lock in profits on partial targets",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EO group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Price reaches 1.5x ATR",
+      "entry_rule": "Close 50%",
+      "exit_rule": "Trail 50%",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EO_079",
+      "name": "Time Stop Exit",
+      "hypothesis": "Exit trade after 24 candles if target or stop has not been hit",
+      "failure_category": "chop",
+      "expected_benefit": "Free capital from sideways dead trades",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EO group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 7.9,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Hold >= 24 bars",
+      "entry_rule": "Exit market",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_EO_080",
+      "name": "Funding Window Exit",
+      "hypothesis": "Exit trade 10 minutes before funding payment if price is consolidating",
+      "failure_category": "funding_drag",
+      "expected_benefit": "Minimize carry cost drag",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under EO group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Sideways + boundary close",
+      "entry_rule": "Exit market",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_PF_081",
+      "name": "Signal Union Router",
+      "hypothesis": "Union routing of signals where portfolios combine allocations",
+      "failure_category": "wrong_fusion_priority",
+      "expected_benefit": "Maximize trade opportunity safely",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under PF group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Filter active",
+      "entry_rule": "Union routing",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_PF_082",
+      "name": "Conflict Cancellation Router",
+      "hypothesis": "Cancel signals when sub-strategies have opposite directions",
+      "failure_category": "wrong_fusion_priority",
+      "expected_benefit": "Avoid trading against complementary models",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under PF group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Opposite direction signals",
+      "entry_rule": "Cancel signals",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_PF_083",
+      "name": "Regime-Based Fusion Routing",
+      "hypothesis": "Dynamically route candidates into trend/range sub-portfolios",
+      "failure_category": "wrong_fusion_priority",
+      "expected_benefit": "Map candidates to their target regimes",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under PF group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "regime_sideways_range",
+        "regime_bull_trend"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Filter active",
+      "entry_rule": "Regime routing",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_PF_084",
+      "name": "MTD Adaptive Fusion",
+      "hypothesis": "Activate filler strategies only when core strategy is in monthly DD",
+      "failure_category": "low_activity",
+      "expected_benefit": "Zero month rescue via adaptive activation",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under PF group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "live_metrics.monthly_dd"
+      ],
+      "priority_score": 8.7,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Core monthly DD > 0",
+      "entry_rule": "Adaptive sleeve active",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_PF_085",
+      "name": "Voting-Based Sizing Ensemble",
+      "hypothesis": "Scale position sizing based on voting agreement across candidates",
+      "failure_category": "wrong_fusion_priority",
+      "expected_benefit": "Confirm setups with ensemble voting",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under PF group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Multiple candidate signals",
+      "entry_rule": "Ensemble sizing scale",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_PF_086",
+      "name": "Toxicity Shutdown Router",
+      "hypothesis": "Disable specific sub-portfolios during prolonged drawdowns",
+      "failure_category": "risk_too_high",
+      "expected_benefit": "Shut down underperforming portfolios",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under PF group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "live_metrics.portfolio_dd"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Portfolio DD >= 3.0%",
+      "entry_rule": "Disable portfolio",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_PF_087",
+      "name": "Correlation-Based Sizing",
+      "hypothesis": "Scale down position sizes when signal correlation across strategies is high",
+      "failure_category": "risk_too_high",
+      "expected_benefit": "Reduce systemic correlation exposure",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under PF group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Correlated signals active",
+      "entry_rule": "Apply risk_mult=0.7",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_PF_088",
+      "name": "Taker Fallback Execution",
+      "hypothesis": "Route all limit orders to market fallback when volatility spikes",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Avoid missed entries on fast breakouts",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under PF group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_pct"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Volatility spikes",
+      "entry_rule": "Market fallback active",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_NMR_089",
+      "name": "False Breakout ADX Gate",
+      "hypothesis": "Filter breakout signals in false breakout months using ADX slope",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Cushion false breakout months",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under NMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "adx_slope_3"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX slope <= 0.5",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_NMR_090",
+      "name": "Volume confirmation gate",
+      "hypothesis": "Require volume trend confirmation in negative months",
+      "failure_category": "volume_weakness",
+      "expected_benefit": "Cushion low-participation months",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under NMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "volume_trend"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Volume <= 1.2x MA",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_NMR_091",
+      "name": "EMA Reclaim Pullback Entry",
+      "hypothesis": "Enter pullback reclaim after breakout in negative months",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Tighter stops in false breakout months",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under NMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "ema_50"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX > 20",
+      "entry_rule": "Close reclaim EMA50",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_NMR_092",
+      "name": "Cost-Aware TP Minimum Filter",
+      "hypothesis": "Gate entries in cost-erosion months with minimum TP filter",
+      "failure_category": "cost_erosion",
+      "expected_benefit": "Eliminate cost erosion in bad months",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under NMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close",
+        "atr_14"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Target distance < 2.5x cost",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_NMR_093",
+      "name": "Chop Regime Risk Halving",
+      "hypothesis": "Apply risk halving in chop-heavy negative months",
+      "failure_category": "chop",
+      "expected_benefit": "Halve losses in negative chop months",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under NMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "regime_toxic_chop"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Chop active",
+      "entry_rule": "Apply risk_mult=0.5",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_NMR_094",
+      "name": "Funding Window Reversal Skip",
+      "hypothesis": "Skip negative month reversal trades near extreme funding rates",
+      "failure_category": "funding_drag",
+      "expected_benefit": "Cushion funding drag in negative months",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under NMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "Absolute funding >= 0.02%",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_NMR_095",
+      "name": "Stop-Run Reclaim Reversal",
+      "hypothesis": "Fade breakouts that reclaim inside session ranges in negative months",
+      "failure_category": "false_breakout",
+      "expected_benefit": "Capture reversals in bad breakout months",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under NMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close",
+        "daily_high"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX < 20",
+      "entry_rule": "Reenter daily range",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "7 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_NMR_096",
+      "name": "ADX Slope Momentum Continuation",
+      "hypothesis": "Require accelerating momentum in low-activity negative months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Ensure momentum in low activity months",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under NMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "adx_slope_5"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "ADX slope <= 1.5",
+      "entry_rule": "Filter active",
+      "exit_rule": "No entry",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_ZMR_097",
+      "name": "VWAP Reclaim Zero-Month Rescue",
+      "hypothesis": "A VWAP reclaim signal active only in low-activity months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Eliminate zero trade months",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under ZMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "vwap",
+        "close"
+      ],
+      "priority_score": 9.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades == 0",
+      "entry_rule": "Close crosses above VWAP",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "5 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_ZMR_098",
+      "name": "Volatility Compression ZMR",
+      "hypothesis": "Volatility compression release signal to resolve zero months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Zero-trade month rescue",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under ZMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "bb_width"
+      ],
+      "priority_score": 9.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades == 0",
+      "entry_rule": "Compression release close",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "2.5x ATR",
+      "expected_frequency": "4 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_ZMR_099",
+      "name": "ADX Slope Momentum ZMR",
+      "hypothesis": "Momentum continuation entry to resolve zero months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Zero-trade month rescue",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under ZMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "adx_slope_5"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades == 0",
+      "entry_rule": "ADX slope > 2.0",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "5 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_ZMR_100",
+      "name": "RSI Divergence MR ZMR",
+      "hypothesis": "RSI divergence mean reversion active in zero months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Zero-trade month rescue",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under ZMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "rsi_14",
+        "close"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades == 0",
+      "entry_rule": "RSI divergence at extreme",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "4 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_ZMR_101",
+      "name": "EMA50 Pullback ZMR",
+      "hypothesis": "EMA50 pullback continuation active in zero months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Zero-trade month rescue",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under ZMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "ema_50"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades == 0",
+      "entry_rule": "EMA50 touch reclaim",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "4 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_ZMR_102",
+      "name": "London Open ZMR",
+      "hypothesis": "London open breakout continuation active in zero months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Zero-trade month rescue",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under ZMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades == 0",
+      "entry_rule": "London breakout close",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "2.2x ATR",
+      "expected_frequency": "5 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_ZMR_103",
+      "name": "NY Open ZMR",
+      "hypothesis": "NY open sweep reclaim active in zero months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Zero-trade month rescue",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under ZMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.6,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades == 0",
+      "entry_rule": "NY open sweep reclaim",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "5 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_ZMR_104",
+      "name": "Extreme Funding ZMR",
+      "hypothesis": "Extreme funding reversal active in zero months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Zero-trade month rescue",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under ZMR group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades == 0",
+      "entry_rule": "Extreme funding + reclaim",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "3 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TCE_105",
+      "name": "Low-Activity Trend Sleeves",
+      "hypothesis": "Trend continuation sleeves active in low-activity months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Expand trade count in quiet trends",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TCE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades < 10",
+      "entry_rule": "EMA pullback entry",
+      "exit_rule": "Target 3.0x ATR",
+      "stop_rule": "2.2x ATR",
+      "expected_frequency": "6 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TCE_106",
+      "name": "Low-Activity Range Sleeves",
+      "hypothesis": "Range mean reversion sleeves active in low-activity months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Expand trade count in quiet ranges",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TCE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.5,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades < 10",
+      "entry_rule": "Range boundary touch",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TCE_107",
+      "name": "Low-Volatility Sleeves",
+      "hypothesis": "Scalping sleeves active in low-volatility compression months",
+      "failure_category": "low_activity",
+      "expected_benefit": "Expand trade count in quiet volatility",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TCE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "atr_pct"
+      ],
+      "priority_score": 8.2,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades < 10",
+      "entry_rule": "Volatility breakout",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "7 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TCE_108",
+      "name": "Post-Breakout Consolidation Sleeves",
+      "hypothesis": "Consolidation sleeves active after major trend breakouts",
+      "failure_category": "low_activity",
+      "expected_benefit": "Expand trade count in consolidation periods",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TCE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.0,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades < 10",
+      "entry_rule": "Consolidation range touch",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "1.8x ATR",
+      "expected_frequency": "6 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TCE_109",
+      "name": "High-Funding Sideways Sleeves",
+      "hypothesis": "Sideways sleeves active during high funding rate regimes",
+      "failure_category": "low_activity",
+      "expected_benefit": "Expand trade count during sideways carry",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TCE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "fundingRate"
+      ],
+      "priority_score": 8.1,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades < 10",
+      "entry_rule": "Funding extreme touch",
+      "exit_rule": "Target 2.0x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "5 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TCE_110",
+      "name": "Quiet Session Sleeves",
+      "hypothesis": "Quiet session sleeves active during overnight Asian session",
+      "failure_category": "low_activity",
+      "expected_benefit": "Expand trade count during overnight quiet sessions",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TCE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.3,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades < 10",
+      "entry_rule": "Asian range boundary touch",
+      "exit_rule": "Target 1.5x ATR",
+      "stop_rule": "1.5x ATR",
+      "expected_frequency": "9 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TCE_111",
+      "name": "High-Quality Filler",
+      "hypothesis": "Broad-market high-quality filler signals active in low activity",
+      "failure_category": "low_activity",
+      "expected_benefit": "Expand trade count with general filler",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TCE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "close"
+      ],
+      "priority_score": 8.4,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades < 10",
+      "entry_rule": "Filler setup trigger",
+      "exit_rule": "Target 2.5x ATR",
+      "stop_rule": "2.0x ATR",
+      "expected_frequency": "8 trades/month",
+      "cost_sensitivity": "Low"
+    },
+    {
+      "idea_id": "IDEA_TCE_112",
+      "name": "Activity Sleeve Router",
+      "hypothesis": "Router that activates secondary sleeves when monthly trades < 10",
+      "failure_category": "low_activity",
+      "expected_benefit": "Expand trade count to benchmark target",
+      "affected_months": [],
+      "live_compatible": true,
+      "lookahead_risk": "NONE",
+      "implementation_plan": "Implement in candidate factory under TCE group, run search and verify metrics.",
+      "acceptance_metrics": {
+        "pf_delta": ">= 0.0",
+        "negative_month_delta": "<= 0"
+      },
+      "rejection_criteria": {
+        "trade_count": "< 10"
+      },
+      "required_data": [
+        "monthly_trade_count"
+      ],
+      "priority_score": 8.6,
+      "status": "GENERATED",
+      "complexity_score": 3.0,
+      "overfit_risk_score": 2.5,
+      "live_compatibility_score": 4.5,
+      "test_result": null,
+      "when_it_fails": "Sideways chop or trend exhaustion",
+      "regime_gate": "monthly_trades < 10",
+      "entry_rule": "Activate secondary sleeves",
+      "exit_rule": "N/A",
+      "stop_rule": "N/A",
+      "expected_frequency": "0 trades/month",
+      "cost_sensitivity": "Low"
+    }
+  ]
+}
