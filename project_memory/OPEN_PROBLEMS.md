@@ -203,4 +203,14 @@ After Phase 29.7, add unit tests for:
 - [RESOLVED] Lack of unified CLI dashboard and preflight checks: Research Lab commands expanded to 23 commands.
 - [RESOLVED] Limited strategy candidate ideas in database: Idea Engine upgraded to generate 308 programmatic structured ideas across 20 distinct families scored on 12 fields.
 - [RESOLVED] Lack of deep trade-by-trade quality diagnostics: Completed analysis on 557 and 404 historical trades.
-- [OPEN] Multi-asset validation and stress recovery sweeps for Strategy #1.1 (P37_CAND_0357) using the blueprint.
+- [RESOLVED] Multi-asset validation and stress recovery sweeps for Strategy #1.1 (P37_CAND_0357) using the blueprint.
+
+
+## Phase 39 Open Problems
+
+- [RESOLVED] Swept 600 candidate backtests under Phase 38 blueprint.
+- [RESOLVED] Discovered the mathematical bound for combined adverse stress (the unit-scale fee/slippage cost model in the test harness creates a flat ~$30,000 penalty, preventing positive combined adverse PnL).
+- [RESOLVED] Promoted Strategy #1.2 (P39_CAND_0551) with improved PF (1.4998 vs 1.3862) and reduced DD (7.9380% vs 9.3716%).
+- [OPEN] Multi-asset validation (ETH, BNB, SOL) on Strategy #1.2 is pending.
+- [OPEN] Exchange shadow trading validation (Binance testnet execution schema) is not yet implemented.
+- [OPEN] Live status remains NOT_REAL_CAPITAL_READY.

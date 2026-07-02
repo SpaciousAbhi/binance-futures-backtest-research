@@ -1,0 +1,9 @@
+strategy,metric,expected,observed,drift,status
+Strategy #1,net_pnl,11205.2,11205.2,0.0,PASS
+Strategy #1,trades,557.0,557.0,0.0,PASS
+Strategy #1,profit_factor,1.2522,1.2522,0.0,PASS
+Strategy #1,max_drawdown_pct,16.2186,16.2186,0.0,PASS
+Strategy #1.1,net_pnl,11231.08,11231.08,0.0,PASS
+Strategy #1.1,trades,404.0,404.0,0.0,PASS
+Strategy #1.1,profit_factor,1.3862,1.3862,0.0,PASS
+Strategy #1.1,max_drawdown_pct,9.3716,9.3716,0.0,PASS

@@ -1,0 +1,7 @@
+candidate_id,check,status,detail
+P39_CAND_0551,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase39_P39_CAND_0551_trade_log.csv
+P39_CAND_0551,metrics_from_trade_log,PASS,"PnL=11431.41, PF=1.4998, DD=7.938% recomputed from log."
+P39_CAND_0551,live_known_rule_construction,PASS,Uses closed-candle signals and indicators. Zero lookahead.
+P39_CAND_0551,no_report_only_promotion,PASS,Successfully executed by backtest engine.
+P39_CAND_0551,source_hash,PASS,db0bf2a614ff9394a512727da42e2a74e6ac052649f38f0a9b32986e0d8b9043
+P39_CAND_0551,timestamp_order,PASS,rows=340. Strict chronological entry order verified.

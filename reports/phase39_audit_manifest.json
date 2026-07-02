@@ -1,0 +1,42 @@
+{
+  "files": {
+    "reports/phase39_P39_CAND_0551_trade_log.csv": {
+      "sha256": "4b45287b654c1fbe91f6e97397b86f376bf6cd3770337cb0de3f3e812f0ac6dc",
+      "size_kb": 186.42
+    },
+    "reports/phase39_candidate_registry.csv": {
+      "sha256": "2131d1d0817892ddde0afe396235b27612b35b7d88405864d3c538d52fea6ef1",
+      "size_kb": 1365.05
+    },
+    "reports/phase39_candidate_results.csv": {
+      "sha256": "ef38b307e61b7482ede8b38b08c7ca21bc7e039bcd3eef356b8cb0fa77fc47c0",
+      "size_kb": 1523.09
+    },
+    "reports/phase39_strategy1_2_discovery_and_promotion_report.md": {
+      "sha256": "75a066277fcb3ebb92b10120b88f38ae5166c0fb93b5736641f5bb19a7b61dae",
+      "size_kb": 4.29
+    },
+    "reports/phase39_strategy1_2_vault.md": {
+      "sha256": "808ee51c1348bc122c9ec6096b6dcf48e0ced136b3c4b5a26cdf83be120adeef",
+      "size_kb": 3.71
+    },
+    "reports/phase39_strategy_comparison.csv": {
+      "sha256": "2484616585c9bda4220a9d7f1e49057d71786781dc0fc5b42d418e6b45f04d44",
+      "size_kb": 0.42
+    },
+    "reports/phase39_top_candidate_integrity_audit.csv": {
+      "sha256": "9a90f38d11841516deece953cc3e0d113f0d6ee6e0ed6ecb4f93adb1d26a49b5",
+      "size_kb": 0.65
+    },
+    "reports/phase39_top_candidate_monthly_reconciliation.csv": {
+      "sha256": "e952597c014555f7763780268d3e5b6937a8b642a1745cf29386b36e0123bfb1",
+      "size_kb": 2.29
+    },
+    "reports/phase39_top_candidate_stress_results.csv": {
+      "sha256": "ff899503f1a0bb0d578bc0d5053e798403d396654e6408bb7adb9c5cb141d8b2",
+      "size_kb": 0.99
+    }
+  },
+  "phase": 39,
+  "timestamp": "2026-07-02 21:00:00 UTC"
+}

@@ -12,12 +12,13 @@ backtest dashboard. Every rule, every metric, and every result is held to live-e
 
 | Item | Status |
 |---|---|
-| Latest completed phase | **Phase 38** — Research Lab, Idea Engine, & Trade Intelligence Upgrade |
-| Next research phase | **Phase 39** — High-Throughput Candidate Discovery & Stress Hardening |
+| Latest completed phase | **Phase 39** — Strategy #1.2 Candidate Discovery & Promotion |
+| Next research phase | **Phase 40** — Cross-Asset Validation & Shadow Trading Design |
 | Live capital status | **NOT_REAL_CAPITAL_READY** |
 | Primary benchmark | **PF 1.2 (Teacher Reference)** — $21,684.99 / 325 trades / PF 2.42 |
 | Invalid benchmarks | PF 7.0, PF 8.0, PF 8.1 (forced metrics — see AGENTS.md) |
 | Test suite | 400+ tests passing |
+
 
 ---
 

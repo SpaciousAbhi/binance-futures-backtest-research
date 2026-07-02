@@ -1,0 +1,4 @@
+strategy,pnl,trades,profit_factor,max_drawdown_pct,stress_pass_count,combined_adverse_pnl,win_rate,status
+Strategy #1 (Combined Router v1),11205.2,557,1.2522,16.2186,7,-39138.38,0.518,VALID_EXECUTABLE_BASELINE_BUT_STRESS_FRAGILE
+Strategy #1.1 (P37_CAND_0357),11231.08,404,1.3862,9.3716,8,-33384.48,0.522,VALID_PROMOTED_CANDIDATE
+Strategy #1.2 (P39_CAND_0551),11431.41,340,1.4998,7.938,8,-25369.59,0.5647,VALID_PROMOTED_CANDIDATE

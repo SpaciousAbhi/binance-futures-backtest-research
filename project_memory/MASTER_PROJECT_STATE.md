@@ -36,10 +36,12 @@ No strategy has passed all requirements for real-capital live automation. Do not
 |---|---|---|---|---|---|---|---|
 | **PF 1.2 (Teacher Reference)** | $21,684.99 | 325 | 2.42 | 10.87% | 56/16/6 | +$15,922.97 | `VALID_TEACHER_REFERENCE` |
 | **Strategy #1 (Combined Router v1)** | $11,205.20 | 557 | 1.2522 | 16.2186% | 52/25/0 | PASS=7 / FAIL=8; combined adverse -$39,138.38 | `VALID_EXECUTABLE_BASELINE_BUT_STRESS_FRAGILE` |
-| **Strategy #1.1 (P37_CAND_0357)** | $11,231.08 | 404 | 1.3862 | 9.3716% | 54/22/2 | PASS=8 / FAIL=7; combined adverse +$5,615.54 | `VALID_PROMOTED_CANDIDATE` |
+| **Strategy #1.1 (P37_CAND_0357)** | $11,231.08 | 404 | 1.3862 | 9.3716% | 54/22/2 | PASS=8 / FAIL=7; combined adverse -$33,384.48 | `VALID_PROMOTED_CANDIDATE` |
+| **Strategy #1.2 (P39_CAND_0551)** | $11,431.41 | 340 | 1.4998 | 7.9380% | 46/25/7 | PASS=8 / FAIL=7; combined adverse -$25,369.59 | `VALID_PROMOTED_CANDIDATE` |
 | **Phase 31 Baseline (CAND_0190)** | $4,246.75 | 359 | 1.21 | 9.51% | 53/19/6 | See reports | `VALID_EXECUTABLE_BENCHMARK` |
 | **Variant B** | See reports | — | — | — | — | — | `TEACHER_REFERENCE` |
 | **Variant C** | See reports | — | — | — | — | — | `TEACHER_REFERENCE` |
+
 
 ### INVALID Benchmarks (Forced Metrics — Do Not Use)
 
@@ -214,4 +216,13 @@ The next open problems are:
 - Research Lab CLI command capacity expanded from 9 to 23 commands.
 - Idea Engine upgraded to support 308 programmatic structured ideas across 20 families scored on 12 fields.
 - Deep trade-by-trade audit successfully executed for 557 and 404 historical trades.
+
+
+## Phase 39 Strategy #1.2 Candidate Discovery & Promotion Status
+
+- Strategy #1 and Strategy #1.1 reproduced with 0.00% drift.
+- Parametric search grid of 600 unique candidate backtests and stress scenarios completed.
+- Strategy #1.2 promoted: P39_CAND_0551 ($11,431.41, 340 trades, PF 1.4998, DD 7.9380%, Stress 8/15 pass, combined adverse -$25,369.59).
+- Discovered mathematical bounds under the test harness's unit-scale cost model.
 - Live status remains NOT_REAL_CAPITAL_READY.
+

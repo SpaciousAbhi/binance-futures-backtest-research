@@ -16,6 +16,7 @@ import subprocess
 import hashlib
 import time
 import pandas as pd
+import numpy as np
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 REPORTS_DIR = os.path.join(ROOT_DIR, "reports")
@@ -218,40 +219,116 @@ def handle_validate_reproduction():
         print("Locked metrics CSV not found. Baseline is assumed verified from Vault md.")
 
 def handle_run_stress(file_path):
-    print(f"Running 12-scenario stress matrix on log: {file_path}")
+    print(f"Running 15-scenario stress matrix on log: {file_path}")
     try:
         df = pd.read_csv(file_path)
-        net_pnl = pd.to_numeric(df["net_pnl"])
-        initial_pnl = net_pnl.sum()
+        if df.empty:
+            print("Trade log is empty.")
+            return
 
-        # Scenarios parameters and expected outcomes
+        # 15 scenarios list
         scenarios = [
-            ("normal", 1.0, 1.0, "PASS"),
-            ("double fees", 2.0, 1.0, "FAIL" if initial_pnl < 15000 else "PASS"),
-            ("triple fees", 3.0, 1.0, "FAIL"),
-            ("double slippage", 1.0, 2.0, "FAIL" if initial_pnl < 12000 else "PASS"),
-            ("triple slippage", 1.0, 3.0, "FAIL"),
-            ("high funding", 1.0, 1.0, "PASS"),
-            ("missed fills 10%", 1.0, 1.0, "PASS"),
-            ("missed fills 20%", 1.0, 1.0, "PASS"),
-            ("stale cancel", 1.0, 1.0, "PASS"),
-            ("partial fill", 1.0, 1.0, "PASS"),
-            ("combined adverse", 2.0, 2.0, "FAIL")
+            {"scenario": "normal", "fee_mult": 1.0, "slip_mult": 1.0, "delay_pct": 0.0, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "double fees", "fee_mult": 2.0, "slip_mult": 1.0, "delay_pct": 0.0, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "triple fees", "fee_mult": 3.0, "slip_mult": 1.0, "delay_pct": 0.0, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "double slippage", "fee_mult": 1.0, "slip_mult": 2.0, "delay_pct": 0.0, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "triple slippage", "fee_mult": 1.0, "slip_mult": 3.0, "delay_pct": 0.0, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "double fees + double slippage", "fee_mult": 2.0, "slip_mult": 2.0, "delay_pct": 0.0, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "delay 1 candle", "fee_mult": 1.0, "slip_mult": 1.0, "delay_pct": 0.0005, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "delay 2 candles", "fee_mult": 1.0, "slip_mult": 1.0, "delay_pct": 0.0010, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "missed fills 10%", "fee_mult": 1.0, "slip_mult": 1.0, "delay_pct": 0.0, "missed_fill_pct": 0.10, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "missed fills 20%", "fee_mult": 1.0, "slip_mult": 1.0, "delay_pct": 0.0, "missed_fill_pct": 0.20, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "missed fills 30%", "fee_mult": 1.0, "slip_mult": 1.0, "delay_pct": 0.0, "missed_fill_pct": 0.30, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "stale cancel", "fee_mult": 1.0, "slip_mult": 1.0, "delay_pct": 0.0002, "missed_fill_pct": 0.05, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
+            {"scenario": "partial fill", "fee_mult": 1.0, "slip_mult": 1.0, "delay_pct": 0.0, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.15, "funding_mult": 1.0},
+            {"scenario": "high funding", "fee_mult": 1.0, "slip_mult": 1.0, "delay_pct": 0.0, "missed_fill_pct": 0.0, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 3.0},
+            {"scenario": "combined adverse", "fee_mult": 2.0, "slip_mult": 2.0, "delay_pct": 0.0005, "missed_fill_pct": 0.10, "stale_cancel_pct": 0.0, "partial_fill_pct": 0.0, "funding_mult": 1.0},
         ]
 
-        print("-" * 70)
-        print(f"{'Scenario':<25} | {'PnL Mult':<10} | {'Verdict':<10}")
-        print("-" * 70)
-        for s, f_mult, s_mult, v in scenarios:
-            # Simple simulation representation
-            factor = 1.0
-            if "fees" in s or "adverse" in s:
-                factor -= 0.15 * f_mult
-            if "slippage" in s or "adverse" in s:
-                factor -= 0.10 * s_mult
-            sim_pnl = initial_pnl * factor
+        print("-" * 80)
+        print(f"{'Scenario':<30} | {'Trades':<6} | {'Net PnL':<10} | {'PF':<8} | {'Max DD':<8} | {'Verdict':<8}")
+        print("-" * 80)
+        
+        rows = []
+        for s in scenarios:
+            d = df.copy()
+            fee_mult = s.get("fee_mult", 1.0)
+            slip_mult = s.get("slip_mult", 1.0)
+            delay_pct = s.get("delay_pct", 0.0)
+            funding_mult = s.get("funding_mult", 1.0)
+            missed_fill_pct = s.get("missed_fill_pct", 0.0)
+            stale_cancel_pct = s.get("stale_cancel_pct", 0.0)
+            partial_fill_pct = s.get("partial_fill_pct", 0.0)
+
+            # Apply stress adjustments exactly like stress_trade_log in phase36
+            fee_adj = (fee_mult - 1.0) * 0.0005 * 2.0 * d["entry_price"].astype(float)
+            slip_adj = (slip_mult - 1.0) * 0.0005 * 2.0 * d["entry_price"].astype(float)
+            cost_adj = -(fee_adj + slip_adj)
+            
+            if delay_pct > 0:
+                cost_adj -= delay_pct * d["entry_price"].astype(float)
+            if funding_mult > 1.0 and "funding" in d.columns:
+                d["funding"] = d["funding"].astype(float) * funding_mult
+                cost_adj -= d["funding"].abs() * (funding_mult - 1.0)
+
+            d["net_pnl"] = d["net_pnl"].astype(float) + cost_adj
+
+            if missed_fill_pct > 0:
+                step = max(int(round(1.0 / missed_fill_pct)), 1)
+                keep_mask = (np.arange(len(d)) + 1) % step != 0
+                d = d.loc[keep_mask].copy()
+
+            if stale_cancel_pct > 0:
+                n_drop = int(len(d) * stale_cancel_pct)
+                if n_drop > 0:
+                    d = d.iloc[:-n_drop].copy()
+
+            if partial_fill_pct > 0:
+                d["net_pnl"] = d["net_pnl"] * (1.0 - partial_fill_pct * 0.5)
+
+            if d.empty:
+                sim_pnl = 0.0
+                pf = 0.0
+                dd = 100.0
+                trades_count = 0
+            else:
+                v = d["net_pnl"].astype(float).values
+                wins = v[v > 0]
+                losses = v[v < 0]
+                gross_profit = float(wins.sum()) if len(wins) else 0.0
+                gross_loss = float(abs(losses.sum())) if len(losses) else 0.0
+                pf = gross_profit / gross_loss if gross_loss > 0 else 999.0
+                sim_pnl = float(v.sum())
+                trades_count = len(v)
+
+                equity = 10000.0 + np.cumsum(v)
+                peaks = np.maximum.accumulate(equity)
+                dd = float(((peaks - equity) / peaks).max()) * 100 if len(equity) > 0 else 0.0
+
             verdict = "PASS" if sim_pnl > 0 else "FAIL"
-            print(f"{s:<25} | ${sim_pnl:<9.2f} | {verdict:<10}")
+            print(f"{s['scenario']:<30} | {trades_count:<6} | ${sim_pnl:<9.2f} | {pf:<8.4f} | {dd:<7.2f}% | {verdict:<8}")
+            
+            rows.append({
+                "scenario": s["scenario"],
+                "fee_mult": fee_mult,
+                "slip_mult": slip_mult,
+                "delay_pct": delay_pct,
+                "missed_fill_pct": missed_fill_pct,
+                "stale_cancel_pct": stale_cancel_pct,
+                "partial_fill_pct": partial_fill_pct,
+                "funding_mult": funding_mult,
+                "trades": trades_count,
+                "net_pnl": round(sim_pnl, 2),
+                "profit_factor": round(pf, 4),
+                "max_drawdown_pct": round(dd, 4),
+                "verdict": verdict
+            })
+
+        # Save stress upgrade audit report
+        audit_df = pd.DataFrame(rows)
+        audit_path = os.path.join(REPORTS_DIR, "phase39_stress_runner_upgrade_audit.csv")
+        audit_df.to_csv(audit_path, index=False)
+        print(f"Stress upgrade audit CSV saved successfully to: {audit_path}")
 
     except Exception as e:
         print(f"Error running stress matrix: {e}")
