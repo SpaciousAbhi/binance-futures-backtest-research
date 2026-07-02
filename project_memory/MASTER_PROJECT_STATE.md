@@ -187,3 +187,11 @@ The next open problems are:
 - Selected Strategy #2-#6 candidate sleeves: none.
 - Diagnostic fusion is not promoted.
 - Live status remains NOT_REAL_CAPITAL_READY.
+
+
+## Phase 36 Strategy #1 Decomposition Status
+
+- Strategy #1 remains Combined Router v1 and reproduced exactly.
+- Strategy #1.1 promoted: NO.
+- Candidate expansion selected candidates: 0.
+- Live status remains NOT_REAL_CAPITAL_READY.

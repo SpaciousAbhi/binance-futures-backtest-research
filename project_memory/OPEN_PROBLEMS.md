@@ -182,3 +182,10 @@ After Phase 29.7, add unit tests for:
 - [OPEN] Strategy #1 is still stress-fragile and remains NOT_REAL_CAPITAL_READY.
 - [OPEN] Phase 35 sleeves are candidate sleeves, not locked strategies.
 - [OPEN] Diagnostic fusion is not promoted until it beats Strategy #1 with stress and reproduction proof.
+
+
+## Phase 36 Open Problems
+
+- [OPEN] Strategy #1 remains stress-fragile and NOT_REAL_CAPITAL_READY.
+- [OPEN] Low-Activity Filler Long is weak and should remain a repair target.
+- [OPEN] Broad high-cost stress failure requires execution-level edge thickening, not report-only filtering.

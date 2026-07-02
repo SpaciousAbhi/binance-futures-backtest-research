@@ -1,0 +1,10 @@
+metric,expected,observed,status
+net_pnl,11205.2,11205.2,PASS
+trades,557.0,557.0,PASS
+profit_factor,1.2522,1.2522,PASS
+max_drawdown_pct,16.2186,16.2186,PASS
+winning_trades,301.0,301.0,PASS
+losing_trades,256.0,256.0,PASS
+positive_months,52.0,52.0,PASS
+negative_months,25.0,25.0,PASS
+zero_months,0.0,0.0,PASS

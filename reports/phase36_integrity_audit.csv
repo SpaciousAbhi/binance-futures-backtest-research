@@ -1,0 +1,7 @@
+system,check,status,detail
+Strategy #1 baseline,reproduction_lock,PASS,Reproduced from active code/data.
+all_phase36_repairs,no_trade_log_filter_promotion,PASS,Repair candidates are engine-run guard wrappers; decomposition-only tables are diagnostic.
+all_phase36_repairs,no_forced_metrics,PASS,Metrics computed from trade logs.
+all_phase36_repairs,no_future_labels,PASS,No is_winner/future_pnl/future_mfe/future_mae in live rules.
+all_phase36_repairs,live_known_rules,PASS,"Guards use signal reason, closed candle indicators, session, funding, expected R, and projected friction known at signal time."
+all_phase36_repairs,not_real_capital_ready,PASS,No exchange shadow proof.

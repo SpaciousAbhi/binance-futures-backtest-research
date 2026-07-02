@@ -1,0 +1,31 @@
+{
+  "files": {
+    "phase36_ablation_results.csv": "60498b783624ecab069a65128ea8e377e80244f16cfdb0cb57f25c958a3ee26f",
+    "phase36_ai_sync_and_workspace_state.csv": "f181541082140455f6cdb4ca03efde3126ebb83c93240c6c576fca36c5d7a7d5",
+    "phase36_candidate_expansion_registry.csv": "30c4acb416120758aee181408a2c2a0d0abd4555ea76590bca79c5bf1e83a1ec",
+    "phase36_candidate_expansion_results.csv": "6dc35d65062c0f2808ba1335d1814cfe5a0323f0fd56054ad161d708d3560335",
+    "phase36_candidate_expansion_top_trade_logs_index.csv": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "phase36_integrity_audit.csv": "1e6a8c1adaa53e66c69517f2f4f18115376f2bec776831ff455cbc0d91663c21",
+    "phase36_monthly_comparison.csv": "cbcb6158f4592aff8300d2718f971661753b2c19a3492c12dccdd889ef7b2b43",
+    "phase36_repair_module_results.csv": "b1cfe666f517f020f6f5ed42ee625d94661a1e85c50530aff9311ec6e382ea67",
+    "phase36_strategy1_1_candidate_bb_atr_cost_trade_log.csv": "a44625ac5e7a89492bc3a846f7a01e2a35ee98b7466e99912e410f3d1a6de457",
+    "phase36_strategy1_1_candidate_cost_session_trade_log.csv": "e504b8d0ae2d312c25f30008e1a73c384c8193e72facb97e5c8fe0511135bd4f",
+    "phase36_strategy1_1_candidate_low_activity_offhours_trade_log.csv": "16590cc942ecffb48fc66d05ae22ff439943738ef2b236fbbe16be27fee13fc2",
+    "phase36_strategy1_1_candidate_projected_R_trade_log.csv": "c0c4ea3bba21a5b0e69706c75fddda5d967c202443b53eb6ba19d639a2a5d046",
+    "phase36_strategy1_1_candidate_results.csv": "185435ba39685a83f0ff2b3cd2bcd2f145f7bd06390a46f8bfe64772cc67e3af",
+    "phase36_strategy1_1_mini_vault.md": "929843824d69d46fb175960e478c0d02dc2987342531e3c21a0fe06cad9b62ec",
+    "phase36_strategy1_decomposition_repair_and_breakthrough_search_report.md": "816af5c8b563cf40b1af33dcf57a72f0b14a96aa4216f5c4099efb3bddd281db",
+    "phase36_strategy1_edge_map.md": "3a21b2610e832f5017efacb0171d736e3d98c3e4b06d4bd057e67c669c3a7b16",
+    "phase36_strategy1_internal_decomposition.csv": "53013489901f3c63804a076c2446abc239d590475d9e5c666c7068d5af1f3652",
+    "phase36_strategy1_reproduction_lock.csv": "4fae0722f3afc7d466439721036e67656b47e65f4367de3a57e2dd418e6db68e",
+    "phase36_stress_comparison.csv": "deda40a04561b36a545a21a4e4f1764521dae1bbf847b3c61f59a9e99587a5d0"
+  },
+  "phase": "36",
+  "rules": {
+    "live_status": "NOT_REAL_CAPITAL_READY",
+    "no_forced_metrics": true,
+    "no_trade_log_only_promotion": true,
+    "strategy1_reproduced": true
+  },
+  "verdict": "PHASE36_PARTIAL_PASS_INTERNAL_EDGE_MAPPED_NO_UPGRADE"
+}

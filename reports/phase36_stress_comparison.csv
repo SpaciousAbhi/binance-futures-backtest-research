@@ -1,0 +1,16 @@
+system,scenario,net_pnl,profit_factor,max_drawdown_pct,trades,verdict
+Strategy #1 baseline,normal,11205.2,1.2522,16.2186,557,PASS
+Strategy #1 baseline,double fees,-15287.89,0.7311,150.1754,557,FAIL
+Strategy #1 baseline,triple fees,-41780.98,0.4015,385.8161,557,FAIL
+Strategy #1 baseline,double slippage,-15287.89,0.7311,150.1754,557,FAIL
+Strategy #1 baseline,triple slippage,-41780.98,0.4015,385.8161,557,FAIL
+Strategy #1 baseline,double fees + double slippage,-41780.98,0.4015,385.8161,557,FAIL
+Strategy #1 baseline,delay 1 candle,-2041.35,0.9597,54.0742,557,FAIL
+Strategy #1 baseline,delay 2 candles,-15287.89,0.7311,150.1754,557,FAIL
+Strategy #1 baseline,missed fills 10%,12719.69,1.3283,10.2189,502,PASS
+Strategy #1 baseline,missed fills 20%,12386.72,1.3648,8.5702,446,PASS
+Strategy #1 baseline,missed fills 30%,7600.43,1.2575,17.2319,372,PASS
+Strategy #1 baseline,stale cancel,6500.55,1.1469,23.394,530,PASS
+Strategy #1 baseline,partial fill,10364.81,1.2522,15.6343,557,PASS
+Strategy #1 baseline,high funding,3346.09,1.0703,30.1893,557,PASS
+Strategy #1 baseline,combined adverse,-46928.05,0.3101,432.9605,502,FAIL

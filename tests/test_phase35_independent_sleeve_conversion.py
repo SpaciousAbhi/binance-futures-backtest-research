@@ -155,8 +155,8 @@ def test_manifest_hashes_match_disk_files():
 def test_project_memory_updated_for_phase35():
     handoff = (PM / "CURRENT_HANDOFF.md").read_text(encoding="utf-8")
     next_plan = (PM / "NEXT_PHASE_PLAN.md").read_text(encoding="utf-8")
-    assert "Latest Completed Phase: Phase 35" in handoff
+    assert "Latest Completed Phase: Phase 35" in handoff or "Latest Completed Phase: Phase 36" in handoff
     assert "Strategy #1 remains Combined Router v1" in handoff
-    assert "Selected Strategy #2-#6 candidates: none" in handoff
+    assert "Selected Strategy #2-#6 candidates: none" in handoff or "Phase 35 selected Strategy #2-#6 candidates: none" in handoff
     assert "NOT_REAL_CAPITAL_READY" in handoff
-    assert "Phase 36" in next_plan
+    assert "Phase 36" in next_plan or "Phase 37" in next_plan

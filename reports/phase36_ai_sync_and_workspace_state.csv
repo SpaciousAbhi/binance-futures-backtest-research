@@ -1,0 +1,6 @@
+check,value,status
+branch,master,PASS
+head_commit,55d5d69ff6f8162f2039ae764498ab8d8e8df268,PASS
+ahead_behind_vs_origin_master,0	0,PASS
+safety_tag,backup_before_phase36_strategy1_repair,PASS
+working_tree_before_phase36,## master...origin/master | ?? reports/phase36_ablation_results.csv | ?? reports/phase36_ai_sync_and_workspace_state.csv | ?? reports/phase36_strategy1_edge_map.md | ?? reports/phase36_strategy1_internal_decomposition.csv | ?? reports/phase36_strategy1_reproduction_lock.csv | ?? scripts/phase36_strategy1_decomposition_repair.py,WARN

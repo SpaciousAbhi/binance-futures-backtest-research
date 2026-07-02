@@ -139,3 +139,21 @@ reports/phase35_STRAT5_P35_STRESS_HARDENED_trade_log.csv,phase35_artifact,35,Pha
 reports/phase35_STRAT6_P35_LOW_R_FRICTION_trade_log.csv,phase35_artifact,35,Phase 35 independent sleeve conversion artifact,,70.7,,,5d00d76aa453,YES,VALID
 reports/phase35_strategy_2_to_6_candidate_vaults.md,phase35_artifact,35,Phase 35 independent sleeve conversion artifact,,0.1,,,9061f72bf2bf,YES,VALID
 reports/phase35_strategy_correlation_and_complementarity.csv,phase35_artifact,35,Phase 35 independent sleeve conversion artifact,,0.8,,,468cdc1df65f,YES,VALID
+reports/phase36_ablation_results.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,3.9,,,60498b783624,YES,VALID
+reports/phase36_ai_sync_and_workspace_state.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,0.5,,,f18154108214,YES,VALID
+reports/phase36_candidate_expansion_registry.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,747.4,,,30c4acb41612,YES,VALID
+reports/phase36_candidate_expansion_results.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,855.7,,,6dc35d65062c,YES,VALID
+reports/phase36_candidate_expansion_top_trade_logs_index.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,0.0,,,7eb70257593d,YES,VALID
+reports/phase36_integrity_audit.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,0.7,,,1e6a8c1adaa5,YES,VALID
+reports/phase36_monthly_comparison.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,4.0,,,cbcb6158f459,YES,VALID
+reports/phase36_repair_module_results.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,1.9,,,b1cfe666f517,YES,VALID
+reports/phase36_strategy1_1_candidate_bb_atr_cost_trade_log.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,241.7,,,a44625ac5e7a,YES,VALID
+reports/phase36_strategy1_1_candidate_cost_session_trade_log.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,202.3,,,e504b8d0ae2d,YES,VALID
+reports/phase36_strategy1_1_candidate_low_activity_offhours_trade_log.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,254.9,,,16590cc942ec,YES,VALID
+reports/phase36_strategy1_1_candidate_projected_R_trade_log.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,257.6,,,c0c4ea3bba21,YES,VALID
+reports/phase36_strategy1_1_candidate_results.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,2.1,,,185435ba3968,YES,VALID
+reports/phase36_strategy1_1_mini_vault.md,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,0.1,,,929843824d69,YES,VALID
+reports/phase36_strategy1_edge_map.md,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,3.3,,,3a21b2610e83,YES,VALID
+reports/phase36_strategy1_internal_decomposition.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,10.1,,,53013489901f,YES,VALID
+reports/phase36_strategy1_reproduction_lock.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,0.3,,,4fae0722f3af,YES,VALID
+reports/phase36_stress_comparison.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,1.1,,,deda40a04561,YES,VALID

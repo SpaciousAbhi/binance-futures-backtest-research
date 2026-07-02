@@ -1,0 +1,9 @@
+system,group,net_pnl,gross_profit,gross_loss,profit_factor,max_drawdown_pct,trades,win_rate,winning_trades,losing_trades,average_win,average_loss,expectancy,positive_months,negative_months,zero_months,best_month,worst_month,stress_pass_count,stress_fail_count,combined_adverse_pnl,combined_adverse_dd,live_known,trade_log_path,trade_log_hash,params
+repair_low_activity_long_suppression,repair,11682.54,53212.55,41530.01,1.2813,14.9634,536,0.5466,293,243,181.61,-170.91,21.8,50,27,0,1157.95,-668.84,7,8,-46675.75,444.9631,YES,,,"{""disallowed_sources"": [""Low-Activity Filler Long""]}"
+repair_off_hours_strict_R_150,repair,9169.42,41456.62,32287.2,1.284,9.5132,456,0.5395,246,210,168.52,-153.75,20.11,47,30,0,883.71,-651.0,7,8,-41138.62,381.397,YES,,,"{""off_hours_min_expected_R"": 1.5}"
+repair_cost_to_risk_cap_012,repair,9739.09,41945.08,32206.0,1.3024,9.7295,454,0.5463,248,206,169.13,-156.34,21.45,44,27,0,1076.31,-628.55,7,8,-38017.71,366.8353,YES,,,"{""max_cost_to_risk"": 0.12}"
+repair_projected_net_R_min_080,repair,11025.93,54997.36,43971.43,1.2508,16.825,554,0.5397,299,255,183.94,-172.44,19.9,52,25,0,1186.0,-710.66,7,8,-50538.34,460.2758,YES,,,"{""min_projected_net_R"": 0.8}"
+repair_same_candle_stop_distance,repair,11189.15,55275.53,44086.38,1.2538,16.1684,555,0.5405,300,255,184.25,-172.89,20.16,52,25,0,1186.0,-717.64,7,8,-47304.12,431.5324,YES,,,"{""min_stop_atr"": 0.75}"
+repair_atr_vol_filter_030,repair,9155.11,45209.83,36054.72,1.2539,17.8932,476,0.5336,254,222,177.99,-162.41,19.23,53,24,0,872.91,-661.12,7,8,-44427.87,435.9158,YES,,,"{""min_atr_pct"": 0.3}"
+repair_bb_width_filter_035,repair,9309.63,44733.74,35424.11,1.2628,10.3328,492,0.5386,265,227,168.81,-156.05,18.92,50,24,0,961.84,-599.95,7,8,-38779.5,375.3103,YES,,,"{""min_bb_width"": 0.035}"
+repair_adx_strength_18,repair,8715.63,47119.81,38404.18,1.2269,16.3595,521,0.5317,277,244,170.11,-157.39,16.73,54,23,0,1200.83,-638.22,7,8,-45693.79,435.1253,YES,,,"{""min_adx"": 18}"
