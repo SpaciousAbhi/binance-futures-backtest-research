@@ -1,0 +1,78 @@
+{
+  "phase": "29.6",
+  "final_verdict": "PF12_MTF_ENGINE_MAJOR_PROGRESS_BUT_NOT_RECOVERED",
+  "rules": {
+    "forced_metrics": "not used",
+    "benchmark_trade_sampling": "not used in new engine",
+    "accepted_trade_source": "FiveMinuteEventEngine",
+    "same_candle_priority": "SL_FIRST",
+    "real_capital_status": "NOT_REAL_CAPITAL_READY"
+  },
+  "files": {
+    "phase29_6_true_5m_event_driven_mtf_engine_report.md": {
+      "sha256": "631c250437943f4f26c150d38c56b3399aa664a05a0c9824273b3db411ed9441",
+      "bytes": 4040
+    },
+    "phase29_6_execution_rule_recovery_audit.csv": {
+      "sha256": "acdf00ab8de8d02f38d03fb4c2312b5798048d3b70a8c970fb68f91e617eb4db",
+      "bytes": 18220
+    },
+    "phase29_6_mtf_data_alignment_audit.csv": {
+      "sha256": "9d045a2cd0dad0cb66356bac9870f402ab6cfc539d1e1151e883b868f454da20",
+      "bytes": 85938
+    },
+    "phase29_6_engine_design_spec.md": {
+      "sha256": "9a5f0311a47cadc94bcf8c119a594b82476f8929d79fa74a7abb8d356bb2b6c2",
+      "bytes": 843
+    },
+    "phase29_6_entry_model_results.csv": {
+      "sha256": "14de41adfa3aedc12e182c988c6154ec29eed2c2225ea9e577e4fed56b7c408b",
+      "bytes": 3321
+    },
+    "phase29_6_exit_model_results.csv": {
+      "sha256": "a583817bb6a02595fbab070781e9ab8ed579940b9b7a84f5114409e13284e2d0",
+      "bytes": 1917
+    },
+    "phase29_6_router_conflict_audit.csv": {
+      "sha256": "078c50dad4c20dd6ec15e8300481bdc93413bb06e625f2ff4e7f7e7045171b8a",
+      "bytes": 6242462
+    },
+    "phase29_6_variant_c_mtf_engine_results.csv": {
+      "sha256": "fe6152573f720bb937b3c689cf9b9cff4dc4f72d40dfe0c2d0f640c902f724cd",
+      "bytes": 627
+    },
+    "phase29_6_variant_b_mtf_engine_results.csv": {
+      "sha256": "4539ad6898e003a63e6939ec81ba08e4830d161114019b4121928400200bdc64",
+      "bytes": 634
+    },
+    "phase29_6_pf12_mtf_engine_results.csv": {
+      "sha256": "8237e697bab221e199a49f30a60021ce5276c13ba196048ba64129c7e6ae8e28",
+      "bytes": 791
+    },
+    "phase29_6_pf12_mtf_trade_log.csv": {
+      "sha256": "31fa234bbd98c05546b517555325d3e0e35fbee3b4a0d64ba8cb6625e4067ebf",
+      "bytes": 1797634
+    },
+    "phase29_6_pf8_sleeve_results.csv": {
+      "sha256": "98dc8191756a5550bcd0dbda5ab0861022d47ea1e7795dbdff7c01c1dec9c1d5",
+      "bytes": 643
+    },
+    "phase29_6_finalist_stress_results.csv": {
+      "sha256": "17a601e73682ba8804549b301e47e07f2fe60a5b087f5e70cc9dfde712a36653",
+      "bytes": 3641
+    },
+    "phase29_6_monthly_yearly_tables.csv": {
+      "sha256": "3c3aa422a63afc66bf0fd515ba13cb951f7161f6e76e7f5094b72bf5d873ea31",
+      "bytes": 14478
+    },
+    "phase29_6_trade_traceability.csv": {
+      "sha256": "379ca7a8861110d7f6543009909551c318a807122083b543d5c26cf5393c704f",
+      "bytes": 19531
+    },
+    "phase29_6_live_automation_audit.md": {
+      "sha256": "22fe07f710e29d406b57a8ad3a8c650cefe7a99beb4b005070314dddd6bf99be",
+      "bytes": 1068
+    }
+  },
+  "manifest_hash_note": "Manifest excludes self hash."
+}

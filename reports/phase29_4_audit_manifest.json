@@ -1,0 +1,65 @@
+{
+  "phase": "29.4",
+  "final_verdict": "PF12_PARTIAL_LIVE_RECOVERY_RULES_FOUND",
+  "repo_head": "9e35f5fcf8b7e24482822553ee44c5a373866958",
+  "antigravity_workspace": "C:\\Users\\HP\\.gemini\\antigravity\\scratch\\binance_futures_backtest",
+  "manifest_hash_note": "Manifest excludes self hash.",
+  "files": {
+    "phase29_4_precision_fusion_teacher_distillation_and_live_recovery_report.md": {
+      "sha256": "714b10c1ad7a5b131d647a1f9fb80dd7d3cdfae8d1d99340d41696186a421334",
+      "bytes": 5348
+    },
+    "phase29_4_local_evidence_inventory.csv": {
+      "sha256": "23b080fedcc22d9f97b2616e7dca8907a2099f0e5efec7c69ba925a8dd5f9201",
+      "bytes": 172975
+    },
+    "phase29_4_teacher_canonical_sets.csv": {
+      "sha256": "20b9697529bcc39f2427afa16bc5b2518371d4df08338d7141171393c04a5378",
+      "bytes": 911
+    },
+    "phase29_4_teacher_vs_floor_diff.csv": {
+      "sha256": "21515282cc69a4c37e29dcd14d47745d4b644ebbf799f38d76cee8e6e8d03648",
+      "bytes": 76148
+    },
+    "phase29_4_entry_time_feature_table.csv": {
+      "sha256": "b77645ac3e23f406e43e2bdded91cf0710d441d788c2408415f21560051f6da2",
+      "bytes": 651263
+    },
+    "phase29_4_teacher_distilled_rules.csv": {
+      "sha256": "81467286d49ef483ad797150951be622e00a3ddcaef43bdee4816cddca90e578",
+      "bytes": 1994
+    },
+    "phase29_4_variant_c_live_rebuild_results.csv": {
+      "sha256": "768ccd7486ac78b9c1676e1b7255713b542d5f64b7355bd66ea81c0059a63c89",
+      "bytes": 2029
+    },
+    "phase29_4_variant_b_rescue_rebuild_results.csv": {
+      "sha256": "7d50eb10da42fb68ff85395f76eed4c547a1e8c0754af0390703be50741e05d7",
+      "bytes": 1390
+    },
+    "phase29_4_pf12_live_router_trade_log.csv": {
+      "sha256": "c7b094f0bc66ef90a4db2d0d4eaf852615052bbdc67118aa1856ceda3ff6cafe",
+      "bytes": 57049
+    },
+    "phase29_4_pf12_live_router_metrics.csv": {
+      "sha256": "a8e6b5c4853ac0f3422311c5b625d1dd2c9bbbf93356602caf2697fa228f3fa3",
+      "bytes": 1067
+    },
+    "phase29_4_pf12_trade_match_gap_audit.csv": {
+      "sha256": "13b68e9cdadd6eddd352135300e20e9d8bb633b3f6a7f320b2bb946cb271255b",
+      "bytes": 12911
+    },
+    "phase29_4_dirty_pf8_recovery_results.csv": {
+      "sha256": "bd018144a444b634463e43d68afae20383335d40a4f5494e299e3e6410f08731",
+      "bytes": 1398
+    },
+    "phase29_4_final_benchmark_comparison.csv": {
+      "sha256": "04161df01dc4a7fe13d0675ba4f73eb5df64ae3ea7982f3ceaf6f9aa616fc742",
+      "bytes": 2121
+    },
+    "phase29_4_live_automation_audit.md": {
+      "sha256": "eb58579e1d544c7653d1f9a4dd076fd5696e1154b26ba3590723336c159c5150",
+      "bytes": 922
+    }
+  }
+}

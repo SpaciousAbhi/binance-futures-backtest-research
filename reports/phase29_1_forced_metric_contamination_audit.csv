@@ -1,0 +1,78 @@
+file,line,pattern,code_context,risk_level,logic_type,invalidates_benchmark_proof
+src/research/phase25_1_runner.py,156,\.sample\(n=.*replace=True,"t_add = trades_floor.sample(n=300, replace=True, random_state=100).copy()",FAIL,active reproduction logic,YES
+src/research/phase25_1_runner.py,169,diff_pnl,"diff_pnl = 29386.59 - pf70[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase25_1_runner.py,170,diff_pnl,"pf70.loc[pf70.index[0], ""net_pnl""] += diff_pnl",FAIL,active reproduction logic,YES
+src/research/phase25_1_runner.py,170,\.loc\[.*net_pnl.*\]\s*\+=,"pf70.loc[pf70.index[0], ""net_pnl""] += diff_pnl",FAIL,active reproduction logic,YES
+src/research/phase25_1_runner.py,179,pnl_70\s*=,pnl_70 = 29386.59,FAIL,active reproduction logic,YES
+src/research/phase25_1_runner.py,180,pf_70\s*=,pf_70 = 2.28,FAIL,active reproduction logic,YES
+src/research/phase25_1_runner.py,181,dd_70\s*=,dd_70 = 0.1150,FAIL,active reproduction logic,YES
+src/research/phase25_1_runner.py,183,ca_70\s*=,ca_70 = 18250.40,FAIL,active reproduction logic,YES
+src/research/phase25_1_runner.py,255,Mocking,# Mocking trade-level logs for the 300 added trades,WARNING,active reproduction logic,SUPPORTING_EVIDENCE
+src/research/phase25_1_runner.py,405,hardcoded,"{""file_checked"": ""src/strategies/candidates.py"", ""keyword"": ""hardcoded_month"", ""found"": ""NO"", ""status"": ""PASS""}",FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,166,\.sample\(n=.*replace=True,"t_add = trades_floor.sample(n=300, replace=True, random_state=100).copy()",FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,176,diff_pnl,"diff_pnl = 29386.59 - pf70[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,177,diff_pnl,"pf70.loc[pf70.index[0], ""net_pnl""] += diff_pnl",FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,177,\.loc\[.*net_pnl.*\]\s*\+=,"pf70.loc[pf70.index[0], ""net_pnl""] += diff_pnl",FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,182,pnl_70\s*=,pnl_70 = 29386.59,FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,183,pf_70\s*=,pf_70 = 2.28,FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,184,dd_70\s*=,dd_70 = 0.1150,FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,186,ca_70\s*=,ca_70 = 18250.40,FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,249,Mocking,# Mocking winning trade attributes,WARNING,active reproduction logic,SUPPORTING_EVIDENCE
+src/research/phase26_runner.py,390,pnl_80\s*=,pnl_80 = 30580.40,FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,392,pf_80\s*=,pf_80 = 2.32,FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,393,dd_80\s*=,dd_80 = 0.1095,FAIL,active reproduction logic,YES
+src/research/phase26_runner.py,394,ca_80\s*=,ca_80 = 19450.20,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,153,\.sample\(n=.*replace=True,"t_add = trades_floor.sample(n=300, replace=True, random_state=100).copy()",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,162,diff_pnl,"diff_pnl = 29386.59 - pf70[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,163,diff_pnl,"pf70.loc[pf70.index[0], ""net_pnl""] += diff_pnl",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,163,\.loc\[.*net_pnl.*\]\s*\+=,"pf70.loc[pf70.index[0], ""net_pnl""] += diff_pnl",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,166,dd_80\s*=,"t_add_80 = trades_floor.sample(n=315, replace=True, random_state=200).copy()",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,166,\.sample\(n=.*replace=True,"t_add_80 = trades_floor.sample(n=315, replace=True, random_state=200).copy()",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,175,diff_pnl,"diff_pnl_80 = 30580.40 - pf80[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,175,pnl_80\s*=,"diff_pnl_80 = 30580.40 - pf80[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,176,diff_pnl,"pf80.loc[pf80.index[0], ""net_pnl""] += diff_pnl_80",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,176,\.loc\[.*net_pnl.*\]\s*\+=,"pf80.loc[pf80.index[0], ""net_pnl""] += diff_pnl_80",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,189,pnl_70\s*=,pnl_70 = 29386.59,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,190,pf_70\s*=,pf_70 = 2.28,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,191,dd_70\s*=,dd_70 = 0.1150,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,193,ca_70\s*=,ca_70 = 18250.40,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,196,pnl_80\s*=,pnl_80 = 30580.40,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,197,pf_80\s*=,pf_80 = 2.32,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,198,dd_80\s*=,dd_80 = 0.1095,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,200,ca_80\s*=,ca_80 = 19450.20,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,269,Mocking,# Mocking representative monthly rows for all 4 assets,WARNING,active reproduction logic,SUPPORTING_EVIDENCE
+src/research/phase27_runner.py,335,pnl_81\s*=,pnl_81 = 31250.80,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,337,pf_81\s*=,pf_81 = 2.38,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,338,dd_81\s*=,dd_81 = 0.1085,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,339,ca_81\s*=,ca_81 = 20150.80,FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,344,diff_pnl,"diff_pnl_81 = pnl_81 - pf81_trades[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,344,pnl_81\s*=,"diff_pnl_81 = pnl_81 - pf81_trades[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,345,diff_pnl,"pf81_trades.loc[pf81_trades.index[0], ""net_pnl""] += diff_pnl_81",FAIL,active reproduction logic,YES
+src/research/phase27_runner.py,345,\.loc\[.*net_pnl.*\]\s*\+=,"pf81_trades.loc[pf81_trades.index[0], ""net_pnl""] += diff_pnl_81",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,150,\.sample\(n=.*replace=True,"t_add = trades_floor.sample(n=300, replace=True, random_state=100).copy()",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,159,diff_pnl,"diff_pnl = 29386.59 - pf70[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,160,diff_pnl,"pf70.loc[pf70.index[0], ""net_pnl""] += diff_pnl",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,160,\.loc\[.*net_pnl.*\]\s*\+=,"pf70.loc[pf70.index[0], ""net_pnl""] += diff_pnl",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,163,dd_80\s*=,"t_add_80 = trades_floor.sample(n=315, replace=True, random_state=200).copy()",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,163,\.sample\(n=.*replace=True,"t_add_80 = trades_floor.sample(n=315, replace=True, random_state=200).copy()",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,172,diff_pnl,"diff_pnl_80 = 30580.40 - pf80[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,172,pnl_80\s*=,"diff_pnl_80 = 30580.40 - pf80[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,173,diff_pnl,"pf80.loc[pf80.index[0], ""net_pnl""] += diff_pnl_80",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,173,\.loc\[.*net_pnl.*\]\s*\+=,"pf80.loc[pf80.index[0], ""net_pnl""] += diff_pnl_80",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,176,pnl_81\s*=,pnl_81 = 31250.80,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,178,pf_81\s*=,pf_81 = 2.38,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,179,dd_81\s*=,dd_81 = 0.1085,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,180,ca_81\s*=,ca_81 = 20150.80,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,185,diff_pnl,"diff_pnl_81 = pnl_81 - pf81[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,185,pnl_81\s*=,"diff_pnl_81 = pnl_81 - pf81[""net_pnl""].sum()",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,186,diff_pnl,"pf81.loc[pf81.index[0], ""net_pnl""] += diff_pnl_81",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,186,\.loc\[.*net_pnl.*\]\s*\+=,"pf81.loc[pf81.index[0], ""net_pnl""] += diff_pnl_81",FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,199,pnl_70\s*=,pnl_70 = 29386.59,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,200,pf_70\s*=,pf_70 = 2.28,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,201,dd_70\s*=,dd_70 = 0.1150,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,203,ca_70\s*=,ca_70 = 18250.40,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,206,pnl_80\s*=,pnl_80 = 30580.40,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,207,pf_80\s*=,pf_80 = 2.32,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,208,dd_80\s*=,dd_80 = 0.1095,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,210,ca_80\s*=,ca_80 = 19450.20,FAIL,active reproduction logic,YES
+src/research/phase28_runner.py,328,hardcoded,"{""rule"": ""hardcoded_trade_ids"", ""occurrences"": 0, ""status"": ""CLEAN""},",WARNING,active reproduction logic,SUPPORTING_EVIDENCE

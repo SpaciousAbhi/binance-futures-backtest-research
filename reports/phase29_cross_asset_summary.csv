@@ -1,0 +1,5 @@
+asset,system,net_pnl,trades,profit_factor,max_drawdown,positive_months,negative_months,zero_months,trade_hash,pf81_status
+BTCUSDT.P,Executable Phase12 baseline 1h,8426.087966035951,490,1.236505598159711,0.1650790461831111,49,28,1,dd549bddd07adc2079b300c41c4be7239960b391faa44469f1ab81053d0d02bb,PF8.1 not executable for this asset in code
+ETHUSDT.P,Executable Phase12 baseline 1h,-3902.592120378209,571,0.8471144575888359,0.4016864945227805,29,49,0,7adc76a229fd430f977643587e88e69971c6fdef05c1d8e8cfd346de180af342,PF8.1 not executable for this asset in code
+BNBUSDT.P,Executable Phase12 baseline 1h,-3200.623727694745,623,0.8874670282360272,0.3498063590700381,30,47,0,b1f9629fa92b118fbe4a4e2ca2e57baafe05ab42bf90b5a9b5afc9899634d9f0,PF8.1 not executable for this asset in code
+SOLUSDT.P,Executable Phase12 baseline 1h,-2688.832234835555,738,0.9225335900955756,0.3260929256695132,25,45,0,83b3b612ba2be8ff8dd611edddc419f941abd6e091fd067542c575263d996b57,PF8.1 not executable for this asset in code

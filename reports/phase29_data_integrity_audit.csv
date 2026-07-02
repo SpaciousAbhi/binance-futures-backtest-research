@@ -1,0 +1,13 @@
+asset,timeframe,repo_raw_exists,repo_processed_exists,external_raw_exists,external_processed_exists,chosen_source,status,rows,expected_rows,missing_candles,duplicate_candles,gap_count,max_gap_steps,first_datetime,last_datetime,ohlc_bad,volume_bad,future_rows,funding_column,funding_na,sha256
+BTCUSDT.P,1h,False,True,True,True,data/processed/BTCUSDT_1h_processed.csv,PASS_LOCAL_FILE,56929,56929,0,0,0,0,2020-01-01 00:00:00+00:00,2026-06-30 00:00:00+00:00,0,0,0,True,0,0d9f63bc016b203ea5774a97bdf6ef974d13e2cff9af3d81a9fa02532514b26a
+BTCUSDT.P,15m,False,True,False,False,data/processed/BTCUSDT_15m_processed.csv,PASS_LOCAL_FILE,227521,227521,0,0,0,0,2020-01-01 00:00:00+00:00,2026-06-28 00:00:00+00:00,0,0,0,True,0,33a6f59eb1d7700c89299bb65ade626d465fffd9584257ad83f179a35a5c1320
+BTCUSDT.P,5m,False,False,False,False,,MISSING_REQUIRED_PROCESSED,,,,,,,,,,,,,,
+ETHUSDT.P,1h,False,True,False,False,data/processed/ETHUSDT_1h_processed.csv,PASS_LOCAL_FILE,56929,56929,0,0,0,0,2020-01-01 00:00:00+00:00,2026-06-30 00:00:00+00:00,0,0,0,True,0,30db51f322bad4874dfacc0dbbf37c159b8125064453a56c9c41d2328f072af8
+ETHUSDT.P,15m,False,False,False,False,,MISSING_REQUIRED_PROCESSED,,,,,,,,,,,,,,
+ETHUSDT.P,5m,False,False,False,False,,MISSING_REQUIRED_PROCESSED,,,,,,,,,,,,,,
+BNBUSDT.P,1h,False,True,False,False,data/processed/BNBUSDT_1h_processed.csv,PASS_LOCAL_FILE,55961,55961,0,0,0,0,2020-02-10 08:00:00+00:00,2026-06-30 00:00:00+00:00,0,0,0,True,0,756cd4158b8a97602ba8102d413a3e2384598cc8823f2d4b7aa1d5aff8caca25
+BNBUSDT.P,15m,False,False,False,False,,MISSING_REQUIRED_PROCESSED,,,,,,,,,,,,,,
+BNBUSDT.P,5m,False,False,False,False,,MISSING_REQUIRED_PROCESSED,,,,,,,,,,,,,,
+SOLUSDT.P,1h,False,True,False,False,data/processed/SOLUSDT_1h_processed.csv,PASS_LOCAL_FILE,50754,50754,0,0,0,0,2020-09-14 07:00:00+00:00,2026-06-30 00:00:00+00:00,0,0,0,True,0,a7221ce844fd9881a5f52322dead2bf7e94d87fde5b87630ba36c747fe4d2825
+SOLUSDT.P,15m,False,False,False,False,,MISSING_REQUIRED_PROCESSED,,,,,,,,,,,,,,
+SOLUSDT.P,5m,False,False,False,False,,MISSING_REQUIRED_PROCESSED,,,,,,,,,,,,,,

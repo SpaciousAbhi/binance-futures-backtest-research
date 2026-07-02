@@ -1,0 +1,31 @@
+step,lifecycle_step,status,classification,evidence
+1,candle ingestion,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+2,candle close event,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+3,data validation,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+4,indicator calculation,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+5,signal generation,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+6,router decision,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+7,duplicate signal prevention,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+8,long/short conflict resolution,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+9,expected-R calculation,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+10,funding/session check,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+11,position sizing,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+12,tick rounding,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+13,step rounding,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+14,min notional check,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+15,margin/leverage validation,BACKTEST_ONLY_OR_PARTIAL,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+16,entry order intent,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+17,fill simulation,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+18,partial fill handling,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+19,TP order,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+20,SL order,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+21,reduce-only protection,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+22,cancellation / max wait,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+23,time stop,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+24,breakeven/trailing update,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+25,exit execution,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+26,trade logging,SIMULATED_BACKTEST_ONLY,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+27,restart recovery,MISSING,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+28,missing candle handling,MISSING,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+29,API retry simulation,MISSING,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic
+30,rate limit handling,MISSING,NOT_REAL_CAPITAL_READY,No live Binance order client or exchange shadow ledger found; PF8.1 itself is hardcoded/synthetic

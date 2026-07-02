@@ -1,0 +1,6 @@
+system,old_status,corrected_status,reason
+PF1.2,valid,VALID_RECONSTRUCTED_BENCHMARK,Reproduces exactly through reconstruct_pf12
+PF7.0,growth benchmark,INVALID_FORCED_METRIC,Sampled/duplicated trades and direct metric assignment
+PF8.0,growth refinement,INVALID_FORCED_METRIC,Synthetic sampled additions and report constants
+PF8.1,primary growth benchmark,INVALID_FORCED_METRIC,Target-PnL mutation and direct PF/DD/stress constants
+Phase29.1 genuine recovery router,new,AUDIT_PARTIAL_PASS_REAL_SLEEVES_FOUND_RESEARCH_ONLY,"Engine-computed result, no metric forcing"

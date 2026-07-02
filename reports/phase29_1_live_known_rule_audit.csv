@@ -1,0 +1,11 @@
+rule_area,status,note
+entry,PASS,All Phase29.1 sleeves use current/past closed-candle fields only
+exit,PASS,SL/TP/time stop/breakeven/trailing are engine-executed
+sizing,PASS,"Engine risk sizing, leverage cap, rounding, and min notional used"
+funding,PASS,Uses fundingRate available at signal candle
+session,PASS,Session ranges are prior/in-progress closed ranges only
+cooldown,PASS,Engine cooldown_candles applies
+max wait,PASS,Engine pending-order max wait is available; default market mode used in recovery
+conflict resolution,PASS,"Router priority: highest expected-R, lowest risk, then accepted signal"
+reduce-only exits,WARNING,Backtest exit semantics only; no live exchange order API exists
+real capital readiness,FAIL,No exchange shadow ledger or live Binance client

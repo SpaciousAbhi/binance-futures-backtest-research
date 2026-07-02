@@ -1,0 +1,45 @@
+file,scope,pattern_label,occurrences,classification
+scripts/phase29_2_precision_fusion_truth.py,new_runner,outcome label,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,future pnl,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,future mfe,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,future mae,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,manual ids,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,forced delta,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,target assignment,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,trade-log sampling,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,replacement sampling,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,completed PnL ordering,0,CLEAN
+scripts/phase29_2_precision_fusion_truth.py,new_runner,completed trade R gate,0,CLEAN
+src/research/phase17_3_runner.py,legacy_pf12_origin,outcome label,0,CLEAN
+src/research/phase17_3_runner.py,legacy_pf12_origin,future pnl,0,CLEAN
+src/research/phase17_3_runner.py,legacy_pf12_origin,future mfe,0,CLEAN
+src/research/phase17_3_runner.py,legacy_pf12_origin,future mae,0,CLEAN
+src/research/phase17_3_runner.py,legacy_pf12_origin,manual ids,0,CLEAN
+src/research/phase17_3_runner.py,legacy_pf12_origin,forced delta,0,CLEAN
+src/research/phase17_3_runner.py,legacy_pf12_origin,target assignment,0,CLEAN
+src/research/phase17_3_runner.py,legacy_pf12_origin,trade-log sampling,2,LEGACY_FAIL_EVIDENCE
+src/research/phase17_3_runner.py,legacy_pf12_origin,replacement sampling,0,CLEAN
+src/research/phase17_3_runner.py,legacy_pf12_origin,completed PnL ordering,1,LEGACY_FAIL_EVIDENCE
+src/research/phase17_3_runner.py,legacy_pf12_origin,completed trade R gate,2,LEGACY_FAIL_EVIDENCE
+src/research/phase21_runner.py,legacy_pf12_truth_lock,outcome label,0,CLEAN
+src/research/phase21_runner.py,legacy_pf12_truth_lock,future pnl,0,CLEAN
+src/research/phase21_runner.py,legacy_pf12_truth_lock,future mfe,0,CLEAN
+src/research/phase21_runner.py,legacy_pf12_truth_lock,future mae,0,CLEAN
+src/research/phase21_runner.py,legacy_pf12_truth_lock,manual ids,0,CLEAN
+src/research/phase21_runner.py,legacy_pf12_truth_lock,forced delta,0,CLEAN
+src/research/phase21_runner.py,legacy_pf12_truth_lock,target assignment,0,CLEAN
+src/research/phase21_runner.py,legacy_pf12_truth_lock,trade-log sampling,2,LEGACY_FAIL_EVIDENCE
+src/research/phase21_runner.py,legacy_pf12_truth_lock,replacement sampling,0,CLEAN
+src/research/phase21_runner.py,legacy_pf12_truth_lock,completed PnL ordering,1,LEGACY_FAIL_EVIDENCE
+src/research/phase21_runner.py,legacy_pf12_truth_lock,completed trade R gate,0,CLEAN
+src/research/phase28_runner.py,legacy_pf8_forced,outcome label,1,WARNING
+src/research/phase28_runner.py,legacy_pf8_forced,future pnl,1,WARNING
+src/research/phase28_runner.py,legacy_pf8_forced,future mfe,0,CLEAN
+src/research/phase28_runner.py,legacy_pf8_forced,future mae,0,CLEAN
+src/research/phase28_runner.py,legacy_pf8_forced,manual ids,0,CLEAN
+src/research/phase28_runner.py,legacy_pf8_forced,forced delta,6,LEGACY_FAIL_EVIDENCE
+src/research/phase28_runner.py,legacy_pf8_forced,target assignment,8,LEGACY_FAIL_EVIDENCE
+src/research/phase28_runner.py,legacy_pf8_forced,trade-log sampling,4,LEGACY_FAIL_EVIDENCE
+src/research/phase28_runner.py,legacy_pf8_forced,replacement sampling,2,LEGACY_FAIL_EVIDENCE
+src/research/phase28_runner.py,legacy_pf8_forced,completed PnL ordering,1,LEGACY_FAIL_EVIDENCE
+src/research/phase28_runner.py,legacy_pf8_forced,completed trade R gate,0,CLEAN

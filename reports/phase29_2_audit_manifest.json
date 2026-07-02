@@ -1,0 +1,81 @@
+{
+  "phase": "29.2",
+  "final_verdict": "PF12_TRADESET_RECONSTRUCTED_BUT_EXECUTABLE_FUSION_NOT_PROVEN",
+  "repo_head": "9e35f5fcf8b7e24482822553ee44c5a373866958",
+  "executed_candidate_count": 100,
+  "manifest_hash_note": "Manifest excludes self hash to avoid recursive mutation.",
+  "files": {
+    "phase29_2_precision_fusion_truth_reconstruction_report.md": {
+      "sha256": "4ec6a9dea8370a63ae2e2e6feb5f159d7edbf8ee2687a2cb3542150728a90d52",
+      "bytes": 4083
+    },
+    "phase29_2_pf12_fusion_lineage_map.csv": {
+      "sha256": "f9c0d4db80aee8920b0027d19476b48b06b4444313d9eaed5ef3b74a55b3bb44",
+      "bytes": 2537
+    },
+    "phase29_2_pf12_executable_rebuild_results.csv": {
+      "sha256": "67cce7dc43e4d342e222c897a061721d292749361677b59c549b54f59834a050",
+      "bytes": 1041
+    },
+    "phase29_2_pf12_trade_diff_audit.csv": {
+      "sha256": "8a621ee0f363f4fd832bf41a4f8a8d160358c58c32211c14f308f92b682f568b",
+      "bytes": 13135
+    },
+    "phase29_2_precision_fusion_compiler_spec.md": {
+      "sha256": "eb18288f634b4bea392bef7a09be985cb8804752c2219164a868001b8aa38d2c",
+      "bytes": 897
+    },
+    "phase29_2_dirty_pf8_trade_quality_audit.csv": {
+      "sha256": "48b6dfdaf420b08d88bd31af5f46ed8df5c1ec82d3585ddb5b89d9c2c2893d19",
+      "bytes": 177045
+    },
+    "phase29_2_dirty_pf8_cluster_report.md": {
+      "sha256": "be8cd522e374713107808c0e24376ec1aeaccf411dd163ebc124a1cb7bc4bec7",
+      "bytes": 1179
+    },
+    "phase29_2_multitimeframe_data_audit.csv": {
+      "sha256": "d56562b17422a8454e002e553feca3558e29dcae3d8a6c29a684cc93f3afe678",
+      "bytes": 924
+    },
+    "phase29_2_sleeve_standalone_results.csv": {
+      "sha256": "a289ef86cc13c3789871a8425457f378b4c5b882f4aa72a1fa4743cc0266d042",
+      "bytes": 1871
+    },
+    "phase29_2_candidate_registry.csv": {
+      "sha256": "45d51818ac7b6483b3190f6873d02f92694544edac96e0c59d437c5a8b20ca74",
+      "bytes": 420398
+    },
+    "phase29_2_candidate_results.csv": {
+      "sha256": "f3d8bc257f092a6f06749a7501a7f88310f28490604731d99b98691d3e78d332",
+      "bytes": 561211
+    },
+    "phase29_2_recovered_router_trade_log.csv": {
+      "sha256": "47f715a13da7a8e3e2671be461f06142750145f906f7c293f483fb023e9f5640",
+      "bytes": 1552
+    },
+    "phase29_2_recovered_router_monthly_table.csv": {
+      "sha256": "5ff88134a78b807c4f3275f004b2f3e241bfb7ba096c8e9ee80d5cd3b18afcf4",
+      "bytes": 474
+    },
+    "phase29_2_recovered_router_stress_table.csv": {
+      "sha256": "770e0c489bb6a1aa82a71c2d57759aba29336514d1d7385136ff9696605cd58a",
+      "bytes": 1392
+    },
+    "phase29_2_benchmark_comparison_matrix.csv": {
+      "sha256": "8246990030fb30c44e39e3720db86fce2d02f2f7f314d53ceb3c4ef8c8855ea4",
+      "bytes": 1847
+    },
+    "phase29_2_live_automation_readiness_audit.md": {
+      "sha256": "6a73b5b7cc3c0bb60d82cefd805c459b5f6a478e9ef73fab9886e514495c40c6",
+      "bytes": 1034
+    },
+    "phase29_2_no_lookahead_hardcoding_scan.csv": {
+      "sha256": "a4f0f0548980fba41255af4f95cc8f4902fe66e9ba1f18665a61a5acfc7877f5",
+      "bytes": 3613
+    },
+    "phase29_2_final_status_correction.md": {
+      "sha256": "29dfc46970198a82bf6564b3d7161fcaf8f343071d3908fd77db910726149a5f",
+      "bytes": 806
+    }
+  }
+}

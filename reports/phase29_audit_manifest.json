@@ -1,0 +1,66 @@
+{
+  "phase": 29,
+  "final_verdict": "AUDIT_FAIL_LOOKAHEAD_OR_HARDCODING_FOUND",
+  "repo_head": "9e35f5fcf8b7e24482822553ee44c5a373866958",
+  "pytest_before_phase29": "336 passed before Phase 29 additions (manual run)",
+  "pytest_after_phase29": {
+    "returncode": 0,
+    "stdout_tail": "tests\\test_phase17_realism.py ...                                        [ 38%]\ntests\\test_phase18_1_realism.py .                                        [ 38%]\ntests\\test_phase18_realism.py .                                          [ 38%]\ntests\\test_phase19_realism.py .                                          [ 39%]\ntests\\test_phase20_1_realism.py .                                        [ 39%]\ntests\\test_phase20_realism.py .                                          [ 39%]\ntests\\test_phase21_realism.py ........................                   [ 46%]\ntests\\test_phase22_realism.py ...................                        [ 52%]\ntests\\test_phase23_1_realism.py ................                         [ 57%]\ntests\\test_phase23_realism.py ..............                             [ 61%]\ntests\\test_phase24_1_realism.py .........                                [ 63%]\ntests\\test_phase25_1_realism.py .................                        [ 68%]\ntests\\test_phase25_behavioral.py .............                           [ 72%]\ntests\\test_phase26_1_realism.py ....................                     [ 78%]\ntests\\test_phase26_realism.py ...................                        [ 83%]\ntests\\test_phase27_realism.py .............                              [ 87%]\ntests\\test_phase28_realism.py ..............                             [ 91%]\ntests\\test_phase29_absolute_truth_audit.py ......                        [ 93%]\ntests\\test_phase6_verification.py ...                                    [ 94%]\ntests\\test_phase7_verification.py ...                                    [ 95%]\ntests\\test_phase8_verification.py ......                                 [ 97%]\ntests\\test_phase9_verification.py ...                                    [ 97%]\ntests\\test_stress_audit.py .......                                       [100%]\n\n============================= 342 passed in 9.27s =============================",
+    "stderr_tail": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_asyncio\\plugin.py:217: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the fixture caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to function scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))"
+  },
+  "manifest_hash_note": "The manifest does not include its own sha256 to avoid a recursive self-hash.",
+  "files": {
+    "phase29_absolute_truth_audit_full_project_report.md": {
+      "sha256": "c6d73afce99c2a5f1a2983c63c18d7e44699899baf39465a6f6ed17fec1b0641",
+      "bytes": 31707
+    },
+    "phase29_project_inventory.csv": {
+      "sha256": "a3b5c5734aefd50c53c2e086622314aa3c1cbd70bb28141eaf1c939bffa5891e",
+      "bytes": 66134
+    },
+    "phase29_data_integrity_audit.csv": {
+      "sha256": "2622b2b958d4c1c9323f7b7212f714d006f0eadaa8fa7a46ab3d678859a78d86",
+      "bytes": 2073
+    },
+    "phase29_benchmark_reproduction.csv": {
+      "sha256": "fbe38845157a23658c84921fd3134458fb5aa727c1a13420ff5d801f056f7af5",
+      "bytes": 3190
+    },
+    "phase29_fusion_architecture_map.csv": {
+      "sha256": "b4f97262abbc84c681228d7ed88b972db126b03473f1548bd786d24ad3f7a958",
+      "bytes": 1923
+    },
+    "phase29_strategy_rulebook.md": {
+      "sha256": "5a8f312ccb82f9437654d802fdf4c5f69fea86c004c654e7382864c2ec2a71e9",
+      "bytes": 3041
+    },
+    "phase29_lookahead_hardcoding_audit.csv": {
+      "sha256": "41426d7fdb1aab7e70397ce75a39931443dba5bf87879b8f589a3e0fd4485bde",
+      "bytes": 136503
+    },
+    "phase29_multi_asset_monthly_metrics.csv": {
+      "sha256": "5bb5c8645ff4abffb1e6b60d79f6698f4d29b335fe3a00832f786a444a57c29e",
+      "bytes": 116856
+    },
+    "phase29_cross_asset_summary.csv": {
+      "sha256": "fe97a59135590ac720e25aa1f4737ed4ebf6de39ce23f2b49155c6a34ad9fe4c",
+      "bytes": 1001
+    },
+    "phase29_stress_torture_results.csv": {
+      "sha256": "7427914a78dc9a1add8f98b8fb7dbc1ce12afc25cea09208c945d344732a03de",
+      "bytes": 19082
+    },
+    "phase29_live_execution_readiness.csv": {
+      "sha256": "334becb51f48ab1eb48c5e520712497841cc76dbb7a8fae4d258bb3d36ec1bae",
+      "bytes": 5035
+    },
+    "phase29_security_operational_safety.csv": {
+      "sha256": "c70b762a177bc4fa5254d5b7a859c0231fa33628a52c67493faa2f6a12c4bae3",
+      "bytes": 566
+    },
+    "phase29_statistical_robustness.csv": {
+      "sha256": "3086424153e4bc278705287fd6f45df2bd6e886d311b791c0c3a2001b02626c7",
+      "bytes": 1391
+    }
+  }
+}

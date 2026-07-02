@@ -1,0 +1,9 @@
+check,status,note
+secrets committed,PASS,No obvious live credential literal found
+.env ignored,WARNING,.env is not listed in .gitignore
+real order placement code disabled,WARNING,No Binance order placement code found
+dry-run/shadow default,PASS,Only report text references shadow mode; no live shadow runtime found
+kill switch,PASS,No implemented kill switch found
+daily loss guard,PASS,No implemented daily loss guard found
+position limit guard,PASS,Backtest max_positions exists; live guard missing
+logging safety,PASS,No credential logging found in scan

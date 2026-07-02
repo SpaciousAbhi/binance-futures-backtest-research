@@ -1,0 +1,125 @@
+system,test_type,scenario,pnl,profit_factor,max_dd,trades,positive_months,negative_months,zero_months,classification,audit_note
+PF1.2,standard,normal,21684.986096939287,2.4184289669893126,0.10865101101285742,325,56,16,6,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,double fees,19668.94169170494,2.2396793170496943,0.12936227404334258,325,56,16,6,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,triple fees,17652.89728647059,2.073498064615615,0.15060434987768817,325,55,17,6,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,double slippage,19668.791169439944,2.2396672041076195,0.12936398180369796,325,56,16,6,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,triple slippage,17652.596241940595,2.0734753697492545,0.15060817731233792,325,55,17,6,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,double fees + double slippage,17652.746764205593,2.0734867171592426,0.15060626357843135,325,55,17,6,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,delay 1 candle,21969.15904525036,2.4475101252751963,0.10356116301827066,325,56,16,6,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,delay 2 candles,22253.331993561438,2.4770191138898086,0.09848857462630078,325,56,16,6,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,missed fills 10%,19350.888876031808,2.4188779408919268,0.031604586101240416,292,55,15,8,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,missed fills 20%,16624.577980301925,2.3467221154847846,0.031604586101240416,260,52,16,10,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,missed fills 30%,14897.10388301297,2.4012594235975033,0.031604586101240416,227,50,16,12,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,combined adverse,15922.970046540086,2.09059769459012,0.03705969395534787,292,53,17,8,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,combined adverse passive,18806.097697175097,2.252130623670235,0.0341664950762415,309,57,15,6,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,combined adverse high funding,14753.691866303205,2.050728757747347,0.03705969395534787,276,51,18,9,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,standard,combined adverse stale cancel,14233.852636582822,1.9443841569591962,0.04214549181811161,292,51,19,8,PASS,computed from reconstructed/synthetic trade frame
+PF1.2,torture,4x fees,15636.852881236233,1.9186046498032454,0.1723979098605483,325,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,5x fees,13620.808476001886,1.7738867622573777,0.19476471278648932,325,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,4x slippage,15636.40131444125,1.9185726811720327,0.17240429945744365,325,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,5x slippage,13620.206386941898,1.7738466429405455,0.1947741399911244,325,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,fees + slippage + delay,14188.853328094041,1.8164397286073097,0.18376675719900534,325,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,50% missed fills,10652.355924717962,2.397672221525137,0.031604586101240416,162,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,70% missed fills,5953.779721540865,2.2303775061360542,0.031604586101240416,98,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,liquidity gap shock,16773.09310768555,2.011695170779406,0.15091668350737159,325,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,funding shock,17652.89728647059,2.073498064615615,0.15060434987768817,325,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,NY low-liquidity shock,12743.373268650743,1.8237068995054104,0.046964522037538724,292,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF1.2,torture,top_5_winners_removed,20288.530515206217,2.3270859041259393,0.10865101101285742,320,,,,WARNING,custom trade-log perturbation
+PF1.2,torture,top_10_winners_removed,18980.21544526127,2.241508169150103,0.10865101101285742,315,,,,WARNING,custom trade-log perturbation
+PF1.2,torture,worst_5_losers_doubled,20767.14713764674,2.2814583307816756,0.10865101101285742,325,,,,WARNING,custom trade-log perturbation
+PF1.2,torture,trade_sequence_shuffle,21684.98609693929,2.4184289669893118,0.05921696916065698,325,,,,WARNING,custom trade-log perturbation
+PF1.2,torture,monthly_bootstrap,19676.13169448907,2.2371596872249335,0.0540562769833333,316,,,,WARNING,custom trade-log perturbation
+PF1.2,torture,yearly_walk_forward_stress,21684.986096939287,nan,nan,325,,,,WARNING,no yearly re-optimization protocol implemented; summary only
+PF7.0,standard,normal,28764.966808215788,1.8381350882518943,0.16943351936932488,625,53,23,2,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,double fees,24889.119852790154,1.6969827094649692,0.2063923590338339,625,52,24,2,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,triple fees,21013.27289736452,1.5664044165736197,0.2449946235602358,625,51,25,2,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,double slippage,24888.998228944893,1.6969791502658513,0.20638799720989112,625,52,24,2,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,triple slippage,21013.02964967399,1.5663976200967697,0.2449868715025501,625,51,25,2,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,double fees + double slippage,21013.15127351926,1.566401018334475,0.24499074758991468,625,51,25,2,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,delay 1 candle,29203.648614276866,1.8553003942785442,0.16141054125309487,625,53,23,2,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,delay 2 candles,29642.330420337945,1.872643461201394,0.15346490243604288,625,54,22,2,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,missed fills 10%,26915.073659805137,1.8868140932108222,0.05201414439863026,562,55,20,3,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,missed fills 20%,24383.946084139818,1.9135165374872025,0.05201414439863026,500,54,20,4,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,missed fills 30%,22656.211179083846,1.9759074627142557,0.05201414439863026,438,52,21,5,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,combined adverse,20403.30882286915,1.6250549349177175,0.06048948786928976,562,51,24,3,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,combined adverse passive,25027.85655070167,1.7499669078437272,0.05613093769032098,594,51,25,2,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,combined adverse high funding,19025.15936396568,1.616669430845255,0.06048948786928976,531,51,23,4,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,standard,combined adverse stale cancel,17190.91264535919,1.5090250733636847,0.06513660417250103,562,50,25,3,PASS,computed from reconstructed/synthetic trade frame
+PF7.0,torture,4x fees,17137.42594193888,1.4452549104718841,0.2944499872738312,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,5x fees,13261.578986513246,1.332548527897789,0.35576055621504227,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,4x slippage,17137.06107040309,1.4452451579981167,0.2944676387555122,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,5x slippage,13261.092491132189,1.332536066508553,0.35578658242167166,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,fees + slippage + delay,14138.69935094487,1.3576984081780588,0.32335989674641563,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,50% missed fills,15198.738270577938,1.9028946824432094,0.05201414439863026,312,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,70% missed fills,10592.47374754323,2.180481967416232,0.05201414439863026,188,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,liquidity gap shock,18891.78829464739,1.4999745074643445,0.2492333426997004,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,funding shock,21013.27289736452,1.5664044165736197,0.2449946235602358,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,NY low-liquidity shock,14326.285006583083,1.4120064347210894,0.08036860569500628,562,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF7.0,torture,top_5_winners_removed,27990.134418266935,1.8094374555127488,0.1755110915465966,620,,,,WARNING,custom trade-log perturbation
+PF7.0,torture,top_10_winners_removed,26681.819348321987,1.7716027239819814,0.1755110915465966,615,,,,WARNING,custom trade-log perturbation
+PF7.0,torture,worst_5_losers_doubled,27537.99331394362,1.755949845755856,0.19691449432445934,625,,,,WARNING,custom trade-log perturbation
+PF7.0,torture,trade_sequence_shuffle,29386.590000000004,1.8498210934018513,0.05201966931425183,625,,,,WARNING,custom trade-log perturbation
+PF7.0,torture,monthly_bootstrap,26753.636189596968,1.8056389139009006,0.1695394497421204,589,,,,WARNING,custom trade-log perturbation
+PF7.0,torture,yearly_walk_forward_stress,29386.590000000004,nan,nan,625,,,,WARNING,no yearly re-optimization protocol implemented; summary only
+PF8.0,standard,normal,25353.48035863041,1.6869314705658502,0.19230744040442596,640,54,21,3,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,double fees,21356.748398656866,1.5556631387524282,0.229680119317595,640,51,24,3,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,triple fees,17360.01643868332,1.434422914593383,0.2687966957988784,640,49,26,3,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,double slippage,21356.321873838097,1.5556494406806118,0.22968325031326126,640,51,24,3,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,triple slippage,17359.16338904579,1.4343976565686853,0.26880431469826355,640,49,26,3,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,double fees + double slippage,17359.589913864555,1.4344102855241825,0.2688005051820067,640,49,26,3,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,delay 1 candle,25885.384150091482,1.7057398438036164,0.18212419798088628,640,54,21,3,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,delay 2 candles,26417.287941552564,1.7247855329684492,0.1719960904251766,640,54,21,3,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,missed fills 10%,22366.207912475977,1.669194003363064,0.09613239092336277,576,56,18,4,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,missed fills 20%,19510.268867524108,1.653045387358405,0.09613239092336277,512,54,20,4,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,missed fills 30%,18219.438871143102,1.7124949289775557,0.09613239092336277,448,52,22,4,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,combined adverse,15650.475093076326,1.4349281297917664,0.13964202425286545,576,50,24,4,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,combined adverse passive,20899.86173930767,1.5748681243000453,0.114764944852564,608,53,22,3,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,combined adverse high funding,15065.026742023821,1.4453577661042614,0.13964202425286545,544,50,24,4,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,standard,combined adverse stale cancel,12339.762906204836,1.3313267605552153,0.17352062874606514,576,47,27,4,PASS,computed from reconstructed/synthetic trade frame
+PF8.0,torture,4x fees,13363.284478709778,1.3221039462091941,0.3144343500219616,640,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,5x fees,9366.552518736235,1.217756492965993,0.36211501286299164,640,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,4x slippage,13362.00490425348,1.322068914283836,0.31444847359493894,640,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,5x slippage,9364.84641946117,1.2177131869920113,0.36213774813474703,640,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,fees + slippage + delay,10429.507052020854,1.2450867241486971,0.3339473825859064,640,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,50% missed fills,9482.72936613947,1.4822215577432059,0.09613239092336277,320,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,70% missed fills,8908.961008666805,1.8603087900455522,0.06896440499076648,192,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,liquidity gap shock,15489.620070097779,1.3818163278720186,0.2649767885203903,640,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,funding shock,17360.01643868332,1.434422914593383,0.2687966957988784,640,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,NY low-liquidity shock,9405.761432877529,1.2453708372384977,0.20833692857163158,576,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.0,torture,top_5_winners_removed,26042.079070487285,1.7241978936898035,0.17849833630670284,635,,,,WARNING,custom trade-log perturbation
+PF8.0,torture,top_10_winners_removed,24713.50109743913,1.6872517893837722,0.17849833630670284,630,,,,WARNING,custom trade-log perturbation
+PF8.0,torture,worst_5_losers_doubled,29563.163924397362,1.7994986179136632,0.13981835863519534,640,,,,WARNING,custom trade-log perturbation
+PF8.0,torture,trade_sequence_shuffle,30580.400000000005,1.8504029654563707,0.10719843876758321,640,,,,WARNING,custom trade-log perturbation
+PF8.0,torture,monthly_bootstrap,28866.82995705954,1.8470990673462706,0.14042667807268283,611,,,,WARNING,custom trade-log perturbation
+PF8.0,torture,yearly_walk_forward_stress,30580.4,nan,nan,640,,,,WARNING,no yearly re-optimization protocol implemented; summary only
+PF8.1,standard,normal,23130.32048035978,1.6372890790899688,0.19230744040442596,625,51,20,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,double fees,19288.281353282255,1.5103997753559184,0.229680119317595,625,48,23,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,triple fees,15446.242226204724,1.3931721236356267,0.2687966957988784,625,46,25,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,double slippage,19287.84088957128,1.5103856515546017,0.22968325031326126,625,48,23,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,triple slippage,15445.361298782782,1.3931460423028525,0.26880431469826355,625,46,25,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,double fees + double slippage,15445.801762493755,1.393159082908572,0.2688005051820067,625,46,25,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,delay 1 candle,23635.717775060955,1.6554685721275642,0.18212419798088628,625,51,20,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,delay 2 candles,24141.11506976213,1.673887180363892,0.1719960904251766,625,51,20,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,missed fills 10%,20678.855781478986,1.6337864223562502,0.06982138744716687,562,53,18,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,missed fills 20%,18764.677732083714,1.6520900061646948,0.06982138744716687,500,53,18,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,missed fills 30%,16364.106440458836,1.6385248758573248,0.06982138744716687,438,50,21,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,combined adverse,14239.690006104294,1.4056067039347109,0.10618431105500972,562,47,24,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,combined adverse passive,19053.749319158727,1.5335765138808326,0.0866032405567428,594,50,21,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,combined adverse high funding,14208.09297085537,1.4326707930565998,0.10618431105500972,531,47,24,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,standard,combined adverse stale cancel,11065.542488856352,1.304627759721786,0.14364729932943562,562,44,27,7,PASS,computed from reconstructed/synthetic trade frame
+PF8.1,torture,4x fees,11604.203099127197,1.2845431028120635,0.3144343500219616,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,5x fees,7762.163972049671,1.1836001197173829,0.36211501286299164,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,4x slippage,11602.88170799429,1.2845068762429543,0.31444847359493894,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,5x slippage,7760.402117205788,1.183555272108982,0.36213774813474703,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,fees + slippage + delay,8772.077634030078,1.209824533446516,0.3339473825859064,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,50% missed fills,10558.899070597992,1.571206761263231,0.06982138744716687,312,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,70% missed fills,5044.806415071069,1.4253393603666216,0.06982138744716687,188,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,liquidity gap shock,13624.470886798987,1.3419792537783768,0.2649767885203903,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,funding shock,15446.242226204724,1.3931721236356267,0.2687966957988784,625,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,NY low-liquidity shock,8254.347994660491,1.2209090451442763,0.1928264075059827,562,,,,WARNING,computed from reconstructed/synthetic trade frame
+PF8.1,torture,top_5_winners_removed,23739.517023385186,1.6710406975258933,0.17849833630670284,620,,,,WARNING,custom trade-log perturbation
+PF8.1,torture,top_10_winners_removed,22410.939050337027,1.6334860207027064,0.17849833630670284,615,,,,WARNING,custom trade-log perturbation
+PF8.1,torture,worst_5_losers_doubled,30233.563924397353,1.8307202095315842,0.11761781327320388,625,,,,WARNING,custom trade-log perturbation
+PF8.1,torture,trade_sequence_shuffle,31250.799999999996,1.8833607949809867,0.10037766716848837,625,,,,WARNING,custom trade-log perturbation
+PF8.1,torture,monthly_bootstrap,27109.336927896573,1.832733619976895,0.14042667807268283,581,,,,WARNING,custom trade-log perturbation
+PF8.1,torture,yearly_walk_forward_stress,31250.8,nan,nan,625,,,,WARNING,no yearly re-optimization protocol implemented; summary only

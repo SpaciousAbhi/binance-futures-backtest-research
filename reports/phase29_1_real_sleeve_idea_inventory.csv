@@ -1,0 +1,8 @@
+idea,source_file,source_phase,implementation_status_before_29_1,phase29_1_status,required_timeframe,direction,live_known,feasibility
+second retest entry,src/research/phase25_1_runner.py reports and UniversalStrategyTemplate primitives,25.1,report text / synthetic added trades,implemented as real 1h closed-candle sleeve,1h fallback; original idea wanted 15m/5m confirmation,add trades,YES,medium
+VWAP reclaim,src/strategies/candidates.py UniversalStrategyTemplate vwap_reclaim_continuation and reports,25-28,"partially implemented template family, not PF8.1 router",implemented as real reclaim sleeve,1h fallback; original idea wanted 5m/15m,add trades,YES,medium
+Tokyo/London breakout,src/strategies/candidates.py SessionRangeBreakout and phase reports,25-28,template exists; PF8 claimed metrics report-only,implemented as real session breakout sleeve with prior session range,1h,add trades,YES,high
+pullback reclaim,src/strategies/candidates.py trend_pullback_ema_reclaim family,12+,template family exists,implemented as real EMA50 reclaim sleeve,1h fallback,add trades,YES,high
+funding defensive filter,src/strategies/candidates.py funding logic and phase reports,12+,"available feature, forced PF8 usage invalid",implemented as router skip threshold,1h funding aligned,filter trades,YES,high
+NY hardening,src/research/phase27_runner.py report-only hardening,27,forced/report-only,implemented as higher expected-R threshold during NY hours,1h,filter trades,YES,high
+weak continuation exit,src/backtest/engine.py failed_continuation_limit support,engine,engine-supported exit primitive,wired through sleeve signal params,1h,modify exit,YES after entry,high

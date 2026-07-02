@@ -1,0 +1,84 @@
+{
+  "phase": "29.3",
+  "final_verdict": "PF12_PARTIAL_EXECUTABLE_REBUILD_REQUIRES_MORE_RECOVERY",
+  "repo_head": "9e35f5fcf8b7e24482822553ee44c5a373866958",
+  "files": {
+    "phase29_3_precision_fusion_lineage_recovery_and_pf8_rebuild_report.md": {
+      "sha256": "d36440c461b449e941aa87ccc84206ad53f6b288cd9308c38eb94f81e670d24b",
+      "bytes": 4904
+    },
+    "phase29_3_variant_b_rebuild.csv": {
+      "sha256": "aab4415e660a2da76af4d11146ef62cfc744b9aa288cbb4a21524e99915f0d34",
+      "bytes": 1035
+    },
+    "phase29_3_variant_c_rebuild.csv": {
+      "sha256": "3b0983b0bed6681f1ec150f5e8e53759143f1fbd74990ddf39e7c03112e9f698",
+      "bytes": 1032
+    },
+    "phase29_3_pf12_fusion_lineage_map.csv": {
+      "sha256": "f9c0d4db80aee8920b0027d19476b48b06b4444313d9eaed5ef3b74a55b3bb44",
+      "bytes": 2537
+    },
+    "phase29_3_pf12_executable_rebuild_trade_log.csv": {
+      "sha256": "afc5f7a2745511fada54927cb58c5fbf54a91fc4bbc27ec71e98f8828c462115",
+      "bytes": 106311
+    },
+    "phase29_3_pf12_trade_diff_audit.csv": {
+      "sha256": "213ea32f1252867039c3cc56db5aa2b525bb4480ee52b9b696b40e5e09321e5d",
+      "bytes": 14978
+    },
+    "phase29_3_precision_fusion_compiler_spec.md": {
+      "sha256": "98e317ad66c6d2d8760fc5e24f71ab0c10fb264cd35ede0e7962d9b80d4ccf16",
+      "bytes": 986
+    },
+    "phase29_3_dirty_pf8_quality_surgery.csv": {
+      "sha256": "48b6dfdaf420b08d88bd31af5f46ed8df5c1ec82d3585ddb5b89d9c2c2893d19",
+      "bytes": 177045
+    },
+    "phase29_3_recovered_candidate_registry.csv": {
+      "sha256": "45d51818ac7b6483b3190f6873d02f92694544edac96e0c59d437c5a8b20ca74",
+      "bytes": 420398
+    },
+    "phase29_3_recovered_candidate_results.csv": {
+      "sha256": "f3d8bc257f092a6f06749a7501a7f88310f28490604731d99b98691d3e78d332",
+      "bytes": 561211
+    },
+    "phase29_3_best_recovered_router_trade_log.csv": {
+      "sha256": "47f715a13da7a8e3e2671be461f06142750145f906f7c293f483fb023e9f5640",
+      "bytes": 1552
+    },
+    "phase29_3_benchmark_comparison_matrix.csv": {
+      "sha256": "fd06c2c4dd157ab54fcd1725bc5ea2ebe13cfe5019ed57b43158198638dfcb78",
+      "bytes": 1850
+    },
+    "phase29_3_live_rule_audit.md": {
+      "sha256": "5a740d7fa951da9ecc1c56af36753c6712971e5644fcef8d0749b89d5abc34c3",
+      "bytes": 1060
+    },
+    "phase29_3_pf12_executable_rebuild_monthly_table.csv": {
+      "sha256": "80017e11e409c7265a11f07f86040fc20b68531dbad01a2f0a9b434b36a82773",
+      "bytes": 10558
+    },
+    "phase29_3_best_recovered_router_monthly_table.csv": {
+      "sha256": "5ff88134a78b807c4f3275f004b2f3e241bfb7ba096c8e9ee80d5cd3b18afcf4",
+      "bytes": 474
+    },
+    "phase29_3_best_recovered_router_stress_table.csv": {
+      "sha256": "770e0c489bb6a1aa82a71c2d57759aba29336514d1d7385136ff9696605cd58a",
+      "bytes": 1392
+    },
+    "phase29_3_multitimeframe_data_audit.csv": {
+      "sha256": "d56562b17422a8454e002e553feca3558e29dcae3d8a6c29a684cc93f3afe678",
+      "bytes": 924
+    },
+    "phase29_3_sleeve_standalone_results.csv": {
+      "sha256": "a289ef86cc13c3789871a8425457f378b4c5b882f4aa72a1fa4743cc0266d042",
+      "bytes": 1871
+    },
+    "phase29_3_no_lookahead_hardcoding_scan.csv": {
+      "sha256": "a4f0f0548980fba41255af4f95cc8f4902fe66e9ba1f18665a61a5acfc7877f5",
+      "bytes": 3613
+    }
+  },
+  "manifest_hash_note": "Manifest excludes self hash."
+}

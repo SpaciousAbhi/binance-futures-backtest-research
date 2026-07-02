@@ -1,0 +1,66 @@
+{
+  "phase": "29.5",
+  "final_verdict": "PF12_MAJOR_MTF_RECOVERY_PROGRESS_PF8_RESEARCH_CONTINUES",
+  "repo_head": "9e35f5fcf8b7e24482822553ee44c5a373866958",
+  "execution_limit": 300,
+  "antigravity_workspace": "C:\\Users\\HP\\.gemini\\antigravity\\scratch\\binance_futures_backtest",
+  "manifest_hash_note": "Manifest excludes self hash.",
+  "files": {
+    "phase29_5_major_precision_fusion_breakthrough_report.md": {
+      "sha256": "29273af849d7ebb6b3d0913084f0b3cd981e465af5d2e919bea181036f7e93f2",
+      "bytes": 3409
+    },
+    "phase29_5_local_evidence_map.csv": {
+      "sha256": "906a2d3ff6dc33baa500cff2ef6225704ef1479f054d86e18bd8afc6a0aec397",
+      "bytes": 165087
+    },
+    "phase29_5_mtf_data_alignment_audit.csv": {
+      "sha256": "78e1ce4e0fc0e0ce78d08a635127bccf0e2f73e41ac76b82e522269c3f3c8d52",
+      "bytes": 631
+    },
+    "phase29_5_teacher_mtf_trigger_match.csv": {
+      "sha256": "f078b01042589e8e8d0a5fa13eb883c1549c29069dd6816d6aeddda80f4a80b9",
+      "bytes": 82618
+    },
+    "phase29_5_variant_c_mtf_results.csv": {
+      "sha256": "1f8ba2a3ad0b1dd50613d2d8c21e75f2fe4b14fc0e4a4b2b3cd33110e51d1727",
+      "bytes": 2300
+    },
+    "phase29_5_variant_b_rescue_mtf_results.csv": {
+      "sha256": "a13a161ca65180c1f21f205f9fe74878f6d2dd802d1ee2f7d4d86d839df40ed3",
+      "bytes": 2312
+    },
+    "phase29_5_pf12_executable_router_results.csv": {
+      "sha256": "281c7a9142ec4db18313dda2178464f63bfaecfea12b26a37747cfa70cebac31",
+      "bytes": 3033
+    },
+    "phase29_5_pf12_executable_router_trade_log.csv": {
+      "sha256": "f5d1b3f87fb947a2278f8e3fe28926f4ffd146878fe1c00f69eee63a2c1948b9",
+      "bytes": 116292
+    },
+    "phase29_5_pf12_trade_match_gap_audit.csv": {
+      "sha256": "273a791332f8a9a807065e70c45687b86f9fded3755adc3a3986328b9f3b96df",
+      "bytes": 15848
+    },
+    "phase29_5_dirty_pf8_upgrade_results.csv": {
+      "sha256": "8b1d5f85326cb6c69d38e32dd11b8a1209ab7de8c945494b505e660fb25ad10e",
+      "bytes": 1717
+    },
+    "phase29_5_candidate_registry.csv": {
+      "sha256": "ec79ec3615fb1992310b2ae1c27708cdada63891a856384c415f8aeadb291cb2",
+      "bytes": 562179
+    },
+    "phase29_5_candidate_results.csv": {
+      "sha256": "e2db060668b688f9d320297ba35654567bc481d1327061e98fcf54d9c7287f02",
+      "bytes": 903792
+    },
+    "phase29_5_benchmark_stack_comparison.csv": {
+      "sha256": "7a209ef58294bea6d382135f7ac54cd14cfc0167c6d8c5f648ab3d81c12d995f",
+      "bytes": 2456
+    },
+    "phase29_5_live_automation_audit.md": {
+      "sha256": "284cd6ca5f0f03f5923defadcba4d065196398fa1f72e2873e84467f4f0122e1",
+      "bytes": 1124
+    }
+  }
+}

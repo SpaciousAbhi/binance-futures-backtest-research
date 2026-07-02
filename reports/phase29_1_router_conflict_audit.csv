@@ -1,0 +1,1034 @@
+signal_time,signal_datetime,sleeve,side,expected_r,action,note
+1579636800000,2020-01-21 20:00:00+00:00,session_breakout,Long,1.5157972855727435,rejected_expected_r,expected_r below 1.8
+1583866800000,2020-03-10 19:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_expected_r,expected_r below 1.8
+1584190800000,2020-03-14 13:00:00+00:00,session_breakout,Short,1.6666666666666659,rejected_expected_r,expected_r below 1.8
+1588442400000,2020-05-02 18:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589216400000,2020-05-11 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1591362000000,2020-06-05 13:00:00+00:00,session_breakout,Short,1.6488030039714414,rejected_expected_r,expected_r below 1.8
+1591621200000,2020-06-08 13:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1592492400000,2020-06-18 15:00:00+00:00,session_breakout,Short,1.5867927812956018,rejected_expected_r,expected_r below 1.8
+1602781200000,2020-10-15 17:00:00+00:00,session_breakout,Long,1.5431194894866542,rejected_expected_r,expected_r below 1.8
+1604941200000,2020-11-09 17:00:00+00:00,session_breakout,Short,1.5283990078355392,rejected_expected_r,expected_r below 1.8
+1606482000000,2020-11-27 13:00:00+00:00,session_breakout,Short,1.5444399228305015,rejected_expected_r,expected_r below 1.8
+1640782800000,2021-12-29 13:00:00+00:00,session_breakout,Short,1.6395706534068801,rejected_expected_r,expected_r below 1.8
+1640808000000,2021-12-29 20:00:00+00:00,session_breakout,Short,1.5771287775271632,rejected_expected_r,expected_r below 1.8
+1641841200000,2022-01-10 19:00:00+00:00,session_breakout,Short,1.5978018734348673,rejected_expected_r,expected_r below 1.8
+1642341600000,2022-01-16 14:00:00+00:00,session_breakout,Long,1.532212561590324,rejected_expected_r,expected_r below 1.8
+1643904000000,2022-02-03 16:00:00+00:00,session_breakout,Short,1.6666666666666712,rejected_expected_r,expected_r below 1.8
+1643914800000,2022-02-03 19:00:00+00:00,session_breakout,Short,1.6036777864189804,rejected_expected_r,expected_r below 1.8
+1644775200000,2022-02-13 18:00:00+00:00,session_breakout,Short,1.551709861871949,rejected_expected_r,expected_r below 1.8
+1645819200000,2022-02-25 20:00:00+00:00,session_breakout,Long,1.5655951672756823,rejected_expected_r,expected_r below 1.8
+1650481200000,2022-04-20 19:00:00+00:00,session_breakout,Short,1.6666666666666765,rejected_expected_r,expected_r below 1.8
+1651330800000,2022-04-30 15:00:00+00:00,session_breakout,Short,1.666666666666653,rejected_expected_r,expected_r below 1.8
+1651345200000,2022-04-30 19:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1653577200000,2022-05-26 15:00:00+00:00,session_breakout,Short,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1653591600000,2022-05-26 19:00:00+00:00,session_breakout,Short,1.6549302990063495,rejected_expected_r,expected_r below 1.8
+1656262800000,2022-06-26 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1657044000000,2022-07-05 18:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1663351200000,2022-09-16 18:00:00+00:00,session_breakout,Short,1.5240437992191265,rejected_expected_r,expected_r below 1.8
+1665853200000,2022-10-15 17:00:00+00:00,session_breakout,Short,1.666666666666647,rejected_expected_r,expected_r below 1.8
+1666360800000,2022-10-21 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1666364400000,2022-10-21 15:00:00+00:00,session_breakout,Long,1.6666666666666539,rejected_expected_r,expected_r below 1.8
+1666378800000,2022-10-21 19:00:00+00:00,session_breakout,Long,1.5318094397848845,rejected_expected_r,expected_r below 1.8
+1666454400000,2022-10-22 16:00:00+00:00,session_breakout,Long,1.6666666666666803,rejected_expected_r,expected_r below 1.8
+1670598000000,2022-12-09 15:00:00+00:00,session_breakout,Short,1.6453213562947866,rejected_expected_r,expected_r below 1.8
+1670688000000,2022-12-10 16:00:00+00:00,session_breakout,Long,1.5040182054271884,rejected_expected_r,expected_r below 1.8
+1670695200000,2022-12-10 18:00:00+00:00,session_breakout,Long,1.516367212238644,rejected_expected_r,expected_r below 1.8
+1671714000000,2022-12-22 13:00:00+00:00,session_breakout,Short,1.665606093480986,rejected_expected_r,expected_r below 1.8
+1674486000000,2023-01-23 15:00:00+00:00,session_breakout,Long,1.6666666666666627,rejected_expected_r,expected_r below 1.8
+1674489600000,2023-01-23 16:00:00+00:00,session_breakout,Long,1.6264194024105683,rejected_expected_r,expected_r below 1.8
+1674496800000,2023-01-23 18:00:00+00:00,session_breakout,Long,1.585744431095314,rejected_expected_r,expected_r below 1.8
+1675263600000,2023-02-01 15:00:00+00:00,session_breakout,Short,1.5432751551920638,rejected_expected_r,expected_r below 1.8
+1675429200000,2023-02-03 13:00:00+00:00,session_breakout,Short,1.563992973368375,rejected_expected_r,expected_r below 1.8
+1675450800000,2023-02-03 19:00:00+00:00,session_breakout,Short,1.5415013089715042,rejected_expected_r,expected_r below 1.8
+1676120400000,2023-02-11 13:00:00+00:00,session_breakout,Long,1.575166593189683,rejected_expected_r,expected_r below 1.8
+1676127600000,2023-02-11 15:00:00+00:00,session_breakout,Long,1.5784876866521544,rejected_expected_r,expected_r below 1.8
+1679774400000,2023-03-25 20:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1679846400000,2023-03-26 16:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1682697600000,2023-04-28 16:00:00+00:00,session_breakout,Short,1.6666666666666636,rejected_expected_r,expected_r below 1.8
+1683140400000,2023-05-03 19:00:00+00:00,session_breakout,Short,1.62536394822514,rejected_expected_r,expected_r below 1.8
+1683738000000,2023-05-10 17:00:00+00:00,session_breakout,Short,1.6666666666666576,rejected_expected_r,expected_r below 1.8
+1684591200000,2023-05-20 14:00:00+00:00,session_breakout,Long,1.6666666666666778,rejected_expected_r,expected_r below 1.8
+1684598400000,2023-05-20 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1690300800000,2023-07-25 16:00:00+00:00,session_breakout,Long,1.5182049790599204,rejected_expected_r,expected_r below 1.8
+1690311600000,2023-07-25 19:00:00+00:00,session_breakout,Long,1.6666666666666592,rejected_expected_r,expected_r below 1.8
+1692118800000,2023-08-15 17:00:00+00:00,session_breakout,Short,1.5943428681787217,rejected_expected_r,expected_r below 1.8
+1693663200000,2023-09-02 14:00:00+00:00,session_breakout,Long,1.6666666666666745,rejected_expected_r,expected_r below 1.8
+1694023200000,2023-09-06 18:00:00+00:00,session_breakout,Short,1.5379606770672671,rejected_expected_r,expected_r below 1.8
+1694026800000,2023-09-06 19:00:00+00:00,session_breakout,Short,1.6666666666666776,rejected_expected_r,expected_r below 1.8
+1694264400000,2023-09-09 13:00:00+00:00,session_breakout,Short,1.666666666666654,rejected_expected_r,expected_r below 1.8
+1695826800000,2023-09-27 15:00:00+00:00,session_breakout,Long,1.6666666666666718,rejected_expected_r,expected_r below 1.8
+1696078800000,2023-09-30 13:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1696600800000,2023-10-06 14:00:00+00:00,session_breakout,Long,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1698850800000,2023-11-01 15:00:00+00:00,session_breakout,Short,1.583364043196144,rejected_expected_r,expected_r below 1.8
+1699621200000,2023-11-10 13:00:00+00:00,session_breakout,Long,1.6267086012170424,rejected_expected_r,expected_r below 1.8
+1700488800000,2023-11-20 14:00:00+00:00,session_breakout,Long,1.557985466632321,rejected_expected_r,expected_r below 1.8
+1700582400000,2023-11-21 16:00:00+00:00,session_breakout,Short,1.5784998746152634,rejected_expected_r,expected_r below 1.8
+1700744400000,2023-11-23 13:00:00+00:00,session_breakout,Short,1.6666666666666528,rejected_expected_r,expected_r below 1.8
+1700758800000,2023-11-23 17:00:00+00:00,session_breakout,Short,1.5845848206168274,rejected_expected_r,expected_r below 1.8
+1700841600000,2023-11-24 16:00:00+00:00,session_breakout,Long,1.5646994670027992,rejected_expected_r,expected_r below 1.8
+1700848800000,2023-11-24 18:00:00+00:00,session_breakout,Long,1.577439852104476,rejected_expected_r,expected_r below 1.8
+1701028800000,2023-11-26 20:00:00+00:00,session_breakout,Short,1.666666666666686,rejected_expected_r,expected_r below 1.8
+1701961200000,2023-12-07 15:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1702126800000,2023-12-09 13:00:00+00:00,session_breakout,Short,1.527000924988464,rejected_expected_r,expected_r below 1.8
+1702566000000,2023-12-14 15:00:00+00:00,session_breakout,Short,1.5760636320700327,rejected_expected_r,expected_r below 1.8
+1702569600000,2023-12-14 16:00:00+00:00,session_breakout,Short,1.6666666666666705,rejected_expected_r,expected_r below 1.8
+1702573200000,2023-12-14 17:00:00+00:00,session_breakout,Long,1.6666666666666738,rejected_expected_r,expected_r below 1.8
+1703944800000,2023-12-30 14:00:00+00:00,session_breakout,Long,1.5241211577362053,rejected_expected_r,expected_r below 1.8
+1704898800000,2024-01-10 15:00:00+00:00,session_breakout,Short,1.6666666666666692,rejected_expected_r,expected_r below 1.8
+1704902400000,2024-01-10 16:00:00+00:00,session_breakout,Short,1.6458867932314454,rejected_expected_r,expected_r below 1.8
+1704906000000,2024-01-10 17:00:00+00:00,session_breakout,Long,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1704985200000,2024-01-11 15:00:00+00:00,session_breakout,Long,1.606850832927484,rejected_expected_r,expected_r below 1.8
+1706731200000,2024-01-31 20:00:00+00:00,session_breakout,Short,1.6666666666666754,rejected_expected_r,expected_r below 1.8
+1709312400000,2024-03-01 17:00:00+00:00,session_breakout,Long,1.5283559340896433,rejected_expected_r,expected_r below 1.8
+1710273600000,2024-03-12 20:00:00+00:00,session_breakout,Short,1.5589495996388678,rejected_expected_r,expected_r below 1.8
+1715007600000,2024-05-06 15:00:00+00:00,session_breakout,Short,1.5068847488396797,rejected_expected_r,expected_r below 1.8
+1715439600000,2024-05-11 15:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1715450400000,2024-05-11 18:00:00+00:00,session_breakout,Long,1.5550623008750066,rejected_expected_r,expected_r below 1.8
+1715454000000,2024-05-11 19:00:00+00:00,session_breakout,Long,1.666666666666657,rejected_expected_r,expected_r below 1.8
+1717686000000,2024-06-06 15:00:00+00:00,session_breakout,Long,1.6666666666666488,rejected_expected_r,expected_r below 1.8
+1717704000000,2024-06-06 20:00:00+00:00,session_breakout,Short,1.6666666666666823,rejected_expected_r,expected_r below 1.8
+1725116400000,2024-08-31 15:00:00+00:00,session_breakout,Short,1.5977682234396107,rejected_expected_r,expected_r below 1.8
+1726416000000,2024-09-15 16:00:00+00:00,session_breakout,Short,1.666666666666681,rejected_expected_r,expected_r below 1.8
+1730559600000,2024-11-02 15:00:00+00:00,session_breakout,Short,1.6666666666666756,rejected_expected_r,expected_r below 1.8
+1730566800000,2024-11-02 17:00:00+00:00,session_breakout,Short,1.6666666666666574,rejected_expected_r,expected_r below 1.8
+1731078000000,2024-11-08 15:00:00+00:00,session_breakout,Long,1.5479295084453726,rejected_expected_r,expected_r below 1.8
+1731085200000,2024-11-08 17:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1731787200000,2024-11-16 20:00:00+00:00,session_breakout,Short,1.5134398207744832,rejected_expected_r,expected_r below 1.8
+1733234400000,2024-12-03 14:00:00+00:00,session_breakout,Short,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1733241600000,2024-12-03 16:00:00+00:00,session_breakout,Short,1.6666666666666707,rejected_expected_r,expected_r below 1.8
+1735401600000,2024-12-28 16:00:00+00:00,session_breakout,Long,1.6521714697057004,rejected_expected_r,expected_r below 1.8
+1735408800000,2024-12-28 18:00:00+00:00,session_breakout,Long,1.6666666666666734,rejected_expected_r,expected_r below 1.8
+1736690400000,2025-01-12 14:00:00+00:00,session_breakout,Long,1.6520946941069006,rejected_expected_r,expected_r below 1.8
+1736870400000,2025-01-14 16:00:00+00:00,session_breakout,Long,1.5688423603209032,rejected_expected_r,expected_r below 1.8
+1738422000000,2025-02-01 15:00:00+00:00,session_breakout,Short,1.666666666666673,rejected_expected_r,expected_r below 1.8
+1738432800000,2025-02-01 18:00:00+00:00,session_breakout,Short,1.5475433090581208,rejected_expected_r,expected_r below 1.8
+1740146400000,2025-02-21 14:00:00+00:00,session_breakout,Long,1.6178007705691335,rejected_expected_r,expected_r below 1.8
+1742148000000,2025-03-16 18:00:00+00:00,session_breakout,Short,1.666666666666678,rejected_expected_r,expected_r below 1.8
+1744826400000,2025-04-16 18:00:00+00:00,session_breakout,Long,1.666666666666671,rejected_expected_r,expected_r below 1.8
+1744830000000,2025-04-16 19:00:00+00:00,session_breakout,Long,1.5031005574122607,rejected_expected_r,expected_r below 1.8
+1747231200000,2025-05-14 14:00:00+00:00,session_breakout,Short,1.6228154092134552,rejected_expected_r,expected_r below 1.8
+1747249200000,2025-05-14 19:00:00+00:00,session_breakout,Short,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1749056400000,2025-06-04 17:00:00+00:00,session_breakout,Short,1.5372701159450195,rejected_expected_r,expected_r below 1.8
+1751212800000,2025-06-29 16:00:00+00:00,session_breakout,Long,1.6666666666666887,rejected_expected_r,expected_r below 1.8
+1755007200000,2025-08-12 14:00:00+00:00,session_breakout,Long,1.5083511843132322,rejected_expected_r,expected_r below 1.8
+1761138000000,2025-10-22 13:00:00+00:00,session_breakout,Long,1.6666666666666599,rejected_expected_r,expected_r below 1.8
+1765123200000,2025-12-07 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765634400000,2025-12-13 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765656000000,2025-12-13 20:00:00+00:00,session_breakout,Short,1.666666666666644,rejected_expected_r,expected_r below 1.8
+1766678400000,2025-12-25 16:00:00+00:00,session_breakout,Long,1.529477936467056,rejected_expected_r,expected_r below 1.8
+1768582800000,2026-01-16 17:00:00+00:00,session_breakout,Short,1.6304252865558813,rejected_expected_r,expected_r below 1.8
+1769112000000,2026-01-22 20:00:00+00:00,session_breakout,Short,1.5506459835618511,rejected_expected_r,expected_r below 1.8
+1769184000000,2026-01-23 16:00:00+00:00,session_breakout,Long,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1769608800000,2026-01-28 14:00:00+00:00,session_breakout,Long,1.6294954967347743,rejected_expected_r,expected_r below 1.8
+1769623200000,2026-01-28 18:00:00+00:00,session_breakout,Long,1.666666666666677,rejected_expected_r,expected_r below 1.8
+1773244800000,2026-03-11 16:00:00+00:00,session_breakout,Long,1.502392314317947,rejected_expected_r,expected_r below 1.8
+1776366000000,2026-04-16 19:00:00+00:00,session_breakout,Long,1.6588816013190437,rejected_expected_r,expected_r below 1.8
+1779631200000,2026-05-24 14:00:00+00:00,session_breakout,Short,1.5150818922914264,rejected_expected_r,expected_r below 1.8
+1579636800000,2020-01-21 20:00:00+00:00,session_breakout,Long,1.5157972855727435,rejected_expected_r,expected_r below 1.8
+1583866800000,2020-03-10 19:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_expected_r,expected_r below 1.8
+1584190800000,2020-03-14 13:00:00+00:00,session_breakout,Short,1.6666666666666659,rejected_expected_r,expected_r below 1.8
+1588442400000,2020-05-02 18:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589216400000,2020-05-11 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589893200000,2020-05-19 13:00:00+00:00,second_retest,Long,1.6174416497721198,resolved_duplicate_signal,2 same-side signals
+1591362000000,2020-06-05 13:00:00+00:00,session_breakout,Short,1.6488030039714414,rejected_expected_r,expected_r below 1.8
+1591621200000,2020-06-08 13:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1592492400000,2020-06-18 15:00:00+00:00,session_breakout,Short,1.5867927812956018,rejected_expected_r,expected_r below 1.8
+1595174400000,2020-07-19 16:00:00+00:00,second_retest,Short,1.5733304738097764,resolved_duplicate_signal,2 same-side signals
+1602781200000,2020-10-15 17:00:00+00:00,session_breakout,Long,1.5431194894866542,rejected_expected_r,expected_r below 1.8
+1604941200000,2020-11-09 17:00:00+00:00,session_breakout,Short,1.5283990078355392,rejected_expected_r,expected_r below 1.8
+1606482000000,2020-11-27 13:00:00+00:00,session_breakout,Short,1.5444399228305015,rejected_expected_r,expected_r below 1.8
+1615050000000,2021-03-06 17:00:00+00:00,pullback_reclaim,Short,1.5396318309952166,resolved_duplicate_signal,2 same-side signals
+1640782800000,2021-12-29 13:00:00+00:00,session_breakout,Short,1.6395706534068801,rejected_expected_r,expected_r below 1.8
+1640808000000,2021-12-29 20:00:00+00:00,session_breakout,Short,1.5771287775271632,rejected_expected_r,expected_r below 1.8
+1641841200000,2022-01-10 19:00:00+00:00,session_breakout,Short,1.5978018734348673,rejected_expected_r,expected_r below 1.8
+1642341600000,2022-01-16 14:00:00+00:00,session_breakout,Long,1.532212561590324,rejected_expected_r,expected_r below 1.8
+1643904000000,2022-02-03 16:00:00+00:00,session_breakout,Short,1.6666666666666712,rejected_expected_r,expected_r below 1.8
+1643914800000,2022-02-03 19:00:00+00:00,session_breakout,Short,1.6036777864189804,rejected_expected_r,expected_r below 1.8
+1644775200000,2022-02-13 18:00:00+00:00,session_breakout,Short,1.551709861871949,rejected_expected_r,expected_r below 1.8
+1645819200000,2022-02-25 20:00:00+00:00,session_breakout,Long,1.5655951672756823,rejected_expected_r,expected_r below 1.8
+1650481200000,2022-04-20 19:00:00+00:00,session_breakout,Short,1.6666666666666765,rejected_expected_r,expected_r below 1.8
+1651330800000,2022-04-30 15:00:00+00:00,session_breakout,Short,1.666666666666653,rejected_expected_r,expected_r below 1.8
+1651345200000,2022-04-30 19:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1653577200000,2022-05-26 15:00:00+00:00,session_breakout,Short,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1653591600000,2022-05-26 19:00:00+00:00,session_breakout,Short,1.6549302990063495,rejected_expected_r,expected_r below 1.8
+1656262800000,2022-06-26 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1657044000000,2022-07-05 18:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1663351200000,2022-09-16 18:00:00+00:00,session_breakout,Short,1.5240437992191265,rejected_expected_r,expected_r below 1.8
+1665853200000,2022-10-15 17:00:00+00:00,session_breakout,Short,1.666666666666647,rejected_expected_r,expected_r below 1.8
+1666360800000,2022-10-21 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1666364400000,2022-10-21 15:00:00+00:00,session_breakout,Long,1.6666666666666539,rejected_expected_r,expected_r below 1.8
+1666378800000,2022-10-21 19:00:00+00:00,session_breakout,Long,1.5318094397848845,rejected_expected_r,expected_r below 1.8
+1666454400000,2022-10-22 16:00:00+00:00,session_breakout,Long,1.6666666666666803,rejected_expected_r,expected_r below 1.8
+1669730400000,2022-11-29 14:00:00+00:00,second_retest,Long,1.6322272848252852,resolved_long_short_conflict,1 long vs 1 short
+1670598000000,2022-12-09 15:00:00+00:00,session_breakout,Short,1.6453213562947866,rejected_expected_r,expected_r below 1.8
+1670688000000,2022-12-10 16:00:00+00:00,session_breakout,Long,1.5040182054271884,rejected_expected_r,expected_r below 1.8
+1670695200000,2022-12-10 18:00:00+00:00,session_breakout,Long,1.516367212238644,rejected_expected_r,expected_r below 1.8
+1671714000000,2022-12-22 13:00:00+00:00,session_breakout,Short,1.665606093480986,rejected_expected_r,expected_r below 1.8
+1674486000000,2023-01-23 15:00:00+00:00,session_breakout,Long,1.6666666666666627,rejected_expected_r,expected_r below 1.8
+1674489600000,2023-01-23 16:00:00+00:00,session_breakout,Long,1.6264194024105683,rejected_expected_r,expected_r below 1.8
+1674496800000,2023-01-23 18:00:00+00:00,session_breakout,Long,1.585744431095314,rejected_expected_r,expected_r below 1.8
+1675263600000,2023-02-01 15:00:00+00:00,session_breakout,Short,1.5432751551920638,rejected_expected_r,expected_r below 1.8
+1675429200000,2023-02-03 13:00:00+00:00,session_breakout,Short,1.563992973368375,rejected_expected_r,expected_r below 1.8
+1675450800000,2023-02-03 19:00:00+00:00,session_breakout,Short,1.5415013089715042,rejected_expected_r,expected_r below 1.8
+1676120400000,2023-02-11 13:00:00+00:00,session_breakout,Long,1.575166593189683,rejected_expected_r,expected_r below 1.8
+1676127600000,2023-02-11 15:00:00+00:00,session_breakout,Long,1.5784876866521544,rejected_expected_r,expected_r below 1.8
+1679774400000,2023-03-25 20:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1679846400000,2023-03-26 16:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1682697600000,2023-04-28 16:00:00+00:00,session_breakout,Short,1.6666666666666636,rejected_expected_r,expected_r below 1.8
+1683140400000,2023-05-03 19:00:00+00:00,session_breakout,Short,1.62536394822514,rejected_expected_r,expected_r below 1.8
+1683738000000,2023-05-10 17:00:00+00:00,session_breakout,Short,1.6666666666666576,rejected_expected_r,expected_r below 1.8
+1684591200000,2023-05-20 14:00:00+00:00,session_breakout,Long,1.6666666666666778,rejected_expected_r,expected_r below 1.8
+1684598400000,2023-05-20 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1690300800000,2023-07-25 16:00:00+00:00,session_breakout,Long,1.5182049790599204,rejected_expected_r,expected_r below 1.8
+1690311600000,2023-07-25 19:00:00+00:00,session_breakout,Long,1.6666666666666592,rejected_expected_r,expected_r below 1.8
+1692118800000,2023-08-15 17:00:00+00:00,session_breakout,Short,1.5943428681787217,rejected_expected_r,expected_r below 1.8
+1693663200000,2023-09-02 14:00:00+00:00,session_breakout,Long,1.6666666666666745,rejected_expected_r,expected_r below 1.8
+1694023200000,2023-09-06 18:00:00+00:00,session_breakout,Short,1.5379606770672671,rejected_expected_r,expected_r below 1.8
+1694026800000,2023-09-06 19:00:00+00:00,session_breakout,Short,1.6666666666666776,rejected_expected_r,expected_r below 1.8
+1694264400000,2023-09-09 13:00:00+00:00,session_breakout,Short,1.666666666666654,rejected_expected_r,expected_r below 1.8
+1695826800000,2023-09-27 15:00:00+00:00,session_breakout,Long,1.6666666666666718,rejected_expected_r,expected_r below 1.8
+1696078800000,2023-09-30 13:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1696600800000,2023-10-06 14:00:00+00:00,session_breakout,Long,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1698850800000,2023-11-01 15:00:00+00:00,session_breakout,Short,1.583364043196144,rejected_expected_r,expected_r below 1.8
+1699621200000,2023-11-10 13:00:00+00:00,session_breakout,Long,1.6267086012170424,rejected_expected_r,expected_r below 1.8
+1700488800000,2023-11-20 14:00:00+00:00,session_breakout,Long,1.557985466632321,rejected_expected_r,expected_r below 1.8
+1700582400000,2023-11-21 16:00:00+00:00,session_breakout,Short,1.5784998746152634,rejected_expected_r,expected_r below 1.8
+1700744400000,2023-11-23 13:00:00+00:00,session_breakout,Short,1.6666666666666528,rejected_expected_r,expected_r below 1.8
+1700758800000,2023-11-23 17:00:00+00:00,session_breakout,Short,1.5845848206168274,rejected_expected_r,expected_r below 1.8
+1700841600000,2023-11-24 16:00:00+00:00,session_breakout,Long,1.5646994670027992,rejected_expected_r,expected_r below 1.8
+1700848800000,2023-11-24 18:00:00+00:00,session_breakout,Long,1.577439852104476,rejected_expected_r,expected_r below 1.8
+1701028800000,2023-11-26 20:00:00+00:00,session_breakout,Short,1.666666666666686,rejected_expected_r,expected_r below 1.8
+1701961200000,2023-12-07 15:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1702126800000,2023-12-09 13:00:00+00:00,session_breakout,Short,1.527000924988464,rejected_expected_r,expected_r below 1.8
+1702566000000,2023-12-14 15:00:00+00:00,session_breakout,Short,1.5760636320700327,rejected_expected_r,expected_r below 1.8
+1702569600000,2023-12-14 16:00:00+00:00,session_breakout,Short,1.6666666666666705,rejected_expected_r,expected_r below 1.8
+1702573200000,2023-12-14 17:00:00+00:00,session_breakout,Long,1.6666666666666738,rejected_expected_r,expected_r below 1.8
+1703944800000,2023-12-30 14:00:00+00:00,session_breakout,Long,1.5241211577362053,rejected_expected_r,expected_r below 1.8
+1704693600000,2024-01-08 06:00:00+00:00,pullback_reclaim,Long,1.5766596226286338,resolved_long_short_conflict,1 long vs 1 short
+1704898800000,2024-01-10 15:00:00+00:00,session_breakout,Short,1.6666666666666692,rejected_expected_r,expected_r below 1.8
+1704902400000,2024-01-10 16:00:00+00:00,session_breakout,Short,1.6458867932314454,rejected_expected_r,expected_r below 1.8
+1704906000000,2024-01-10 17:00:00+00:00,session_breakout,Long,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1704985200000,2024-01-11 15:00:00+00:00,session_breakout,Long,1.606850832927484,rejected_expected_r,expected_r below 1.8
+1706731200000,2024-01-31 20:00:00+00:00,session_breakout,Short,1.6666666666666754,rejected_expected_r,expected_r below 1.8
+1709312400000,2024-03-01 17:00:00+00:00,session_breakout,Long,1.5283559340896433,rejected_expected_r,expected_r below 1.8
+1710273600000,2024-03-12 20:00:00+00:00,session_breakout,Short,1.5589495996388678,rejected_expected_r,expected_r below 1.8
+1715007600000,2024-05-06 15:00:00+00:00,session_breakout,Short,1.5068847488396797,rejected_expected_r,expected_r below 1.8
+1715439600000,2024-05-11 15:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1715450400000,2024-05-11 18:00:00+00:00,session_breakout,Long,1.5550623008750066,rejected_expected_r,expected_r below 1.8
+1715454000000,2024-05-11 19:00:00+00:00,session_breakout,Long,1.666666666666657,rejected_expected_r,expected_r below 1.8
+1717686000000,2024-06-06 15:00:00+00:00,session_breakout,Long,1.6666666666666488,rejected_expected_r,expected_r below 1.8
+1717704000000,2024-06-06 20:00:00+00:00,session_breakout,Short,1.6666666666666823,rejected_expected_r,expected_r below 1.8
+1725116400000,2024-08-31 15:00:00+00:00,session_breakout,Short,1.5977682234396107,rejected_expected_r,expected_r below 1.8
+1726416000000,2024-09-15 16:00:00+00:00,session_breakout,Short,1.666666666666681,rejected_expected_r,expected_r below 1.8
+1730559600000,2024-11-02 15:00:00+00:00,session_breakout,Short,1.6666666666666756,rejected_expected_r,expected_r below 1.8
+1730566800000,2024-11-02 17:00:00+00:00,session_breakout,Short,1.6666666666666574,rejected_expected_r,expected_r below 1.8
+1731078000000,2024-11-08 15:00:00+00:00,session_breakout,Long,1.5479295084453726,rejected_expected_r,expected_r below 1.8
+1731085200000,2024-11-08 17:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1731787200000,2024-11-16 20:00:00+00:00,session_breakout,Short,1.5134398207744832,rejected_expected_r,expected_r below 1.8
+1733234400000,2024-12-03 14:00:00+00:00,session_breakout,Short,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1733241600000,2024-12-03 16:00:00+00:00,session_breakout,Short,1.6666666666666707,rejected_expected_r,expected_r below 1.8
+1735401600000,2024-12-28 16:00:00+00:00,session_breakout,Long,1.6521714697057004,rejected_expected_r,expected_r below 1.8
+1735408800000,2024-12-28 18:00:00+00:00,session_breakout,Long,1.6666666666666734,rejected_expected_r,expected_r below 1.8
+1736690400000,2025-01-12 14:00:00+00:00,session_breakout,Long,1.6520946941069006,rejected_expected_r,expected_r below 1.8
+1736870400000,2025-01-14 16:00:00+00:00,session_breakout,Long,1.5688423603209032,rejected_expected_r,expected_r below 1.8
+1738422000000,2025-02-01 15:00:00+00:00,session_breakout,Short,1.666666666666673,rejected_expected_r,expected_r below 1.8
+1738432800000,2025-02-01 18:00:00+00:00,session_breakout,Short,1.5475433090581208,rejected_expected_r,expected_r below 1.8
+1739142000000,2025-02-09 23:00:00+00:00,second_retest,Short,1.6659157768399921,resolved_duplicate_signal,2 same-side signals
+1740146400000,2025-02-21 14:00:00+00:00,session_breakout,Long,1.6178007705691335,rejected_expected_r,expected_r below 1.8
+1742148000000,2025-03-16 18:00:00+00:00,session_breakout,Short,1.666666666666678,rejected_expected_r,expected_r below 1.8
+1744826400000,2025-04-16 18:00:00+00:00,session_breakout,Long,1.666666666666671,rejected_expected_r,expected_r below 1.8
+1744830000000,2025-04-16 19:00:00+00:00,session_breakout,Long,1.5031005574122607,rejected_expected_r,expected_r below 1.8
+1747231200000,2025-05-14 14:00:00+00:00,session_breakout,Short,1.6228154092134552,rejected_expected_r,expected_r below 1.8
+1747249200000,2025-05-14 19:00:00+00:00,session_breakout,Short,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1749056400000,2025-06-04 17:00:00+00:00,session_breakout,Short,1.5372701159450195,rejected_expected_r,expected_r below 1.8
+1751212800000,2025-06-29 16:00:00+00:00,session_breakout,Long,1.6666666666666887,rejected_expected_r,expected_r below 1.8
+1755007200000,2025-08-12 14:00:00+00:00,session_breakout,Long,1.5083511843132322,rejected_expected_r,expected_r below 1.8
+1761138000000,2025-10-22 13:00:00+00:00,session_breakout,Long,1.6666666666666599,rejected_expected_r,expected_r below 1.8
+1765123200000,2025-12-07 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765634400000,2025-12-13 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765656000000,2025-12-13 20:00:00+00:00,session_breakout,Short,1.666666666666644,rejected_expected_r,expected_r below 1.8
+1766678400000,2025-12-25 16:00:00+00:00,session_breakout,Long,1.529477936467056,rejected_expected_r,expected_r below 1.8
+1768582800000,2026-01-16 17:00:00+00:00,session_breakout,Short,1.6304252865558813,rejected_expected_r,expected_r below 1.8
+1769112000000,2026-01-22 20:00:00+00:00,session_breakout,Short,1.5506459835618511,rejected_expected_r,expected_r below 1.8
+1769184000000,2026-01-23 16:00:00+00:00,session_breakout,Long,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1769608800000,2026-01-28 14:00:00+00:00,session_breakout,Long,1.6294954967347743,rejected_expected_r,expected_r below 1.8
+1769623200000,2026-01-28 18:00:00+00:00,session_breakout,Long,1.666666666666677,rejected_expected_r,expected_r below 1.8
+1773244800000,2026-03-11 16:00:00+00:00,session_breakout,Long,1.502392314317947,rejected_expected_r,expected_r below 1.8
+1776366000000,2026-04-16 19:00:00+00:00,session_breakout,Long,1.6588816013190437,rejected_expected_r,expected_r below 1.8
+1779631200000,2026-05-24 14:00:00+00:00,session_breakout,Short,1.5150818922914264,rejected_expected_r,expected_r below 1.8
+1579168800000,2020-01-16 10:00:00+00:00,pullback_reclaim,Long,1.569168586033168,rejected_funding,funding threshold
+1579636800000,2020-01-21 20:00:00+00:00,session_breakout,Long,1.5157972855727435,rejected_expected_r,expected_r below 1.8
+1581897600000,2020-02-17 00:00:00+00:00,second_retest,Short,1.5073828257809192,rejected_funding,funding threshold
+1582506000000,2020-02-24 01:00:00+00:00,second_retest,Long,1.556897029095321,rejected_funding,funding threshold
+1583866800000,2020-03-10 19:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_expected_r,expected_r below 1.8
+1584190800000,2020-03-14 13:00:00+00:00,session_breakout,Short,1.6666666666666659,rejected_expected_r,expected_r below 1.8
+1584313200000,2020-03-15 23:00:00+00:00,second_retest,Long,1.537872069710368,rejected_funding,funding threshold
+1588442400000,2020-05-02 18:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589216400000,2020-05-11 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589893200000,2020-05-19 13:00:00+00:00,second_retest,Long,1.6174416497721198,resolved_duplicate_signal,2 same-side signals
+1591362000000,2020-06-05 13:00:00+00:00,session_breakout,Short,1.6488030039714414,rejected_expected_r,expected_r below 1.8
+1591621200000,2020-06-08 13:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1592492400000,2020-06-18 15:00:00+00:00,session_breakout,Short,1.5867927812956018,rejected_expected_r,expected_r below 1.8
+1595174400000,2020-07-19 16:00:00+00:00,second_retest,Short,1.5733304738097764,resolved_duplicate_signal,2 same-side signals
+1596459600000,2020-08-03 13:00:00+00:00,pullback_reclaim,Long,1.650158894429924,rejected_funding,funding threshold
+1602781200000,2020-10-15 17:00:00+00:00,session_breakout,Long,1.5431194894866542,rejected_expected_r,expected_r below 1.8
+1604941200000,2020-11-09 17:00:00+00:00,session_breakout,Short,1.5283990078355392,rejected_expected_r,expected_r below 1.8
+1606482000000,2020-11-27 13:00:00+00:00,session_breakout,Short,1.5444399228305015,rejected_expected_r,expected_r below 1.8
+1609844400000,2021-01-05 11:00:00+00:00,pullback_reclaim,Long,1.6117855994491368,rejected_funding,funding threshold
+1611529200000,2021-01-24 23:00:00+00:00,pullback_reclaim,Short,1.6190710814162144,rejected_funding,funding threshold
+1613383200000,2021-02-15 10:00:00+00:00,pullback_reclaim,Long,1.6468670913164003,rejected_funding,funding threshold
+1613401200000,2021-02-15 15:00:00+00:00,pullback_reclaim,Long,1.526964485890622,rejected_funding,funding threshold
+1615050000000,2021-03-06 17:00:00+00:00,pullback_reclaim,Short,1.5396318309952166,resolved_duplicate_signal,2 same-side signals
+1615939200000,2021-03-17 00:00:00+00:00,pullback_reclaim,Long,1.639431436963939,rejected_funding,funding threshold
+1617624000000,2021-04-05 12:00:00+00:00,pullback_reclaim,Long,1.593969486721884,rejected_funding,funding threshold
+1619956800000,2021-05-02 12:00:00+00:00,pullback_reclaim,Long,1.5062357052306925,rejected_funding,funding threshold
+1619964000000,2021-05-02 14:00:00+00:00,pullback_reclaim,Long,1.538192567986828,rejected_funding,funding threshold
+1619974800000,2021-05-02 17:00:00+00:00,pullback_reclaim,Long,1.5836183263176602,rejected_funding,funding threshold
+1620486000000,2021-05-08 15:00:00+00:00,pullback_reclaim,Long,1.5705869566092168,rejected_funding,funding threshold
+1620547200000,2021-05-09 08:00:00+00:00,pullback_reclaim,Long,1.5021433604774077,rejected_funding,funding threshold
+1621144800000,2021-05-16 06:00:00+00:00,pullback_reclaim,Short,1.5454945381662546,rejected_funding,funding threshold
+1630634400000,2021-09-03 02:00:00+00:00,pullback_reclaim,Long,1.5298674468103557,rejected_funding,funding threshold
+1634472000000,2021-10-17 12:00:00+00:00,second_retest,Short,1.661496478614276,rejected_funding,funding threshold
+1640782800000,2021-12-29 13:00:00+00:00,session_breakout,Short,1.6395706534068801,rejected_expected_r,expected_r below 1.8
+1640808000000,2021-12-29 20:00:00+00:00,session_breakout,Short,1.5771287775271632,rejected_expected_r,expected_r below 1.8
+1641841200000,2022-01-10 19:00:00+00:00,session_breakout,Short,1.5978018734348673,rejected_expected_r,expected_r below 1.8
+1642341600000,2022-01-16 14:00:00+00:00,session_breakout,Long,1.532212561590324,rejected_expected_r,expected_r below 1.8
+1643904000000,2022-02-03 16:00:00+00:00,session_breakout,Short,1.6666666666666712,rejected_expected_r,expected_r below 1.8
+1643914800000,2022-02-03 19:00:00+00:00,session_breakout,Short,1.6036777864189804,rejected_expected_r,expected_r below 1.8
+1644775200000,2022-02-13 18:00:00+00:00,session_breakout,Short,1.551709861871949,rejected_expected_r,expected_r below 1.8
+1645819200000,2022-02-25 20:00:00+00:00,session_breakout,Long,1.5655951672756823,rejected_expected_r,expected_r below 1.8
+1650481200000,2022-04-20 19:00:00+00:00,session_breakout,Short,1.6666666666666765,rejected_expected_r,expected_r below 1.8
+1651330800000,2022-04-30 15:00:00+00:00,session_breakout,Short,1.666666666666653,rejected_expected_r,expected_r below 1.8
+1651345200000,2022-04-30 19:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1652371200000,2022-05-12 16:00:00+00:00,pullback_reclaim,Short,1.5791602164264553,rejected_funding,funding threshold
+1653577200000,2022-05-26 15:00:00+00:00,session_breakout,Short,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1653591600000,2022-05-26 19:00:00+00:00,session_breakout,Short,1.6549302990063495,rejected_expected_r,expected_r below 1.8
+1656262800000,2022-06-26 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1657044000000,2022-07-05 18:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1663351200000,2022-09-16 18:00:00+00:00,session_breakout,Short,1.5240437992191265,rejected_expected_r,expected_r below 1.8
+1665853200000,2022-10-15 17:00:00+00:00,session_breakout,Short,1.666666666666647,rejected_expected_r,expected_r below 1.8
+1666360800000,2022-10-21 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1666364400000,2022-10-21 15:00:00+00:00,session_breakout,Long,1.6666666666666539,rejected_expected_r,expected_r below 1.8
+1666378800000,2022-10-21 19:00:00+00:00,session_breakout,Long,1.5318094397848845,rejected_expected_r,expected_r below 1.8
+1666454400000,2022-10-22 16:00:00+00:00,session_breakout,Long,1.6666666666666803,rejected_expected_r,expected_r below 1.8
+1669730400000,2022-11-29 14:00:00+00:00,second_retest,Long,1.6322272848252852,resolved_long_short_conflict,1 long vs 1 short
+1670598000000,2022-12-09 15:00:00+00:00,session_breakout,Short,1.6453213562947866,rejected_expected_r,expected_r below 1.8
+1670688000000,2022-12-10 16:00:00+00:00,session_breakout,Long,1.5040182054271884,rejected_expected_r,expected_r below 1.8
+1670695200000,2022-12-10 18:00:00+00:00,session_breakout,Long,1.516367212238644,rejected_expected_r,expected_r below 1.8
+1671714000000,2022-12-22 13:00:00+00:00,session_breakout,Short,1.665606093480986,rejected_expected_r,expected_r below 1.8
+1674486000000,2023-01-23 15:00:00+00:00,session_breakout,Long,1.6666666666666627,rejected_expected_r,expected_r below 1.8
+1674489600000,2023-01-23 16:00:00+00:00,session_breakout,Long,1.6264194024105683,rejected_expected_r,expected_r below 1.8
+1674496800000,2023-01-23 18:00:00+00:00,session_breakout,Long,1.585744431095314,rejected_expected_r,expected_r below 1.8
+1675263600000,2023-02-01 15:00:00+00:00,session_breakout,Short,1.5432751551920638,rejected_expected_r,expected_r below 1.8
+1675429200000,2023-02-03 13:00:00+00:00,session_breakout,Short,1.563992973368375,rejected_expected_r,expected_r below 1.8
+1675450800000,2023-02-03 19:00:00+00:00,session_breakout,Short,1.5415013089715042,rejected_expected_r,expected_r below 1.8
+1676120400000,2023-02-11 13:00:00+00:00,session_breakout,Long,1.575166593189683,rejected_expected_r,expected_r below 1.8
+1676127600000,2023-02-11 15:00:00+00:00,session_breakout,Long,1.5784876866521544,rejected_expected_r,expected_r below 1.8
+1679774400000,2023-03-25 20:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1679846400000,2023-03-26 16:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1682697600000,2023-04-28 16:00:00+00:00,session_breakout,Short,1.6666666666666636,rejected_expected_r,expected_r below 1.8
+1683140400000,2023-05-03 19:00:00+00:00,session_breakout,Short,1.62536394822514,rejected_expected_r,expected_r below 1.8
+1683738000000,2023-05-10 17:00:00+00:00,session_breakout,Short,1.6666666666666576,rejected_expected_r,expected_r below 1.8
+1684591200000,2023-05-20 14:00:00+00:00,session_breakout,Long,1.6666666666666778,rejected_expected_r,expected_r below 1.8
+1684598400000,2023-05-20 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1690300800000,2023-07-25 16:00:00+00:00,session_breakout,Long,1.5182049790599204,rejected_expected_r,expected_r below 1.8
+1690311600000,2023-07-25 19:00:00+00:00,session_breakout,Long,1.6666666666666592,rejected_expected_r,expected_r below 1.8
+1692118800000,2023-08-15 17:00:00+00:00,session_breakout,Short,1.5943428681787217,rejected_expected_r,expected_r below 1.8
+1693663200000,2023-09-02 14:00:00+00:00,session_breakout,Long,1.6666666666666745,rejected_expected_r,expected_r below 1.8
+1694023200000,2023-09-06 18:00:00+00:00,session_breakout,Short,1.5379606770672671,rejected_expected_r,expected_r below 1.8
+1694026800000,2023-09-06 19:00:00+00:00,session_breakout,Short,1.6666666666666776,rejected_expected_r,expected_r below 1.8
+1694264400000,2023-09-09 13:00:00+00:00,session_breakout,Short,1.666666666666654,rejected_expected_r,expected_r below 1.8
+1695826800000,2023-09-27 15:00:00+00:00,session_breakout,Long,1.6666666666666718,rejected_expected_r,expected_r below 1.8
+1696078800000,2023-09-30 13:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1696600800000,2023-10-06 14:00:00+00:00,session_breakout,Long,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1698850800000,2023-11-01 15:00:00+00:00,session_breakout,Short,1.583364043196144,rejected_expected_r,expected_r below 1.8
+1699621200000,2023-11-10 13:00:00+00:00,session_breakout,Long,1.6267086012170424,rejected_expected_r,expected_r below 1.8
+1700488800000,2023-11-20 14:00:00+00:00,session_breakout,Long,1.557985466632321,rejected_expected_r,expected_r below 1.8
+1700582400000,2023-11-21 16:00:00+00:00,session_breakout,Short,1.5784998746152634,rejected_expected_r,expected_r below 1.8
+1700744400000,2023-11-23 13:00:00+00:00,session_breakout,Short,1.6666666666666528,rejected_expected_r,expected_r below 1.8
+1700758800000,2023-11-23 17:00:00+00:00,session_breakout,Short,1.5845848206168274,rejected_expected_r,expected_r below 1.8
+1700841600000,2023-11-24 16:00:00+00:00,session_breakout,Long,1.5646994670027992,rejected_expected_r,expected_r below 1.8
+1700848800000,2023-11-24 18:00:00+00:00,session_breakout,Long,1.577439852104476,rejected_expected_r,expected_r below 1.8
+1701028800000,2023-11-26 20:00:00+00:00,session_breakout,Short,1.666666666666686,rejected_expected_r,expected_r below 1.8
+1701961200000,2023-12-07 15:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1702126800000,2023-12-09 13:00:00+00:00,session_breakout,Short,1.527000924988464,rejected_expected_r,expected_r below 1.8
+1702566000000,2023-12-14 15:00:00+00:00,session_breakout,Short,1.5760636320700327,rejected_expected_r,expected_r below 1.8
+1702569600000,2023-12-14 16:00:00+00:00,session_breakout,Short,1.6666666666666705,rejected_expected_r,expected_r below 1.8
+1702573200000,2023-12-14 17:00:00+00:00,session_breakout,Long,1.6666666666666738,rejected_expected_r,expected_r below 1.8
+1703930400000,2023-12-30 10:00:00+00:00,session_breakout,Short,1.6666666666666607,rejected_funding,funding threshold
+1703944800000,2023-12-30 14:00:00+00:00,session_breakout,Long,1.5241211577362053,rejected_expected_r,expected_r below 1.8
+1704693600000,2024-01-08 06:00:00+00:00,pullback_reclaim,Long,1.5766596226286338,resolved_long_short_conflict,1 long vs 1 short
+1704898800000,2024-01-10 15:00:00+00:00,session_breakout,Short,1.6666666666666692,rejected_expected_r,expected_r below 1.8
+1704902400000,2024-01-10 16:00:00+00:00,session_breakout,Short,1.6458867932314454,rejected_expected_r,expected_r below 1.8
+1704906000000,2024-01-10 17:00:00+00:00,session_breakout,Long,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1704985200000,2024-01-11 15:00:00+00:00,session_breakout,Long,1.606850832927484,rejected_expected_r,expected_r below 1.8
+1706731200000,2024-01-31 20:00:00+00:00,session_breakout,Short,1.6666666666666754,rejected_expected_r,expected_r below 1.8
+1709312400000,2024-03-01 17:00:00+00:00,session_breakout,Long,1.5283559340896433,rejected_expected_r,expected_r below 1.8
+1709798400000,2024-03-07 08:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_funding,funding threshold
+1710273600000,2024-03-12 20:00:00+00:00,session_breakout,Short,1.5589495996388678,rejected_expected_r,expected_r below 1.8
+1710280800000,2024-03-12 22:00:00+00:00,pullback_reclaim,Long,1.6030076409263985,rejected_funding,funding threshold
+1715007600000,2024-05-06 15:00:00+00:00,session_breakout,Short,1.5068847488396797,rejected_expected_r,expected_r below 1.8
+1715439600000,2024-05-11 15:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1715450400000,2024-05-11 18:00:00+00:00,session_breakout,Long,1.5550623008750066,rejected_expected_r,expected_r below 1.8
+1715454000000,2024-05-11 19:00:00+00:00,session_breakout,Long,1.666666666666657,rejected_expected_r,expected_r below 1.8
+1717686000000,2024-06-06 15:00:00+00:00,session_breakout,Long,1.6666666666666488,rejected_expected_r,expected_r below 1.8
+1717704000000,2024-06-06 20:00:00+00:00,session_breakout,Short,1.6666666666666823,rejected_expected_r,expected_r below 1.8
+1725116400000,2024-08-31 15:00:00+00:00,session_breakout,Short,1.5977682234396107,rejected_expected_r,expected_r below 1.8
+1726416000000,2024-09-15 16:00:00+00:00,session_breakout,Short,1.666666666666681,rejected_expected_r,expected_r below 1.8
+1730559600000,2024-11-02 15:00:00+00:00,session_breakout,Short,1.6666666666666756,rejected_expected_r,expected_r below 1.8
+1730566800000,2024-11-02 17:00:00+00:00,session_breakout,Short,1.6666666666666574,rejected_expected_r,expected_r below 1.8
+1731078000000,2024-11-08 15:00:00+00:00,session_breakout,Long,1.5479295084453726,rejected_expected_r,expected_r below 1.8
+1731085200000,2024-11-08 17:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1731787200000,2024-11-16 20:00:00+00:00,session_breakout,Short,1.5134398207744832,rejected_expected_r,expected_r below 1.8
+1733234400000,2024-12-03 14:00:00+00:00,session_breakout,Short,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1733241600000,2024-12-03 16:00:00+00:00,session_breakout,Short,1.6666666666666707,rejected_expected_r,expected_r below 1.8
+1735401600000,2024-12-28 16:00:00+00:00,session_breakout,Long,1.6521714697057004,rejected_expected_r,expected_r below 1.8
+1735408800000,2024-12-28 18:00:00+00:00,session_breakout,Long,1.6666666666666734,rejected_expected_r,expected_r below 1.8
+1736690400000,2025-01-12 14:00:00+00:00,session_breakout,Long,1.6520946941069006,rejected_expected_r,expected_r below 1.8
+1736870400000,2025-01-14 16:00:00+00:00,session_breakout,Long,1.5688423603209032,rejected_expected_r,expected_r below 1.8
+1738422000000,2025-02-01 15:00:00+00:00,session_breakout,Short,1.666666666666673,rejected_expected_r,expected_r below 1.8
+1738432800000,2025-02-01 18:00:00+00:00,session_breakout,Short,1.5475433090581208,rejected_expected_r,expected_r below 1.8
+1739142000000,2025-02-09 23:00:00+00:00,second_retest,Short,1.6659157768399921,resolved_duplicate_signal,2 same-side signals
+1740146400000,2025-02-21 14:00:00+00:00,session_breakout,Long,1.6178007705691335,rejected_expected_r,expected_r below 1.8
+1742148000000,2025-03-16 18:00:00+00:00,session_breakout,Short,1.666666666666678,rejected_expected_r,expected_r below 1.8
+1744826400000,2025-04-16 18:00:00+00:00,session_breakout,Long,1.666666666666671,rejected_expected_r,expected_r below 1.8
+1744830000000,2025-04-16 19:00:00+00:00,session_breakout,Long,1.5031005574122607,rejected_expected_r,expected_r below 1.8
+1747231200000,2025-05-14 14:00:00+00:00,session_breakout,Short,1.6228154092134552,rejected_expected_r,expected_r below 1.8
+1747249200000,2025-05-14 19:00:00+00:00,session_breakout,Short,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1749056400000,2025-06-04 17:00:00+00:00,session_breakout,Short,1.5372701159450195,rejected_expected_r,expected_r below 1.8
+1751212800000,2025-06-29 16:00:00+00:00,session_breakout,Long,1.6666666666666887,rejected_expected_r,expected_r below 1.8
+1755007200000,2025-08-12 14:00:00+00:00,session_breakout,Long,1.5083511843132322,rejected_expected_r,expected_r below 1.8
+1761138000000,2025-10-22 13:00:00+00:00,session_breakout,Long,1.6666666666666599,rejected_expected_r,expected_r below 1.8
+1765123200000,2025-12-07 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765634400000,2025-12-13 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765656000000,2025-12-13 20:00:00+00:00,session_breakout,Short,1.666666666666644,rejected_expected_r,expected_r below 1.8
+1766678400000,2025-12-25 16:00:00+00:00,session_breakout,Long,1.529477936467056,rejected_expected_r,expected_r below 1.8
+1768582800000,2026-01-16 17:00:00+00:00,session_breakout,Short,1.6304252865558813,rejected_expected_r,expected_r below 1.8
+1769112000000,2026-01-22 20:00:00+00:00,session_breakout,Short,1.5506459835618511,rejected_expected_r,expected_r below 1.8
+1769184000000,2026-01-23 16:00:00+00:00,session_breakout,Long,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1769608800000,2026-01-28 14:00:00+00:00,session_breakout,Long,1.6294954967347743,rejected_expected_r,expected_r below 1.8
+1769623200000,2026-01-28 18:00:00+00:00,session_breakout,Long,1.666666666666677,rejected_expected_r,expected_r below 1.8
+1773244800000,2026-03-11 16:00:00+00:00,session_breakout,Long,1.502392314317947,rejected_expected_r,expected_r below 1.8
+1776366000000,2026-04-16 19:00:00+00:00,session_breakout,Long,1.6588816013190437,rejected_expected_r,expected_r below 1.8
+1779631200000,2026-05-24 14:00:00+00:00,session_breakout,Short,1.5150818922914264,rejected_expected_r,expected_r below 1.8
+1579168800000,2020-01-16 10:00:00+00:00,pullback_reclaim,Long,1.569168586033168,rejected_funding,funding threshold
+1579636800000,2020-01-21 20:00:00+00:00,session_breakout,Long,1.5157972855727435,rejected_expected_r,expected_r below 1.8
+1581897600000,2020-02-17 00:00:00+00:00,second_retest,Short,1.5073828257809192,rejected_funding,funding threshold
+1582506000000,2020-02-24 01:00:00+00:00,second_retest,Long,1.556897029095321,rejected_funding,funding threshold
+1583866800000,2020-03-10 19:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_expected_r,expected_r below 1.8
+1584190800000,2020-03-14 13:00:00+00:00,session_breakout,Short,1.6666666666666659,rejected_expected_r,expected_r below 1.8
+1584313200000,2020-03-15 23:00:00+00:00,second_retest,Long,1.537872069710368,rejected_funding,funding threshold
+1588442400000,2020-05-02 18:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589216400000,2020-05-11 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589893200000,2020-05-19 13:00:00+00:00,second_retest,Long,1.6174416497721198,resolved_duplicate_signal,2 same-side signals
+1591362000000,2020-06-05 13:00:00+00:00,session_breakout,Short,1.6488030039714414,rejected_expected_r,expected_r below 1.8
+1591621200000,2020-06-08 13:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1592492400000,2020-06-18 15:00:00+00:00,session_breakout,Short,1.5867927812956018,rejected_expected_r,expected_r below 1.8
+1595174400000,2020-07-19 16:00:00+00:00,second_retest,Short,1.5733304738097764,resolved_duplicate_signal,2 same-side signals
+1596459600000,2020-08-03 13:00:00+00:00,pullback_reclaim,Long,1.650158894429924,rejected_funding,funding threshold
+1602781200000,2020-10-15 17:00:00+00:00,session_breakout,Long,1.5431194894866542,rejected_expected_r,expected_r below 1.8
+1604941200000,2020-11-09 17:00:00+00:00,session_breakout,Short,1.5283990078355392,rejected_expected_r,expected_r below 1.8
+1606482000000,2020-11-27 13:00:00+00:00,session_breakout,Short,1.5444399228305015,rejected_expected_r,expected_r below 1.8
+1609844400000,2021-01-05 11:00:00+00:00,pullback_reclaim,Long,1.6117855994491368,rejected_funding,funding threshold
+1611529200000,2021-01-24 23:00:00+00:00,pullback_reclaim,Short,1.6190710814162144,rejected_funding,funding threshold
+1613383200000,2021-02-15 10:00:00+00:00,pullback_reclaim,Long,1.6468670913164003,rejected_funding,funding threshold
+1613401200000,2021-02-15 15:00:00+00:00,pullback_reclaim,Long,1.526964485890622,rejected_funding,funding threshold
+1615050000000,2021-03-06 17:00:00+00:00,pullback_reclaim,Short,1.5396318309952166,resolved_duplicate_signal,2 same-side signals
+1615939200000,2021-03-17 00:00:00+00:00,pullback_reclaim,Long,1.639431436963939,rejected_funding,funding threshold
+1617624000000,2021-04-05 12:00:00+00:00,pullback_reclaim,Long,1.593969486721884,rejected_funding,funding threshold
+1619956800000,2021-05-02 12:00:00+00:00,pullback_reclaim,Long,1.5062357052306925,rejected_funding,funding threshold
+1619964000000,2021-05-02 14:00:00+00:00,pullback_reclaim,Long,1.538192567986828,rejected_funding,funding threshold
+1619974800000,2021-05-02 17:00:00+00:00,pullback_reclaim,Long,1.5836183263176602,rejected_funding,funding threshold
+1620486000000,2021-05-08 15:00:00+00:00,pullback_reclaim,Long,1.5705869566092168,rejected_funding,funding threshold
+1620547200000,2021-05-09 08:00:00+00:00,pullback_reclaim,Long,1.5021433604774077,rejected_funding,funding threshold
+1621144800000,2021-05-16 06:00:00+00:00,pullback_reclaim,Short,1.5454945381662546,rejected_funding,funding threshold
+1630634400000,2021-09-03 02:00:00+00:00,pullback_reclaim,Long,1.5298674468103557,rejected_funding,funding threshold
+1634472000000,2021-10-17 12:00:00+00:00,second_retest,Short,1.661496478614276,rejected_funding,funding threshold
+1640782800000,2021-12-29 13:00:00+00:00,session_breakout,Short,1.6395706534068801,rejected_expected_r,expected_r below 1.8
+1640808000000,2021-12-29 20:00:00+00:00,session_breakout,Short,1.5771287775271632,rejected_expected_r,expected_r below 1.8
+1641841200000,2022-01-10 19:00:00+00:00,session_breakout,Short,1.5978018734348673,rejected_expected_r,expected_r below 1.8
+1642341600000,2022-01-16 14:00:00+00:00,session_breakout,Long,1.532212561590324,rejected_expected_r,expected_r below 1.8
+1643904000000,2022-02-03 16:00:00+00:00,session_breakout,Short,1.6666666666666712,rejected_expected_r,expected_r below 1.8
+1643914800000,2022-02-03 19:00:00+00:00,session_breakout,Short,1.6036777864189804,rejected_expected_r,expected_r below 1.8
+1644775200000,2022-02-13 18:00:00+00:00,session_breakout,Short,1.551709861871949,rejected_expected_r,expected_r below 1.8
+1645819200000,2022-02-25 20:00:00+00:00,session_breakout,Long,1.5655951672756823,rejected_expected_r,expected_r below 1.8
+1650481200000,2022-04-20 19:00:00+00:00,session_breakout,Short,1.6666666666666765,rejected_expected_r,expected_r below 1.8
+1651330800000,2022-04-30 15:00:00+00:00,session_breakout,Short,1.666666666666653,rejected_expected_r,expected_r below 1.8
+1651345200000,2022-04-30 19:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1652371200000,2022-05-12 16:00:00+00:00,pullback_reclaim,Short,1.5791602164264553,rejected_funding,funding threshold
+1653577200000,2022-05-26 15:00:00+00:00,session_breakout,Short,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1653591600000,2022-05-26 19:00:00+00:00,session_breakout,Short,1.6549302990063495,rejected_expected_r,expected_r below 1.8
+1656262800000,2022-06-26 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1657044000000,2022-07-05 18:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1663351200000,2022-09-16 18:00:00+00:00,session_breakout,Short,1.5240437992191265,rejected_expected_r,expected_r below 1.8
+1665853200000,2022-10-15 17:00:00+00:00,session_breakout,Short,1.666666666666647,rejected_expected_r,expected_r below 1.8
+1666360800000,2022-10-21 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1666364400000,2022-10-21 15:00:00+00:00,session_breakout,Long,1.6666666666666539,rejected_expected_r,expected_r below 1.8
+1666378800000,2022-10-21 19:00:00+00:00,session_breakout,Long,1.5318094397848845,rejected_expected_r,expected_r below 1.8
+1666454400000,2022-10-22 16:00:00+00:00,session_breakout,Long,1.6666666666666803,rejected_expected_r,expected_r below 1.8
+1669730400000,2022-11-29 14:00:00+00:00,second_retest,Long,1.6322272848252852,resolved_long_short_conflict,1 long vs 1 short
+1670598000000,2022-12-09 15:00:00+00:00,session_breakout,Short,1.6453213562947866,rejected_expected_r,expected_r below 1.8
+1670688000000,2022-12-10 16:00:00+00:00,session_breakout,Long,1.5040182054271884,rejected_expected_r,expected_r below 1.8
+1670695200000,2022-12-10 18:00:00+00:00,session_breakout,Long,1.516367212238644,rejected_expected_r,expected_r below 1.8
+1671714000000,2022-12-22 13:00:00+00:00,session_breakout,Short,1.665606093480986,rejected_expected_r,expected_r below 1.8
+1674486000000,2023-01-23 15:00:00+00:00,session_breakout,Long,1.6666666666666627,rejected_expected_r,expected_r below 1.8
+1674489600000,2023-01-23 16:00:00+00:00,session_breakout,Long,1.6264194024105683,rejected_expected_r,expected_r below 1.8
+1674496800000,2023-01-23 18:00:00+00:00,session_breakout,Long,1.585744431095314,rejected_expected_r,expected_r below 1.8
+1675263600000,2023-02-01 15:00:00+00:00,session_breakout,Short,1.5432751551920638,rejected_expected_r,expected_r below 1.8
+1675429200000,2023-02-03 13:00:00+00:00,session_breakout,Short,1.563992973368375,rejected_expected_r,expected_r below 1.8
+1675450800000,2023-02-03 19:00:00+00:00,session_breakout,Short,1.5415013089715042,rejected_expected_r,expected_r below 1.8
+1676120400000,2023-02-11 13:00:00+00:00,session_breakout,Long,1.575166593189683,rejected_expected_r,expected_r below 1.8
+1676127600000,2023-02-11 15:00:00+00:00,session_breakout,Long,1.5784876866521544,rejected_expected_r,expected_r below 1.8
+1679774400000,2023-03-25 20:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1679846400000,2023-03-26 16:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1682697600000,2023-04-28 16:00:00+00:00,session_breakout,Short,1.6666666666666636,rejected_expected_r,expected_r below 1.8
+1683140400000,2023-05-03 19:00:00+00:00,session_breakout,Short,1.62536394822514,rejected_expected_r,expected_r below 1.8
+1683738000000,2023-05-10 17:00:00+00:00,session_breakout,Short,1.6666666666666576,rejected_expected_r,expected_r below 1.8
+1684591200000,2023-05-20 14:00:00+00:00,session_breakout,Long,1.6666666666666778,rejected_expected_r,expected_r below 1.8
+1684598400000,2023-05-20 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1690300800000,2023-07-25 16:00:00+00:00,session_breakout,Long,1.5182049790599204,rejected_expected_r,expected_r below 1.8
+1690311600000,2023-07-25 19:00:00+00:00,session_breakout,Long,1.6666666666666592,rejected_expected_r,expected_r below 1.8
+1692118800000,2023-08-15 17:00:00+00:00,session_breakout,Short,1.5943428681787217,rejected_expected_r,expected_r below 1.8
+1693663200000,2023-09-02 14:00:00+00:00,session_breakout,Long,1.6666666666666745,rejected_expected_r,expected_r below 1.8
+1694023200000,2023-09-06 18:00:00+00:00,session_breakout,Short,1.5379606770672671,rejected_expected_r,expected_r below 1.8
+1694026800000,2023-09-06 19:00:00+00:00,session_breakout,Short,1.6666666666666776,rejected_expected_r,expected_r below 1.8
+1694264400000,2023-09-09 13:00:00+00:00,session_breakout,Short,1.666666666666654,rejected_expected_r,expected_r below 1.8
+1695826800000,2023-09-27 15:00:00+00:00,session_breakout,Long,1.6666666666666718,rejected_expected_r,expected_r below 1.8
+1696078800000,2023-09-30 13:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1696600800000,2023-10-06 14:00:00+00:00,session_breakout,Long,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1698850800000,2023-11-01 15:00:00+00:00,session_breakout,Short,1.583364043196144,rejected_expected_r,expected_r below 1.8
+1699621200000,2023-11-10 13:00:00+00:00,session_breakout,Long,1.6267086012170424,rejected_expected_r,expected_r below 1.8
+1700488800000,2023-11-20 14:00:00+00:00,session_breakout,Long,1.557985466632321,rejected_expected_r,expected_r below 1.8
+1700582400000,2023-11-21 16:00:00+00:00,session_breakout,Short,1.5784998746152634,rejected_expected_r,expected_r below 1.8
+1700744400000,2023-11-23 13:00:00+00:00,session_breakout,Short,1.6666666666666528,rejected_expected_r,expected_r below 1.8
+1700758800000,2023-11-23 17:00:00+00:00,session_breakout,Short,1.5845848206168274,rejected_expected_r,expected_r below 1.8
+1700841600000,2023-11-24 16:00:00+00:00,session_breakout,Long,1.5646994670027992,rejected_expected_r,expected_r below 1.8
+1700848800000,2023-11-24 18:00:00+00:00,session_breakout,Long,1.577439852104476,rejected_expected_r,expected_r below 1.8
+1701028800000,2023-11-26 20:00:00+00:00,session_breakout,Short,1.666666666666686,rejected_expected_r,expected_r below 1.8
+1701961200000,2023-12-07 15:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1702126800000,2023-12-09 13:00:00+00:00,session_breakout,Short,1.527000924988464,rejected_expected_r,expected_r below 1.8
+1702566000000,2023-12-14 15:00:00+00:00,session_breakout,Short,1.5760636320700327,rejected_expected_r,expected_r below 1.8
+1702569600000,2023-12-14 16:00:00+00:00,session_breakout,Short,1.6666666666666705,rejected_expected_r,expected_r below 1.8
+1702573200000,2023-12-14 17:00:00+00:00,session_breakout,Long,1.6666666666666738,rejected_expected_r,expected_r below 1.8
+1703930400000,2023-12-30 10:00:00+00:00,session_breakout,Short,1.6666666666666607,rejected_funding,funding threshold
+1703944800000,2023-12-30 14:00:00+00:00,session_breakout,Long,1.5241211577362053,rejected_expected_r,expected_r below 1.8
+1704693600000,2024-01-08 06:00:00+00:00,pullback_reclaim,Long,1.5766596226286338,resolved_long_short_conflict,1 long vs 1 short
+1704898800000,2024-01-10 15:00:00+00:00,session_breakout,Short,1.6666666666666692,rejected_expected_r,expected_r below 1.8
+1704902400000,2024-01-10 16:00:00+00:00,session_breakout,Short,1.6458867932314454,rejected_expected_r,expected_r below 1.8
+1704906000000,2024-01-10 17:00:00+00:00,session_breakout,Long,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1704985200000,2024-01-11 15:00:00+00:00,session_breakout,Long,1.606850832927484,rejected_expected_r,expected_r below 1.8
+1706731200000,2024-01-31 20:00:00+00:00,session_breakout,Short,1.6666666666666754,rejected_expected_r,expected_r below 1.8
+1709312400000,2024-03-01 17:00:00+00:00,session_breakout,Long,1.5283559340896433,rejected_expected_r,expected_r below 1.8
+1709798400000,2024-03-07 08:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_funding,funding threshold
+1710273600000,2024-03-12 20:00:00+00:00,session_breakout,Short,1.5589495996388678,rejected_expected_r,expected_r below 1.8
+1710280800000,2024-03-12 22:00:00+00:00,pullback_reclaim,Long,1.6030076409263985,rejected_funding,funding threshold
+1715007600000,2024-05-06 15:00:00+00:00,session_breakout,Short,1.5068847488396797,rejected_expected_r,expected_r below 1.8
+1715439600000,2024-05-11 15:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1715450400000,2024-05-11 18:00:00+00:00,session_breakout,Long,1.5550623008750066,rejected_expected_r,expected_r below 1.8
+1715454000000,2024-05-11 19:00:00+00:00,session_breakout,Long,1.666666666666657,rejected_expected_r,expected_r below 1.8
+1717686000000,2024-06-06 15:00:00+00:00,session_breakout,Long,1.6666666666666488,rejected_expected_r,expected_r below 1.8
+1717704000000,2024-06-06 20:00:00+00:00,session_breakout,Short,1.6666666666666823,rejected_expected_r,expected_r below 1.8
+1725116400000,2024-08-31 15:00:00+00:00,session_breakout,Short,1.5977682234396107,rejected_expected_r,expected_r below 1.8
+1726416000000,2024-09-15 16:00:00+00:00,session_breakout,Short,1.666666666666681,rejected_expected_r,expected_r below 1.8
+1730559600000,2024-11-02 15:00:00+00:00,session_breakout,Short,1.6666666666666756,rejected_expected_r,expected_r below 1.8
+1730566800000,2024-11-02 17:00:00+00:00,session_breakout,Short,1.6666666666666574,rejected_expected_r,expected_r below 1.8
+1731078000000,2024-11-08 15:00:00+00:00,session_breakout,Long,1.5479295084453726,rejected_expected_r,expected_r below 1.8
+1731085200000,2024-11-08 17:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1731787200000,2024-11-16 20:00:00+00:00,session_breakout,Short,1.5134398207744832,rejected_expected_r,expected_r below 1.8
+1733234400000,2024-12-03 14:00:00+00:00,session_breakout,Short,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1733241600000,2024-12-03 16:00:00+00:00,session_breakout,Short,1.6666666666666707,rejected_expected_r,expected_r below 1.8
+1735401600000,2024-12-28 16:00:00+00:00,session_breakout,Long,1.6521714697057004,rejected_expected_r,expected_r below 1.8
+1735408800000,2024-12-28 18:00:00+00:00,session_breakout,Long,1.6666666666666734,rejected_expected_r,expected_r below 1.8
+1736690400000,2025-01-12 14:00:00+00:00,session_breakout,Long,1.6520946941069006,rejected_expected_r,expected_r below 1.8
+1736870400000,2025-01-14 16:00:00+00:00,session_breakout,Long,1.5688423603209032,rejected_expected_r,expected_r below 1.8
+1738422000000,2025-02-01 15:00:00+00:00,session_breakout,Short,1.666666666666673,rejected_expected_r,expected_r below 1.8
+1738432800000,2025-02-01 18:00:00+00:00,session_breakout,Short,1.5475433090581208,rejected_expected_r,expected_r below 1.8
+1739142000000,2025-02-09 23:00:00+00:00,second_retest,Short,1.6659157768399921,resolved_duplicate_signal,2 same-side signals
+1740146400000,2025-02-21 14:00:00+00:00,session_breakout,Long,1.6178007705691335,rejected_expected_r,expected_r below 1.8
+1742148000000,2025-03-16 18:00:00+00:00,session_breakout,Short,1.666666666666678,rejected_expected_r,expected_r below 1.8
+1744826400000,2025-04-16 18:00:00+00:00,session_breakout,Long,1.666666666666671,rejected_expected_r,expected_r below 1.8
+1744830000000,2025-04-16 19:00:00+00:00,session_breakout,Long,1.5031005574122607,rejected_expected_r,expected_r below 1.8
+1747231200000,2025-05-14 14:00:00+00:00,session_breakout,Short,1.6228154092134552,rejected_expected_r,expected_r below 1.8
+1747249200000,2025-05-14 19:00:00+00:00,session_breakout,Short,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1749056400000,2025-06-04 17:00:00+00:00,session_breakout,Short,1.5372701159450195,rejected_expected_r,expected_r below 1.8
+1751212800000,2025-06-29 16:00:00+00:00,session_breakout,Long,1.6666666666666887,rejected_expected_r,expected_r below 1.8
+1755007200000,2025-08-12 14:00:00+00:00,session_breakout,Long,1.5083511843132322,rejected_expected_r,expected_r below 1.8
+1761138000000,2025-10-22 13:00:00+00:00,session_breakout,Long,1.6666666666666599,rejected_expected_r,expected_r below 1.8
+1765123200000,2025-12-07 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765634400000,2025-12-13 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765656000000,2025-12-13 20:00:00+00:00,session_breakout,Short,1.666666666666644,rejected_expected_r,expected_r below 1.8
+1766678400000,2025-12-25 16:00:00+00:00,session_breakout,Long,1.529477936467056,rejected_expected_r,expected_r below 1.8
+1768582800000,2026-01-16 17:00:00+00:00,session_breakout,Short,1.6304252865558813,rejected_expected_r,expected_r below 1.8
+1769112000000,2026-01-22 20:00:00+00:00,session_breakout,Short,1.5506459835618511,rejected_expected_r,expected_r below 1.8
+1769184000000,2026-01-23 16:00:00+00:00,session_breakout,Long,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1769608800000,2026-01-28 14:00:00+00:00,session_breakout,Long,1.6294954967347743,rejected_expected_r,expected_r below 1.8
+1769623200000,2026-01-28 18:00:00+00:00,session_breakout,Long,1.666666666666677,rejected_expected_r,expected_r below 1.8
+1773244800000,2026-03-11 16:00:00+00:00,session_breakout,Long,1.502392314317947,rejected_expected_r,expected_r below 1.8
+1776366000000,2026-04-16 19:00:00+00:00,session_breakout,Long,1.6588816013190437,rejected_expected_r,expected_r below 1.8
+1779631200000,2026-05-24 14:00:00+00:00,session_breakout,Short,1.5150818922914264,rejected_expected_r,expected_r below 1.8
+1579168800000,2020-01-16 10:00:00+00:00,pullback_reclaim,Long,1.569168586033168,rejected_funding,funding threshold
+1579636800000,2020-01-21 20:00:00+00:00,session_breakout,Long,1.5157972855727435,rejected_expected_r,expected_r below 1.8
+1581897600000,2020-02-17 00:00:00+00:00,second_retest,Short,1.5073828257809192,rejected_funding,funding threshold
+1582506000000,2020-02-24 01:00:00+00:00,second_retest,Long,1.556897029095321,rejected_funding,funding threshold
+1583866800000,2020-03-10 19:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_expected_r,expected_r below 1.8
+1584190800000,2020-03-14 13:00:00+00:00,session_breakout,Short,1.6666666666666659,rejected_expected_r,expected_r below 1.8
+1584313200000,2020-03-15 23:00:00+00:00,second_retest,Long,1.537872069710368,rejected_funding,funding threshold
+1588442400000,2020-05-02 18:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589216400000,2020-05-11 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589893200000,2020-05-19 13:00:00+00:00,second_retest,Long,1.6174416497721198,resolved_duplicate_signal,2 same-side signals
+1591362000000,2020-06-05 13:00:00+00:00,session_breakout,Short,1.6488030039714414,rejected_expected_r,expected_r below 1.8
+1591621200000,2020-06-08 13:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1592492400000,2020-06-18 15:00:00+00:00,session_breakout,Short,1.5867927812956018,rejected_expected_r,expected_r below 1.8
+1595174400000,2020-07-19 16:00:00+00:00,second_retest,Short,1.5733304738097764,resolved_duplicate_signal,2 same-side signals
+1596459600000,2020-08-03 13:00:00+00:00,pullback_reclaim,Long,1.650158894429924,rejected_funding,funding threshold
+1602781200000,2020-10-15 17:00:00+00:00,session_breakout,Long,1.5431194894866542,rejected_expected_r,expected_r below 1.8
+1604941200000,2020-11-09 17:00:00+00:00,session_breakout,Short,1.5283990078355392,rejected_expected_r,expected_r below 1.8
+1606482000000,2020-11-27 13:00:00+00:00,session_breakout,Short,1.5444399228305015,rejected_expected_r,expected_r below 1.8
+1609844400000,2021-01-05 11:00:00+00:00,pullback_reclaim,Long,1.6117855994491368,rejected_funding,funding threshold
+1611529200000,2021-01-24 23:00:00+00:00,pullback_reclaim,Short,1.6190710814162144,rejected_funding,funding threshold
+1613383200000,2021-02-15 10:00:00+00:00,pullback_reclaim,Long,1.6468670913164003,rejected_funding,funding threshold
+1613401200000,2021-02-15 15:00:00+00:00,pullback_reclaim,Long,1.526964485890622,rejected_funding,funding threshold
+1615050000000,2021-03-06 17:00:00+00:00,pullback_reclaim,Short,1.5396318309952166,resolved_duplicate_signal,2 same-side signals
+1615939200000,2021-03-17 00:00:00+00:00,pullback_reclaim,Long,1.639431436963939,rejected_funding,funding threshold
+1617624000000,2021-04-05 12:00:00+00:00,pullback_reclaim,Long,1.593969486721884,rejected_funding,funding threshold
+1619956800000,2021-05-02 12:00:00+00:00,pullback_reclaim,Long,1.5062357052306925,rejected_funding,funding threshold
+1619964000000,2021-05-02 14:00:00+00:00,pullback_reclaim,Long,1.538192567986828,rejected_funding,funding threshold
+1619974800000,2021-05-02 17:00:00+00:00,pullback_reclaim,Long,1.5836183263176602,rejected_funding,funding threshold
+1620486000000,2021-05-08 15:00:00+00:00,pullback_reclaim,Long,1.5705869566092168,rejected_funding,funding threshold
+1620547200000,2021-05-09 08:00:00+00:00,pullback_reclaim,Long,1.5021433604774077,rejected_funding,funding threshold
+1621144800000,2021-05-16 06:00:00+00:00,pullback_reclaim,Short,1.5454945381662546,rejected_funding,funding threshold
+1630634400000,2021-09-03 02:00:00+00:00,pullback_reclaim,Long,1.5298674468103557,rejected_funding,funding threshold
+1634472000000,2021-10-17 12:00:00+00:00,second_retest,Short,1.661496478614276,rejected_funding,funding threshold
+1640782800000,2021-12-29 13:00:00+00:00,session_breakout,Short,1.6395706534068801,rejected_expected_r,expected_r below 1.8
+1640808000000,2021-12-29 20:00:00+00:00,session_breakout,Short,1.5771287775271632,rejected_expected_r,expected_r below 1.8
+1641841200000,2022-01-10 19:00:00+00:00,session_breakout,Short,1.5978018734348673,rejected_expected_r,expected_r below 1.8
+1642341600000,2022-01-16 14:00:00+00:00,session_breakout,Long,1.532212561590324,rejected_expected_r,expected_r below 1.8
+1643904000000,2022-02-03 16:00:00+00:00,session_breakout,Short,1.6666666666666712,rejected_expected_r,expected_r below 1.8
+1643914800000,2022-02-03 19:00:00+00:00,session_breakout,Short,1.6036777864189804,rejected_expected_r,expected_r below 1.8
+1644775200000,2022-02-13 18:00:00+00:00,session_breakout,Short,1.551709861871949,rejected_expected_r,expected_r below 1.8
+1645819200000,2022-02-25 20:00:00+00:00,session_breakout,Long,1.5655951672756823,rejected_expected_r,expected_r below 1.8
+1650481200000,2022-04-20 19:00:00+00:00,session_breakout,Short,1.6666666666666765,rejected_expected_r,expected_r below 1.8
+1651330800000,2022-04-30 15:00:00+00:00,session_breakout,Short,1.666666666666653,rejected_expected_r,expected_r below 1.8
+1651345200000,2022-04-30 19:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1652371200000,2022-05-12 16:00:00+00:00,pullback_reclaim,Short,1.5791602164264553,rejected_funding,funding threshold
+1653577200000,2022-05-26 15:00:00+00:00,session_breakout,Short,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1653591600000,2022-05-26 19:00:00+00:00,session_breakout,Short,1.6549302990063495,rejected_expected_r,expected_r below 1.8
+1656262800000,2022-06-26 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1657044000000,2022-07-05 18:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1663351200000,2022-09-16 18:00:00+00:00,session_breakout,Short,1.5240437992191265,rejected_expected_r,expected_r below 1.8
+1665853200000,2022-10-15 17:00:00+00:00,session_breakout,Short,1.666666666666647,rejected_expected_r,expected_r below 1.8
+1666360800000,2022-10-21 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1666364400000,2022-10-21 15:00:00+00:00,session_breakout,Long,1.6666666666666539,rejected_expected_r,expected_r below 1.8
+1666378800000,2022-10-21 19:00:00+00:00,session_breakout,Long,1.5318094397848845,rejected_expected_r,expected_r below 1.8
+1666454400000,2022-10-22 16:00:00+00:00,session_breakout,Long,1.6666666666666803,rejected_expected_r,expected_r below 1.8
+1669730400000,2022-11-29 14:00:00+00:00,second_retest,Long,1.6322272848252852,resolved_long_short_conflict,1 long vs 1 short
+1670598000000,2022-12-09 15:00:00+00:00,session_breakout,Short,1.6453213562947866,rejected_expected_r,expected_r below 1.8
+1670688000000,2022-12-10 16:00:00+00:00,session_breakout,Long,1.5040182054271884,rejected_expected_r,expected_r below 1.8
+1670695200000,2022-12-10 18:00:00+00:00,session_breakout,Long,1.516367212238644,rejected_expected_r,expected_r below 1.8
+1671714000000,2022-12-22 13:00:00+00:00,session_breakout,Short,1.665606093480986,rejected_expected_r,expected_r below 1.8
+1674486000000,2023-01-23 15:00:00+00:00,session_breakout,Long,1.6666666666666627,rejected_expected_r,expected_r below 1.8
+1674489600000,2023-01-23 16:00:00+00:00,session_breakout,Long,1.6264194024105683,rejected_expected_r,expected_r below 1.8
+1674496800000,2023-01-23 18:00:00+00:00,session_breakout,Long,1.585744431095314,rejected_expected_r,expected_r below 1.8
+1675263600000,2023-02-01 15:00:00+00:00,session_breakout,Short,1.5432751551920638,rejected_expected_r,expected_r below 1.8
+1675429200000,2023-02-03 13:00:00+00:00,session_breakout,Short,1.563992973368375,rejected_expected_r,expected_r below 1.8
+1675450800000,2023-02-03 19:00:00+00:00,session_breakout,Short,1.5415013089715042,rejected_expected_r,expected_r below 1.8
+1676120400000,2023-02-11 13:00:00+00:00,session_breakout,Long,1.575166593189683,rejected_expected_r,expected_r below 1.8
+1676127600000,2023-02-11 15:00:00+00:00,session_breakout,Long,1.5784876866521544,rejected_expected_r,expected_r below 1.8
+1679774400000,2023-03-25 20:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1679846400000,2023-03-26 16:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1682697600000,2023-04-28 16:00:00+00:00,session_breakout,Short,1.6666666666666636,rejected_expected_r,expected_r below 1.8
+1683140400000,2023-05-03 19:00:00+00:00,session_breakout,Short,1.62536394822514,rejected_expected_r,expected_r below 1.8
+1683738000000,2023-05-10 17:00:00+00:00,session_breakout,Short,1.6666666666666576,rejected_expected_r,expected_r below 1.8
+1684591200000,2023-05-20 14:00:00+00:00,session_breakout,Long,1.6666666666666778,rejected_expected_r,expected_r below 1.8
+1684598400000,2023-05-20 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1690300800000,2023-07-25 16:00:00+00:00,session_breakout,Long,1.5182049790599204,rejected_expected_r,expected_r below 1.8
+1690311600000,2023-07-25 19:00:00+00:00,session_breakout,Long,1.6666666666666592,rejected_expected_r,expected_r below 1.8
+1692118800000,2023-08-15 17:00:00+00:00,session_breakout,Short,1.5943428681787217,rejected_expected_r,expected_r below 1.8
+1693663200000,2023-09-02 14:00:00+00:00,session_breakout,Long,1.6666666666666745,rejected_expected_r,expected_r below 1.8
+1694023200000,2023-09-06 18:00:00+00:00,session_breakout,Short,1.5379606770672671,rejected_expected_r,expected_r below 1.8
+1694026800000,2023-09-06 19:00:00+00:00,session_breakout,Short,1.6666666666666776,rejected_expected_r,expected_r below 1.8
+1694264400000,2023-09-09 13:00:00+00:00,session_breakout,Short,1.666666666666654,rejected_expected_r,expected_r below 1.8
+1695826800000,2023-09-27 15:00:00+00:00,session_breakout,Long,1.6666666666666718,rejected_expected_r,expected_r below 1.8
+1696078800000,2023-09-30 13:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1696600800000,2023-10-06 14:00:00+00:00,session_breakout,Long,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1698850800000,2023-11-01 15:00:00+00:00,session_breakout,Short,1.583364043196144,rejected_expected_r,expected_r below 1.8
+1699621200000,2023-11-10 13:00:00+00:00,session_breakout,Long,1.6267086012170424,rejected_expected_r,expected_r below 1.8
+1700488800000,2023-11-20 14:00:00+00:00,session_breakout,Long,1.557985466632321,rejected_expected_r,expected_r below 1.8
+1700582400000,2023-11-21 16:00:00+00:00,session_breakout,Short,1.5784998746152634,rejected_expected_r,expected_r below 1.8
+1700744400000,2023-11-23 13:00:00+00:00,session_breakout,Short,1.6666666666666528,rejected_expected_r,expected_r below 1.8
+1700758800000,2023-11-23 17:00:00+00:00,session_breakout,Short,1.5845848206168274,rejected_expected_r,expected_r below 1.8
+1700841600000,2023-11-24 16:00:00+00:00,session_breakout,Long,1.5646994670027992,rejected_expected_r,expected_r below 1.8
+1700848800000,2023-11-24 18:00:00+00:00,session_breakout,Long,1.577439852104476,rejected_expected_r,expected_r below 1.8
+1701028800000,2023-11-26 20:00:00+00:00,session_breakout,Short,1.666666666666686,rejected_expected_r,expected_r below 1.8
+1701961200000,2023-12-07 15:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1702126800000,2023-12-09 13:00:00+00:00,session_breakout,Short,1.527000924988464,rejected_expected_r,expected_r below 1.8
+1702566000000,2023-12-14 15:00:00+00:00,session_breakout,Short,1.5760636320700327,rejected_expected_r,expected_r below 1.8
+1702569600000,2023-12-14 16:00:00+00:00,session_breakout,Short,1.6666666666666705,rejected_expected_r,expected_r below 1.8
+1702573200000,2023-12-14 17:00:00+00:00,session_breakout,Long,1.6666666666666738,rejected_expected_r,expected_r below 1.8
+1703930400000,2023-12-30 10:00:00+00:00,session_breakout,Short,1.6666666666666607,rejected_funding,funding threshold
+1703944800000,2023-12-30 14:00:00+00:00,session_breakout,Long,1.5241211577362053,rejected_expected_r,expected_r below 1.8
+1704693600000,2024-01-08 06:00:00+00:00,pullback_reclaim,Long,1.5766596226286338,resolved_long_short_conflict,1 long vs 1 short
+1704898800000,2024-01-10 15:00:00+00:00,session_breakout,Short,1.6666666666666692,rejected_expected_r,expected_r below 1.8
+1704902400000,2024-01-10 16:00:00+00:00,session_breakout,Short,1.6458867932314454,rejected_expected_r,expected_r below 1.8
+1704906000000,2024-01-10 17:00:00+00:00,session_breakout,Long,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1704985200000,2024-01-11 15:00:00+00:00,session_breakout,Long,1.606850832927484,rejected_expected_r,expected_r below 1.8
+1706731200000,2024-01-31 20:00:00+00:00,session_breakout,Short,1.6666666666666754,rejected_expected_r,expected_r below 1.8
+1709312400000,2024-03-01 17:00:00+00:00,session_breakout,Long,1.5283559340896433,rejected_expected_r,expected_r below 1.8
+1709798400000,2024-03-07 08:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_funding,funding threshold
+1710273600000,2024-03-12 20:00:00+00:00,session_breakout,Short,1.5589495996388678,rejected_expected_r,expected_r below 1.8
+1710280800000,2024-03-12 22:00:00+00:00,pullback_reclaim,Long,1.6030076409263985,rejected_funding,funding threshold
+1715007600000,2024-05-06 15:00:00+00:00,session_breakout,Short,1.5068847488396797,rejected_expected_r,expected_r below 1.8
+1715439600000,2024-05-11 15:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1715450400000,2024-05-11 18:00:00+00:00,session_breakout,Long,1.5550623008750066,rejected_expected_r,expected_r below 1.8
+1715454000000,2024-05-11 19:00:00+00:00,session_breakout,Long,1.666666666666657,rejected_expected_r,expected_r below 1.8
+1717686000000,2024-06-06 15:00:00+00:00,session_breakout,Long,1.6666666666666488,rejected_expected_r,expected_r below 1.8
+1717704000000,2024-06-06 20:00:00+00:00,session_breakout,Short,1.6666666666666823,rejected_expected_r,expected_r below 1.8
+1725116400000,2024-08-31 15:00:00+00:00,session_breakout,Short,1.5977682234396107,rejected_expected_r,expected_r below 1.8
+1726416000000,2024-09-15 16:00:00+00:00,session_breakout,Short,1.666666666666681,rejected_expected_r,expected_r below 1.8
+1730559600000,2024-11-02 15:00:00+00:00,session_breakout,Short,1.6666666666666756,rejected_expected_r,expected_r below 1.8
+1730566800000,2024-11-02 17:00:00+00:00,session_breakout,Short,1.6666666666666574,rejected_expected_r,expected_r below 1.8
+1731078000000,2024-11-08 15:00:00+00:00,session_breakout,Long,1.5479295084453726,rejected_expected_r,expected_r below 1.8
+1731085200000,2024-11-08 17:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1731787200000,2024-11-16 20:00:00+00:00,session_breakout,Short,1.5134398207744832,rejected_expected_r,expected_r below 1.8
+1733234400000,2024-12-03 14:00:00+00:00,session_breakout,Short,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1733241600000,2024-12-03 16:00:00+00:00,session_breakout,Short,1.6666666666666707,rejected_expected_r,expected_r below 1.8
+1735401600000,2024-12-28 16:00:00+00:00,session_breakout,Long,1.6521714697057004,rejected_expected_r,expected_r below 1.8
+1735408800000,2024-12-28 18:00:00+00:00,session_breakout,Long,1.6666666666666734,rejected_expected_r,expected_r below 1.8
+1736690400000,2025-01-12 14:00:00+00:00,session_breakout,Long,1.6520946941069006,rejected_expected_r,expected_r below 1.8
+1736870400000,2025-01-14 16:00:00+00:00,session_breakout,Long,1.5688423603209032,rejected_expected_r,expected_r below 1.8
+1738422000000,2025-02-01 15:00:00+00:00,session_breakout,Short,1.666666666666673,rejected_expected_r,expected_r below 1.8
+1738432800000,2025-02-01 18:00:00+00:00,session_breakout,Short,1.5475433090581208,rejected_expected_r,expected_r below 1.8
+1739142000000,2025-02-09 23:00:00+00:00,second_retest,Short,1.6659157768399921,resolved_duplicate_signal,2 same-side signals
+1740146400000,2025-02-21 14:00:00+00:00,session_breakout,Long,1.6178007705691335,rejected_expected_r,expected_r below 1.8
+1742148000000,2025-03-16 18:00:00+00:00,session_breakout,Short,1.666666666666678,rejected_expected_r,expected_r below 1.8
+1744826400000,2025-04-16 18:00:00+00:00,session_breakout,Long,1.666666666666671,rejected_expected_r,expected_r below 1.8
+1744830000000,2025-04-16 19:00:00+00:00,session_breakout,Long,1.5031005574122607,rejected_expected_r,expected_r below 1.8
+1747231200000,2025-05-14 14:00:00+00:00,session_breakout,Short,1.6228154092134552,rejected_expected_r,expected_r below 1.8
+1747249200000,2025-05-14 19:00:00+00:00,session_breakout,Short,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1749056400000,2025-06-04 17:00:00+00:00,session_breakout,Short,1.5372701159450195,rejected_expected_r,expected_r below 1.8
+1751212800000,2025-06-29 16:00:00+00:00,session_breakout,Long,1.6666666666666887,rejected_expected_r,expected_r below 1.8
+1755007200000,2025-08-12 14:00:00+00:00,session_breakout,Long,1.5083511843132322,rejected_expected_r,expected_r below 1.8
+1761138000000,2025-10-22 13:00:00+00:00,session_breakout,Long,1.6666666666666599,rejected_expected_r,expected_r below 1.8
+1765123200000,2025-12-07 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765634400000,2025-12-13 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765656000000,2025-12-13 20:00:00+00:00,session_breakout,Short,1.666666666666644,rejected_expected_r,expected_r below 1.8
+1766678400000,2025-12-25 16:00:00+00:00,session_breakout,Long,1.529477936467056,rejected_expected_r,expected_r below 1.8
+1768582800000,2026-01-16 17:00:00+00:00,session_breakout,Short,1.6304252865558813,rejected_expected_r,expected_r below 1.8
+1769112000000,2026-01-22 20:00:00+00:00,session_breakout,Short,1.5506459835618511,rejected_expected_r,expected_r below 1.8
+1769184000000,2026-01-23 16:00:00+00:00,session_breakout,Long,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1769608800000,2026-01-28 14:00:00+00:00,session_breakout,Long,1.6294954967347743,rejected_expected_r,expected_r below 1.8
+1769623200000,2026-01-28 18:00:00+00:00,session_breakout,Long,1.666666666666677,rejected_expected_r,expected_r below 1.8
+1773244800000,2026-03-11 16:00:00+00:00,session_breakout,Long,1.502392314317947,rejected_expected_r,expected_r below 1.8
+1776366000000,2026-04-16 19:00:00+00:00,session_breakout,Long,1.6588816013190437,rejected_expected_r,expected_r below 1.8
+1779631200000,2026-05-24 14:00:00+00:00,session_breakout,Short,1.5150818922914264,rejected_expected_r,expected_r below 1.8
+1579168800000,2020-01-16 10:00:00+00:00,pullback_reclaim,Long,1.569168586033168,rejected_funding,funding threshold
+1579636800000,2020-01-21 20:00:00+00:00,session_breakout,Long,1.5157972855727435,rejected_expected_r,expected_r below 1.8
+1581897600000,2020-02-17 00:00:00+00:00,second_retest,Short,1.5073828257809192,rejected_funding,funding threshold
+1582506000000,2020-02-24 01:00:00+00:00,second_retest,Long,1.556897029095321,rejected_funding,funding threshold
+1583866800000,2020-03-10 19:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_expected_r,expected_r below 1.8
+1584190800000,2020-03-14 13:00:00+00:00,session_breakout,Short,1.6666666666666659,rejected_expected_r,expected_r below 1.8
+1584313200000,2020-03-15 23:00:00+00:00,second_retest,Long,1.537872069710368,rejected_funding,funding threshold
+1588442400000,2020-05-02 18:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589216400000,2020-05-11 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589893200000,2020-05-19 13:00:00+00:00,second_retest,Long,1.6174416497721198,resolved_duplicate_signal,2 same-side signals
+1591362000000,2020-06-05 13:00:00+00:00,session_breakout,Short,1.6488030039714414,rejected_expected_r,expected_r below 1.8
+1591621200000,2020-06-08 13:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1592492400000,2020-06-18 15:00:00+00:00,session_breakout,Short,1.5867927812956018,rejected_expected_r,expected_r below 1.8
+1595174400000,2020-07-19 16:00:00+00:00,second_retest,Short,1.5733304738097764,resolved_duplicate_signal,2 same-side signals
+1596459600000,2020-08-03 13:00:00+00:00,pullback_reclaim,Long,1.650158894429924,rejected_funding,funding threshold
+1602781200000,2020-10-15 17:00:00+00:00,session_breakout,Long,1.5431194894866542,rejected_expected_r,expected_r below 1.8
+1604941200000,2020-11-09 17:00:00+00:00,session_breakout,Short,1.5283990078355392,rejected_expected_r,expected_r below 1.8
+1606482000000,2020-11-27 13:00:00+00:00,session_breakout,Short,1.5444399228305015,rejected_expected_r,expected_r below 1.8
+1609844400000,2021-01-05 11:00:00+00:00,pullback_reclaim,Long,1.6117855994491368,rejected_funding,funding threshold
+1611529200000,2021-01-24 23:00:00+00:00,pullback_reclaim,Short,1.6190710814162144,rejected_funding,funding threshold
+1613383200000,2021-02-15 10:00:00+00:00,pullback_reclaim,Long,1.6468670913164003,rejected_funding,funding threshold
+1613401200000,2021-02-15 15:00:00+00:00,pullback_reclaim,Long,1.526964485890622,rejected_funding,funding threshold
+1615050000000,2021-03-06 17:00:00+00:00,pullback_reclaim,Short,1.5396318309952166,resolved_duplicate_signal,2 same-side signals
+1615939200000,2021-03-17 00:00:00+00:00,pullback_reclaim,Long,1.639431436963939,rejected_funding,funding threshold
+1617624000000,2021-04-05 12:00:00+00:00,pullback_reclaim,Long,1.593969486721884,rejected_funding,funding threshold
+1619956800000,2021-05-02 12:00:00+00:00,pullback_reclaim,Long,1.5062357052306925,rejected_funding,funding threshold
+1619964000000,2021-05-02 14:00:00+00:00,pullback_reclaim,Long,1.538192567986828,rejected_funding,funding threshold
+1619974800000,2021-05-02 17:00:00+00:00,pullback_reclaim,Long,1.5836183263176602,rejected_funding,funding threshold
+1620486000000,2021-05-08 15:00:00+00:00,pullback_reclaim,Long,1.5705869566092168,rejected_funding,funding threshold
+1620547200000,2021-05-09 08:00:00+00:00,pullback_reclaim,Long,1.5021433604774077,rejected_funding,funding threshold
+1621144800000,2021-05-16 06:00:00+00:00,pullback_reclaim,Short,1.5454945381662546,rejected_funding,funding threshold
+1630634400000,2021-09-03 02:00:00+00:00,pullback_reclaim,Long,1.5298674468103557,rejected_funding,funding threshold
+1634472000000,2021-10-17 12:00:00+00:00,second_retest,Short,1.661496478614276,rejected_funding,funding threshold
+1640782800000,2021-12-29 13:00:00+00:00,session_breakout,Short,1.6395706534068801,rejected_expected_r,expected_r below 1.8
+1640808000000,2021-12-29 20:00:00+00:00,session_breakout,Short,1.5771287775271632,rejected_expected_r,expected_r below 1.8
+1641841200000,2022-01-10 19:00:00+00:00,session_breakout,Short,1.5978018734348673,rejected_expected_r,expected_r below 1.8
+1642341600000,2022-01-16 14:00:00+00:00,session_breakout,Long,1.532212561590324,rejected_expected_r,expected_r below 1.8
+1643904000000,2022-02-03 16:00:00+00:00,session_breakout,Short,1.6666666666666712,rejected_expected_r,expected_r below 1.8
+1643914800000,2022-02-03 19:00:00+00:00,session_breakout,Short,1.6036777864189804,rejected_expected_r,expected_r below 1.8
+1644775200000,2022-02-13 18:00:00+00:00,session_breakout,Short,1.551709861871949,rejected_expected_r,expected_r below 1.8
+1645819200000,2022-02-25 20:00:00+00:00,session_breakout,Long,1.5655951672756823,rejected_expected_r,expected_r below 1.8
+1650481200000,2022-04-20 19:00:00+00:00,session_breakout,Short,1.6666666666666765,rejected_expected_r,expected_r below 1.8
+1651330800000,2022-04-30 15:00:00+00:00,session_breakout,Short,1.666666666666653,rejected_expected_r,expected_r below 1.8
+1651345200000,2022-04-30 19:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1652371200000,2022-05-12 16:00:00+00:00,pullback_reclaim,Short,1.5791602164264553,rejected_funding,funding threshold
+1653577200000,2022-05-26 15:00:00+00:00,session_breakout,Short,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1653591600000,2022-05-26 19:00:00+00:00,session_breakout,Short,1.6549302990063495,rejected_expected_r,expected_r below 1.8
+1656262800000,2022-06-26 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1657044000000,2022-07-05 18:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1663351200000,2022-09-16 18:00:00+00:00,session_breakout,Short,1.5240437992191265,rejected_expected_r,expected_r below 1.8
+1665853200000,2022-10-15 17:00:00+00:00,session_breakout,Short,1.666666666666647,rejected_expected_r,expected_r below 1.8
+1666360800000,2022-10-21 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1666364400000,2022-10-21 15:00:00+00:00,session_breakout,Long,1.6666666666666539,rejected_expected_r,expected_r below 1.8
+1666378800000,2022-10-21 19:00:00+00:00,session_breakout,Long,1.5318094397848845,rejected_expected_r,expected_r below 1.8
+1666454400000,2022-10-22 16:00:00+00:00,session_breakout,Long,1.6666666666666803,rejected_expected_r,expected_r below 1.8
+1669730400000,2022-11-29 14:00:00+00:00,second_retest,Long,1.6322272848252852,resolved_long_short_conflict,1 long vs 1 short
+1670598000000,2022-12-09 15:00:00+00:00,session_breakout,Short,1.6453213562947866,rejected_expected_r,expected_r below 1.8
+1670688000000,2022-12-10 16:00:00+00:00,session_breakout,Long,1.5040182054271884,rejected_expected_r,expected_r below 1.8
+1670695200000,2022-12-10 18:00:00+00:00,session_breakout,Long,1.516367212238644,rejected_expected_r,expected_r below 1.8
+1671714000000,2022-12-22 13:00:00+00:00,session_breakout,Short,1.665606093480986,rejected_expected_r,expected_r below 1.8
+1674486000000,2023-01-23 15:00:00+00:00,session_breakout,Long,1.6666666666666627,rejected_expected_r,expected_r below 1.8
+1674489600000,2023-01-23 16:00:00+00:00,session_breakout,Long,1.6264194024105683,rejected_expected_r,expected_r below 1.8
+1674496800000,2023-01-23 18:00:00+00:00,session_breakout,Long,1.585744431095314,rejected_expected_r,expected_r below 1.8
+1675263600000,2023-02-01 15:00:00+00:00,session_breakout,Short,1.5432751551920638,rejected_expected_r,expected_r below 1.8
+1675429200000,2023-02-03 13:00:00+00:00,session_breakout,Short,1.563992973368375,rejected_expected_r,expected_r below 1.8
+1675450800000,2023-02-03 19:00:00+00:00,session_breakout,Short,1.5415013089715042,rejected_expected_r,expected_r below 1.8
+1676120400000,2023-02-11 13:00:00+00:00,session_breakout,Long,1.575166593189683,rejected_expected_r,expected_r below 1.8
+1676127600000,2023-02-11 15:00:00+00:00,session_breakout,Long,1.5784876866521544,rejected_expected_r,expected_r below 1.8
+1679774400000,2023-03-25 20:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1679846400000,2023-03-26 16:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1682697600000,2023-04-28 16:00:00+00:00,session_breakout,Short,1.6666666666666636,rejected_expected_r,expected_r below 1.8
+1683140400000,2023-05-03 19:00:00+00:00,session_breakout,Short,1.62536394822514,rejected_expected_r,expected_r below 1.8
+1683738000000,2023-05-10 17:00:00+00:00,session_breakout,Short,1.6666666666666576,rejected_expected_r,expected_r below 1.8
+1684591200000,2023-05-20 14:00:00+00:00,session_breakout,Long,1.6666666666666778,rejected_expected_r,expected_r below 1.8
+1684598400000,2023-05-20 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1690300800000,2023-07-25 16:00:00+00:00,session_breakout,Long,1.5182049790599204,rejected_expected_r,expected_r below 1.8
+1690311600000,2023-07-25 19:00:00+00:00,session_breakout,Long,1.6666666666666592,rejected_expected_r,expected_r below 1.8
+1692118800000,2023-08-15 17:00:00+00:00,session_breakout,Short,1.5943428681787217,rejected_expected_r,expected_r below 1.8
+1693663200000,2023-09-02 14:00:00+00:00,session_breakout,Long,1.6666666666666745,rejected_expected_r,expected_r below 1.8
+1694023200000,2023-09-06 18:00:00+00:00,session_breakout,Short,1.5379606770672671,rejected_expected_r,expected_r below 1.8
+1694026800000,2023-09-06 19:00:00+00:00,session_breakout,Short,1.6666666666666776,rejected_expected_r,expected_r below 1.8
+1694264400000,2023-09-09 13:00:00+00:00,session_breakout,Short,1.666666666666654,rejected_expected_r,expected_r below 1.8
+1695826800000,2023-09-27 15:00:00+00:00,session_breakout,Long,1.6666666666666718,rejected_expected_r,expected_r below 1.8
+1696078800000,2023-09-30 13:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1696600800000,2023-10-06 14:00:00+00:00,session_breakout,Long,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1698850800000,2023-11-01 15:00:00+00:00,session_breakout,Short,1.583364043196144,rejected_expected_r,expected_r below 1.8
+1699621200000,2023-11-10 13:00:00+00:00,session_breakout,Long,1.6267086012170424,rejected_expected_r,expected_r below 1.8
+1700488800000,2023-11-20 14:00:00+00:00,session_breakout,Long,1.557985466632321,rejected_expected_r,expected_r below 1.8
+1700582400000,2023-11-21 16:00:00+00:00,session_breakout,Short,1.5784998746152634,rejected_expected_r,expected_r below 1.8
+1700744400000,2023-11-23 13:00:00+00:00,session_breakout,Short,1.6666666666666528,rejected_expected_r,expected_r below 1.8
+1700758800000,2023-11-23 17:00:00+00:00,session_breakout,Short,1.5845848206168274,rejected_expected_r,expected_r below 1.8
+1700841600000,2023-11-24 16:00:00+00:00,session_breakout,Long,1.5646994670027992,rejected_expected_r,expected_r below 1.8
+1700848800000,2023-11-24 18:00:00+00:00,session_breakout,Long,1.577439852104476,rejected_expected_r,expected_r below 1.8
+1701028800000,2023-11-26 20:00:00+00:00,session_breakout,Short,1.666666666666686,rejected_expected_r,expected_r below 1.8
+1701961200000,2023-12-07 15:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1702126800000,2023-12-09 13:00:00+00:00,session_breakout,Short,1.527000924988464,rejected_expected_r,expected_r below 1.8
+1702566000000,2023-12-14 15:00:00+00:00,session_breakout,Short,1.5760636320700327,rejected_expected_r,expected_r below 1.8
+1702569600000,2023-12-14 16:00:00+00:00,session_breakout,Short,1.6666666666666705,rejected_expected_r,expected_r below 1.8
+1702573200000,2023-12-14 17:00:00+00:00,session_breakout,Long,1.6666666666666738,rejected_expected_r,expected_r below 1.8
+1703930400000,2023-12-30 10:00:00+00:00,session_breakout,Short,1.6666666666666607,rejected_funding,funding threshold
+1703944800000,2023-12-30 14:00:00+00:00,session_breakout,Long,1.5241211577362053,rejected_expected_r,expected_r below 1.8
+1704693600000,2024-01-08 06:00:00+00:00,pullback_reclaim,Long,1.5766596226286338,resolved_long_short_conflict,1 long vs 1 short
+1704898800000,2024-01-10 15:00:00+00:00,session_breakout,Short,1.6666666666666692,rejected_expected_r,expected_r below 1.8
+1704902400000,2024-01-10 16:00:00+00:00,session_breakout,Short,1.6458867932314454,rejected_expected_r,expected_r below 1.8
+1704906000000,2024-01-10 17:00:00+00:00,session_breakout,Long,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1704985200000,2024-01-11 15:00:00+00:00,session_breakout,Long,1.606850832927484,rejected_expected_r,expected_r below 1.8
+1706731200000,2024-01-31 20:00:00+00:00,session_breakout,Short,1.6666666666666754,rejected_expected_r,expected_r below 1.8
+1709312400000,2024-03-01 17:00:00+00:00,session_breakout,Long,1.5283559340896433,rejected_expected_r,expected_r below 1.8
+1709798400000,2024-03-07 08:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_funding,funding threshold
+1710273600000,2024-03-12 20:00:00+00:00,session_breakout,Short,1.5589495996388678,rejected_expected_r,expected_r below 1.8
+1710280800000,2024-03-12 22:00:00+00:00,pullback_reclaim,Long,1.6030076409263985,rejected_funding,funding threshold
+1715007600000,2024-05-06 15:00:00+00:00,session_breakout,Short,1.5068847488396797,rejected_expected_r,expected_r below 1.8
+1715439600000,2024-05-11 15:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1715450400000,2024-05-11 18:00:00+00:00,session_breakout,Long,1.5550623008750066,rejected_expected_r,expected_r below 1.8
+1715454000000,2024-05-11 19:00:00+00:00,session_breakout,Long,1.666666666666657,rejected_expected_r,expected_r below 1.8
+1717686000000,2024-06-06 15:00:00+00:00,session_breakout,Long,1.6666666666666488,rejected_expected_r,expected_r below 1.8
+1717704000000,2024-06-06 20:00:00+00:00,session_breakout,Short,1.6666666666666823,rejected_expected_r,expected_r below 1.8
+1725116400000,2024-08-31 15:00:00+00:00,session_breakout,Short,1.5977682234396107,rejected_expected_r,expected_r below 1.8
+1726416000000,2024-09-15 16:00:00+00:00,session_breakout,Short,1.666666666666681,rejected_expected_r,expected_r below 1.8
+1730559600000,2024-11-02 15:00:00+00:00,session_breakout,Short,1.6666666666666756,rejected_expected_r,expected_r below 1.8
+1730566800000,2024-11-02 17:00:00+00:00,session_breakout,Short,1.6666666666666574,rejected_expected_r,expected_r below 1.8
+1731078000000,2024-11-08 15:00:00+00:00,session_breakout,Long,1.5479295084453726,rejected_expected_r,expected_r below 1.8
+1731085200000,2024-11-08 17:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1731787200000,2024-11-16 20:00:00+00:00,session_breakout,Short,1.5134398207744832,rejected_expected_r,expected_r below 1.8
+1733234400000,2024-12-03 14:00:00+00:00,session_breakout,Short,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1733241600000,2024-12-03 16:00:00+00:00,session_breakout,Short,1.6666666666666707,rejected_expected_r,expected_r below 1.8
+1735401600000,2024-12-28 16:00:00+00:00,session_breakout,Long,1.6521714697057004,rejected_expected_r,expected_r below 1.8
+1735408800000,2024-12-28 18:00:00+00:00,session_breakout,Long,1.6666666666666734,rejected_expected_r,expected_r below 1.8
+1736690400000,2025-01-12 14:00:00+00:00,session_breakout,Long,1.6520946941069006,rejected_expected_r,expected_r below 1.8
+1736870400000,2025-01-14 16:00:00+00:00,session_breakout,Long,1.5688423603209032,rejected_expected_r,expected_r below 1.8
+1738422000000,2025-02-01 15:00:00+00:00,session_breakout,Short,1.666666666666673,rejected_expected_r,expected_r below 1.8
+1738432800000,2025-02-01 18:00:00+00:00,session_breakout,Short,1.5475433090581208,rejected_expected_r,expected_r below 1.8
+1739142000000,2025-02-09 23:00:00+00:00,second_retest,Short,1.6659157768399921,resolved_duplicate_signal,2 same-side signals
+1740146400000,2025-02-21 14:00:00+00:00,session_breakout,Long,1.6178007705691335,rejected_expected_r,expected_r below 1.8
+1742148000000,2025-03-16 18:00:00+00:00,session_breakout,Short,1.666666666666678,rejected_expected_r,expected_r below 1.8
+1744826400000,2025-04-16 18:00:00+00:00,session_breakout,Long,1.666666666666671,rejected_expected_r,expected_r below 1.8
+1744830000000,2025-04-16 19:00:00+00:00,session_breakout,Long,1.5031005574122607,rejected_expected_r,expected_r below 1.8
+1747231200000,2025-05-14 14:00:00+00:00,session_breakout,Short,1.6228154092134552,rejected_expected_r,expected_r below 1.8
+1747249200000,2025-05-14 19:00:00+00:00,session_breakout,Short,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1749056400000,2025-06-04 17:00:00+00:00,session_breakout,Short,1.5372701159450195,rejected_expected_r,expected_r below 1.8
+1751212800000,2025-06-29 16:00:00+00:00,session_breakout,Long,1.6666666666666887,rejected_expected_r,expected_r below 1.8
+1755007200000,2025-08-12 14:00:00+00:00,session_breakout,Long,1.5083511843132322,rejected_expected_r,expected_r below 1.8
+1761138000000,2025-10-22 13:00:00+00:00,session_breakout,Long,1.6666666666666599,rejected_expected_r,expected_r below 1.8
+1765123200000,2025-12-07 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765634400000,2025-12-13 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765656000000,2025-12-13 20:00:00+00:00,session_breakout,Short,1.666666666666644,rejected_expected_r,expected_r below 1.8
+1766678400000,2025-12-25 16:00:00+00:00,session_breakout,Long,1.529477936467056,rejected_expected_r,expected_r below 1.8
+1768582800000,2026-01-16 17:00:00+00:00,session_breakout,Short,1.6304252865558813,rejected_expected_r,expected_r below 1.8
+1769112000000,2026-01-22 20:00:00+00:00,session_breakout,Short,1.5506459835618511,rejected_expected_r,expected_r below 1.8
+1769184000000,2026-01-23 16:00:00+00:00,session_breakout,Long,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1769608800000,2026-01-28 14:00:00+00:00,session_breakout,Long,1.6294954967347743,rejected_expected_r,expected_r below 1.8
+1769623200000,2026-01-28 18:00:00+00:00,session_breakout,Long,1.666666666666677,rejected_expected_r,expected_r below 1.8
+1773244800000,2026-03-11 16:00:00+00:00,session_breakout,Long,1.502392314317947,rejected_expected_r,expected_r below 1.8
+1776366000000,2026-04-16 19:00:00+00:00,session_breakout,Long,1.6588816013190437,rejected_expected_r,expected_r below 1.8
+1779631200000,2026-05-24 14:00:00+00:00,session_breakout,Short,1.5150818922914264,rejected_expected_r,expected_r below 1.8
+1579168800000,2020-01-16 10:00:00+00:00,pullback_reclaim,Long,1.569168586033168,rejected_funding,funding threshold
+1579636800000,2020-01-21 20:00:00+00:00,session_breakout,Long,1.5157972855727435,rejected_expected_r,expected_r below 1.8
+1581897600000,2020-02-17 00:00:00+00:00,second_retest,Short,1.5073828257809192,rejected_funding,funding threshold
+1582506000000,2020-02-24 01:00:00+00:00,second_retest,Long,1.556897029095321,rejected_funding,funding threshold
+1583866800000,2020-03-10 19:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_expected_r,expected_r below 1.8
+1584190800000,2020-03-14 13:00:00+00:00,session_breakout,Short,1.6666666666666659,rejected_expected_r,expected_r below 1.8
+1584313200000,2020-03-15 23:00:00+00:00,second_retest,Long,1.537872069710368,rejected_funding,funding threshold
+1588442400000,2020-05-02 18:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589216400000,2020-05-11 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1589893200000,2020-05-19 13:00:00+00:00,second_retest,Long,1.6174416497721198,resolved_duplicate_signal,2 same-side signals
+1591362000000,2020-06-05 13:00:00+00:00,session_breakout,Short,1.6488030039714414,rejected_expected_r,expected_r below 1.8
+1591621200000,2020-06-08 13:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1592492400000,2020-06-18 15:00:00+00:00,session_breakout,Short,1.5867927812956018,rejected_expected_r,expected_r below 1.8
+1595174400000,2020-07-19 16:00:00+00:00,second_retest,Short,1.5733304738097764,resolved_duplicate_signal,2 same-side signals
+1596459600000,2020-08-03 13:00:00+00:00,pullback_reclaim,Long,1.650158894429924,rejected_funding,funding threshold
+1602781200000,2020-10-15 17:00:00+00:00,session_breakout,Long,1.5431194894866542,rejected_expected_r,expected_r below 1.8
+1604941200000,2020-11-09 17:00:00+00:00,session_breakout,Short,1.5283990078355392,rejected_expected_r,expected_r below 1.8
+1606482000000,2020-11-27 13:00:00+00:00,session_breakout,Short,1.5444399228305015,rejected_expected_r,expected_r below 1.8
+1609844400000,2021-01-05 11:00:00+00:00,pullback_reclaim,Long,1.6117855994491368,rejected_funding,funding threshold
+1611529200000,2021-01-24 23:00:00+00:00,pullback_reclaim,Short,1.6190710814162144,rejected_funding,funding threshold
+1613383200000,2021-02-15 10:00:00+00:00,pullback_reclaim,Long,1.6468670913164003,rejected_funding,funding threshold
+1613401200000,2021-02-15 15:00:00+00:00,pullback_reclaim,Long,1.526964485890622,rejected_funding,funding threshold
+1615050000000,2021-03-06 17:00:00+00:00,pullback_reclaim,Short,1.5396318309952166,resolved_duplicate_signal,2 same-side signals
+1615939200000,2021-03-17 00:00:00+00:00,pullback_reclaim,Long,1.639431436963939,rejected_funding,funding threshold
+1617624000000,2021-04-05 12:00:00+00:00,pullback_reclaim,Long,1.593969486721884,rejected_funding,funding threshold
+1619956800000,2021-05-02 12:00:00+00:00,pullback_reclaim,Long,1.5062357052306925,rejected_funding,funding threshold
+1619964000000,2021-05-02 14:00:00+00:00,pullback_reclaim,Long,1.538192567986828,rejected_funding,funding threshold
+1619974800000,2021-05-02 17:00:00+00:00,pullback_reclaim,Long,1.5836183263176602,rejected_funding,funding threshold
+1620486000000,2021-05-08 15:00:00+00:00,pullback_reclaim,Long,1.5705869566092168,rejected_funding,funding threshold
+1620547200000,2021-05-09 08:00:00+00:00,pullback_reclaim,Long,1.5021433604774077,rejected_funding,funding threshold
+1621144800000,2021-05-16 06:00:00+00:00,pullback_reclaim,Short,1.5454945381662546,rejected_funding,funding threshold
+1630634400000,2021-09-03 02:00:00+00:00,pullback_reclaim,Long,1.5298674468103557,rejected_funding,funding threshold
+1634472000000,2021-10-17 12:00:00+00:00,second_retest,Short,1.661496478614276,rejected_funding,funding threshold
+1640782800000,2021-12-29 13:00:00+00:00,session_breakout,Short,1.6395706534068801,rejected_expected_r,expected_r below 1.8
+1640808000000,2021-12-29 20:00:00+00:00,session_breakout,Short,1.5771287775271632,rejected_expected_r,expected_r below 1.8
+1641841200000,2022-01-10 19:00:00+00:00,session_breakout,Short,1.5978018734348673,rejected_expected_r,expected_r below 1.8
+1642341600000,2022-01-16 14:00:00+00:00,session_breakout,Long,1.532212561590324,rejected_expected_r,expected_r below 1.8
+1643904000000,2022-02-03 16:00:00+00:00,session_breakout,Short,1.6666666666666712,rejected_expected_r,expected_r below 1.8
+1643914800000,2022-02-03 19:00:00+00:00,session_breakout,Short,1.6036777864189804,rejected_expected_r,expected_r below 1.8
+1644775200000,2022-02-13 18:00:00+00:00,session_breakout,Short,1.551709861871949,rejected_expected_r,expected_r below 1.8
+1645819200000,2022-02-25 20:00:00+00:00,session_breakout,Long,1.5655951672756823,rejected_expected_r,expected_r below 1.8
+1650481200000,2022-04-20 19:00:00+00:00,session_breakout,Short,1.6666666666666765,rejected_expected_r,expected_r below 1.8
+1651330800000,2022-04-30 15:00:00+00:00,session_breakout,Short,1.666666666666653,rejected_expected_r,expected_r below 1.8
+1651345200000,2022-04-30 19:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1652371200000,2022-05-12 16:00:00+00:00,pullback_reclaim,Short,1.5791602164264553,rejected_funding,funding threshold
+1653577200000,2022-05-26 15:00:00+00:00,session_breakout,Short,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1653591600000,2022-05-26 19:00:00+00:00,session_breakout,Short,1.6549302990063495,rejected_expected_r,expected_r below 1.8
+1656262800000,2022-06-26 17:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1657044000000,2022-07-05 18:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1663351200000,2022-09-16 18:00:00+00:00,session_breakout,Short,1.5240437992191265,rejected_expected_r,expected_r below 1.8
+1665853200000,2022-10-15 17:00:00+00:00,session_breakout,Short,1.666666666666647,rejected_expected_r,expected_r below 1.8
+1666360800000,2022-10-21 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1666364400000,2022-10-21 15:00:00+00:00,session_breakout,Long,1.6666666666666539,rejected_expected_r,expected_r below 1.8
+1666378800000,2022-10-21 19:00:00+00:00,session_breakout,Long,1.5318094397848845,rejected_expected_r,expected_r below 1.8
+1666454400000,2022-10-22 16:00:00+00:00,session_breakout,Long,1.6666666666666803,rejected_expected_r,expected_r below 1.8
+1669730400000,2022-11-29 14:00:00+00:00,second_retest,Long,1.6322272848252852,resolved_long_short_conflict,1 long vs 1 short
+1670598000000,2022-12-09 15:00:00+00:00,session_breakout,Short,1.6453213562947866,rejected_expected_r,expected_r below 1.8
+1670688000000,2022-12-10 16:00:00+00:00,session_breakout,Long,1.5040182054271884,rejected_expected_r,expected_r below 1.8
+1670695200000,2022-12-10 18:00:00+00:00,session_breakout,Long,1.516367212238644,rejected_expected_r,expected_r below 1.8
+1671714000000,2022-12-22 13:00:00+00:00,session_breakout,Short,1.665606093480986,rejected_expected_r,expected_r below 1.8
+1674486000000,2023-01-23 15:00:00+00:00,session_breakout,Long,1.6666666666666627,rejected_expected_r,expected_r below 1.8
+1674489600000,2023-01-23 16:00:00+00:00,session_breakout,Long,1.6264194024105683,rejected_expected_r,expected_r below 1.8
+1674496800000,2023-01-23 18:00:00+00:00,session_breakout,Long,1.585744431095314,rejected_expected_r,expected_r below 1.8
+1675263600000,2023-02-01 15:00:00+00:00,session_breakout,Short,1.5432751551920638,rejected_expected_r,expected_r below 1.8
+1675429200000,2023-02-03 13:00:00+00:00,session_breakout,Short,1.563992973368375,rejected_expected_r,expected_r below 1.8
+1675450800000,2023-02-03 19:00:00+00:00,session_breakout,Short,1.5415013089715042,rejected_expected_r,expected_r below 1.8
+1676120400000,2023-02-11 13:00:00+00:00,session_breakout,Long,1.575166593189683,rejected_expected_r,expected_r below 1.8
+1676127600000,2023-02-11 15:00:00+00:00,session_breakout,Long,1.5784876866521544,rejected_expected_r,expected_r below 1.8
+1679774400000,2023-03-25 20:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1679846400000,2023-03-26 16:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1682697600000,2023-04-28 16:00:00+00:00,session_breakout,Short,1.6666666666666636,rejected_expected_r,expected_r below 1.8
+1683140400000,2023-05-03 19:00:00+00:00,session_breakout,Short,1.62536394822514,rejected_expected_r,expected_r below 1.8
+1683738000000,2023-05-10 17:00:00+00:00,session_breakout,Short,1.6666666666666576,rejected_expected_r,expected_r below 1.8
+1684591200000,2023-05-20 14:00:00+00:00,session_breakout,Long,1.6666666666666778,rejected_expected_r,expected_r below 1.8
+1684598400000,2023-05-20 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1690300800000,2023-07-25 16:00:00+00:00,session_breakout,Long,1.5182049790599204,rejected_expected_r,expected_r below 1.8
+1690311600000,2023-07-25 19:00:00+00:00,session_breakout,Long,1.6666666666666592,rejected_expected_r,expected_r below 1.8
+1692118800000,2023-08-15 17:00:00+00:00,session_breakout,Short,1.5943428681787217,rejected_expected_r,expected_r below 1.8
+1693663200000,2023-09-02 14:00:00+00:00,session_breakout,Long,1.6666666666666745,rejected_expected_r,expected_r below 1.8
+1694023200000,2023-09-06 18:00:00+00:00,session_breakout,Short,1.5379606770672671,rejected_expected_r,expected_r below 1.8
+1694026800000,2023-09-06 19:00:00+00:00,session_breakout,Short,1.6666666666666776,rejected_expected_r,expected_r below 1.8
+1694264400000,2023-09-09 13:00:00+00:00,session_breakout,Short,1.666666666666654,rejected_expected_r,expected_r below 1.8
+1695826800000,2023-09-27 15:00:00+00:00,session_breakout,Long,1.6666666666666718,rejected_expected_r,expected_r below 1.8
+1696078800000,2023-09-30 13:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1696600800000,2023-10-06 14:00:00+00:00,session_breakout,Long,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1698850800000,2023-11-01 15:00:00+00:00,session_breakout,Short,1.583364043196144,rejected_expected_r,expected_r below 1.8
+1699621200000,2023-11-10 13:00:00+00:00,session_breakout,Long,1.6267086012170424,rejected_expected_r,expected_r below 1.8
+1700488800000,2023-11-20 14:00:00+00:00,session_breakout,Long,1.557985466632321,rejected_expected_r,expected_r below 1.8
+1700582400000,2023-11-21 16:00:00+00:00,session_breakout,Short,1.5784998746152634,rejected_expected_r,expected_r below 1.8
+1700744400000,2023-11-23 13:00:00+00:00,session_breakout,Short,1.6666666666666528,rejected_expected_r,expected_r below 1.8
+1700758800000,2023-11-23 17:00:00+00:00,session_breakout,Short,1.5845848206168274,rejected_expected_r,expected_r below 1.8
+1700841600000,2023-11-24 16:00:00+00:00,session_breakout,Long,1.5646994670027992,rejected_expected_r,expected_r below 1.8
+1700848800000,2023-11-24 18:00:00+00:00,session_breakout,Long,1.577439852104476,rejected_expected_r,expected_r below 1.8
+1701028800000,2023-11-26 20:00:00+00:00,session_breakout,Short,1.666666666666686,rejected_expected_r,expected_r below 1.8
+1701961200000,2023-12-07 15:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1702126800000,2023-12-09 13:00:00+00:00,session_breakout,Short,1.527000924988464,rejected_expected_r,expected_r below 1.8
+1702566000000,2023-12-14 15:00:00+00:00,session_breakout,Short,1.5760636320700327,rejected_expected_r,expected_r below 1.8
+1702569600000,2023-12-14 16:00:00+00:00,session_breakout,Short,1.6666666666666705,rejected_expected_r,expected_r below 1.8
+1702573200000,2023-12-14 17:00:00+00:00,session_breakout,Long,1.6666666666666738,rejected_expected_r,expected_r below 1.8
+1703930400000,2023-12-30 10:00:00+00:00,session_breakout,Short,1.6666666666666607,rejected_funding,funding threshold
+1703944800000,2023-12-30 14:00:00+00:00,session_breakout,Long,1.5241211577362053,rejected_expected_r,expected_r below 1.8
+1704693600000,2024-01-08 06:00:00+00:00,pullback_reclaim,Long,1.5766596226286338,resolved_long_short_conflict,1 long vs 1 short
+1704898800000,2024-01-10 15:00:00+00:00,session_breakout,Short,1.6666666666666692,rejected_expected_r,expected_r below 1.8
+1704902400000,2024-01-10 16:00:00+00:00,session_breakout,Short,1.6458867932314454,rejected_expected_r,expected_r below 1.8
+1704906000000,2024-01-10 17:00:00+00:00,session_breakout,Long,1.6666666666666643,rejected_expected_r,expected_r below 1.8
+1704985200000,2024-01-11 15:00:00+00:00,session_breakout,Long,1.606850832927484,rejected_expected_r,expected_r below 1.8
+1706731200000,2024-01-31 20:00:00+00:00,session_breakout,Short,1.6666666666666754,rejected_expected_r,expected_r below 1.8
+1709312400000,2024-03-01 17:00:00+00:00,session_breakout,Long,1.5283559340896433,rejected_expected_r,expected_r below 1.8
+1709798400000,2024-03-07 08:00:00+00:00,session_breakout,Long,1.6666666666666743,rejected_funding,funding threshold
+1710273600000,2024-03-12 20:00:00+00:00,session_breakout,Short,1.5589495996388678,rejected_expected_r,expected_r below 1.8
+1710280800000,2024-03-12 22:00:00+00:00,pullback_reclaim,Long,1.6030076409263985,rejected_funding,funding threshold
+1715007600000,2024-05-06 15:00:00+00:00,session_breakout,Short,1.5068847488396797,rejected_expected_r,expected_r below 1.8
+1715439600000,2024-05-11 15:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1715450400000,2024-05-11 18:00:00+00:00,session_breakout,Long,1.5550623008750066,rejected_expected_r,expected_r below 1.8
+1715454000000,2024-05-11 19:00:00+00:00,session_breakout,Long,1.666666666666657,rejected_expected_r,expected_r below 1.8
+1717686000000,2024-06-06 15:00:00+00:00,session_breakout,Long,1.6666666666666488,rejected_expected_r,expected_r below 1.8
+1717704000000,2024-06-06 20:00:00+00:00,session_breakout,Short,1.6666666666666823,rejected_expected_r,expected_r below 1.8
+1725116400000,2024-08-31 15:00:00+00:00,session_breakout,Short,1.5977682234396107,rejected_expected_r,expected_r below 1.8
+1726416000000,2024-09-15 16:00:00+00:00,session_breakout,Short,1.666666666666681,rejected_expected_r,expected_r below 1.8
+1730559600000,2024-11-02 15:00:00+00:00,session_breakout,Short,1.6666666666666756,rejected_expected_r,expected_r below 1.8
+1730566800000,2024-11-02 17:00:00+00:00,session_breakout,Short,1.6666666666666574,rejected_expected_r,expected_r below 1.8
+1731078000000,2024-11-08 15:00:00+00:00,session_breakout,Long,1.5479295084453726,rejected_expected_r,expected_r below 1.8
+1731085200000,2024-11-08 17:00:00+00:00,session_breakout,Long,1.666666666666655,rejected_expected_r,expected_r below 1.8
+1731787200000,2024-11-16 20:00:00+00:00,session_breakout,Short,1.5134398207744832,rejected_expected_r,expected_r below 1.8
+1733234400000,2024-12-03 14:00:00+00:00,session_breakout,Short,1.6666666666666623,rejected_expected_r,expected_r below 1.8
+1733241600000,2024-12-03 16:00:00+00:00,session_breakout,Short,1.6666666666666707,rejected_expected_r,expected_r below 1.8
+1735401600000,2024-12-28 16:00:00+00:00,session_breakout,Long,1.6521714697057004,rejected_expected_r,expected_r below 1.8
+1735408800000,2024-12-28 18:00:00+00:00,session_breakout,Long,1.6666666666666734,rejected_expected_r,expected_r below 1.8
+1736690400000,2025-01-12 14:00:00+00:00,session_breakout,Long,1.6520946941069006,rejected_expected_r,expected_r below 1.8
+1736870400000,2025-01-14 16:00:00+00:00,session_breakout,Long,1.5688423603209032,rejected_expected_r,expected_r below 1.8
+1738422000000,2025-02-01 15:00:00+00:00,session_breakout,Short,1.666666666666673,rejected_expected_r,expected_r below 1.8
+1738432800000,2025-02-01 18:00:00+00:00,session_breakout,Short,1.5475433090581208,rejected_expected_r,expected_r below 1.8
+1739142000000,2025-02-09 23:00:00+00:00,second_retest,Short,1.6659157768399921,resolved_duplicate_signal,2 same-side signals
+1740146400000,2025-02-21 14:00:00+00:00,session_breakout,Long,1.6178007705691335,rejected_expected_r,expected_r below 1.8
+1742148000000,2025-03-16 18:00:00+00:00,session_breakout,Short,1.666666666666678,rejected_expected_r,expected_r below 1.8
+1744826400000,2025-04-16 18:00:00+00:00,session_breakout,Long,1.666666666666671,rejected_expected_r,expected_r below 1.8
+1744830000000,2025-04-16 19:00:00+00:00,session_breakout,Long,1.5031005574122607,rejected_expected_r,expected_r below 1.8
+1747231200000,2025-05-14 14:00:00+00:00,session_breakout,Short,1.6228154092134552,rejected_expected_r,expected_r below 1.8
+1747249200000,2025-05-14 19:00:00+00:00,session_breakout,Short,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1749056400000,2025-06-04 17:00:00+00:00,session_breakout,Short,1.5372701159450195,rejected_expected_r,expected_r below 1.8
+1751212800000,2025-06-29 16:00:00+00:00,session_breakout,Long,1.6666666666666887,rejected_expected_r,expected_r below 1.8
+1755007200000,2025-08-12 14:00:00+00:00,session_breakout,Long,1.5083511843132322,rejected_expected_r,expected_r below 1.8
+1761138000000,2025-10-22 13:00:00+00:00,session_breakout,Long,1.6666666666666599,rejected_expected_r,expected_r below 1.8
+1765123200000,2025-12-07 16:00:00+00:00,session_breakout,Long,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765634400000,2025-12-13 14:00:00+00:00,session_breakout,Short,1.6666666666666667,rejected_expected_r,expected_r below 1.8
+1765656000000,2025-12-13 20:00:00+00:00,session_breakout,Short,1.666666666666644,rejected_expected_r,expected_r below 1.8
+1766678400000,2025-12-25 16:00:00+00:00,session_breakout,Long,1.529477936467056,rejected_expected_r,expected_r below 1.8
+1768582800000,2026-01-16 17:00:00+00:00,session_breakout,Short,1.6304252865558813,rejected_expected_r,expected_r below 1.8
+1769112000000,2026-01-22 20:00:00+00:00,session_breakout,Short,1.5506459835618511,rejected_expected_r,expected_r below 1.8
+1769184000000,2026-01-23 16:00:00+00:00,session_breakout,Long,1.666666666666661,rejected_expected_r,expected_r below 1.8
+1769608800000,2026-01-28 14:00:00+00:00,session_breakout,Long,1.6294954967347743,rejected_expected_r,expected_r below 1.8
+1769623200000,2026-01-28 18:00:00+00:00,session_breakout,Long,1.666666666666677,rejected_expected_r,expected_r below 1.8
+1773244800000,2026-03-11 16:00:00+00:00,session_breakout,Long,1.502392314317947,rejected_expected_r,expected_r below 1.8
+1776366000000,2026-04-16 19:00:00+00:00,session_breakout,Long,1.6588816013190437,rejected_expected_r,expected_r below 1.8
+1779631200000,2026-05-24 14:00:00+00:00,session_breakout,Short,1.5150818922914264,rejected_expected_r,expected_r below 1.8

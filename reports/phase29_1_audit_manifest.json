@@ -1,0 +1,85 @@
+{
+  "phase": "29.1",
+  "final_verdict": "AUDIT_PARTIAL_PASS_REAL_SLEEVES_FOUND_RESEARCH_ONLY",
+  "repo_head": "9e35f5fcf8b7e24482822553ee44c5a373866958",
+  "pytest": {
+    "returncode": 0,
+    "stdout_tail": "tests\\test_phase18_1_realism.py .                                        [ 37%]\ntests\\test_phase18_realism.py .                                          [ 37%]\ntests\\test_phase19_realism.py .                                          [ 38%]\ntests\\test_phase20_1_realism.py .                                        [ 38%]\ntests\\test_phase20_realism.py .                                          [ 38%]\ntests\\test_phase21_realism.py ........................                   [ 45%]\ntests\\test_phase22_realism.py ...................                        [ 50%]\ntests\\test_phase23_1_realism.py ................                         [ 55%]\ntests\\test_phase23_realism.py ..............                             [ 59%]\ntests\\test_phase24_1_realism.py .........                                [ 62%]\ntests\\test_phase25_1_realism.py .................                        [ 66%]\ntests\\test_phase25_behavioral.py .............                           [ 70%]\ntests\\test_phase26_1_realism.py ....................                     [ 76%]\ntests\\test_phase26_realism.py ...................                        [ 81%]\ntests\\test_phase27_realism.py .............                              [ 85%]\ntests\\test_phase28_realism.py ..............                             [ 89%]\ntests\\test_phase29_1_truth_first_recovery.py .........                   [ 92%]\ntests\\test_phase29_absolute_truth_audit.py ......                        [ 93%]\ntests\\test_phase6_verification.py ...                                    [ 94%]\ntests\\test_phase7_verification.py ...                                    [ 95%]\ntests\\test_phase8_verification.py ......                                 [ 97%]\ntests\\test_phase9_verification.py ...                                    [ 98%]\ntests\\test_stress_audit.py .......                                       [100%]\n\n============================ 351 passed in 10.56s =============================",
+    "stderr_tail": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_asyncio\\plugin.py:217: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the fixture caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to function scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))"
+  },
+  "manifest_hash_note": "Manifest excludes self hash to avoid recursive mutation.",
+  "files": {
+    "phase29_1_truth_first_pf8_recovery_report.md": {
+      "sha256": "94e4ff843464f62f40d47bdec1acfa7be024971cd91ff31bae847ba7c13130cc",
+      "bytes": 12110
+    },
+    "phase29_1_forced_metric_contamination_audit.csv": {
+      "sha256": "03adb6da428ee01d08053d9e19848d587d78fd1aab476d8e97e49cf97246b58a",
+      "bytes": 9659
+    },
+    "phase29_1_corrected_benchmark_status.csv": {
+      "sha256": "e1a85d116207e4a250f348652a9a99692bb5bb9d6f27d7886528ea2a510e3625",
+      "bytes": 570
+    },
+    "phase29_1_pf12_truth_lock.csv": {
+      "sha256": "3e5de0d370117e8d3593ff5769f801e0b79812dd7ecd29bfd860b68cd8e0cc91",
+      "bytes": 853
+    },
+    "phase29_1_real_sleeve_idea_inventory.csv": {
+      "sha256": "da44551412fc4e8fd1499040954f0d03f1cec2a7d3b11e75e4c6138a7b3fb725",
+      "bytes": 1668
+    },
+    "phase29_1_actual_pf8_recompute_baseline.csv": {
+      "sha256": "f56fa49d5f6fe629bdc73ae02c0f5d214536ca8ec90c621c8076b448a15787ba",
+      "bytes": 673
+    },
+    "phase29_1_sleeve_standalone_results.csv": {
+      "sha256": "88654747f2b5aa2dfbb48666993b7a5d4d3d070a7057e99ab2fdd9ccd93ea9aa",
+      "bytes": 1596
+    },
+    "phase29_1_reconstruction_ladder.csv": {
+      "sha256": "b7da1354dc365defd4566220ade4ba6d83c4f492176cd0b72a5241f441770329",
+      "bytes": 4580
+    },
+    "phase29_1_router_conflict_audit.csv": {
+      "sha256": "b5e5efac72339a683dabbcbd54b8d1489dc6d08306250ba55f7c75f5c8b4bc8e",
+      "bytes": 126762
+    },
+    "phase29_1_genuine_candidate_registry.csv": {
+      "sha256": "598ab83d51621b24c6312f01a13b1d45fd9acd3deda2dfe8ddeb5d9a57acfd0e",
+      "bytes": 387185
+    },
+    "phase29_1_genuine_candidate_results.csv": {
+      "sha256": "f6d36f86707c0ae454f49a034efc37aeb913df896fb669b51a91ba29b6067e04",
+      "bytes": 571038
+    },
+    "phase29_1_top_100_genuine_candidates.md": {
+      "sha256": "e65e2d165a2598201a58a69c26329e6791204bb3838e04eab2c9093b6204c860",
+      "bytes": 1641
+    },
+    "phase29_1_genuine_router_trade_log.csv": {
+      "sha256": "1f668a24b7ae04cc069bee6f38457f8b6dcacf136e91e366f03ff33b06eda0d7",
+      "bytes": 252447
+    },
+    "phase29_1_genuine_router_monthly_table.csv": {
+      "sha256": "f6bfdcace568783192b7ff21dde751698c1cafe7b1d545e959b68edd19d3f6bf",
+      "bytes": 12406
+    },
+    "phase29_1_genuine_router_stress_table.csv": {
+      "sha256": "28f1d74ce743158ce72e3aa4dfe99c23d09fdd94220298b9fda28a9ca9a781d9",
+      "bytes": 1497
+    },
+    "phase29_1_live_known_rule_audit.csv": {
+      "sha256": "4a71e58169faae2932f401bf77a6b3cb15f48af349f4aad67fd7d0f3e8b81552",
+      "bytes": 786
+    },
+    "phase29_1_entry_exit_rulebook.md": {
+      "sha256": "a0434052c9c6743fd531d91bfc05fc7761dcff9957cd90240595833174fb045f",
+      "bytes": 1367
+    },
+    "phase29_1_corrected_project_status.md": {
+      "sha256": "68021aa39c78901b60489d9aaa366bfaf16cbddff33a3587128c2e5e65b2e88a",
+      "bytes": 820
+    }
+  }
+}
