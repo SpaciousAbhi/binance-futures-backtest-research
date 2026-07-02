@@ -159,3 +159,11 @@ After Phase 29.7, add unit tests for:
 - [OPEN] Convert Phase 33 filter replay into direct engine router implementation.
 - [OPEN] Candidate diversity target met in registry/results; next phase must validate signal-level executability.
 - [OPEN] NOT_REAL_CAPITAL_READY until Binance testnet shadow validation exists.
+
+
+## Phase 33.1 Reconciliation Problems
+
+- [RESOLVED] Codex Phase 33 is classified as research-only and does not replace Combined Router v1.
+- [OPEN] Stress fragility remains: Phase 32/33.1 baseline stress PASS=7 / FAIL=8 and combined adverse is negative.
+- [OPEN] Build balanced Phase 34 fusion that preserves baseline PnL/trades while borrowing Phase 33 cost-hardening filters.
+- [OPEN] NOT_REAL_CAPITAL_READY until exchange shadow proof exists.

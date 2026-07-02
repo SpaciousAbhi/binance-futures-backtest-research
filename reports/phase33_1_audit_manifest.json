@@ -1,0 +1,57 @@
+{
+  "phase": "33.1",
+  "verdict": "PHASE33_1_PASS_CODEX_WORK_RECONCILED_BASELINE_RECOVERED_AND_PROTECTED",
+  "active_primary_baseline": "Combined Router v1",
+  "phase33_classification": "RESEARCH_ONLY_CONSERVATIVE_STRESS_VARIANT",
+  "live_status": "NOT_REAL_CAPITAL_READY",
+  "files": {
+    "phase33_1_safety_snapshot.csv": {
+      "sha256": "d5a9efdd3a9eeb6cf039d96ba3f479691f29145e2c065ae057c1284b39763a23",
+      "bytes": 1525
+    },
+    "phase33_1_phase33_damage_value_audit.csv": {
+      "sha256": "5bed0c4ec5c49129c305932a6707d2ba7537becfb12910cc6bf1a4295743d2c8",
+      "bytes": 233
+    },
+    "phase33_1_baseline_recovery_trade_log.csv": {
+      "sha256": "e1262d4b8cb305994ddfb166bedc8723bef2a3cb3b4df75a8766ae17349ff922",
+      "bytes": 239888
+    },
+    "phase33_1_baseline_recovery_metrics.csv": {
+      "sha256": "da422de17c31a7ecc129e5c279bf2058ce62dc6c5d9cded0e87c0cea80cc96d9",
+      "bytes": 551
+    },
+    "phase33_1_baseline_recovery_monthly_table.csv": {
+      "sha256": "ba574e154f4a1a6b0ec54ddb99729b0d0c87a59626a7d6e172c4bbea8365a45a",
+      "bytes": 2467
+    },
+    "phase33_1_baseline_recovery_reconciliation.csv": {
+      "sha256": "cfd1dd74925cf1821dbeabd39ceb888ed506fbb44693365ad73ef56c1f596735",
+      "bytes": 431
+    },
+    "phase33_1_baseline_trade_integrity.csv": {
+      "sha256": "4c82f231a8ec666398f00fed704d67482cffb781fd89ab90cd75bb71365c40b8",
+      "bytes": 579
+    },
+    "phase33_1_baseline_metric_recalculation.csv": {
+      "sha256": "da422de17c31a7ecc129e5c279bf2058ce62dc6c5d9cded0e87c0cea80cc96d9",
+      "bytes": 551
+    },
+    "phase33_1_baseline_recovery_stress_table.csv": {
+      "sha256": "e66ab74f11c9f68fe62a71558a4bbc3e5a4945b4bed7033288cbfb3c6f895012",
+      "bytes": 1406
+    },
+    "phase33_1_source_lock.csv": {
+      "sha256": "ce7cfdc69cbdee94fa4db061e04f9d320da03abc8787f2375bc77b13cff38f9d",
+      "bytes": 1945
+    },
+    "phase33_1_phase33_vs_baseline_comparison.csv": {
+      "sha256": "f86f3460034117787ba75b8e296b003a1a1e7ce7f43179e0e159014fdd74b8f5",
+      "bytes": 417
+    },
+    "phase33_1_codex_reconciliation_baseline_recovery_and_truth_lock_report.md": {
+      "sha256": "c09d3c20671729cd825a8bd5d9161eeaf2b31d3fefb4b594a8e4e2fa8fab72ca",
+      "bytes": 2128
+    }
+  }
+}

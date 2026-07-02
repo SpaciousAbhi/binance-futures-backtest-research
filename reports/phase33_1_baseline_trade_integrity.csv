@@ -1,0 +1,16 @@
+check,status,detail
+trade_count_557,PASS,557
+required_column_entry_time,PASS,entry_time
+required_column_exit_time,PASS,exit_time
+required_column_side,PASS,side
+required_column_entry_price,PASS,entry_price
+required_column_exit_price,PASS,exit_price
+required_column_size,PASS,size
+required_column_net_pnl,PASS,net_pnl
+required_column_fees,PASS,fees
+required_column_slippage,PASS,slippage
+required_column_reason,PASS,reason
+exit_time_gte_entry_time,PASS,0
+duplicate_complete_rows,PASS,0
+same_candle_trades_classified,PASS,46
+fees_slippage_present,PASS,fees/slippage

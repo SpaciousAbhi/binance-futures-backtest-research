@@ -87,3 +87,16 @@ reports/phase33_benchmark_comparison.csv,phase33_artifact,33,Phase 33 cost robus
 reports/phase33_acceptance_gate_results.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,bd87d9ab56ae,0.3,YES,VALID
 reports/phase33_live_execution_readiness_delta.md,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,6942ee32a30a,0.8,YES,VALID
 reports/phase33_audit_manifest.json,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,87402d84b465,3.4,YES,VALID
+reports/phase33_1_safety_snapshot.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,d5a9efdd3a9e,1.5,YES,VALID
+reports/phase33_1_phase33_damage_value_audit.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,5bed0c4ec5c4,0.2,YES,VALID
+reports/phase33_1_baseline_recovery_trade_log.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,e1262d4b8cb3,234.3,YES,VALID
+reports/phase33_1_baseline_recovery_metrics.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,da422de17c31,0.5,YES,VALID
+reports/phase33_1_baseline_recovery_monthly_table.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,ba574e154f4a,2.4,YES,VALID
+reports/phase33_1_baseline_recovery_reconciliation.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,cfd1dd74925c,0.4,YES,VALID
+reports/phase33_1_baseline_trade_integrity.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,4c82f231a8ec,0.6,YES,VALID
+reports/phase33_1_baseline_metric_recalculation.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,da422de17c31,0.5,YES,VALID
+reports/phase33_1_baseline_recovery_stress_table.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,e66ab74f11c9,1.4,YES,VALID
+reports/phase33_1_source_lock.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,ce7cfdc69cbd,1.9,YES,VALID
+reports/phase33_1_phase33_vs_baseline_comparison.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,f86f34600341,0.4,YES,VALID
+reports/phase33_1_codex_reconciliation_baseline_recovery_and_truth_lock_report.md,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,c09d3c206717,2.1,YES,VALID
+reports/phase33_1_audit_manifest.json,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,0815dc90e3fb,2.2,YES,VALID

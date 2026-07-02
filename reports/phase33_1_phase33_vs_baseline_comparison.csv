@@ -1,0 +1,3 @@
+system,classification,net_pnl,trades,profit_factor,max_drawdown_pct,negative_months,stress_pass_count,combined_adverse_pnl,promotion_decision
+Combined Router v1 active baseline,ACTIVE_PRIMARY_EXECUTABLE_BASELINE,11205.2,557,1.2522,16.2186,25,7,-39138.38,RETAIN_AS_PRIMARY
+Codex Phase 33 conservative fusion,RESEARCH_ONLY_CONSERVATIVE_STRESS_VARIANT,3517.69,62,1.6751,6.4164,19,12,-2696.5,RESEARCH_ONLY_NOT_PRIMARY

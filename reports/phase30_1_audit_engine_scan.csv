@@ -141,6 +141,11 @@ tests\test_phase31_1_combined_router_acceptance.py,274,FORCED_PNL,INFO,pnl_81_ca
 tests\test_phase32_quality_hardening.py,615,FORCED_PNL,INFO,pnl_81_calc = pnl_81,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase32_quality_hardening.py,616,FORCED_PNL,INFO,diff_pnl =,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase32_quality_hardening.py,617,FORCED_PF,INFO,profit_factor = 1.25,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase33_1_reconciliation.py,119,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase33_1_reconciliation.py,119,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase33_1_reconciliation.py,119,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase33_1_reconciliation.py,119,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase33_1_reconciliation.py,119,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase33_cost_robustness.py,171,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase33_cost_robustness.py,171,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase33_cost_robustness.py,171,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.

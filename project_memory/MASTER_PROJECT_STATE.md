@@ -159,3 +159,12 @@ The next open problems are:
 6. **Never overwrite `reports/` files** without a `.before_phase_sync.bak` if they differ.
 7. **Update `project_memory/CURRENT_HANDOFF.md`** at the end of every phase.
 8. **Real capital: NOT_READY.** Do not suggest live deployment.
+
+
+## Phase 33.1 Reconciliation Status
+
+- Active Primary Executable Baseline: Combined Router v1.
+- Phase 33 Classification: RESEARCH_ONLY_CONSERVATIVE_STRESS_VARIANT.
+- Baseline recovered exactly from trade log: $11,205.20, 557 trades, PF 1.2522, DD 16.2186%.
+- Phase 33 did not replace the baseline because PnL/trade count collapsed despite PF/DD/stress improvement.
+- Live status remains NOT_REAL_CAPITAL_READY.

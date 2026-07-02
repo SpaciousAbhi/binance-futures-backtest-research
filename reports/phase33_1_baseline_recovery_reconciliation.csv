@@ -1,0 +1,5 @@
+source,net_pnl,trades,profit_factor,max_drawdown_pct,positive_months,negative_months,zero_months,status
+Phase 31.1 audited baseline,11205.2,557,1.2522,16.2186,52,25,0,REFERENCE
+Phase 32 baseline,11205.2,557,1.2522,16.2186,52,25,0,REFERENCE
+Phase 33 post-Codex state baseline row,11205.2,557,1.2522,16.2186,52,25,0,PRESENT_NOT_REPLACED
+Phase 33.1 recovered baseline,11205.2,557,1.2522,16.2186,52,25,0,RECOMPUTED_FROM_TRADE_LOG
