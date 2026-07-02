@@ -57,7 +57,10 @@
 | 29.4 | Teacher Distillation & Live Recovery | 325 teacher trades analyzed; entry/exit features extracted | RESEARCH | TEACHER_REFERENCE | `reports/phase29_4_precision_fusion_teacher_distillation_and_live_recovery_report.md` |
 | 29.5 | Major Precision Fusion Breakthrough | MTF router recovery; teacher_mtf_trigger_match generated | PARTIAL_RECOVERY | ENGINE_PROGRESS | `reports/phase29_5_major_precision_fusion_breakthrough_report.md` |
 | 29.6 | True 5m Event-Driven MTF Engine | 5m engine built; result: -$9,940.72, 3,111 trades, PF 0.64 | ENGINE_PROGRESS | ENGINE_PROGRESS | `reports/phase29_6_true_5m_event_driven_mtf_engine_report.md` |
-| **29.7** | **Teacher Trade Replay & Execution Feasibility Audit** | **NEXT PHASE — NOT YET EXECUTED** | — | — | — |
+| 30 | Project Memory OS | Scaffolding for repo-based project memory and rulebook | PASS | INFRASTRUCTURE | `project_memory/`, `scripts/check_project_memory.py` |
+| 30.1 | Research Lab & Idea Engine | Parallel candidate sweep execution queue, audit, & validator | PASS | INFRASTRUCTURE | `scripts/research_lab.py`, `src/research/idea_engine.py` |
+| 31 | Strategy Metric Breakthrough | 5m teacher trade replay feasibility, new baseline CAND_0190 & router | PARTIAL_PASS | VALID_EXECUTABLE_BENCHMARK | `scripts/phase31_runner.py`, `reports/phase31_strategy_metric_breakthrough_report.md` |
+| **32** | **Multi-Asset Hardening & Shadow Scaffolding** | **NEXT PHASE — NOT YET EXECUTED** | — | — | — |
 
 ---
 

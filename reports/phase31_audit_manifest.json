@@ -1,0 +1,51 @@
+{
+  "phase": "31",
+  "name": "Strategy Metric Breakthrough",
+  "verdict": "PHASE31_PARTIAL_PASS_TEACHER_REPLAY_FAILED_NEW_REAL_BASELINE_FOUND",
+  "files": {
+    "reports/phase31_teacher_trade_replay.csv": {
+      "sha256": "194943a337d7f3256001d3fb92ff1bcadd29fdf256650ab2c55b7acb84487405",
+      "size_kb": 65.56
+    },
+    "reports/phase31_teacher_replay_summary.csv": {
+      "sha256": "17ad9a0c82b6ab0c86e9dff447f9cd305a7d871fa680ee655fa73b3e9279d7d0",
+      "size_kb": 0.31
+    },
+    "reports/phase31_metric_weakness_map.csv": {
+      "sha256": "654733d044eb942be166e6ff520a9b0eef8f9a08ea7454afadbbf7cc1840486d",
+      "size_kb": 0.27
+    },
+    "reports/phase31_strategy_idea_library.csv": {
+      "sha256": "16d477103267c7ab3fd3910866589fb202fbe8e43f6696df488435e07314aecd",
+      "size_kb": 6.44
+    },
+    "reports/phase31_candidate_registry.csv": {
+      "sha256": "0f8685ef5b4abf74dfc9900140c4a11c7bd1a3f94a4f7ae2a00feb442144f550",
+      "size_kb": 316.26
+    },
+    "reports/phase31_candidate_results.csv": {
+      "sha256": "d465d905e6f2948f2e746334ace1a19a10f66fa97b9e557596fa4612f38b6a44",
+      "size_kb": 138.88
+    },
+    "reports/phase31_best_router_trade_log.csv": {
+      "sha256": "8c66a4957480fb3f1aca9cfff3a57ef2c25f833c2b46b80805722657ac37daf6",
+      "size_kb": 227.21
+    },
+    "reports/phase31_best_router_monthly_table.csv": {
+      "sha256": "1030de53d2b282261abe3c0eb22e3a63e408b7f1e545ab3ac5f1e68642247439",
+      "size_kb": 2.1
+    },
+    "reports/phase31_best_router_stress_table.csv": {
+      "sha256": "188d0550fed2597acfa0209735f5396e6f32393ed5a217ed8995d98064ac4bd6",
+      "size_kb": 1.45
+    },
+    "reports/phase31_live_automation_audit.md": {
+      "sha256": "c5584c36c13930d49d019de9c5c566476bf6fb7b2cc12918dae72e4e7d91833e",
+      "size_kb": 0.71
+    },
+    "reports/phase31_strategy_metric_breakthrough_report.md": {
+      "sha256": "a127f599f63e85fea2540c27125b8a04c09eed38a0d212686186f80f274c3ca1",
+      "size_kb": 1.68
+    }
+  }
+}

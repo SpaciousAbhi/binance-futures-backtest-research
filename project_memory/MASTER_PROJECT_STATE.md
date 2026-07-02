@@ -1,5 +1,5 @@
 # MASTER PROJECT STATE
-## Last Updated: 2026-07-02 (after Phase 30.1)
+## Last Updated: 2026-07-02 (after Phase 31)
 
 ---
 
@@ -35,6 +35,8 @@ No strategy has passed all requirements for real-capital live automation. Do not
 | Benchmark | PnL | Trades | PF | Max DD | Months +/-/0 | Stress | Status |
 |---|---|---|---|---|---|---|---|
 | **PF 1.2 (Teacher Reference)** | $21,684.99 | 325 | 2.42 | 10.87% | 56/16/6 | +$15,922.97 | `VALID_TEACHER_REFERENCE` |
+| **Phase 31 Combined Router** | $11,205.20 | 557 | 1.25 | 6.54% | 61/13/4 | See reports | `VALID_EXECUTABLE_BENCHMARK` |
+| **Phase 31 Baseline (CAND_0190)** | $4,246.75 | 359 | 1.21 | 6.54% | 53/19/6 | See reports | `VALID_EXECUTABLE_BENCHMARK` |
 | **Variant B** | See reports | — | — | — | — | — | `TEACHER_REFERENCE` |
 | **Variant C** | See reports | — | — | — | — | — | `TEACHER_REFERENCE` |
 
@@ -110,14 +112,14 @@ No strategy has passed all requirements for real-capital live automation. Do not
 
 ## Current Open Problem
 
-The PF1.2 teacher strategy generates 325 profitable trades in the 1h backtest.
-The 5m event-driven engine sees the same setups but cannot match the exact entry timing,
-which results in 3,111 trades with a profit factor of 0.64.
+In Phase 31, we replayed the 325 teacher trades through the 5m event-driven path and proved that the teacher trades are **not physically executable as recorded** (14.8% entry prices never reached, and early stop-outs due to 5m intra-candle volatility). 
 
-The hypothesis for Phase 29.7:
-> The entry timing mismatch is caused by: (a) 5m trigger window not matching 1h candle assumption,
-> (b) SL/TP placement at 5m resolution being different from 1h assumption.
-> Replaying teacher trades through the 5m engine with their exact timestamps should reveal the gap.
+Instead of chasing the unexecutable teacher trades, we generated a new genuine baseline (CAND_0190) and combined it with the floor strategy to build a robust Combined Router ($11,205.20 PnL, PF 1.25, 557 trades).
+
+The next open problems are:
+1. **Multi-Asset Strategy Hardening**: Testing the Combined Router on ETH, BNB, and SOL to ensure it is robust and does not overfit.
+2. **Bad-Month Optimization**: Raising the Router's Profit Factor from 1.25 to 1.50+ by adding rule-based sleeves for bad-month rescue.
+3. **Shadow Trading Scaffolding**: Building mock exchange connectors and order lifecycle validation to test the strategy on Binance Testnet.
 
 ---
 

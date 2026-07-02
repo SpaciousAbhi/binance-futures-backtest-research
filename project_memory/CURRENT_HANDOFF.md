@@ -1,13 +1,27 @@
 # CURRENT HANDOFF
-## Last Updated: 2026-07-02 (Phase 30.1 — Research Lab and Idea Engine OS)
+## Last Updated: 2026-07-02 (Phase 31 — Strategy Metric Breakthrough)
 
 ---
 
-## Latest Completed Phase: Phase 30.1
+## Latest Completed Phase: Phase 31
+
+**Phase name:** Strategy Metric Breakthrough: Teacher Trade Replay, Executable Edge Recovery, Key Metric Improvement, and Precision Fusion Goal Progress
+**Verdict:** `PHASE31_PARTIAL_PASS_TEACHER_REPLAY_FAILED_NEW_REAL_BASELINE_FOUND`
+**Source:** Antigravity — 2026-07-02
+
+### Key Performance Summary:
+- **Net PnL:** $11,205.20 (Router) / $4,246.75 (CAND_0190 baseline)
+- **Profit Factor:** 1.25 (Router) / 1.21 (CAND_0190 baseline)
+- **Max Drawdown:** 6.54%
+- **Trade Count:** 557 (Router) / 359 (CAND_0190 baseline)
+- **Stress Verdict:** PASSED (All 15 scenarios run successfully)
+
+---
+
+## Previous Phase (30.1)
 
 **Phase name:** World-Class Precision Fusion Research Lab, Idea Engine, Audit Infrastructure, and Strategy Discovery OS
 **Verdict:** `PHASE30_1_PASS_RESEARCH_LAB_OS_BUILT`
-**Source:** Antigravity — 2026-07-02
 
 ---
 
@@ -81,25 +95,23 @@
 | Benchmark | Source | PnL | Trades | PF | Max DD | Status |
 |---|---|---|---|---|---|---|
 | PF 1.2 (teacher reference) | Phase 12 runner | $21,684.99 | 325 | 2.42 | 10.87% | VALID_TEACHER_REFERENCE |
+| Phase 31 Combined Router | Phase 31 | $11,205.20 | 557 | 1.25 | 6.54% | VALID_EXECUTABLE_BENCHMARK |
+| Phase 31 Baseline CAND_0190 | Phase 31 | $4,246.75 | 359 | 1.21 | 6.54% | VALID_EXECUTABLE_BENCHMARK |
 | Phase 29.5 MTF Router | Phase 29.5 | See reports | — | — | — | RESEARCH_ONLY |
 | Phase 29.6 5m Engine | Phase 29.6 | -$9,940.72 | 3,111 | 0.64 | 99.41% | ENGINE_PROGRESS |
 
 ---
 
-## Next Recommended Phase: Phase 29.7
+## Next Recommended Phase: Phase 32
 
-**Phase name:** Teacher Trade Replay and Execution Feasibility Audit
-**Goal:** Use the Phase 29.6 trace log (`phase29_6_pf12_mtf_trade_log.csv`) to compare teacher entries
-against exact 5m trigger and exit paths. Optimize only live-known trigger timing and exit parameters
-to minimize the teacher gap (currently 1/325 match). No blind candidate searches.
+**Phase name:** Multi-Asset Strategy Hardening, Bad-Month Recovery Surgery, and Shadow Trading Scaffolding
+**Goal:** Harden the Phase 31 Combined Router on validation assets (ETHUSDT, BNBUSDT, SOLUSDT) to ensure no overfitting. Optimize sleeve weights and investigate bad/zero months to raise the profit factor. Design and scaffold the shadow trading module (order tracking, latency testing, mock exchange connector) to prepare for live testing.
 
-### Key files to load at start of Phase 29.7:
+### Key files to load at start of Phase 32:
 ```
-reports/phase29_6_pf12_mtf_trade_log.csv        <- 5m trace log (1.7 MB)
-reports/phase29_4_teacher_distilled_rules.csv    <- teacher entry rules
-reports/phase29_4_teacher_canonical_sets.csv     <- teacher canonical trade sets
-reports/phase29_5_teacher_mtf_trigger_match.csv  <- teacher trigger match audit
-reports/phase29_6_execution_rule_recovery_audit.csv <- recovered rules (31 rows)
+reports/phase31_strategy_metric_breakthrough_report.md
+reports/phase31_best_router_trade_log.csv
+reports/phase31_audit_manifest.json
 ```
 
 ---
