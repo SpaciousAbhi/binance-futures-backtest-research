@@ -27,11 +27,20 @@ This project has been worked on across multiple AI environments (Antigravity and
 
 - **Project**: Binance USD-M Futures automated trading strategy research
 - **Asset**: BTCUSDT (primary), with ETH/BNB/SOL validation data available
-- **Latest completed phase**: Phase 29.6
+- **Latest completed phase**: Phase 30.1 (Research Lab and Idea Engine OS)
 - **Only valid benchmark**: PF 1.2 (teacher reference, not live-capital ready)
 - **GitHub repo**: https://github.com/SpaciousAbhi/binance-futures-backtest-research
 - **Local project root**: `C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest`
 - **Live capital status**: NOT_REAL_CAPITAL_READY
+
+## Step 0 — Unified Control CLI
+Use the research lab CLI tool to execute all validations:
+```bash
+python scripts/research_lab.py status
+python scripts/research_lab.py memory-check
+python scripts/research_lab.py audit
+python scripts/research_lab.py next-phase
+```
 
 ## Critical Constraint
 

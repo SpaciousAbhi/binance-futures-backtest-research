@@ -1,0 +1,83 @@
+{
+  "phase": "30.1",
+  "name": "Research Lab and Idea Engine OS",
+  "verdict": "PHASE30_1_PASS_RESEARCH_LAB_OS_BUILT",
+  "files": {
+    "scripts/research_lab.py": {
+      "sha256_12": "ef40b5285c4a",
+      "size_kb": 8.6
+    },
+    "scripts/idea_engine.py": {
+      "sha256_12": "0e953c1743ef",
+      "size_kb": 31.1
+    },
+    "src/research/candidate_template_compiler.py": {
+      "sha256_12": "df3411376371",
+      "size_kb": 9.0
+    },
+    "scripts/audit_engine.py": {
+      "sha256_12": "73ecccb6c18c",
+      "size_kb": 6.5
+    },
+    "scripts/candidate_execution_queue.py": {
+      "sha256_12": "098142f4c064",
+      "size_kb": 8.1
+    },
+    "scripts/report_validator.py": {
+      "sha256_12": "08b44eae3042",
+      "size_kb": 4.3
+    },
+    "scripts/update_project_memory.py": {
+      "sha256_12": "f8363d582c64",
+      "size_kb": 3.1
+    },
+    "tests/test_phase30_1_research_lab.py": {
+      "sha256_12": "3622cdab5627",
+      "size_kb": 5.7
+    },
+    "reports/phase30_1_research_lab_architecture_audit.md": {
+      "sha256_12": "c1c49ec2f360",
+      "size_kb": 4.4
+    },
+    "reports/phase30_1_idea_library.csv": {
+      "sha256_12": "102442eed0ea",
+      "size_kb": 14.1
+    },
+    "reports/phase30_1_top_ideas.md": {
+      "sha256_12": "cc98fe813568",
+      "size_kb": 5.8
+    },
+    "reports/phase30_1_candidate_template_schema.md": {
+      "sha256_12": "dd5729f74282",
+      "size_kb": 3.0
+    },
+    "reports/phase30_1_sample_candidate_registry.csv": {
+      "sha256_12": "357f48c651b2",
+      "size_kb": 3.1
+    },
+    "reports/phase30_1_audit_engine_scan.csv": {
+      "sha256_12": "2dcee76f82cd",
+      "size_kb": 17.6
+    },
+    "reports/phase30_1_execution_queue_design.md": {
+      "sha256_12": "5431508a6fb1",
+      "size_kb": 1.4
+    },
+    "reports/phase30_1_execution_queue_smoke_test.csv": {
+      "sha256_12": "26405e0db2f2",
+      "size_kb": 1.3
+    },
+    "reports/phase30_1_report_validator_results.csv": {
+      "sha256_12": "7216ed3b7b18",
+      "size_kb": 13.8
+    },
+    "reports/phase30_1_memory_updater_design.md": {
+      "sha256_12": "2168fbf7507d",
+      "size_kb": 1.1
+    },
+    "reports/phase30_1_research_lab_and_idea_engine_os_report.md": {
+      "sha256_12": "a8a19e596cef",
+      "size_kb": 5.2
+    }
+  }
+}

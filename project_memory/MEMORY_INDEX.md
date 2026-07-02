@@ -1,6 +1,6 @@
 # MEMORY INDEX
 ## Guide to All Project Memory Files
-## Last Updated: 2026-07-02 (Phase 30)
+## Last Updated: 2026-07-02 (Phase 30.1)
 
 ---
 
@@ -66,7 +66,9 @@ project_memory/AI_WORK_PROTOCOL.md     <- Step-by-step before/during/after proto
 2. Read `AGENTS.md`
 3. Read `project_memory/CURRENT_HANDOFF.md`
 4. Run `pytest -q` to confirm tests pass
-5. Run `python scripts/check_project_memory.py` to verify memory integrity
+5. Run `python scripts/research_lab.py status` to confirm current project status
+6. Run `python scripts/research_lab.py memory-check` to verify memory integrity
+7. Run `python scripts/research_lab.py audit` to scan code rules
 
 ### Ending a Session (Either AI)
 1. Update `project_memory/CURRENT_HANDOFF.md`
@@ -87,10 +89,11 @@ project_memory/AI_WORK_PROTOCOL.md     <- Step-by-step before/during/after proto
 
 Run this script to verify memory integrity:
 ```bash
-python scripts/check_project_memory.py
+python scripts/research_lab.py memory-check
 ```
 
 Or run the test:
 ```bash
 pytest tests/test_project_memory_protocol.py -v
+pytest tests/test_phase30_1_research_lab.py -v
 ```

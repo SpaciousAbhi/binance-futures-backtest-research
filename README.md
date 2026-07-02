@@ -41,8 +41,11 @@ cat project_memory/CURRENT_HANDOFF.md
 pip install -e .
 pytest -q                   # Expect 400+ passing
 
-# 3. Check project memory
-python scripts/check_project_memory.py
+# 3. Use the Research Lab CLI Control Panel
+python scripts/research_lab.py status          # Check latest handoff and phase status
+python scripts/research_lab.py memory-check    # Run full project memory audit
+python scripts/research_lab.py audit           # Run code audit for lookahead/hardcoding
+python scripts/research_lab.py next-phase      # Get next research objectives spec
 
 # 4. Reproduce PF 1.2 teacher benchmark (only valid executable benchmark)
 python src/research/phase12_runner.py

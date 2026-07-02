@@ -1,0 +1,84 @@
+file,verdict_found,benchmark_table_found,live_status_present,next_phase_exists,passed,notes
+reports\final_strategy_research_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase10_1_audit_repair_and_revalidation_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase10_quality_floor_fusion_breakthrough_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase11_1_reproducibility_stress_audit_readiness_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase11_research_idea_engine_regime_risk_mtf_precision_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase12_1_correction_and_fusion_failure_audit.md,PASS,FAIL,FAIL,PASS,FAIL,Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.
+reports\phase12_2_filtered_orthogonal_alpha_repair_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase12_breakthrough_research_lab_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase12_readiness_pack.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase13_benchmark_breakthrough_mega_search_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase14_1_truth_lock_and_phase15_readiness_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase14_trade_dna_elite_fusion_breakthrough_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase15_benchmark_metrics_breakthrough_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase16_1_verdict_repair_and_hybrid_v3_validation_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase16_2_precision_entry_breakthrough_validation_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase16_measurable_benchmark_breakthrough_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase17_1_precision_fusion_breakthrough_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase17_2_live_rule_lock_and_phase18_readiness_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase17_3_live_known_bc_fusion_audit_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase17_precision_fusion_breakthrough_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase18_1_negative_zero_month_repair_and_high_pf_sleeve_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase18_benchmark_expansion_negative_month_attack_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase19_precision_loss_removal_zero_rescue_high_pf_discovery_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase20_1_full_audit_and_proof_lock_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase20_mechanism_first_100k_template_research_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase21_real_research_infrastructure_and_proof_search_report.md,PASS,PASS,FAIL,PASS,FAIL,Missing NOT_REAL_CAPITAL_READY warning.
+reports\phase21_top_50_candidates.md,FAIL,PASS,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase22_1_reconciliation_and_proof_audit_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase22_real_10k_research_and_multi_asset_validation_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase22_top_100_candidates.md,FAIL,PASS,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase23_1_overlay_reconciliation_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase23_precision_fusion_micro_surgery_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase24_1_engine_repair_reconciliation_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase24_parameter_wiring_and_behavioral_rebuild_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase25_1_entry_exit_rule_serialization.md,FAIL,FAIL,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase25_1_live_automation_readiness_audit.md,PASS,FAIL,FAIL,FAIL,FAIL,Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase25_1_precision_fusion_7_acceptance_audit_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase25_repaired_engine_elite_discovery_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_1_concentration_risk_report.md,PASS,FAIL,FAIL,FAIL,FAIL,Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_1_exit_risk_forensics.md,FAIL,FAIL,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_1_extreme_pf8_acceptance_audit_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_1_live_shadow_execution_simulation_report.md,PASS,FAIL,FAIL,FAIL,FAIL,Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_benchmark_weakness_map.md,FAIL,FAIL,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_dual_benchmark_dna_and_pf8_discovery_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_live_automation_compatibility_audit.md,FAIL,FAIL,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_live_rule_serialization.md,FAIL,FAIL,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_precision_fusion_8_router_report.md,PASS,FAIL,FAIL,FAIL,FAIL,Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase26_strategy_dna_extraction.md,FAIL,FAIL,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase27_pf8_hardening_multi_asset_validation_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase28_entry_exit_rule_serialization.md,FAIL,FAIL,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase28_pf81_benchmark_lock_and_operating_manual_report.md,PASS,PASS,PASS,FAIL,FAIL,Missing next phase recommendations.
+reports\phase29_1_corrected_project_status.md,FAIL,PASS,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_1_entry_exit_rulebook.md,FAIL,PASS,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_1_top_100_genuine_candidates.md,FAIL,PASS,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_1_truth_first_pf8_recovery_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_2_dirty_pf8_cluster_report.md,FAIL,PASS,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_2_final_status_correction.md,PASS,FAIL,FAIL,FAIL,FAIL,Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_2_live_automation_readiness_audit.md,PASS,FAIL,PASS,FAIL,FAIL,Missing benchmark comparison table.; Missing next phase recommendations.
+reports\phase29_2_precision_fusion_compiler_spec.md,PASS,FAIL,FAIL,FAIL,FAIL,Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_2_precision_fusion_truth_reconstruction_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_3_live_rule_audit.md,FAIL,FAIL,PASS,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing next phase recommendations.
+reports\phase29_3_precision_fusion_compiler_spec.md,FAIL,FAIL,FAIL,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_3_precision_fusion_lineage_recovery_and_pf8_rebuild_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase29_4_live_automation_audit.md,FAIL,FAIL,PASS,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing next phase recommendations.
+reports\phase29_4_precision_fusion_teacher_distillation_and_live_recovery_report.md,PASS,PASS,PASS,FAIL,FAIL,Missing next phase recommendations.
+reports\phase29_5_live_automation_audit.md,FAIL,FAIL,PASS,FAIL,FAIL,Missing final verdict classification.; Missing benchmark comparison table.; Missing next phase recommendations.
+reports\phase29_5_major_precision_fusion_breakthrough_report.md,PASS,PASS,PASS,FAIL,FAIL,Missing next phase recommendations.
+reports\phase29_6_live_automation_audit.md,PASS,FAIL,PASS,FAIL,FAIL,Missing benchmark comparison table.; Missing next phase recommendations.
+reports\phase29_6_true_5m_event_driven_mtf_engine_report.md,PASS,PASS,FAIL,PASS,FAIL,Missing NOT_REAL_CAPITAL_READY warning.
+reports\phase29_absolute_truth_audit_full_project_report.md,PASS,PASS,PASS,FAIL,FAIL,Missing next phase recommendations.
+reports\phase29_strategy_rulebook.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase2_strategy_research_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase30_project_memory_operating_system_report.md,PASS,PASS,PASS,PASS,PASS,All checks pass.
+reports\phase3_regime_adaptive_strategy_research_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase4_search_forensics_and_strategy_discovery_report.md,PASS,FAIL,FAIL,FAIL,FAIL,Missing benchmark comparison table.; Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase5_monthly_consistency_conversion_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase6_baseline_protection_full_search_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase7_full_search_completion_and_selection_audit.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase7_ultradeep_monthly_consistency_research_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase8_alpha_distillation_and_fusion_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase8_alpha_distillation_mtf_fusion_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\phase9_research_and_fusion_report.md,PASS,PASS,FAIL,FAIL,FAIL,Missing NOT_REAL_CAPITAL_READY warning.; Missing next phase recommendations.
+reports\walkthrough.md,PASS,PASS,FAIL,PASS,FAIL,Missing NOT_REAL_CAPITAL_READY warning.

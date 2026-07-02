@@ -8,6 +8,18 @@
 
 ---
 
+## Step 0 — Use the Research Lab CLI Control Panel (REQUIRED)
+
+Before starting or commiting any work, always use the unified control script:
+```bash
+python scripts/research_lab.py status          # Check latest handoff and phase status
+python scripts/research_lab.py memory-check    # Run full project memory audit
+python scripts/research_lab.py audit           # Run code audit for lookahead/hardcoding
+python scripts/research_lab.py next-phase      # Get next research objectives spec
+```
+
+---
+
 ## Step 1 — Read Project Memory (REQUIRED)
 
 Before doing ANYTHING, read these files in order:

@@ -1,0 +1,16 @@
+candidate_id,idea_id,p_hash,pnl,trades,profit_factor,max_drawdown,execution_status,notes
+CAND_001_6d0dd9dc,IDEA_001,6d0dd9dc766539f6,120.5,3,1.45,0.015,ENGINE_EXECUTED,Smoke test pass.
+CAND_002_ea9a2e9f,IDEA_002,ea9a2e9fa96d9604,120.5,3,1.45,0.015,ENGINE_EXECUTED,Smoke test pass.
+CAND_003_74cc68d2,IDEA_003,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_004_74cc68d2,IDEA_004,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_005_d79ac517,IDEA_005,d79ac51700c23236,,,,,REGISTERED,Pending execution.
+CAND_006_74cc68d2,IDEA_006,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_007_316dbdd0,IDEA_007,316dbdd0c26fc7ed,,,,,REGISTERED,Pending execution.
+CAND_008_74cc68d2,IDEA_008,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_009_74cc68d2,IDEA_009,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_010_74cc68d2,IDEA_010,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_011_74cc68d2,IDEA_011,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_012_74cc68d2,IDEA_012,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_013_74cc68d2,IDEA_013,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_014_74cc68d2,IDEA_014,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.
+CAND_015_74cc68d2,IDEA_015,74cc68d2c34ee471,,,,,REGISTERED,Pending execution.

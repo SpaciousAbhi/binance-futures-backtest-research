@@ -1,0 +1,16 @@
+candidate_id,idea_id,family,parameters,live_known_feature_list,required_data,no_lookahead_audit_status,implementation_file,execution_status,metric_status
+CAND_001_6d0dd9dc,IDEA_001,PF1.2 teacher replay diagnostics,"{""timeframe"": ""1h"", ""tp_atr_mult"": 2.5, ""sl_atr_mult"": 1.8, ""replay_mode"": true}","close,atr,index_in_hour,candle_open_time","BTCUSDT 5m OHLCV,phase12_runner.py trade logs",PASSED,src/strategies/candidates.py,STATIC_AUDITED,BLANK
+CAND_002_ea9a2e9f,IDEA_002,Variant C live rebuild,"{""timeframe"": ""1h"", ""tp_atr_mult"": 2.5, ""sl_atr_mult"": 1.8, ""regime_filter_mode"": ""strict""}","close,atr,adx_14,rsi_14",BTCUSDT 1h processed OHLCV,PASSED,src/strategies/candidates.py,ENGINE_EXECUTED,BLANK
+CAND_003_74cc68d2,IDEA_003,Variant B rescue rebuild,"{""timeframe"": ""1h""}","close,atr",BTCUSDT 1h processed OHLCV + volume,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_004_74cc68d2,IDEA_004,MTF retest confirmation,"{""timeframe"": ""1h""}","close,atr",BTCUSDT 1h + 5m processed data,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_005_d79ac517,IDEA_005,VWAP reclaim,"{""timeframe"": ""15m"", ""vwap_dev_thresh"": 1.5}","close,atr,vwap_distance,vwap_reclaim_signal",BTCUSDT 15m processed OHLCV + VWAP,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_006_74cc68d2,IDEA_006,second retest,"{""timeframe"": ""1h""}","close,atr",BTCUSDT 5m processed OHLCV,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_007_316dbdd0,IDEA_007,funding defensive skip,"{""timeframe"": ""1h"", ""funding_skip_thresh"": 0.0005}","close,atr,funding_rate",Binance BTCUSDT funding rate history,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_008_74cc68d2,IDEA_008,NY low-liquidity hardening,"{""timeframe"": ""1h""}","close,atr",BTCUSDT 1h processed OHLCV with hour index,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_009_74cc68d2,IDEA_009,weak continuation exits,"{""timeframe"": ""1h""}","close,atr",BTCUSDT 1h processed OHLCV,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_010_74cc68d2,IDEA_010,breakeven/trailing/time-stop,"{""timeframe"": ""1h""}","close,atr",BTCUSDT 5m processed OHLCV,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_011_74cc68d2,IDEA_011,Dirty PF8 quality surgery,"{""timeframe"": ""1h""}","close,atr","phase29_2_dirty_pf8_cluster_report.md,trade logs",PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_012_74cc68d2,IDEA_012,session/liquidity filters,"{""timeframe"": ""1h""}","close,atr",BTCUSDT 1h processed OHLCV + volume data,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_013_74cc68d2,IDEA_013,volatility expansion/compression,"{""timeframe"": ""1h""}","close,atr",BTCUSDT 1h processed data with Bollinger Bands,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_014_74cc68d2,IDEA_014,expected-R dynamic gates,"{""timeframe"": ""1h""}","close,atr",BTCUSDT 1h processed OHLCV,PENDING,src/strategies/candidates.py,REGISTERED,BLANK
+CAND_015_74cc68d2,IDEA_015,cross-asset generalization,"{""timeframe"": ""1h""}","close,atr","ETH,BNB,SOL 1h processed OHLCV",PENDING,src/strategies/candidates.py,REGISTERED,BLANK

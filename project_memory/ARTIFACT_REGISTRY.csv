@@ -44,3 +44,11 @@ src/strategies/candidates.py,source_code,core,Strategy template library,computed
 src/features/indicators.py,source_code,core,Indicator library (ATR/BB/VWAP/RSI/EMA),computed_on_read,8.2,YES,PRODUCTION
 src/research/phase12_runner.py,source_code,12,PF1.2 constructor — build_p10_1_strategy(),computed_on_read,27.2,YES,TEACHER_REFERENCE
 scripts/phase29_6_event_driven_mtf_engine.py,script,29.6,True 5m event-driven MTF engine script,computed_on_read,NA,YES,ENGINE_PROGRESS
+reports/phase30_1_research_lab_architecture_audit.md,main_report,30.1,Architecture audit report,computed_on_read,4.4,YES,VALID
+reports/phase30_1_research_lab_and_idea_engine_os_report.md,main_report,30.1,Phase 30.1 summary report,computed_on_read,5.2,YES,VALID
+reports/phase30_1_audit_manifest.json,manifest,30.1,Phase 30.1 file hash manifest,computed_on_read,2.5,YES,VALID
+reports/phase30_1_idea_library.csv,proof_csv,30.1,15 strategy family ideas catalog,computed_on_read,14.1,YES,VALID
+reports/phase30_1_sample_candidate_registry.csv,proof_csv,30.1,Compiled candidate registry CSV,computed_on_read,3.1,YES,VALID
+reports/phase30_1_audit_engine_scan.csv,proof_csv,30.1,Automated codebase rule scan,computed_on_read,17.6,YES,VALID
+reports/phase30_1_execution_queue_smoke_test.csv,proof_csv,30.1,Queue execution smoke test log,computed_on_read,1.3,YES,VALID
+reports/phase30_1_report_validator_results.csv,proof_csv,30.1,Report validator run outcomes,computed_on_read,13.8,YES,VALID
