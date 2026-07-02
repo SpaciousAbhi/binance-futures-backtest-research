@@ -1,0 +1,5 @@
+metric,v1_truth,recomputed,diff,status
+net_pnl,11205.2,11205.2,0.0,LOCKED
+trades,557.0,557.0,0.0,LOCKED
+profit_factor,1.2522,1.2522,0.0,LOCKED
+max_drawdown_pct,16.2186,16.2186,0.0,LOCKED

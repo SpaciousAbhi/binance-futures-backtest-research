@@ -1,0 +1,106 @@
+{
+  "phase": "32",
+  "name": "Combined Router Quality Hardening and Fusion Expansion",
+  "verdict": "PHASE32_PARTIAL_PASS_INFRA_FIXED_STRATEGY_NOT_IMPROVED",
+  "timestamp": "2026-07-02T10:42:45Z",
+  "python_version": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "files": {
+    "reports/phase32_infrastructure_anti_bias_audit.md": {
+      "sha256": "3bd0b8568d0973e221002b4c5c631d57ec45514afadc547ae6c120b6e41159a3",
+      "size_kb": 1.14
+    },
+    "reports/phase32_audit_allowlist_review.csv": {
+      "sha256": "17507372c3f9c07d5b83bc46e1d149b7e293a5853c78ed7365b33d53acdd596e",
+      "size_kb": 34.76
+    },
+    "reports/phase32_active_path_isolation_report.md": {
+      "sha256": "86accb11e8353c0d932fb08f5bf4c4bb6c0e0fba5eb6fca7901a006bc1c6a7d2",
+      "size_kb": 0.7
+    },
+    "reports/phase32_combined_router_v1_truth_lock.csv": {
+      "sha256": "fa000036cc67d38ce20a6dcca68034051c30504593025cc6d616bc7f93318a3f",
+      "size_kb": 0.19
+    },
+    "reports/phase32_full_trade_quality_forensics.csv": {
+      "sha256": "1a0856712b577b98b44dda2597bee268cb61ef17ae321cdc8589533ccc5fefbf",
+      "size_kb": 149.55
+    },
+    "reports/phase32_trade_cluster_report.md": {
+      "sha256": "718b443001506420a716c2d7017d4063f4e998096d36ddb34646264aed5ecb83",
+      "size_kb": 1.02
+    },
+    "reports/phase32_repair_module_results.csv": {
+      "sha256": "0b276c3e03c7d71dc1bc19ea13d2c85cfb0bba6fb2f85f85509f7dbdfb52a83c",
+      "size_kb": 0.72
+    },
+    "reports/phase32_candidate_registry.csv": {
+      "sha256": "5d2e58087ee221e79de199c81fb652ddd4a39bb6e01c94d60e49671d415f20f0",
+      "size_kb": 69.25
+    },
+    "reports/phase32_candidate_results.csv": {
+      "sha256": "01ee65b94bf1a446529867dc06c0aefca7c1cd4b1baa68472b7a9ed38c001edf",
+      "size_kb": 11.08
+    },
+    "reports/phase32_candidate_diversity_report.csv": {
+      "sha256": "d090c35145584982d57bfe55f3113654b7ea5e7eda47fa7aa3a1c0505134479f",
+      "size_kb": 0.22
+    },
+    "reports/phase32_finalist_candidate_proof_pack.md": {
+      "sha256": "1a58413b84b3a0a4571ee584b3c0bcf2d3c552fe287c72cf05796491fbb8ac05",
+      "size_kb": 2.86
+    },
+    "reports/phase32_fusion_results.csv": {
+      "sha256": "1d2219fce76a8fc13f0cd965e8c06984c0085e7557eeab989a9f7f96b25a53ce",
+      "size_kb": 0.72
+    },
+    "reports/phase32_best_fusion_trade_log.csv": {
+      "sha256": "8c66a4957480fb3f1aca9cfff3a57ef2c25f833c2b46b80805722657ac37daf6",
+      "size_kb": 227.21
+    },
+    "reports/phase32_best_fusion_monthly_table.csv": {
+      "sha256": "e6084a54a1b5596c8660f04fd3092840089eb04d491395cfb82fabc1b9742a7a",
+      "size_kb": 2.08
+    },
+    "reports/phase32_best_fusion_stress_table.csv": {
+      "sha256": "6b229155f3545b0644854d1d9c4bccdfba357d0b8fc0cc80251838407366c9f1",
+      "size_kb": 1.07
+    },
+    "reports/phase32_fusion_conflict_audit.csv": {
+      "sha256": "1b9a4f745c162bccd5a3e1b0c777cf0fd641ca6274f9fcc04edd33564bcaf5a4",
+      "size_kb": 0.13
+    },
+    "reports/phase32_benchmark_comparison.csv": {
+      "sha256": "f1136f2fc2882bd7d9ce4c2ff257b43f6c487277e6f40a2a839d8b001c3ab2d3",
+      "size_kb": 0.45
+    },
+    "reports/phase32_stress_audit.csv": {
+      "sha256": "6b229155f3545b0644854d1d9c4bccdfba357d0b8fc0cc80251838407366c9f1",
+      "size_kb": 1.07
+    },
+    "reports/phase32_live_execution_readiness_delta.md": {
+      "sha256": "c8a158cd88e12ecff9aefc6633fc579a9e0bda89c5abe69e946346aa3438f75d",
+      "size_kb": 2.18
+    },
+    "reports/phase32_combined_router_quality_hardening_and_fusion_expansion_report.md": {
+      "sha256": "3547088c1f3ff1b472db449a84c6b0c4fb7387e9b33042d19ad9beb57a15fb84",
+      "size_kb": 5.6
+    },
+    "scripts/phase32_runner.py": {
+      "sha256": "ea7bb38ac1be73de8683f7dbe5e104616f7b07df3732354eecc910a52cba3ab6",
+      "size_kb": 87.7
+    },
+    "tests/test_phase32_quality_hardening.py": {
+      "sha256": "a84fed3a66a30de5bc1070479aaab84dcd113ed59259cd4a7e543fad68e0860e",
+      "size_kb": 25.25
+    },
+    "project_memory/AUDIT_ALLOWLIST.csv": {
+      "sha256": "3f89ff4ae0c0b05dbb597e5ac7a7a3d172f9699809e7d9611351ec2fbd57d606",
+      "size_kb": 43.84
+    },
+    "project_memory/SOURCE_CLASSIFICATION_REGISTRY.csv": {
+      "sha256": "891fe2b699e049b55bf7434eedf52ea01c003d007d3adf9465201a2adb11d830",
+      "size_kb": 2.02
+    }
+  }
+}

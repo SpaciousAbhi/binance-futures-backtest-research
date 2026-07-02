@@ -1,0 +1,16 @@
+fusion,scenario,net_pnl,profit_factor,max_dd_pct,trades,verdict
+fusion_v1_repaired,normal,11205.2,1.2522,16.2186,557,PASS
+fusion_v1_repaired,double fees,-15287.89,0.7311,150.1754,557,FAIL
+fusion_v1_repaired,triple fees,-41780.98,0.4015,385.8161,557,FAIL
+fusion_v1_repaired,double slippage,-2041.35,0.9597,54.0742,557,FAIL
+fusion_v1_repaired,triple slippage,-15287.89,0.7311,150.1754,557,FAIL
+fusion_v1_repaired,double fees + double slip,-28534.44,0.5484,266.2826,557,FAIL
+fusion_v1_repaired,delay 1 candle,-2041.35,0.9597,54.0742,557,FAIL
+fusion_v1_repaired,delay 2 candles,-15287.89,0.7311,150.1754,557,FAIL
+fusion_v1_repaired,missed fills 10%,8383.69,1.2045,17.8346,502,PASS
+fusion_v1_repaired,missed fills 20%,8028.78,1.2211,18.1841,446,PASS
+fusion_v1_repaired,missed fills 30%,5141.31,1.1582,23.9301,390,PASS
+fusion_v1_repaired,stale cancel,9384.22,1.2189,18.0993,530,PASS
+fusion_v1_repaired,partial fill,10364.81,1.2522,15.6343,557,PASS
+fusion_v1_repaired,high funding,11205.2,1.2522,16.2186,557,PASS
+fusion_v1_repaired,combined adverse,-39138.38,0.3919,359.586,502,FAIL

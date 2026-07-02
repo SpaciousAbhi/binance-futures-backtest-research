@@ -1,0 +1,4 @@
+strategy,source,net_pnl,trades,profit_factor,max_drawdown_pct,positive_months,negative_months,combined_adverse_pnl,stress_pass,status
+PF 1.2 Teacher Reference,Phase 12,21684.99,325,2.42,10.87,N/A,N/A,N/A,N/A,TEACHER_REFERENCE
+Combined Router v1 (Phase 31.1 Audited),Phase 31.1,11205.2,557,1.2522,16.2186,52,25,337.15,15/15,VALID_EXECUTABLE_BASELINE
+Best Fusion (fusion_v1_repaired),Phase 32,11205.2,557,1.2522,16.2186,52,25,-39138.38,7/15,PHASE32_BEST_FUSION

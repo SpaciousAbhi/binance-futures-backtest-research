@@ -133,8 +133,8 @@ check(file_contains(handoff, "3111") or file_contains(handoff, "3,111"),
       "Handoff: Contains Phase 29.6 trade count (3111)")
 check(file_contains(handoff, "NOT_REAL_CAPITAL_READY"),
       "Handoff: Mentions NOT_REAL_CAPITAL_READY")
-check(file_contains(handoff, "Phase 29.7") or file_contains(handoff, "Teacher Trade Replay"),
-      "Handoff: References next phase (29.7)")
+check(file_contains(handoff, "Phase 29.7") or file_contains(handoff, "Teacher Trade Replay") or file_contains(handoff, "Phase 33"),
+      "Handoff: References next phase (29.7 or subsequent)")
 
 # ─── Section 7: BENCHMARK_REGISTRY.csv Content ───────────────
 print("\n[7] BENCHMARK_REGISTRY.csv content checks:")

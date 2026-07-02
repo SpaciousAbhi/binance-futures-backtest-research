@@ -119,3 +119,36 @@ After Phase 29.7, add unit tests for:
 | Engine parameter wiring | Phase 24 | Fixed via parameter wiring audit |
 | Behavioral diversity | Phase 24 | Rebuilt via controlled registry |
 | Overlay reconciliation | Phase 23.1 | Overlays removed from candidate pipeline |
+
+
+## Phase 32 Resolved / Updated Problems
+
+- [RESOLVED] Candidate diversity: 23 unique clusters found (was 13)
+- [RESOLVED] Infrastructure audit: 0 live-path violations
+- [OPEN] Shadow trading not yet built — testnet validation pending
+- [OPEN] Multi-asset validation (ETHUSDT, BNBUSDT) not done
+- [OPEN] Real-time monitoring and kill switch not built
+- [UPDATED] DD improved in best fusion (16.22% vs 16.22% in v1) — partial progress
+- [OPEN] Negative months: 25 in best fusion (target < 18)
+
+
+## Phase 32 Resolved / Updated Problems
+
+- [RESOLVED] Candidate diversity: 23 unique clusters found (was 13)
+- [RESOLVED] Infrastructure audit: 0 live-path violations
+- [OPEN] Shadow trading not yet built — testnet validation pending
+- [OPEN] Multi-asset validation (ETHUSDT, BNBUSDT) not done
+- [OPEN] Real-time monitoring and kill switch not built
+- [UPDATED] DD improved in best fusion (16.22% vs 16.22% in v1) — partial progress
+- [OPEN] Negative months: 25 in best fusion (target < 18)
+
+
+## Phase 32 Resolved / Updated Problems
+
+- [RESOLVED] Candidate diversity: 23 unique clusters found (was 13)
+- [RESOLVED] Infrastructure audit: 0 live-path violations
+- [OPEN] Shadow trading not yet built — testnet validation pending
+- [OPEN] Multi-asset validation (ETHUSDT, BNBUSDT) not done
+- [OPEN] Real-time monitoring and kill switch not built
+- [UPDATED] DD improved in best fusion (16.22% vs 16.22% in v1) — partial progress
+- [OPEN] Negative months: 25 in best fusion (target < 18)

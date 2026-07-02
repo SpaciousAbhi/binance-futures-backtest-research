@@ -1,0 +1,4 @@
+family,executed_count,unique_clusters,avg_pnl,avg_pf,avg_dd,best_pf
+bollinger_expansion_breakout,57,21,2411.05,1.115,13.16,1.2327
+mean_reversion,1,True,-8133.57,0.5444,82.57,0.5444
+vwap_reclaim,2,1,-7613.9,0.5664,77.14,0.5741
