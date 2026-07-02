@@ -1,0 +1,36 @@
+{
+  "files": {
+    "phase37_P37_CAND_0001_trade_log.csv": "983ca33ef979dfe3e91bcc8e866023734ac5b673ef629f18af88e012ecc4540c",
+    "phase37_P37_CAND_0142_trade_log.csv": "b06e1f4bb8f008bf29081debf467ed61c7da05ad53eaeceda76a9fc610e1f734",
+    "phase37_P37_CAND_0303_trade_log.csv": "fb8f3664c2903e0401300631611e4800472cefad9b943ae9ac9a0b05b34ff835",
+    "phase37_P37_CAND_0357_trade_log.csv": "3a8be9b7a2041fec997496d5f7d931b824cb0676cf88c6670ecabb09ad57bfc4",
+    "phase37_P37_CAND_0360_trade_log.csv": "2640513dd1ceb12285ea8e2b189302c67447cf1cdbba19058b39798c7a75f2e7",
+    "phase37_P37_CAND_0361_trade_log.csv": "1812b1bf254157b70fe7ac238b27b27b2f3d2e60ab289432fb9b777f124261eb",
+    "phase37_P37_CAND_0362_trade_log.csv": "08263822cd10bef9b1c8117653dfea571ee7990a66c6834c526b9538421f5bff",
+    "phase37_P37_CAND_0411_trade_log.csv": "b8ca32035f4615413a8410630ad05b50b366d1ac3728a0867a4a7561c6038d21",
+    "phase37_P37_CAND_0412_trade_log.csv": "3e304dc217dfd9be9fa67bc39159163cc73e76f66e37cc12a4518f4ddf0686d6",
+    "phase37_P37_CAND_0413_trade_log.csv": "5072824cd2e093bf0c2c2f893a0f5fbc86d7fd4af302f0805f578a2c6eabf358",
+    "phase37_ai_sync_and_workspace_state.csv": "872caeef102c4752a978f1586454944061a8c048ecd72e61d3edc6d5507d3a15",
+    "phase37_candidate_registry.csv": "a1140fa259690810d46809bcf246edae0b80b4f26f20c3b561acecd1fc18c0e2",
+    "phase37_candidate_results.csv": "3f347124cf491c2efd20fdc701c603a0f9119ed82f4f538a2008d26f4e7775fc",
+    "phase37_execution_queue_status.csv": "5821339c850fd628a7daab235d3230ee798e1500244159313a5f9c62c8f0ddac",
+    "phase37_multi_objective_leaderboard.csv": "bad34512894dc25b6405f227f1b2265c9df047afcdb9afb13562a8910f466541",
+    "phase37_research_candidate_vaults.md": "e38bbb7a7c1d8ce05127ee9c11714b49eb5d8ddd6dc772786fa8b6ca7777b5b5",
+    "phase37_strategy1_1_mini_vault.md": "c530b6a6c21be254013da98ff26da379ac8a00c0fca115cec50fb0c83f94d4c8",
+    "phase37_strategy1_1_second_stage_optimization_report.md": "8f6cb8e16489fe867a1c91b5cc19d26d7ad63967333dd6977429ed77a972d6bb",
+    "phase37_strategy1_1_selection_decision.md": "3f5e6eebc5d137558fd610c655ad30382ef98aaf24c5165c11f89d1c9f5f4ebe",
+    "phase37_strategy1_1_trade_log.csv": "3a8be9b7a2041fec997496d5f7d931b824cb0676cf88c6670ecabb09ad57bfc4",
+    "phase37_strategy1_reproduction_lock.csv": "759b9012b140ddd749e2e77b4ab467dde17422c9e7f695619f36eb30383b4dd2",
+    "phase37_strategy1_vs_strategy1_1_comparison.csv": "f54d19495fb8c91c651572b56189dc1d6ff2b7d48e6aae033c967ef2d077a45d",
+    "phase37_top_candidate_integrity_audit.csv": "ba11cacd8c8e871be805442852f2f13915b4ee25c2c622bfe54a8c0e50de6211",
+    "phase37_top_candidate_stress_results.csv": "77fb6d9754ce5844398fc36688c3f78e346cf77750fb0595e3f8b511d4b27983"
+  },
+  "phase": "37",
+  "rules": {
+    "live_status": "NOT_REAL_CAPITAL_READY",
+    "no_forced_metrics": true,
+    "no_trade_log_only_promotion": true,
+    "strategy1_reproduced": true
+  },
+  "verdict": "PHASE37_PASS_STRATEGY1_1_PROMOTED"
+}

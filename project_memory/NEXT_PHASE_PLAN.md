@@ -1,13 +1,13 @@
-# Next Phase Plan - Phase 37
+# Next Phase Plan - Phase 38
 
 ## Goal
-Use the Phase 36 edge map to improve Strategy #1 without trade-log-only promotion.
+Vault-lock Strategy #1.1, run full multi-asset validation, and test whether it can replace Strategy #1.
 
 ## Historical Continuity
-Phase 33 exposed the cost/stress fragility that still remains unresolved. Phase 36 narrowed the repair target to Strategy #1's live-known edge families instead of old PF teacher targets.
+Phase 33 exposed the cost/stress fragility that Phase 37 partially improved but did not fully eliminate. Phase 38 must preserve Strategy #1 unless the promoted Strategy #1.1 survives vaulting, multi-asset validation, and stress review.
 
 ## Requirements
-1. Preserve Strategy #1 as the primary baseline unless a stronger engine-run Strategy #1.1 exists.
-2. Focus on BB/ATR/New York strength and Low-Activity Filler Long weakness.
-3. Attack high-cost stress fragility directly.
-4. Keep NOT_REAL_CAPITAL_READY until exchange shadow validation exists.
+1. Strategy #1 remains protected unless a fully vaulted successor passes all gates.
+2. Every result must be engine-run and trade-log-backed.
+3. Combined adverse stress must be attacked directly.
+4. Live status remains NOT_REAL_CAPITAL_READY until exchange shadow proof exists.

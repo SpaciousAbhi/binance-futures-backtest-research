@@ -189,3 +189,10 @@ After Phase 29.7, add unit tests for:
 - [OPEN] Strategy #1 remains stress-fragile and NOT_REAL_CAPITAL_READY.
 - [OPEN] Low-Activity Filler Long is weak and should remain a repair target.
 - [OPEN] Broad high-cost stress failure requires execution-level edge thickening, not report-only filtering.
+
+
+## Phase 37 Open Problems
+
+- [OPEN] Live status remains NOT_REAL_CAPITAL_READY until exchange shadow validation exists.
+- [OPEN] Combined adverse stress remains the main robustness gap.
+- [OPEN] Any Strategy #1.1 promotion still needs vault lock and multi-asset validation before benchmark replacement.

@@ -157,3 +157,26 @@ reports/phase36_strategy1_edge_map.md,phase36_artifact,36,Phase 36 Strategy #1 d
 reports/phase36_strategy1_internal_decomposition.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,10.1,,,53013489901f,YES,VALID
 reports/phase36_strategy1_reproduction_lock.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,0.3,,,4fae0722f3af,YES,VALID
 reports/phase36_stress_comparison.csv,phase36_artifact,36,Phase 36 Strategy #1 decomposition and repair artifact,,1.1,,,deda40a04561,YES,VALID
+reports/phase37_ai_sync_and_workspace_state.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,0.3,,,872caeef102c,YES,VALID
+reports/phase37_candidate_registry.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,932.1,,,c327ec111fda,YES,VALID
+reports/phase37_candidate_results.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,1077.9,,,9aad82a843d6,YES,VALID
+reports/phase37_execution_queue_status.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,0.1,,,5313d55cad39,YES,VALID
+reports/phase37_multi_objective_leaderboard.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,4.0,,,bad34512894d,YES,VALID
+reports/phase37_P37_CAND_0001_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,298.5,,,983ca33ef979,YES,VALID
+reports/phase37_P37_CAND_0142_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,194.4,,,b06e1f4bb8f0,YES,VALID
+reports/phase37_P37_CAND_0303_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,200.7,,,fb8f3664c290,YES,VALID
+reports/phase37_P37_CAND_0357_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,222.0,,,3a8be9b7a204,YES,VALID
+reports/phase37_P37_CAND_0360_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,216.5,,,2640513dd1ce,YES,VALID
+reports/phase37_P37_CAND_0361_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,211.9,,,1812b1bf2541,YES,VALID
+reports/phase37_P37_CAND_0362_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,211.3,,,08263822cd10,YES,VALID
+reports/phase37_P37_CAND_0411_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,188.4,,,b8ca32035f46,YES,VALID
+reports/phase37_P37_CAND_0412_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,180.6,,,3e304dc217df,YES,VALID
+reports/phase37_P37_CAND_0413_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,159.4,,,5072824cd2e0,YES,VALID
+reports/phase37_research_candidate_vaults.md,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,0.1,,,e38bbb7a7c1d,YES,VALID
+reports/phase37_strategy1_1_mini_vault.md,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,1.1,,,c530b6a6c21b,YES,VALID
+reports/phase37_strategy1_1_selection_decision.md,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,0.1,,,3f5e6eebc5d1,YES,VALID
+reports/phase37_strategy1_1_trade_log.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,222.0,,,3a8be9b7a204,YES,VALID
+reports/phase37_strategy1_reproduction_lock.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,0.2,,,759b9012b140,YES,VALID
+reports/phase37_strategy1_vs_strategy1_1_comparison.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,0.4,,,45a0bdcbfeb6,YES,VALID
+reports/phase37_top_candidate_integrity_audit.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,5.5,,,ba11cacd8c8e,YES,VALID
+reports/phase37_top_candidate_stress_results.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,9.3,,,77fb6d9754ce,YES,VALID

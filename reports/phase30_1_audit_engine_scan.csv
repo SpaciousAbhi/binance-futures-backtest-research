@@ -160,4 +160,9 @@ tests\test_phase36_strategy1_decomposition.py,124,FUTURE_PNL,INFO,future_pnl,ALL
 tests\test_phase36_strategy1_decomposition.py,125,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase36_strategy1_decomposition.py,126,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase36_strategy1_decomposition.py,127,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase37_strategy1_1_optimization.py,129,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase37_strategy1_1_optimization.py,130,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase37_strategy1_1_optimization.py,131,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase37_strategy1_1_optimization.py,132,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase37_strategy1_1_optimization.py,133,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_project_memory_protocol.py,129,SAMPLE_REPLACE,INFO,.sample(replace=True,ALLOWED_HISTORICAL_CONTEXT,Test validation check pattern.

@@ -1,0 +1,61 @@
+candidate_id,check,status,detail
+P37_CAND_0357,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0357_trade_log.csv
+P37_CAND_0357,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0357,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0357,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0357,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0357,timestamp_order,PASS,rows=404
+P37_CAND_0361,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0361_trade_log.csv
+P37_CAND_0361,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0361,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0361,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0361,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0361,timestamp_order,PASS,rows=386
+P37_CAND_0303,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0303_trade_log.csv
+P37_CAND_0303,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0303,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0303,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0303,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0303,timestamp_order,PASS,rows=366
+P37_CAND_0412,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0412_trade_log.csv
+P37_CAND_0412,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0412,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0412,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0412,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0412,timestamp_order,PASS,rows=329
+P37_CAND_0142,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0142_trade_log.csv
+P37_CAND_0142,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0142,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0142,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0142,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0142,timestamp_order,PASS,rows=354
+P37_CAND_0001,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0001_trade_log.csv
+P37_CAND_0001,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0001,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0001,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0001,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0001,timestamp_order,PASS,rows=543
+P37_CAND_0411,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0411_trade_log.csv
+P37_CAND_0411,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0411,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0411,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0411,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0411,timestamp_order,PASS,rows=343
+P37_CAND_0362,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0362_trade_log.csv
+P37_CAND_0362,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0362,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0362,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0362,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0362,timestamp_order,PASS,rows=385
+P37_CAND_0360,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0360_trade_log.csv
+P37_CAND_0360,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0360,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0360,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0360,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0360,timestamp_order,PASS,rows=394
+P37_CAND_0413,trade_log_exists,PASS,C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest\reports\phase37_P37_CAND_0413_trade_log.csv
+P37_CAND_0413,metrics_from_trade_log,PASS,Metrics recomputed from engine trade log.
+P37_CAND_0413,live_known_rule_construction,PASS,Uses closed-candle Strategy #1 signal plus live-known guards.
+P37_CAND_0413,no_report_only_promotion,PASS,Candidate was executed by engine.
+P37_CAND_0413,source_hash,PASS,b9934e7803bcb07a459058240f8eee774e147c6d3b34dd4c6b42bf00dc7231fe
+P37_CAND_0413,timestamp_order,PASS,rows=291

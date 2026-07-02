@@ -1,0 +1,11 @@
+metric,strategy1,strategy1_1,delta
+net_pnl,11205.2,11231.08,25.8799999999992
+trades,557.0,404.0,-153.0
+profit_factor,1.2522,1.3862,0.13400000000000012
+max_drawdown_pct,16.2186,9.3716,-6.846999999999998
+win_rate,0.5404,0.547,0.00660000000000005
+positive_months,52.0,46.0,-6.0
+negative_months,25.0,24.0,-1.0
+zero_months,0.0,0.0,0.0
+stress_pass_count,7.0,8.0,1.0
+combined_adverse_pnl,-39138.38,-33384.48,5753.899999999994

@@ -195,3 +195,12 @@ The next open problems are:
 - Strategy #1.1 promoted: NO.
 - Candidate expansion selected candidates: 0.
 - Live status remains NOT_REAL_CAPITAL_READY.
+
+
+## Phase 37 Strategy #1.1 Second-Stage Optimization Status
+
+- Strategy #1 reproduced exactly and remains protected.
+- Strategy #1.1 promoted: P37_CAND_0357.
+- Engine-executed candidates: 500.
+- Preserved research candidates: none.
+- Live status remains NOT_REAL_CAPITAL_READY.
