@@ -1,0 +1,60 @@
+{
+  "phase": "30",
+  "name": "Project Memory Operating System",
+  "date": "2026-07-02",
+  "verdict": "PHASE30_PASS_PROJECT_MEMORY_OS_LOCKED",
+  "files": {
+    "AGENTS.md": {
+      "sha256_12": "8e0b86156cf9",
+      "size_kb": 4.3
+    },
+    "README.md": {
+      "sha256_12": "b4f57407b6d2",
+      "size_kb": 6.2
+    },
+    "project_memory/PROJECT_RULEBOOK.md": {
+      "sha256_12": "f88d17029d66",
+      "size_kb": 15.3
+    },
+    "project_memory/MEMORY_INDEX.md": {
+      "sha256_12": "c12ed9b139fe",
+      "size_kb": 4.2
+    },
+    "project_memory/DATA_REGISTRY.md": {
+      "sha256_12": "f7fdb6ea8908",
+      "size_kb": 3.8
+    },
+    "project_memory/ARTIFACT_REGISTRY.csv": {
+      "sha256_12": "bae8a58f4be0",
+      "size_kb": 5.9
+    },
+    "project_memory/OPEN_PROBLEMS.md": {
+      "sha256_12": "774f5df9edba",
+      "size_kb": 4.5
+    },
+    "project_memory/NEXT_PHASE_PLAN.md": {
+      "sha256_12": "ac51d09d9b22",
+      "size_kb": 4.8
+    },
+    "project_memory/CURRENT_HANDOFF.md": {
+      "sha256_12": "cc57c5203503",
+      "size_kb": 5.3
+    },
+    "project_memory/BENCHMARK_REGISTRY.csv": {
+      "sha256_12": "088efca1e76b",
+      "size_kb": 3.0
+    },
+    "scripts/check_project_memory.py": {
+      "sha256_12": "c725f3839613",
+      "size_kb": 8.5
+    },
+    "tests/test_project_memory_protocol.py": {
+      "sha256_12": "4d66cd34792b",
+      "size_kb": 18.1
+    },
+    "reports/phase30_project_memory_operating_system_report.md": {
+      "sha256_12": "5a90d8144f83",
+      "size_kb": 7.6
+    }
+  }
+}

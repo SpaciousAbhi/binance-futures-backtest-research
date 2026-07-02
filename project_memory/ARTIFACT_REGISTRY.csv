@@ -1,0 +1,46 @@
+artifact_path,artifact_type,phase,description,file_hash_sha256_12,size_kb,git_tracked,validation_status
+reports/phase29_absolute_truth_audit_full_project_report.md,main_report,29,Full project truth audit — AUDIT_FAIL verdict,computed_on_read,31,YES,VALID
+reports/phase29_audit_manifest.json,manifest,29,Phase 29 audit manifest with all proof hashes,computed_on_read,5.1,YES,VALID
+reports/phase29_benchmark_reproduction.csv,proof_csv,29,Benchmark reproduction attempt results,computed_on_read,3.1,YES,VALID
+reports/phase29_lookahead_hardcoding_audit.csv,proof_csv,29,Full lookahead and hardcoding scan,computed_on_read,133.3,YES,VALID
+reports/phase29_1_truth_first_pf8_recovery_report.md,main_report,29.1,PF1.2 truth re-lock and genuine recovery start,computed_on_read,19,YES,VALID
+reports/phase29_1_audit_manifest.json,manifest,29.1,Phase 29.1 audit manifest,computed_on_read,1.2,YES,VALID
+reports/phase29_1_pf12_truth_lock.csv,proof_csv,29.1,PF1.2 truth lock — genuine engine result,computed_on_read,1,YES,VALID
+reports/phase29_1_genuine_candidate_results.csv,proof_csv,29.1,Genuine candidate results (no forced metrics),computed_on_read,19,YES,VALID
+reports/phase29_1_genuine_router_trade_log.csv,trade_log,29.1,Genuine router trade log,computed_on_read,1,YES,VALID
+reports/phase29_1_forced_metric_contamination_audit.csv,proof_csv,29.1,Forced metric contamination scan,computed_on_read,1,YES,VALID
+reports/phase29_2_precision_fusion_truth_reconstruction_report.md,main_report,29.2,Truth reconstruction with genuine candidates,computed_on_read,4,YES,VALID
+reports/phase29_2_audit_manifest.json,manifest,29.2,Phase 29.2 audit manifest,computed_on_read,3.3,YES,VALID
+reports/phase29_2_dirty_pf8_trade_quality_audit.csv,proof_csv,29.2,Dirty PF8 cluster trade quality analysis,computed_on_read,172.9,YES,DIAGNOSTIC_ONLY
+reports/phase29_2_pf12_trade_diff_audit.csv,proof_csv,29.2,PF1.2 trade diff audit,computed_on_read,12.8,YES,VALID
+reports/phase29_3_precision_fusion_lineage_recovery_and_pf8_rebuild_report.md,main_report,29.3,Variant B/C lineage and PF8 rebuild,computed_on_read,4.8,YES,VALID
+reports/phase29_3_audit_manifest.json,manifest,29.3,Phase 29.3 audit manifest,computed_on_read,3.3,YES,VALID
+reports/phase29_3_variant_b_rebuild.csv,proof_csv,29.3,Variant B teacher rebuild,computed_on_read,1,YES,TEACHER_REFERENCE
+reports/phase29_3_variant_c_rebuild.csv,proof_csv,29.3,Variant C teacher rebuild,computed_on_read,1,YES,TEACHER_REFERENCE
+reports/phase29_3_pf12_executable_rebuild_trade_log.csv,trade_log,29.3,PF1.2 executable rebuild trade log (103KB),computed_on_read,103.8,YES,PARTIAL_RECOVERY
+reports/phase29_4_precision_fusion_teacher_distillation_and_live_recovery_report.md,main_report,29.4,Teacher distillation and live recovery,computed_on_read,5.2,YES,VALID
+reports/phase29_4_audit_manifest.json,manifest,29.4,Phase 29.4 audit manifest,computed_on_read,2.6,YES,VALID
+reports/phase29_4_teacher_distilled_rules.csv,proof_csv,29.4,325 teacher trades with distilled entry/exit rules,computed_on_read,1.9,YES,TEACHER_REFERENCE
+reports/phase29_4_teacher_canonical_sets.csv,proof_csv,29.4,Teacher canonical trade sets,computed_on_read,0.9,YES,TEACHER_REFERENCE
+reports/phase29_4_pf12_live_router_trade_log.csv,trade_log,29.4,PF1.2 live router trade log (56KB),computed_on_read,55.7,YES,PARTIAL_RECOVERY
+reports/phase29_4_entry_time_feature_table.csv,proof_csv,29.4,Entry time feature table for all teacher trades,computed_on_read,636,YES,TEACHER_REFERENCE
+reports/phase29_5_major_precision_fusion_breakthrough_report.md,main_report,29.5,MTF router recovery report,computed_on_read,3.3,YES,VALID
+reports/phase29_5_audit_manifest.json,manifest,29.5,Phase 29.5 audit manifest,computed_on_read,2.6,YES,VALID
+reports/phase29_5_teacher_mtf_trigger_match.csv,proof_csv,29.5,Teacher MTF trigger match audit (81KB),computed_on_read,80.7,YES,ENGINE_PROGRESS
+reports/phase29_5_pf12_executable_router_trade_log.csv,trade_log,29.5,PF1.2 executable router trade log (114KB),computed_on_read,113.6,YES,ENGINE_PROGRESS
+reports/phase29_6_true_5m_event_driven_mtf_engine_report.md,main_report,29.6,True 5m event-driven MTF engine report,computed_on_read,3.9,YES,ENGINE_PROGRESS
+reports/phase29_6_audit_manifest.json,manifest,29.6,Phase 29.6 audit manifest,computed_on_read,3,YES,VALID
+reports/phase29_6_pf12_mtf_trade_log.csv,trade_log,29.6,5m MTF engine trace log — 3111 trades (1.7MB),computed_on_read,1755.5,YES,ENGINE_PROGRESS
+reports/phase29_6_pf12_mtf_engine_results.csv,proof_csv,29.6,PF1.2 MTF engine summary results,computed_on_read,0.8,YES,ENGINE_PROGRESS
+reports/phase29_6_execution_rule_recovery_audit.csv,proof_csv,29.6,31 recovered execution rules,computed_on_read,17.8,YES,VALID
+reports/phase29_6_entry_model_results.csv,proof_csv,29.6,Entry model test results,computed_on_read,3.2,YES,ENGINE_PROGRESS
+reports/phase29_6_exit_model_results.csv,proof_csv,29.6,Exit model test results,computed_on_read,1.9,YES,ENGINE_PROGRESS
+reports/phase29_6_finalist_stress_results.csv,proof_csv,29.6,Finalist stress test results,computed_on_read,3.6,YES,ENGINE_PROGRESS
+reports/phase29_6_router_conflict_audit.csv,proof_csv,29.6,Router conflict audit (6MB),computed_on_read,6096.2,YES,ENGINE_PROGRESS
+reports/phase28_pf81_truth_lock.csv,proof_csv,28,PF8.1 truth lock (INVALID — forced),computed_on_read,0.073,YES,INVALID_FORCED_METRIC
+reports/phase28_audit_manifest.json,manifest,28,Phase 28 audit manifest,computed_on_read,0.869,YES,INVALID_FORCED_METRIC
+src/backtest/engine.py,source_code,core,Backtest engine — MultiPositionBacktestEngine,computed_on_read,60.3,YES,PRODUCTION
+src/strategies/candidates.py,source_code,core,Strategy template library,computed_on_read,95.9,YES,PRODUCTION
+src/features/indicators.py,source_code,core,Indicator library (ATR/BB/VWAP/RSI/EMA),computed_on_read,8.2,YES,PRODUCTION
+src/research/phase12_runner.py,source_code,12,PF1.2 constructor — build_p10_1_strategy(),computed_on_read,27.2,YES,TEACHER_REFERENCE
+scripts/phase29_6_event_driven_mtf_engine.py,script,29.6,True 5m event-driven MTF engine script,computed_on_read,NA,YES,ENGINE_PROGRESS

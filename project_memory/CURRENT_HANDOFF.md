@@ -1,13 +1,20 @@
 # CURRENT HANDOFF
-## Last Updated: 2026-07-02 (after Phase 29.6 sync from Codex)
+## Last Updated: 2026-07-02 (Phase 30 — Project Memory Operating System)
 
 ---
 
-## Latest Completed Phase: Phase 29.6
+## Latest Completed Phase: Phase 30
+
+**Phase name:** Project Memory Operating System, Permanent AI Rulebook, and Antigravity/Codex/GitHub Continuity Lock
+**Verdict:** `PHASE30_PASS_PROJECT_MEMORY_OS_LOCKED`
+**Source:** Antigravity — 2026-07-02
+
+---
+
+## Previous Phase (29.6) Exact Result — Still the Latest Research Result
 
 **Phase name:** True 5m Event-Driven MTF Engine
 **Verdict:** `PF12_MTF_ENGINE_MAJOR_PROGRESS_BUT_NOT_RECOVERED`
-**Source:** Codex workspace — synced to Antigravity on 2026-07-02
 
 ---
 
@@ -103,20 +110,35 @@ reports/phase29_6_execution_rule_recovery_audit.csv <- recovered rules (31 rows)
 
 ---
 
+## Live Trading Status
+
+> **NOT_REAL_CAPITAL_READY**
+>
+> No strategy has passed all requirements for real-capital live automation.
+> Shadow mode paper trading has not been completed.
+> Do not deploy real capital.
+
+---
+
 ## Session Start Checklist (Every AI Must Do This)
 
+- [ ] Read `AGENTS.md` (root level — read this FIRST)
 - [ ] Read `project_memory/CURRENT_HANDOFF.md` (this file)
 - [ ] Read `project_memory/MASTER_PROJECT_STATE.md`
+- [ ] Read `project_memory/PROJECT_RULEBOOK.md`
 - [ ] Check `reports/phase29_6_audit_manifest.json` for latest proof hashes
 - [ ] Run `pytest -q` to confirm tests pass before doing anything
+- [ ] Run `python scripts/check_project_memory.py` to verify memory integrity
 - [ ] Confirm git status is clean before any new work
 - [ ] Do NOT start Phase 29.7 unless the above checklist is complete
 
 ---
 
-## Git State (as of last sync)
+## Git State (Phase 30)
 
 - **Branch:** master
-- **Pre-sync commit:** `9e35f5fcf8b7e24482822553ee44c5a373866958`
-- **Sync date:** 2026-07-02
+- **Phase 30 commit:** (committed at end of Phase 30 — see GitHub)
+- **Phase 29 sync commit:** `5137c9d`
+- **Pre-Phase-29 commit:** `9e35f5f`
 - **Remote:** https://github.com/SpaciousAbhi/binance-futures-backtest-research
+
