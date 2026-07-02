@@ -1,0 +1,8 @@
+rank,category,finding,impact,improvement_type,recommendation,estimated_pf_impact,estimated_dd_impact,implementation_risk
+1,NOISY_SESSION,"Worst session: OFF_HOURS (PnL=1312.11, 128 trades)",HIGH,SESSION_FILTER,Add session blackout for OFF_HOURS to reduce noise trades,+0.05,-1%,LOW
+2,SL_EXIT_QUALITY,"SL Hit trades: 256 trades, total loss: $-44435.66",HIGH,SL_TIGHTENING,Tighten SL on low-R setups (R < 0.5) to reduce average loss size,+0.10,-2%,MEDIUM
+3,NEGATIVE_MONTHS,"Negative months: 25, worst: $-718.58",HIGH,MONTHLY_RISK_GOVERNOR,Add monthly drawdown circuit breaker — pause trading if monthly loss exceeds 3%,+0.08,-3%,LOW
+4,CANDIDATE_DIVERSITY,Only 13 unique PnL clusters in 1000 candidates — parameter sweep has very low diversity,MEDIUM,SWEEP_EXPANSION,"Expand parameter space: add more distinct strategy families, session filters, and RSI/ATR combinations",+0.15 potential,Unknown,MEDIUM
+5,SAME_CANDLE_TRADES,46 same-candle entry/exit trades — ambiguous SL/TP priority,MEDIUM,EXECUTION_MODEL_FIX,Enforce SL priority over TP for same-candle hits; add 5m intra-candle resolution,+0.02,-0.5%,LOW
+6,STRESS_FAILURES,"Combined adverse, triple fees, triple slippage, stale cancel scenarios all FAIL",HIGH,COST_REDUCTION,Increase average R-multiple per trade by filtering out sub-1R setups; this reduces fee/slippage sensitivity,+0.20,-2%,HIGH
+7,FLOOR_CONTRIBUTION,Floor strategy contributes majority of trades; CAND_0190 adds incremental volume,MEDIUM,SLEEVE_REBALANCE,Investigate CAND_0190 sleeve contribution in isolation — may need stronger CAND_0190 or additional sleeves,+0.10,Unknown,MEDIUM

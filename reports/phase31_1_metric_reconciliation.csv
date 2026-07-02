@@ -1,0 +1,22 @@
+metric,phase31_claimed,recomputed,diff,status
+net_pnl,11205.2,11205.2,0.0,OK
+trades,557,557.0,0.0,OK
+profit_factor,1.25,1.2522,0.0021999999999999797,OK
+max_drawdown_pct,6.54,16.2186,9.6786,DISCREPANCY
+positive_months,61,52.0,-9.0,DISCREPANCY
+negative_months,13,25.0,12.0,DISCREPANCY
+gross_profit,Not claimed,55640.85,0.0,NEW
+gross_loss,Not claimed,44435.66,0.0,NEW
+win_rate,Not claimed,0.5404,0.0,NEW
+winning_trades,Not claimed,301.0,0.0,NEW
+losing_trades,Not claimed,256.0,0.0,NEW
+avg_win,Not claimed,184.85,0.0,NEW
+avg_loss,Not claimed,-173.58,0.0,NEW
+expectancy,Not claimed,20.12,0.0,NEW
+largest_win,Not claimed,332.06,0.0,NEW
+largest_loss,Not claimed,-274.42,0.0,NEW
+max_consec_wins,Not claimed,9.0,0.0,NEW
+max_consec_losses,Not claimed,8.0,0.0,NEW
+best_month,Not claimed,1189.68,0.0,NEW
+worst_month,Not claimed,-718.58,0.0,NEW
+zero_months,4,0.0,-4.0,DISCREPANCY

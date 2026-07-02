@@ -1,0 +1,62 @@
+{
+  "phase": "31.1",
+  "name": "CAND_0190 Combined Router Full Acceptance Audit",
+  "verdict": "PHASE31_1_PARTIAL_PASS_ROUTER_REAL_BUT_REQUIRES_FIXES",
+  "timestamp": "2026-07-02T09:37:22Z",
+  "python_version": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "files": {
+    "reports/phase31_1_source_lock.csv": {
+      "sha256": "559ed29a0a2864fb203920ab01acf49742461fe021d5a913d8a2d2c5a68ae4c6",
+      "size_kb": 2.31
+    },
+    "reports/phase31_1_cand0190_reproduction.csv": {
+      "sha256": "438a18e42342737db67b6649cddb8a8c44bcd367e83b6e11df4d5777ef7f94d5",
+      "size_kb": 0.25
+    },
+    "reports/phase31_1_combined_router_reproduction.csv": {
+      "sha256": "a7d73534bdd60d97bf8f6151acc108934f3550c5f1f1ff290876808d26d95e42",
+      "size_kb": 0.24
+    },
+    "reports/phase31_1_full_trade_audit.csv": {
+      "sha256": "51ab091d77feecf64b3385ab529b3ef8878eadd00601f8ff194b05bea99549f1",
+      "size_kb": 138.92
+    },
+    "reports/phase31_1_entry_exit_rule_serialization.md": {
+      "sha256": "455e7d4e7ff5a48b3ac7835674fda0924183d9cf290203737ad8b15cc6d0f242",
+      "size_kb": 7.44
+    },
+    "reports/phase31_1_lookahead_hardcoding_audit.csv": {
+      "sha256": "4774d6f4f7c966b4a1ee6205de11193ecd5ed0128a569d3bbd2547fca5cb2d39",
+      "size_kb": 49.44
+    },
+    "reports/phase31_1_metric_reconciliation.csv": {
+      "sha256": "8c557fc4a8e3a4e826fa7580176d168c28cd15ff9b5283274446d01d884a6d09",
+      "size_kb": 0.87
+    },
+    "reports/phase31_1_stress_torture_audit.csv": {
+      "sha256": "09b5c6a6803e5a2456296cd95e5b7dd4284ce4ca23ececaf6a9e448de087691b",
+      "size_kb": 0.92
+    },
+    "reports/phase31_1_live_execution_feasibility.md": {
+      "sha256": "9d893fee41ca90772bdf9389ad25d0f56f7365d708c44b97f60626287aa97b1a",
+      "size_kb": 2.98
+    },
+    "reports/phase31_1_weakness_map.csv": {
+      "sha256": "5a0d1a1b87182842e4815edc70e86d7eb3fa289c406976a9dc1fdd523d7145cb",
+      "size_kb": 1.58
+    },
+    "reports/phase31_1_combined_router_acceptance_audit_report.md": {
+      "sha256": "2f83bc32574fb53c0896e4ec6e854e9d836c12ddd3fd3577124d137a24020b06",
+      "size_kb": 6.73
+    },
+    "scripts/phase31_1_runner.py": {
+      "sha256": "27856f18ff2c9d35ff1915f09fa0a63a02501eb75d067f93d26b575a91c1120c",
+      "size_kb": 72.37
+    },
+    "tests/test_phase31_1_combined_router_acceptance.py": {
+      "sha256": "647af803a357be4d83eb42f1fa74fdd41a0a8b5fb8a3519bd24f1a084f0ad079",
+      "size_kb": 20.53
+    }
+  }
+}

@@ -1,0 +1,16 @@
+scenario,net_pnl,profit_factor,max_dd_pct,trades,positive_months,negative_months,zero_months,verdict
+normal,11205.2,1.2522,16.2186,557,52,25,0,PASS
+double fees,6983.08,1.1504,22.238,557,51,26,0,PASS
+triple fees,2760.96,1.057,32.1112,557,45,32,0,PASS
+double slippage,6982.91,1.1504,22.2387,557,51,26,0,PASS
+triple slippage,2760.62,1.057,32.1135,557,45,32,0,PASS
+double fees + double slip,2760.79,1.057,32.1124,557,45,32,0,PASS
+delay 1 candle,9094.45,1.2002,19.0547,557,52,25,0,PASS
+delay 2 candles,6983.71,1.1505,22.2334,557,51,26,0,PASS
+missed fills 10%,10200.75,1.244,17.0059,502,48,21,0,PASS
+missed fills 20%,9728.68,1.251,17.4029,446,45,20,0,PASS
+missed fills 30%,6858.36,1.1874,20.2821,390,41,20,0,PASS
+stale cancel,9863.62,1.2368,16.2186,530,48,24,0,PASS
+partial fill,10711.04,1.2561,16.2186,557,52,25,0,PASS
+high funding,12313.93,1.2791,14.9447,557,52,25,0,PASS
+combined adverse,337.15,1.0073,40.3862,502,42,27,0,PASS
