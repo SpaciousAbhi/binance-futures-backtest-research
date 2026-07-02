@@ -1,0 +1,169 @@
+scenario,group_type,group_value,trades,base_pnl,stressed_pnl,stress_damage,profitable_trades_flipped_to_loss
+double fees,source_sleeve,ATR Expansion Long,47,1196.0,-1837.68,-3033.67,0
+double fees,source_sleeve,ATR Expansion Short,56,1583.78,-1531.21,-3114.99,0
+double fees,source_sleeve,BB Expansion Long,149,4900.85,-1414.0,-6314.86,0
+double fees,source_sleeve,BB Expansion Short,159,1748.35,-5482.06,-7230.4,0
+double fees,source_sleeve,Funding Reversal Long,6,724.93,649.94,-74.99,0
+double fees,source_sleeve,Funding Reversal Short,110,927.92,-4096.62,-5024.54,1
+double fees,source_sleeve,Low-Activity Filler Long,16,-812.15,-1896.19,-1084.04,1
+double fees,source_sleeve,Low-Activity Filler Short,14,935.51,319.92,-615.59,0
+double fees,session,LONDON,90,287.53,-3647.5,-3935.02,0
+double fees,session,NEW_YORK,264,9755.21,-3490.92,-13246.13,1
+double fees,session,OFF_HOURS,203,1162.46,-8149.47,-9311.93,1
+double fees,entry_family,bb_expansion,527,11081.83,-13711.63,-24793.46,1
+double fees,entry_family,floor_low_activity,30,123.36,-1576.27,-1699.63,1
+double fees,r_regime,R_1_1_2,93,678.44,-3364.33,-4042.77,0
+double fees,r_regime,R_1_2_1_5,319,8896.96,-6763.38,-15660.34,0
+double fees,r_regime,R_1_5_2,29,-23.06,-1713.51,-1690.45,1
+double fees,r_regime,R_LT_1,116,1652.85,-3446.68,-5099.53,1
+double fees,cost_regime,COST_EXTREME,1,146.42,137.24,-9.18,0
+double fees,cost_regime,COST_HIGH,6,739.44,642.86,-96.58,0
+double fees,cost_regime,COST_LOW,519,9903.0,-15797.74,-25700.75,2
+double fees,cost_regime,COST_MED,31,416.33,-270.25,-686.59,0
+triple fees,source_sleeve,ATR Expansion Long,47,1196.0,-4871.35,-6067.35,1
+triple fees,source_sleeve,ATR Expansion Short,56,1583.78,-4646.21,-6229.98,1
+triple fees,source_sleeve,BB Expansion Long,149,4900.85,-7728.86,-12629.71,3
+triple fees,source_sleeve,BB Expansion Short,159,1748.35,-12712.46,-14460.81,2
+triple fees,source_sleeve,Funding Reversal Long,6,724.93,574.95,-149.99,0
+triple fees,source_sleeve,Funding Reversal Short,110,927.92,-9121.16,-10049.08,15
+triple fees,source_sleeve,Low-Activity Filler Long,16,-812.15,-2980.23,-2168.08,1
+triple fees,source_sleeve,Low-Activity Filler Short,14,935.51,-295.67,-1231.19,0
+triple fees,session,LONDON,90,287.53,-7582.52,-7870.05,5
+triple fees,session,NEW_YORK,264,9755.21,-16737.06,-26492.26,7
+triple fees,session,OFF_HOURS,203,1162.46,-17461.41,-18623.87,11
+triple fees,entry_family,bb_expansion,527,11081.83,-38505.08,-49586.92,22
+triple fees,entry_family,floor_low_activity,30,123.36,-3275.9,-3399.26,1
+triple fees,r_regime,R_1_1_2,93,678.44,-7407.09,-8085.54,3
+triple fees,r_regime,R_1_2_1_5,319,8896.96,-22423.72,-31320.67,4
+triple fees,r_regime,R_1_5_2,29,-23.06,-3403.96,-3380.9,1
+triple fees,r_regime,R_LT_1,116,1652.85,-8546.21,-10199.06,15
+triple fees,cost_regime,COST_EXTREME,1,146.42,128.06,-18.36,0
+triple fees,cost_regime,COST_HIGH,6,739.44,546.28,-193.15,0
+triple fees,cost_regime,COST_LOW,519,9903.0,-41498.49,-51401.49,23
+triple fees,cost_regime,COST_MED,31,416.33,-956.84,-1373.18,0
+double slippage,source_sleeve,ATR Expansion Long,47,1196.0,-320.84,-1516.84,0
+double slippage,source_sleeve,ATR Expansion Short,56,1583.78,26.28,-1557.5,0
+double slippage,source_sleeve,BB Expansion Long,149,4900.85,1743.43,-3157.43,0
+double slippage,source_sleeve,BB Expansion Short,159,1748.35,-1866.86,-3615.2,0
+double slippage,source_sleeve,Funding Reversal Long,6,724.93,687.44,-37.5,0
+double slippage,source_sleeve,Funding Reversal Short,110,927.92,-1584.35,-2512.27,0
+double slippage,source_sleeve,Low-Activity Filler Long,16,-812.15,-1354.17,-542.02,0
+double slippage,source_sleeve,Low-Activity Filler Short,14,935.51,627.72,-307.8,0
+double slippage,session,LONDON,90,287.53,-1679.98,-1967.51,0
+double slippage,session,NEW_YORK,264,9755.21,3132.14,-6623.07,0
+double slippage,session,OFF_HOURS,203,1162.46,-3493.51,-4655.97,0
+double slippage,entry_family,bb_expansion,527,11081.83,-1314.9,-12396.73,0
+double slippage,entry_family,floor_low_activity,30,123.36,-726.45,-849.82,0
+double slippage,r_regime,R_1_1_2,93,678.44,-1342.94,-2021.38,0
+double slippage,r_regime,R_1_2_1_5,319,8896.96,1066.79,-7830.17,0
+double slippage,r_regime,R_1_5_2,29,-23.06,-868.29,-845.23,0
+double slippage,r_regime,R_LT_1,116,1652.85,-896.91,-2549.77,0
+double slippage,cost_regime,COST_EXTREME,1,146.42,141.83,-4.59,0
+double slippage,cost_regime,COST_HIGH,6,739.44,691.15,-48.29,0
+double slippage,cost_regime,COST_LOW,519,9903.0,-2947.37,-12850.37,0
+double slippage,cost_regime,COST_MED,31,416.33,73.04,-343.29,0
+triple slippage,source_sleeve,ATR Expansion Long,47,1196.0,-1837.68,-3033.67,0
+triple slippage,source_sleeve,ATR Expansion Short,56,1583.78,-1531.21,-3114.99,0
+triple slippage,source_sleeve,BB Expansion Long,149,4900.85,-1414.0,-6314.86,0
+triple slippage,source_sleeve,BB Expansion Short,159,1748.35,-5482.06,-7230.4,0
+triple slippage,source_sleeve,Funding Reversal Long,6,724.93,649.94,-74.99,0
+triple slippage,source_sleeve,Funding Reversal Short,110,927.92,-4096.62,-5024.54,1
+triple slippage,source_sleeve,Low-Activity Filler Long,16,-812.15,-1896.19,-1084.04,1
+triple slippage,source_sleeve,Low-Activity Filler Short,14,935.51,319.92,-615.59,0
+triple slippage,session,LONDON,90,287.53,-3647.5,-3935.02,0
+triple slippage,session,NEW_YORK,264,9755.21,-3490.92,-13246.13,1
+triple slippage,session,OFF_HOURS,203,1162.46,-8149.47,-9311.93,1
+triple slippage,entry_family,bb_expansion,527,11081.83,-13711.63,-24793.46,1
+triple slippage,entry_family,floor_low_activity,30,123.36,-1576.27,-1699.63,1
+triple slippage,r_regime,R_1_1_2,93,678.44,-3364.33,-4042.77,0
+triple slippage,r_regime,R_1_2_1_5,319,8896.96,-6763.38,-15660.34,0
+triple slippage,r_regime,R_1_5_2,29,-23.06,-1713.51,-1690.45,1
+triple slippage,r_regime,R_LT_1,116,1652.85,-3446.68,-5099.53,1
+triple slippage,cost_regime,COST_EXTREME,1,146.42,137.24,-9.18,0
+triple slippage,cost_regime,COST_HIGH,6,739.44,642.86,-96.58,0
+triple slippage,cost_regime,COST_LOW,519,9903.0,-15797.74,-25700.75,2
+triple slippage,cost_regime,COST_MED,31,416.33,-270.25,-686.59,0
+double fees + double slip,source_sleeve,ATR Expansion Long,47,1196.0,-3354.51,-4550.51,1
+double fees + double slip,source_sleeve,ATR Expansion Short,56,1583.78,-3088.71,-4672.49,1
+double fees + double slip,source_sleeve,BB Expansion Long,149,4900.85,-4571.43,-9472.28,1
+double fees + double slip,source_sleeve,BB Expansion Short,159,1748.35,-9097.26,-10845.61,0
+double fees + double slip,source_sleeve,Funding Reversal Long,6,724.93,612.44,-112.49,0
+double fees + double slip,source_sleeve,Funding Reversal Short,110,927.92,-6608.89,-7536.81,2
+double fees + double slip,source_sleeve,Low-Activity Filler Long,16,-812.15,-2438.21,-1626.06,1
+double fees + double slip,source_sleeve,Low-Activity Filler Short,14,935.51,12.12,-923.39,0
+double fees + double slip,session,LONDON,90,287.53,-5615.01,-5902.54,0
+double fees + double slip,session,NEW_YORK,264,9755.21,-10113.99,-19869.2,4
+double fees + double slip,session,OFF_HOURS,203,1162.46,-12805.44,-13967.9,2
+double fees + double slip,entry_family,bb_expansion,527,11081.83,-26108.36,-37190.19,5
+double fees + double slip,entry_family,floor_low_activity,30,123.36,-2426.08,-2549.45,1
+double fees + double slip,r_regime,R_1_1_2,93,678.44,-5385.71,-6064.15,0
+double fees + double slip,r_regime,R_1_2_1_5,319,8896.96,-14593.55,-23490.51,3
+double fees + double slip,r_regime,R_1_5_2,29,-23.06,-2558.74,-2535.68,1
+double fees + double slip,r_regime,R_LT_1,116,1652.85,-5996.44,-7649.3,2
+double fees + double slip,cost_regime,COST_EXTREME,1,146.42,132.65,-13.77,0
+double fees + double slip,cost_regime,COST_HIGH,6,739.44,594.57,-144.86,0
+double fees + double slip,cost_regime,COST_LOW,519,9903.0,-28648.12,-38551.12,6
+double fees + double slip,cost_regime,COST_MED,31,416.33,-613.55,-1029.88,0
+delay 1 candle,source_sleeve,ATR Expansion Long,47,1196.0,-320.84,-1516.84,0
+delay 1 candle,source_sleeve,ATR Expansion Short,56,1583.78,26.28,-1557.5,0
+delay 1 candle,source_sleeve,BB Expansion Long,149,4900.85,1743.43,-3157.43,0
+delay 1 candle,source_sleeve,BB Expansion Short,159,1748.35,-1866.86,-3615.2,0
+delay 1 candle,source_sleeve,Funding Reversal Long,6,724.93,687.44,-37.5,0
+delay 1 candle,source_sleeve,Funding Reversal Short,110,927.92,-1584.35,-2512.27,0
+delay 1 candle,source_sleeve,Low-Activity Filler Long,16,-812.15,-1354.17,-542.02,0
+delay 1 candle,source_sleeve,Low-Activity Filler Short,14,935.51,627.72,-307.8,0
+delay 1 candle,session,LONDON,90,287.53,-1679.98,-1967.51,0
+delay 1 candle,session,NEW_YORK,264,9755.21,3132.14,-6623.07,0
+delay 1 candle,session,OFF_HOURS,203,1162.46,-3493.51,-4655.97,0
+delay 1 candle,entry_family,bb_expansion,527,11081.83,-1314.9,-12396.73,0
+delay 1 candle,entry_family,floor_low_activity,30,123.36,-726.45,-849.82,0
+delay 1 candle,r_regime,R_1_1_2,93,678.44,-1342.94,-2021.38,0
+delay 1 candle,r_regime,R_1_2_1_5,319,8896.96,1066.79,-7830.17,0
+delay 1 candle,r_regime,R_1_5_2,29,-23.06,-868.29,-845.23,0
+delay 1 candle,r_regime,R_LT_1,116,1652.85,-896.91,-2549.77,0
+delay 1 candle,cost_regime,COST_EXTREME,1,146.42,141.83,-4.59,0
+delay 1 candle,cost_regime,COST_HIGH,6,739.44,691.15,-48.29,0
+delay 1 candle,cost_regime,COST_LOW,519,9903.0,-2947.37,-12850.37,0
+delay 1 candle,cost_regime,COST_MED,31,416.33,73.04,-343.29,0
+delay 2 candles,source_sleeve,ATR Expansion Long,47,1196.0,-1837.68,-3033.67,0
+delay 2 candles,source_sleeve,ATR Expansion Short,56,1583.78,-1531.21,-3114.99,0
+delay 2 candles,source_sleeve,BB Expansion Long,149,4900.85,-1414.0,-6314.86,0
+delay 2 candles,source_sleeve,BB Expansion Short,159,1748.35,-5482.06,-7230.4,0
+delay 2 candles,source_sleeve,Funding Reversal Long,6,724.93,649.94,-74.99,0
+delay 2 candles,source_sleeve,Funding Reversal Short,110,927.92,-4096.62,-5024.54,1
+delay 2 candles,source_sleeve,Low-Activity Filler Long,16,-812.15,-1896.19,-1084.04,1
+delay 2 candles,source_sleeve,Low-Activity Filler Short,14,935.51,319.92,-615.59,0
+delay 2 candles,session,LONDON,90,287.53,-3647.5,-3935.02,0
+delay 2 candles,session,NEW_YORK,264,9755.21,-3490.92,-13246.13,1
+delay 2 candles,session,OFF_HOURS,203,1162.46,-8149.47,-9311.93,1
+delay 2 candles,entry_family,bb_expansion,527,11081.83,-13711.63,-24793.46,1
+delay 2 candles,entry_family,floor_low_activity,30,123.36,-1576.27,-1699.63,1
+delay 2 candles,r_regime,R_1_1_2,93,678.44,-3364.33,-4042.77,0
+delay 2 candles,r_regime,R_1_2_1_5,319,8896.96,-6763.38,-15660.34,0
+delay 2 candles,r_regime,R_1_5_2,29,-23.06,-1713.51,-1690.45,1
+delay 2 candles,r_regime,R_LT_1,116,1652.85,-3446.68,-5099.53,1
+delay 2 candles,cost_regime,COST_EXTREME,1,146.42,137.24,-9.18,0
+delay 2 candles,cost_regime,COST_HIGH,6,739.44,642.86,-96.58,0
+delay 2 candles,cost_regime,COST_LOW,519,9903.0,-15797.74,-25700.75,2
+delay 2 candles,cost_regime,COST_MED,31,416.33,-270.25,-686.59,0
+combined adverse,source_sleeve,ATR Expansion Long,32,980.54,-2481.28,-3461.83,0
+combined adverse,source_sleeve,ATR Expansion Short,46,1366.13,-2971.67,-4337.79,0
+combined adverse,source_sleeve,BB Expansion Long,141,4777.56,-6634.8,-11412.36,3
+combined adverse,source_sleeve,BB Expansion Short,143,565.55,-11403.21,-11968.76,2
+combined adverse,source_sleeve,Funding Reversal Long,6,724.93,574.95,-149.99,0
+combined adverse,source_sleeve,Funding Reversal Short,110,927.92,-9121.16,-10049.08,15
+combined adverse,source_sleeve,Low-Activity Filler Long,12,-316.04,-1634.91,-1318.87,0
+combined adverse,source_sleeve,Low-Activity Filler Short,11,1076.49,422.22,-654.27,0
+combined adverse,session,LONDON,85,460.24,-6481.39,-6941.63,5
+combined adverse,session,NEW_YORK,226,8784.94,-11204.78,-19989.72,4
+combined adverse,session,OFF_HOURS,190,857.9,-15563.68,-16421.58,11
+combined adverse,entry_family,bb_expansion,478,9342.64,-32037.16,-41379.8,20
+combined adverse,entry_family,floor_low_activity,23,760.45,-1212.68,-1973.13,0
+combined adverse,r_regime,R_1_1_2,91,717.26,-7070.18,-7787.45,3
+combined adverse,r_regime,R_1_2_1_5,272,7118.94,-16292.7,-23411.65,2
+combined adverse,r_regime,R_1_5_2,22,614.02,-1340.75,-1954.77,0
+combined adverse,r_regime,R_LT_1,116,1652.85,-8546.21,-10199.06,15
+combined adverse,cost_regime,COST_EXTREME,1,146.42,128.06,-18.36,0
+combined adverse,cost_regime,COST_HIGH,6,739.44,546.28,-193.15,0
+combined adverse,cost_regime,COST_LOW,464,8526.47,-33474.14,-42000.61,20
+combined adverse,cost_regime,COST_MED,30,690.76,-450.06,-1140.81,0

@@ -1,0 +1,8 @@
+gate,baseline,best_fusion,status
+PF above baseline,1.2522,1.6751,PASS
+DD below baseline,16.2186,6.4164,PASS
+stress pass count above baseline,7,12,PASS
+combined adverse improves,-33249.85,-2696.5,PASS
+negative months below baseline,25,19,PASS
+no live-path violations,0,0,PASS
+metrics reconcile from trade log,YES,YES,PASS

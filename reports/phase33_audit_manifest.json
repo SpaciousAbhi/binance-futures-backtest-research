@@ -1,0 +1,89 @@
+{
+  "phase": "33",
+  "verdict": "PHASE33_PARTIAL_PASS_EDGE_THICKENED_STRESS_STILL_WEAK",
+  "candidate_registry_size": 3000,
+  "executed_candidates": 750,
+  "live_capital_status": "NOT_REAL_CAPITAL_READY",
+  "files": {
+    "phase33_cost_robustness_edge_thickening_and_fusion_upgrade_report.md": {
+      "sha256": "9437897dcbcfbec337a89e023096fb5f55a2fb1a833dcb5f9cf0bf675d0d938f",
+      "bytes": 2507
+    },
+    "phase33_memory_truth_repair.csv": {
+      "sha256": "102a6932002e24e2941df5c9742377c484b8f5a71f4659f66d90bc84ede8b88d",
+      "bytes": 1005
+    },
+    "phase33_cost_sensitivity_trade_audit.csv": {
+      "sha256": "d654f9e4db90b8d6eda44eb36c52be7e53689b014de43206acc0fb50288dbb2d",
+      "bytes": 245633
+    },
+    "phase33_edge_thickness_report.md": {
+      "sha256": "524494f959a0ee1faebc20d942eccb1f0cf715fbb9c8a91a521a09e1cacad9a4",
+      "bytes": 722
+    },
+    "phase33_stress_failure_root_cause.csv": {
+      "sha256": "07cf4a9a08d7594b21142950f3cde949b013a3e2a7517731a04f78352b0168cf",
+      "bytes": 12459
+    },
+    "phase33_repair_module_design.md": {
+      "sha256": "d8e2278b8c3fe21a3876dae56d7432e29b7baf713b3bd8685036e5beb56f0dab",
+      "bytes": 826
+    },
+    "phase33_repair_module_results.csv": {
+      "sha256": "562bbba17ae2a95e02830e6ae4f6996d75c32b2020c3eb7bde3e54aed5801b3f",
+      "bytes": 7020
+    },
+    "phase33_candidate_registry.csv": {
+      "sha256": "43861c6c84b244205c7abd763c51f3c0cb26e554156e3e3839a310fd7c0c4aaf",
+      "bytes": 275614
+    },
+    "phase33_candidate_results.csv": {
+      "sha256": "3b6a2266e6419dbadf88e68ae93ad4dc061575f03a8634deb42b77c4e8fe82b5",
+      "bytes": 594363
+    },
+    "phase33_candidate_diversity_report.csv": {
+      "sha256": "f6679a7535d998320e233704b32de52e270ec5f4dc8225cc69f71e0f17254837",
+      "bytes": 166
+    },
+    "phase33_finalist_candidate_proof_pack.md": {
+      "sha256": "10de8af4e57ae598bf6e168a84634c42ecdf71be3ed191d39883ec973cee0f02",
+      "bytes": 2170
+    },
+    "phase33_fusion_results.csv": {
+      "sha256": "76fdf8af7295dee2c4854a6fea22589e96cca2af5e7591126ba3c96543b276b5",
+      "bytes": 4544
+    },
+    "phase33_best_fusion_trade_log.csv": {
+      "sha256": "85b4c71f1ed323cbb4b7ec2700840346db1c3be3c83d2dab9e8221406f8f1755",
+      "bytes": 49057
+    },
+    "phase33_best_fusion_monthly_table.csv": {
+      "sha256": "89fae2323ec4f54b70b96bc75874af47468eb4bdd5cb51bc9d8cdfb37e194ced",
+      "bytes": 1502
+    },
+    "phase33_best_fusion_stress_table.csv": {
+      "sha256": "7e0cf0f179a70595c64e4d84fe6706a3916f8c87de9d4939544268c3abeef55e",
+      "bytes": 3426
+    },
+    "phase33_fusion_conflict_audit.csv": {
+      "sha256": "487b0b460dd77ec89b43dd587fffcf77974f397c1569ab52a5978bd65b99e21f",
+      "bytes": 159574
+    },
+    "phase33_fusion_source_contribution.csv": {
+      "sha256": "f2095c4997f7f6e70ca423b115acae424c7e0e7fadc75664977353756a9a22d7",
+      "bytes": 302
+    },
+    "phase33_benchmark_comparison.csv": {
+      "sha256": "db2ac028a67882c828e614f6a21bcdacbd24702e31b0ac5bc61b2e6d15860aa6",
+      "bytes": 1392
+    },
+    "phase33_acceptance_gate_results.csv": {
+      "sha256": "bd87d9ab56ae03a553363e0ecf54f976e85536a39b9437a9e0f174575e9c67c9",
+      "bytes": 329
+    },
+    "phase33_live_execution_readiness_delta.md": {
+      "sha256": "6942ee32a30a76ee16b53c144de2ff97e490621ae10e09f79916d1f02938245b",
+      "bytes": 868
+    }
+  }
+}

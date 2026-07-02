@@ -1,35 +1,35 @@
 artifact_path,artifact_type,phase,description,file_hash_sha256_12,size_kb,git_tracked,validation_status
-reports/phase29_absolute_truth_audit_full_project_report.md,main_report,29,Full project truth audit — AUDIT_FAIL verdict,computed_on_read,31,YES,VALID
+reports/phase29_absolute_truth_audit_full_project_report.md,main_report,29,Full project truth audit — AUDIT_FAIL verdict,computed_on_read,31.0,YES,VALID
 reports/phase29_audit_manifest.json,manifest,29,Phase 29 audit manifest with all proof hashes,computed_on_read,5.1,YES,VALID
 reports/phase29_benchmark_reproduction.csv,proof_csv,29,Benchmark reproduction attempt results,computed_on_read,3.1,YES,VALID
 reports/phase29_lookahead_hardcoding_audit.csv,proof_csv,29,Full lookahead and hardcoding scan,computed_on_read,133.3,YES,VALID
-reports/phase29_1_truth_first_pf8_recovery_report.md,main_report,29.1,PF1.2 truth re-lock and genuine recovery start,computed_on_read,19,YES,VALID
+reports/phase29_1_truth_first_pf8_recovery_report.md,main_report,29.1,PF1.2 truth re-lock and genuine recovery start,computed_on_read,19.0,YES,VALID
 reports/phase29_1_audit_manifest.json,manifest,29.1,Phase 29.1 audit manifest,computed_on_read,1.2,YES,VALID
-reports/phase29_1_pf12_truth_lock.csv,proof_csv,29.1,PF1.2 truth lock — genuine engine result,computed_on_read,1,YES,VALID
-reports/phase29_1_genuine_candidate_results.csv,proof_csv,29.1,Genuine candidate results (no forced metrics),computed_on_read,19,YES,VALID
-reports/phase29_1_genuine_router_trade_log.csv,trade_log,29.1,Genuine router trade log,computed_on_read,1,YES,VALID
-reports/phase29_1_forced_metric_contamination_audit.csv,proof_csv,29.1,Forced metric contamination scan,computed_on_read,1,YES,VALID
-reports/phase29_2_precision_fusion_truth_reconstruction_report.md,main_report,29.2,Truth reconstruction with genuine candidates,computed_on_read,4,YES,VALID
+reports/phase29_1_pf12_truth_lock.csv,proof_csv,29.1,PF1.2 truth lock — genuine engine result,computed_on_read,1.0,YES,VALID
+reports/phase29_1_genuine_candidate_results.csv,proof_csv,29.1,Genuine candidate results (no forced metrics),computed_on_read,19.0,YES,VALID
+reports/phase29_1_genuine_router_trade_log.csv,trade_log,29.1,Genuine router trade log,computed_on_read,1.0,YES,VALID
+reports/phase29_1_forced_metric_contamination_audit.csv,proof_csv,29.1,Forced metric contamination scan,computed_on_read,1.0,YES,VALID
+reports/phase29_2_precision_fusion_truth_reconstruction_report.md,main_report,29.2,Truth reconstruction with genuine candidates,computed_on_read,4.0,YES,VALID
 reports/phase29_2_audit_manifest.json,manifest,29.2,Phase 29.2 audit manifest,computed_on_read,3.3,YES,VALID
 reports/phase29_2_dirty_pf8_trade_quality_audit.csv,proof_csv,29.2,Dirty PF8 cluster trade quality analysis,computed_on_read,172.9,YES,DIAGNOSTIC_ONLY
 reports/phase29_2_pf12_trade_diff_audit.csv,proof_csv,29.2,PF1.2 trade diff audit,computed_on_read,12.8,YES,VALID
 reports/phase29_3_precision_fusion_lineage_recovery_and_pf8_rebuild_report.md,main_report,29.3,Variant B/C lineage and PF8 rebuild,computed_on_read,4.8,YES,VALID
 reports/phase29_3_audit_manifest.json,manifest,29.3,Phase 29.3 audit manifest,computed_on_read,3.3,YES,VALID
-reports/phase29_3_variant_b_rebuild.csv,proof_csv,29.3,Variant B teacher rebuild,computed_on_read,1,YES,TEACHER_REFERENCE
-reports/phase29_3_variant_c_rebuild.csv,proof_csv,29.3,Variant C teacher rebuild,computed_on_read,1,YES,TEACHER_REFERENCE
+reports/phase29_3_variant_b_rebuild.csv,proof_csv,29.3,Variant B teacher rebuild,computed_on_read,1.0,YES,TEACHER_REFERENCE
+reports/phase29_3_variant_c_rebuild.csv,proof_csv,29.3,Variant C teacher rebuild,computed_on_read,1.0,YES,TEACHER_REFERENCE
 reports/phase29_3_pf12_executable_rebuild_trade_log.csv,trade_log,29.3,PF1.2 executable rebuild trade log (103KB),computed_on_read,103.8,YES,PARTIAL_RECOVERY
 reports/phase29_4_precision_fusion_teacher_distillation_and_live_recovery_report.md,main_report,29.4,Teacher distillation and live recovery,computed_on_read,5.2,YES,VALID
 reports/phase29_4_audit_manifest.json,manifest,29.4,Phase 29.4 audit manifest,computed_on_read,2.6,YES,VALID
 reports/phase29_4_teacher_distilled_rules.csv,proof_csv,29.4,325 teacher trades with distilled entry/exit rules,computed_on_read,1.9,YES,TEACHER_REFERENCE
 reports/phase29_4_teacher_canonical_sets.csv,proof_csv,29.4,Teacher canonical trade sets,computed_on_read,0.9,YES,TEACHER_REFERENCE
 reports/phase29_4_pf12_live_router_trade_log.csv,trade_log,29.4,PF1.2 live router trade log (56KB),computed_on_read,55.7,YES,PARTIAL_RECOVERY
-reports/phase29_4_entry_time_feature_table.csv,proof_csv,29.4,Entry time feature table for all teacher trades,computed_on_read,636,YES,TEACHER_REFERENCE
+reports/phase29_4_entry_time_feature_table.csv,proof_csv,29.4,Entry time feature table for all teacher trades,computed_on_read,636.0,YES,TEACHER_REFERENCE
 reports/phase29_5_major_precision_fusion_breakthrough_report.md,main_report,29.5,MTF router recovery report,computed_on_read,3.3,YES,VALID
 reports/phase29_5_audit_manifest.json,manifest,29.5,Phase 29.5 audit manifest,computed_on_read,2.6,YES,VALID
 reports/phase29_5_teacher_mtf_trigger_match.csv,proof_csv,29.5,Teacher MTF trigger match audit (81KB),computed_on_read,80.7,YES,ENGINE_PROGRESS
 reports/phase29_5_pf12_executable_router_trade_log.csv,trade_log,29.5,PF1.2 executable router trade log (114KB),computed_on_read,113.6,YES,ENGINE_PROGRESS
 reports/phase29_6_true_5m_event_driven_mtf_engine_report.md,main_report,29.6,True 5m event-driven MTF engine report,computed_on_read,3.9,YES,ENGINE_PROGRESS
-reports/phase29_6_audit_manifest.json,manifest,29.6,Phase 29.6 audit manifest,computed_on_read,3,YES,VALID
+reports/phase29_6_audit_manifest.json,manifest,29.6,Phase 29.6 audit manifest,computed_on_read,3.0,YES,VALID
 reports/phase29_6_pf12_mtf_trade_log.csv,trade_log,29.6,5m MTF engine trace log — 3111 trades (1.7MB),computed_on_read,1755.5,YES,ENGINE_PROGRESS
 reports/phase29_6_pf12_mtf_engine_results.csv,proof_csv,29.6,PF1.2 MTF engine summary results,computed_on_read,0.8,YES,ENGINE_PROGRESS
 reports/phase29_6_execution_rule_recovery_audit.csv,proof_csv,29.6,31 recovered execution rules,computed_on_read,17.8,YES,VALID
@@ -43,7 +43,7 @@ src/backtest/engine.py,source_code,core,Backtest engine — MultiPositionBacktes
 src/strategies/candidates.py,source_code,core,Strategy template library,computed_on_read,95.9,YES,PRODUCTION
 src/features/indicators.py,source_code,core,Indicator library (ATR/BB/VWAP/RSI/EMA),computed_on_read,8.2,YES,PRODUCTION
 src/research/phase12_runner.py,source_code,12,PF1.2 constructor — build_p10_1_strategy(),computed_on_read,27.2,YES,TEACHER_REFERENCE
-scripts/phase29_6_event_driven_mtf_engine.py,script,29.6,True 5m event-driven MTF engine script,computed_on_read,NA,YES,ENGINE_PROGRESS
+scripts/phase29_6_event_driven_mtf_engine.py,script,29.6,True 5m event-driven MTF engine script,computed_on_read,,YES,ENGINE_PROGRESS
 reports/phase30_1_research_lab_architecture_audit.md,main_report,30.1,Architecture audit report,computed_on_read,4.4,YES,VALID
 reports/phase30_1_research_lab_and_idea_engine_os_report.md,main_report,30.1,Phase 30.1 summary report,computed_on_read,5.2,YES,VALID
 reports/phase30_1_audit_manifest.json,manifest,30.1,Phase 30.1 file hash manifest,computed_on_read,2.5,YES,VALID
@@ -66,3 +66,24 @@ reports/phase31_best_router_stress_table.csv,proof_csv,31,Stress scenario result
 reports/phase31_live_automation_audit.md,main_report,31,Live automation safety audit for best router,computed_on_read,0.7,YES,VALID
 scripts/phase31_runner.py,script,31,Runner script for Phase 31 strategy metrics,computed_on_read,28.0,YES,VALID
 tests/test_phase31_strategy_metric_breakthrough.py,source_code,31,Unit tests for Phase 31 strategy metrics,computed_on_read,4.5,YES,VALID
+reports/phase33_cost_robustness_edge_thickening_and_fusion_upgrade_report.md,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,9437897dcbcf,2.4,YES,VALID
+reports/phase33_memory_truth_repair.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,102a6932002e,1.0,YES,VALID
+reports/phase33_cost_sensitivity_trade_audit.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,d654f9e4db90,239.9,YES,VALID
+reports/phase33_edge_thickness_report.md,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,524494f959a0,0.7,YES,VALID
+reports/phase33_stress_failure_root_cause.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,07cf4a9a08d7,12.2,YES,VALID
+reports/phase33_repair_module_design.md,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,d8e2278b8c3f,0.8,YES,VALID
+reports/phase33_repair_module_results.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,562bbba17ae2,6.9,YES,VALID
+reports/phase33_candidate_registry.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,43861c6c84b2,269.2,YES,VALID
+reports/phase33_candidate_results.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,3b6a2266e641,580.4,YES,VALID
+reports/phase33_candidate_diversity_report.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,f6679a7535d9,0.2,YES,VALID
+reports/phase33_finalist_candidate_proof_pack.md,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,10de8af4e57a,2.1,YES,VALID
+reports/phase33_fusion_results.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,76fdf8af7295,4.4,YES,VALID
+reports/phase33_best_fusion_trade_log.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,85b4c71f1ed3,47.9,YES,VALID
+reports/phase33_best_fusion_monthly_table.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,89fae2323ec4,1.5,YES,VALID
+reports/phase33_best_fusion_stress_table.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,7e0cf0f179a7,3.3,YES,VALID
+reports/phase33_fusion_conflict_audit.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,487b0b460dd7,155.8,YES,VALID
+reports/phase33_fusion_source_contribution.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,f2095c4997f7,0.3,YES,VALID
+reports/phase33_benchmark_comparison.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,db2ac028a678,1.4,YES,VALID
+reports/phase33_acceptance_gate_results.csv,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,bd87d9ab56ae,0.3,YES,VALID
+reports/phase33_live_execution_readiness_delta.md,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,6942ee32a30a,0.8,YES,VALID
+reports/phase33_audit_manifest.json,phase33_artifact,33,Phase 33 cost robustness and fusion upgrade artifact,87402d84b465,3.4,YES,VALID

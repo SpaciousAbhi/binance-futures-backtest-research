@@ -1,0 +1,8 @@
+file,issue,correction,changed
+project_memory\CURRENT_HANDOFF.md,- **Stress Fails:** 0 / 15 scenarios,"- **Phase 32 stress result:** PASS=7 / FAIL=8
+- **Combined adverse PnL:** -$39,138.38
+- **Combined adverse DD:** 359.59%
+- **Stress status:** STRESS_FRAGILE",NO_OR_ALREADY_CORRECT
+project_memory\MASTER_PROJECT_STATE.md,"| **Phase 31 Combined Router** | $11,205.20 | 557 | 1.25 | 6.54% | 61/13/4 | See","| **Phase 31/32 Combined Router** | $11,205.20 | 557 | 1.2522 | 16.2186% | 52/25/0 | PASS=7 / FAIL=8; combined adverse -$39,138.38 | `VALID_EXECUTABLE_BASELINE_",NO_OR_ALREADY_CORRECT
+project_memory\MASTER_PROJECT_STATE.md,"| **Phase 31 Baseline (CAND_0190)** | $4,246.75 | 359 | 1.21 | 6.54% | 53/19/6 |","| **Phase 31 Baseline (CAND_0190)** | $4,246.75 | 359 | 1.21 | 9.51% | 53/19/6 | See reports | `VALID_EXECUTABLE_BENCHMARK` |",NO_OR_ALREADY_CORRECT
+project_memory/BENCHMARK_REGISTRY.csv,Phase 31 Combined Router stale DD/stress,DD 16.2186%; combined adverse -39138.38; stress fragile,YES

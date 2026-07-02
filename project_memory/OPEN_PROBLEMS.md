@@ -152,3 +152,10 @@ After Phase 29.7, add unit tests for:
 - [OPEN] Real-time monitoring and kill switch not built
 - [UPDATED] DD improved in best fusion (16.22% vs 16.22% in v1) — partial progress
 - [OPEN] Negative months: 25 in best fusion (target < 18)
+
+## Phase 33 Updated Problems
+
+- [UPDATED] Cost robustness improved by best fusion multi_candidate_low_correlation_fusion, but combined adverse remains negative.
+- [OPEN] Convert Phase 33 filter replay into direct engine router implementation.
+- [OPEN] Candidate diversity target met in registry/results; next phase must validate signal-level executability.
+- [OPEN] NOT_REAL_CAPITAL_READY until Binance testnet shadow validation exists.

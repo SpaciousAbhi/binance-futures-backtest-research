@@ -53,6 +53,29 @@ scripts\phase29_absolute_truth_audit.py,440,FUTURE_MAE,INFO,future_mae,ALLOWED_H
 scripts\phase29_absolute_truth_audit.py,448,FORCED_PNL,INFO,pnl_81 = 31250.80,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 scripts\phase29_absolute_truth_audit.py,721,SAMPLE_REPLACE,INFO,".sample(frac=1.0, replace=True",ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 scripts\phase29_absolute_truth_audit.py,1102,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,87,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,88,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,89,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,90,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,91,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,95,FORCED_PNL,INFO,pnl_81_calc = pnl_81,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,537,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,538,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,538,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,1226,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,1226,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,1226,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase31_1_runner.py,1226,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,106,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,107,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,108,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,109,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,110,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,114,FORCED_PNL,INFO,pnl_81_calc = pnl_81,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,1532,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,1532,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,1532,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase32_runner.py,1532,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase17_1_realism.py,20,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase17_1_realism.py,22,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase21_realism.py,7,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
@@ -99,4 +122,27 @@ tests\test_phase29_6_event_driven_mtf_engine.py,69,IS_WINNER_LIVE,INFO,is_winner
 tests\test_phase29_6_event_driven_mtf_engine.py,70,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase29_6_event_driven_mtf_engine.py,72,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase29_6_event_driven_mtf_engine.py,73,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,222,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,223,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,224,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,225,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,226,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,228,FORCED_PNL,INFO,pnl_81_calc = pnl_81,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,237,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,238,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,238,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,239,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,240,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,241,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,242,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,243,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,243,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase31_1_combined_router_acceptance.py,274,FORCED_PNL,INFO,pnl_81_calc = pnl_81,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase32_quality_hardening.py,615,FORCED_PNL,INFO,pnl_81_calc = pnl_81,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase32_quality_hardening.py,616,FORCED_PNL,INFO,diff_pnl =,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase32_quality_hardening.py,617,FORCED_PF,INFO,profit_factor = 1.25,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase33_cost_robustness.py,171,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase33_cost_robustness.py,171,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase33_cost_robustness.py,171,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase33_cost_robustness.py,171,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_project_memory_protocol.py,129,SAMPLE_REPLACE,INFO,.sample(replace=True,ALLOWED_HISTORICAL_CONTEXT,Test validation check pattern.

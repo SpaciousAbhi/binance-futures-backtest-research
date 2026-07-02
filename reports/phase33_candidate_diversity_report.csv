@@ -1,0 +1,7 @@
+metric,value
+registered_candidates,3000
+executed_candidates,750
+family_count,17
+executed_behavior_clusters,750
+target_clusters,50
+status,PASS_50_PLUS_CLUSTERS

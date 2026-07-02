@@ -1,27 +1,17 @@
-# Next Phase Plan — Phase 33
+# Next Phase Plan - Phase 34
 
 ## Goal
-Shadow Trading Infrastructure, Multi-Asset Validation, and Phase 32 Fusion Hardening
+Convert the best Phase 33 filter fusion into a first-class engine/routing implementation, then validate it across assets and shadow infrastructure.
 
-## Key Objectives
-1. Build shadow trading module (mock Binance connector)
-2. Run best Phase 32 fusion on Binance Testnet ≥ 30 days
-3. Multi-asset validation: ETHUSDT, BNBUSDT
-4. Address remaining 25 negative months
-5. Implement real-time monitoring and kill switch
-6. Continue stress hardening toward combined adverse > $2,000
+## Inputs
+- reports/phase33_best_fusion_trade_log.csv
+- reports/phase33_fusion_results.csv
+- reports/phase33_best_fusion_stress_table.csv
+- reports/phase33_cost_sensitivity_trade_audit.csv
 
-## Inputs for Phase 33
-- reports/phase32_best_fusion_trade_log.csv
-- reports/phase32_best_fusion_stress_table.csv
-- reports/phase32_repair_module_results.csv
-- reports/phase32_candidate_diversity_report.csv
-- reports/phase32_live_execution_readiness_delta.md
-
-## Status at Start of Phase 33
-- **Best Fusion:** fusion_v1_repaired
-- **PnL:** $11,205.20
-- **PF:** 1.2522
-- **DD:** 16.2186%
-- **Negative Months:** 25
-- **Status:** NOT_REAL_CAPITAL_READY
+## Required Work
+1. Implement the serialized Phase 33 filter rules directly in the live signal/router path.
+2. Re-run through the real engine, not only trade-log filter replay.
+3. Validate on ETHUSDT, BNBUSDT, and SOLUSDT.
+4. Build shadow exchange connector and kill switch.
+5. Keep NOT_REAL_CAPITAL_READY until exchange shadow proof exists.

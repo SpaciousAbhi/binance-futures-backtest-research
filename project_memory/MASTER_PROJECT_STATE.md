@@ -35,8 +35,8 @@ No strategy has passed all requirements for real-capital live automation. Do not
 | Benchmark | PnL | Trades | PF | Max DD | Months +/-/0 | Stress | Status |
 |---|---|---|---|---|---|---|---|
 | **PF 1.2 (Teacher Reference)** | $21,684.99 | 325 | 2.42 | 10.87% | 56/16/6 | +$15,922.97 | `VALID_TEACHER_REFERENCE` |
-| **Phase 31 Combined Router** | $11,205.20 | 557 | 1.25 | 6.54% | 61/13/4 | See reports | `VALID_EXECUTABLE_BENCHMARK` |
-| **Phase 31 Baseline (CAND_0190)** | $4,246.75 | 359 | 1.21 | 6.54% | 53/19/6 | See reports | `VALID_EXECUTABLE_BENCHMARK` |
+| **Phase 31/32 Combined Router** | $11,205.20 | 557 | 1.2522 | 16.2186% | 52/25/0 | PASS=7 / FAIL=8; combined adverse -$39,138.38 | `VALID_EXECUTABLE_BASELINE_BUT_STRESS_FRAGILE` |
+| **Phase 31 Baseline (CAND_0190)** | $4,246.75 | 359 | 1.21 | 9.51% | 53/19/6 | See reports | `VALID_EXECUTABLE_BENCHMARK` |
 | **Variant B** | See reports | — | — | — | — | — | `TEACHER_REFERENCE` |
 | **Variant C** | See reports | — | — | — | — | — | `TEACHER_REFERENCE` |
 
