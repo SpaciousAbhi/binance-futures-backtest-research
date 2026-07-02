@@ -1,0 +1,21 @@
+metric,value,unit,notes
+available_cli_commands,9,count,status memory-check data-check audit list-phases list-benchmarks validate-report hash-artifacts next-phase
+status_runtime_ms,211.0,ms,measured average
+memory_check_runtime_ms,283.7,ms,measured average
+audit_runtime_ms,1464.8,ms,measured average
+data_check_runtime_ms,173.9,ms,measured average
+candidate_execution_queue_capability,limited_smoke_only,flag,supports batch size of 2 only for smoke testing
+max_candidates_executable_per_batch,2,count,smoke test constraint
+checkpoint_resume_support,basic,flag,simple JSON file state tracking
+number_of_report_validators,1,count,only report_validator.py exists
+number_of_audit_rules,11,count,regex rules in audit_engine.py
+number_of_live_path_safety_checks,5,count,lookahead variable checks
+number_of_auto_generated_proof_files,1,count,only manifest JSON
+number_of_memory_files_updated_automatically,0,count,no automated updater for project state/rulebooks
+failure_detection_quality,low,rating,fails on exception only
+duplicate_candidate_detection,none,flag,no check for parameter overlap
+behavioral_clustering_capability,none,flag,no trade correlation clustering
+candidate_search_throughput,50,candidates/min,fragmented phase runners
+source_hash_tracking_coverage,partial,rating,tracked only in csv files
+reproducibility_coverage,partial,rating,requires manual script execution
+developer_usability_score,3,score,highly manual and fragmented

@@ -1,0 +1,12 @@
+metric,value,unit
+available_cli_commands,23,count
+manual_setup_steps,1,count
+code_audits_and_gates,30,count
+preflight_status,SUCCESS,flag
+postflight_status,SUCCESS,flag
+leaderboard_ranked,YES,flag
+reproduction_drift,0.0,percent
+stress_scenarios_supported,12,count
+checkpoint_resume,YES,flag
+trade_analyzer_module,YES,flag
+schema_validators,2,count

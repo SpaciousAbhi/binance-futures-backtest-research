@@ -1,0 +1,17 @@
+metric,value,unit,notes
+idea_families_generated,5,count,focused on teacher replay and variants
+parameters_per_idea,24,count,standard logic/risk fields
+diversity_of_idea_families,low,rating,limited to BTC-centric legacy templates
+live_known_compatibility_scoring,none,flag,no automated safety scoring
+novelty_scoring,none,flag,no comparative novelty rating
+risk_scoring,none,flag,no risk weighting
+expected_edge_hypothesis_quality,medium,rating,basic text descriptions
+strategy_family_coverage,5,count,covers trend/reversion/MTF/VWAP/funding
+candidate_compiler_compatibility,manual,flag,requires custom code templates
+generate_repair_ideas_from_forensics,none,flag,no link to trade forensics
+generate_stress_targeted_ideas,none,flag,no link to stress scenarios
+generate_monthly_consistency_ideas,none,flag,no link to monthly tables
+avoid_invalid_fake_ideas,low,rating,no automated validation of parameters
+duplicate_idea_rate,0,percent,static hand-written ideas
+explain_why_idea_should_work,basic,rating,hand-written string explanation
+total_ideas_in_library,15,count,hardcoded list of 15 ideas

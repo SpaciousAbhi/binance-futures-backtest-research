@@ -1,0 +1,70 @@
+{
+  "phase": 38,
+  "timestamp": "2026-07-02 20:44:10 UTC",
+  "files": {
+    "reports/phase38_antigravity_sync_audit.csv": {
+      "sha256": "48a08e5995f1779dbf2625ef4cb71daefd541c9ac208df04c4c3062e69f9b0b1",
+      "size_kb": 0.28
+    },
+    "reports/phase38_audit_manifest.json": {
+      "sha256": "5e41ba1af22cd579db18560bc61ed5aa16d89f27033bba43306776b3cf64f2ca",
+      "size_kb": 2.81
+    },
+    "reports/phase38_idea_engine_after_benchmark.csv": {
+      "sha256": "5aabd69f926d2fa1cd4cbc76f557ac489aba21fc724a6c7fabc093dd561448a9",
+      "size_kb": 0.36
+    },
+    "reports/phase38_idea_engine_baseline_benchmark.csv": {
+      "sha256": "bd4d810aeebc385be48e0d9854cfe90a101f098828cf3584e7ca620806b0507e",
+      "size_kb": 1.07
+    },
+    "reports/phase38_idea_engine_before_after_comparison.csv": {
+      "sha256": "e33a70bb1f5949c5572c954ba38a03a577417e4ff149b0f855bfcd7a5dd3b805",
+      "size_kb": 0.3
+    },
+    "reports/phase38_idea_engine_library.csv": {
+      "sha256": "c2cee9e3df69ee98bafebefca40bea4acf976c5c2e5d80cc33dbb2e29403ad92",
+      "size_kb": 218.16
+    },
+    "reports/phase38_phase39_candidate_blueprint.md": {
+      "sha256": "110bfe6ce7f93b09cb1d2694f6c7250d5622677d907718456f553c1fb093618b",
+      "size_kb": 3.5
+    },
+    "reports/phase38_research_lab_after_benchmark.csv": {
+      "sha256": "bdab12064965a92ca4fe71d1e827856699386e4df780c705405bc460062c86ee",
+      "size_kb": 0.34
+    },
+    "reports/phase38_research_lab_baseline_benchmark.csv": {
+      "sha256": "45b8ae8b7c858ab1c6cb27386e95d890696234498c940c523173774c408ca07d",
+      "size_kb": 1.41
+    },
+    "reports/phase38_research_lab_before_after_comparison.csv": {
+      "sha256": "b4c805c62f33c11576921a907ce2eba7fba5603ee585157949492fb1244dd02d",
+      "size_kb": 0.39
+    },
+    "reports/phase38_research_lab_idea_engine_and_trade_intelligence_upgrade_report.md": {
+      "sha256": "7f579caaca42b71db38dba921d74b578341fbba31faa89740565cc516eea9991",
+      "size_kb": 4.92
+    },
+    "reports/phase38_research_lab_upgrade_report.md": {
+      "sha256": "30c5c9841fe2071bf688567ab2e2242ca86a3f8b5cb6159396172def24b3a86b",
+      "size_kb": 1.54
+    },
+    "reports/phase38_strategy_improvement_map.md": {
+      "sha256": "d305b4534380d00143dc377788ca0a59afec081110ca78977733eec63fb651c0",
+      "size_kb": 4.88
+    },
+    "reports/phase38_top_50_ideas.md": {
+      "sha256": "cad09c854d4618c617142009c0501d615308c4566700b2a2d701867e7234ced6",
+      "size_kb": 33.73
+    },
+    "reports/phase38_trade_by_trade_intelligence.csv": {
+      "sha256": "53c58b9e17fae00417208d5b270c2502d5759228eab4dcf06bf919c95c4a8765",
+      "size_kb": 320.46
+    },
+    "reports/phase38_trade_cluster_diagnostics.csv": {
+      "sha256": "3730c01670689c9141c2fb1f1d962841941ce6c404bfc2a7fd726dc20da1c0fc",
+      "size_kb": 0.26
+    }
+  }
+}

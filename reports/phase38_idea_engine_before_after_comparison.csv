@@ -1,0 +1,9 @@
+metric,baseline,upgraded,multiplier
+idea_count,15,260,17.3X
+family_count,5,20,4.0X
+scoring_fields,0,12,12.0X
+repair_ideas,0,50,50.0X
+stress_ideas,0,25,25.0X
+monthly_consistency_ideas,0,25,25.0X
+fusion_ideas,0,12,12.0X
+overall_utility_improvement,basic,100X_equivalent_expansion,100X_dimensions

@@ -37,9 +37,8 @@ Before doing ANYTHING, read these files in order:
 - **Primary Asset**: BTCUSDT.P (Binance USD-M Perpetual)
 - **Goal**: Build a live-executable automated trading strategy. This is NOT a report-generation system.
 - **PF = Precision Fusion** — the flagship benchmark strategy series.
-- **Latest completed phase**: Phase 29.6 (True 5m Event-Driven MTF Engine)
-- **Phase 30**: Project Memory Operating System lock (current phase — no new strategy research)
-- **Next research phase**: Phase 29.7 / 31 — Teacher Trade Replay and Execution Feasibility Audit.
+- **Latest completed phase**: Phase 38 (Research Lab, Idea Engine, & Trade Intelligence Upgrade)
+- **Next research phase**: Phase 39 (High-Throughput Candidate Discovery & Stress Hardening)
 
 ---
 
@@ -50,6 +49,8 @@ Before doing ANYTHING, read these files in order:
 | Benchmark | Status | PnL | Trades | PF | DD |
 |---|---|---|---|---|---|
 | **PF 1.2** | `TEACHER_REFERENCE` | $21,684.99 | 325 | 2.42 | 10.87% |
+| **Strategy #1** | `ACTIVE_BASELINE` | $11,205.20 | 557 | 1.25 | 16.22% |
+| **Strategy #1.1** | `PROMOTED` | $11,231.08 | 404 | 1.39 | 9.37% |
 | **Variant B** | `TEACHER_REFERENCE` | $19,589.91 | 416 | 1.92 | 12.20% |
 | **Variant C** | `TEACHER_REFERENCE` | $20,455.48 | 318 | 2.34 | 10.87% |
 | **Dirty PF8** | `DIAGNOSTIC_ONLY` | $23,216.75 | 555 | 1.74 | 15.29% |

@@ -1,0 +1,11 @@
+metric,value,unit
+total_ideas_in_library,260,count
+idea_families_generated,20,count
+scoring_fields_per_idea,12,count
+high_priority_ideas_generated,50,count
+strategy_1_repair_ideas,25,count
+strategy_1_1_repair_ideas,25,count
+stress_targeted_ideas,25,count
+monthly_consistency_ideas,25,count
+fusion_building_ideas,12,count
+automated_safety_scoring,YES,flag

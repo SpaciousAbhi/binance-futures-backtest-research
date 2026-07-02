@@ -1,0 +1,11 @@
+metric,baseline,upgraded,multiplier
+available_cli_commands,9,23,2.5X
+manual_setup_steps,10,1,10.0X_reduction
+code_audits_and_gates,11,30,2.7X
+stress_scenarios_supported,0,12,12.0X
+trade_analyzer_module,NO,YES,integrated
+leaderboard_ranking,NO,YES,integrated
+checkpoint_resume,basic,YES,upgraded
+schema_validators,0,2,2.0X
+reproduction_validator,NO,YES,integrated
+overall_usability_score,3,9,3.0X

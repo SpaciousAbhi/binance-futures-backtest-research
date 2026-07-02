@@ -1,0 +1,3 @@
+strategy,total_trades,total_pnl,losing_cluster_trades,winning_cluster_trades,high_friction_trades,low_quality_trades,high_quality_trades,avg_drawdown_contribution
+Strategy #1,557,11205.2,230,327,129,256,180,0.4628
+Strategy #1.1,404,11231.08,157,247,31,183,168,0.4586

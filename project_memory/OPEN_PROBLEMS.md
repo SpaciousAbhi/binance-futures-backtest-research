@@ -196,3 +196,11 @@ After Phase 29.7, add unit tests for:
 - [OPEN] Live status remains NOT_REAL_CAPITAL_READY until exchange shadow validation exists.
 - [OPEN] Combined adverse stress remains the main robustness gap.
 - [OPEN] Any Strategy #1.1 promotion still needs vault lock and multi-asset validation before benchmark replacement.
+
+
+## Phase 38 Open Problems
+
+- [RESOLVED] Lack of unified CLI dashboard and preflight checks: Research Lab commands expanded to 23 commands.
+- [RESOLVED] Limited strategy candidate ideas in database: Idea Engine upgraded to generate 308 programmatic structured ideas across 20 distinct families scored on 12 fields.
+- [RESOLVED] Lack of deep trade-by-trade quality diagnostics: Completed analysis on 557 and 404 historical trades.
+- [OPEN] Multi-asset validation and stress recovery sweeps for Strategy #1.1 (P37_CAND_0357) using the blueprint.

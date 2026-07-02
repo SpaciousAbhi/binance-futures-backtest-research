@@ -1,5 +1,5 @@
 # MASTER PROJECT STATE
-## Last Updated: 2026-07-02 (after Phase 31)
+## Last Updated: 2026-07-02 (after Phase 38)
 
 ---
 
@@ -35,7 +35,8 @@ No strategy has passed all requirements for real-capital live automation. Do not
 | Benchmark | PnL | Trades | PF | Max DD | Months +/-/0 | Stress | Status |
 |---|---|---|---|---|---|---|---|
 | **PF 1.2 (Teacher Reference)** | $21,684.99 | 325 | 2.42 | 10.87% | 56/16/6 | +$15,922.97 | `VALID_TEACHER_REFERENCE` |
-| **Phase 31/32 Combined Router** | $11,205.20 | 557 | 1.2522 | 16.2186% | 52/25/0 | PASS=7 / FAIL=8; combined adverse -$39,138.38 | `VALID_EXECUTABLE_BASELINE_BUT_STRESS_FRAGILE` |
+| **Strategy #1 (Combined Router v1)** | $11,205.20 | 557 | 1.2522 | 16.2186% | 52/25/0 | PASS=7 / FAIL=8; combined adverse -$39,138.38 | `VALID_EXECUTABLE_BASELINE_BUT_STRESS_FRAGILE` |
+| **Strategy #1.1 (P37_CAND_0357)** | $11,231.08 | 404 | 1.3862 | 9.3716% | 54/22/2 | PASS=8 / FAIL=7; combined adverse +$5,615.54 | `VALID_PROMOTED_CANDIDATE` |
 | **Phase 31 Baseline (CAND_0190)** | $4,246.75 | 359 | 1.21 | 9.51% | 53/19/6 | See reports | `VALID_EXECUTABLE_BENCHMARK` |
 | **Variant B** | See reports | — | — | — | — | — | `TEACHER_REFERENCE` |
 | **Variant C** | See reports | — | — | — | — | — | `TEACHER_REFERENCE` |
@@ -112,7 +113,7 @@ No strategy has passed all requirements for real-capital live automation. Do not
 
 ## Current Open Problem
 
-In Phase 31, we replayed the 325 teacher trades through the 5m event-driven path and proved that the teacher trades are **not physically executable as recorded** (14.8% entry prices never reached, and early stop-outs due to 5m intra-candle volatility). 
+In Phase 31, we replayed the 325 teacher trades through the 5m event-driven path and proved that the teacher trades are **not physically executable as recorded** (14.8% entry prices never reached, and early stop-outs due to 5m intra-candle volatility).
 
 Instead of chasing the unexecutable teacher trades, we generated a new genuine baseline (CAND_0190) and combined it with the floor strategy to build a robust Combined Router ($11,205.20 PnL, PF 1.25, 557 trades).
 
@@ -203,4 +204,14 @@ The next open problems are:
 - Strategy #1.1 promoted: P37_CAND_0357.
 - Engine-executed candidates: 500.
 - Preserved research candidates: none.
+- Live status remains NOT_REAL_CAPITAL_READY.
+
+
+## Phase 38 Research Lab, Idea Engine, & Trade Intelligence Status
+
+- Strategy #1 reproduced exactly and remains protected.
+- Strategy #1.1 remains promoted and under validation.
+- Research Lab CLI command capacity expanded from 9 to 23 commands.
+- Idea Engine upgraded to support 308 programmatic structured ideas across 20 families scored on 12 fields.
+- Deep trade-by-trade audit successfully executed for 557 and 404 historical trades.
 - Live status remains NOT_REAL_CAPITAL_READY.

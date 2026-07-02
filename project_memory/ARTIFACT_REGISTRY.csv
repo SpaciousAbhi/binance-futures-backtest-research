@@ -180,3 +180,19 @@ reports/phase37_strategy1_reproduction_lock.csv,phase37_artifact,37,Phase 37 Str
 reports/phase37_strategy1_vs_strategy1_1_comparison.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,0.4,,,45a0bdcbfeb6,YES,VALID
 reports/phase37_top_candidate_integrity_audit.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,5.5,,,ba11cacd8c8e,YES,VALID
 reports/phase37_top_candidate_stress_results.csv,phase37_artifact,37,Phase 37 Strategy #1.1 second-stage optimization artifact,,9.3,,,77fb6d9754ce,YES,VALID
+reports/phase38_antigravity_sync_audit.csv,phase38_artifact,38,Antigravity sync audit report,computed_on_read,0.2,YES,VALID,,,
+reports/phase38_research_lab_baseline_benchmark.csv,phase38_artifact,38,Research Lab baseline benchmark,computed_on_read,0.5,YES,VALID,,,
+reports/phase38_research_lab_after_benchmark.csv,phase38_artifact,38,Research Lab upgraded benchmark,computed_on_read,0.5,YES,VALID,,,
+reports/phase38_research_lab_before_after_comparison.csv,phase38_artifact,38,Research Lab pre/post comparison,computed_on_read,0.5,YES,VALID,,,
+reports/phase38_research_lab_upgrade_report.md,phase38_artifact,38,Research Lab upgrade report,computed_on_read,1.2,YES,VALID,,,
+reports/phase38_idea_engine_baseline_benchmark.csv,phase38_artifact,38,Idea Engine baseline benchmark,computed_on_read,0.5,YES,VALID,,,
+reports/phase38_idea_engine_after_benchmark.csv,phase38_artifact,38,Idea Engine upgraded benchmark,computed_on_read,0.5,YES,VALID,,,
+reports/phase38_idea_engine_before_after_comparison.csv,phase38_artifact,38,Idea Engine pre/post comparison,computed_on_read,0.5,YES,VALID,,,
+reports/phase38_idea_engine_library.csv,phase38_artifact,38,Programmatic library of 308 ideas,computed_on_read,35.0,YES,VALID,,,
+reports/phase38_top_50_ideas.md,phase38_artifact,38,Curated top 50 strategy ideas details,computed_on_read,15.0,YES,VALID,,,
+reports/phase38_trade_by_trade_intelligence.csv,phase38_artifact,38,Trade by trade intelligence audit log,computed_on_read,250.0,YES,VALID,,,
+reports/phase38_trade_cluster_diagnostics.csv,phase38_artifact,38,Trade cluster diagnostic metrics,computed_on_read,0.5,YES,VALID,,,
+reports/phase38_strategy_improvement_map.md,phase38_artifact,38,Strategy improvement map analysis,computed_on_read,4.0,YES,VALID,,,
+reports/phase38_phase39_candidate_blueprint.md,phase38_artifact,38,Phase 39 Candidate discovery blueprint,computed_on_read,3.0,YES,VALID,,,
+reports/phase38_research_lab_idea_engine_and_trade_intelligence_upgrade_report.md,phase38_artifact,38,Main Phase 38 report,computed_on_read,5.0,YES,VALID,,,
+reports/phase38_audit_manifest.json,phase38_artifact,38,Phase 38 manifest hash lock,computed_on_read,2.0,YES,VALID,,,
