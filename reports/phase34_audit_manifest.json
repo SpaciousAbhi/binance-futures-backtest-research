@@ -1,0 +1,97 @@
+{
+  "phase": "34",
+  "verdict": "PHASE34_PASS_STRATEGY1_VAULT_LOCKED_AND_CANDIDATES_FOUND",
+  "strategy_1": "Combined Router v1",
+  "registered_candidates": 2000,
+  "executed_candidates": 300,
+  "selected_candidates": [
+    "P34_0217",
+    "P34_0007",
+    "P34_0219",
+    "P34_0218",
+    "P34_0002"
+  ],
+  "live_status": "NOT_REAL_CAPITAL_READY",
+  "files": {
+    "phase34_strategy_1_combined_router_v1_vault.md": {
+      "sha256": "7c4723e115e964e69f77091c1b0ed3dceafd2bcdb1891f5d8257cbc98b3689c4",
+      "bytes": 22182
+    },
+    "phase34_strategy_1_trade_log_copy.csv": {
+      "sha256": "e1262d4b8cb305994ddfb166bedc8723bef2a3cb3b4df75a8766ae17349ff922",
+      "bytes": 239888
+    },
+    "phase34_strategy_1_reproduction_metrics.csv": {
+      "sha256": "6b3bff838c6a2190b2e43beabd9745fe9967090c179a479fb96af1d8e0a6e9cf",
+      "bytes": 543
+    },
+    "phase34_strategy_1_reproduction_audit.csv": {
+      "sha256": "6f994ea50c07696ac6aaa9eb71513e92b5bb2423ece8c16c94fec9b4c51070e9",
+      "bytes": 778
+    },
+    "phase34_strategy_1_integrity_audit.csv": {
+      "sha256": "6f994ea50c07696ac6aaa9eb71513e92b5bb2423ece8c16c94fec9b4c51070e9",
+      "bytes": 778
+    },
+    "phase34_strategy_1_live_execution_audit.md": {
+      "sha256": "16270a525faff898cf19824b3f203ecff09e8cc0c57aacc3a83308ec0aa7e3bc",
+      "bytes": 536
+    },
+    "phase34_strategy_1_stress_retest.csv": {
+      "sha256": "ce0b74fd6175587e6246b64eea457f5ffc8ae96e8751e551a4e912f9352b3952",
+      "bytes": 1276
+    },
+    "phase34_candidate_registry.csv": {
+      "sha256": "0b0bdd2dbc09351afaa1b1a8d386b64aa17e719f6971486cc01b529b79fe19a8",
+      "bytes": 200404
+    },
+    "phase34_candidate_results.csv": {
+      "sha256": "f079f21bc101a3032d71a72b4d9ff5c5fd4c7fee2f4f9cca2566fcfba8d478a3",
+      "bytes": 877082
+    },
+    "phase34_candidate_cluster_report.csv": {
+      "sha256": "103142dfff3895d97bd736b4af02d67b54f95ae08602c1acccb292d359939aad",
+      "bytes": 15545
+    },
+    "phase34_top_candidate_trade_logs_summary.csv": {
+      "sha256": "0615de0b44d083af2480ac32410bd8058077a11b734a3bff409bc039a72ba28a",
+      "bytes": 2250
+    },
+    "phase34_candidate_integrity_audit.csv": {
+      "sha256": "5b5060de8a9d7ecc01d375002a94de2ec465ba8c67548380d323389ea23b4fd1",
+      "bytes": 746
+    },
+    "phase34_selected_candidate_building_blocks.md": {
+      "sha256": "1b034b7dbba69e05389bdc5e98d699493d60f3137e0349bfaa78816b0f6540ad",
+      "bytes": 5301
+    },
+    "phase34_diagnostic_fusion_preview.csv": {
+      "sha256": "0f4396e8acbb54ce73de1acb923e823fb804e3d75fb507faaea6c6f2fb243a62",
+      "bytes": 857
+    },
+    "phase34_strategy_vault_and_candidate_discovery_report.md": {
+      "sha256": "4541c3e4c012c50c13ce880040855774912e0ecec88f59c9c44f3e14cc8a418b",
+      "bytes": 1157
+    },
+    "phase34_candidate_P34_0217_trade_log.csv": {
+      "sha256": "8770fd4760ef73c62d1a32ee9cb3d801aaf8a832bfa90b5aacd02058dbfd2195",
+      "bytes": 177923
+    },
+    "phase34_candidate_P34_0007_trade_log.csv": {
+      "sha256": "ad5faa4bd7953b4c78c45f7fdddf24a2df328fe302e32de848a865d1fc9c894e",
+      "bytes": 145464
+    },
+    "phase34_candidate_P34_0219_trade_log.csv": {
+      "sha256": "3fb1d1af3f87889363b6605320444a6614b171a3265b2698b56a06c0c4496d61",
+      "bytes": 112458
+    },
+    "phase34_candidate_P34_0218_trade_log.csv": {
+      "sha256": "f20126ff3edf206e75d56c923387ec7b86252534bf654a2c0c454803c6421bce",
+      "bytes": 142252
+    },
+    "phase34_candidate_P34_0002_trade_log.csv": {
+      "sha256": "a0eed28f98fa3db8eceda79f5b5c3f073e4ae7302de4a4cdb358a33333fda6a7",
+      "bytes": 183711
+    }
+  }
+}

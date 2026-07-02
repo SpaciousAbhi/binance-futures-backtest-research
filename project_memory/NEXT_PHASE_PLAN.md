@@ -1,13 +1,12 @@
-# Next Phase Plan - Phase 34
+# Next Phase Plan - Phase 35
 
 ## Goal
-Balanced fusion recovery.
+Convert Phase 34 selected building blocks into independent signal-level sleeves and test a true fusion.
 
-Preserve the Combined Router v1 active baseline activity ($11,205.20, 557 trades) while using Phase 33 conservative filters as research ideas for PF/DD/stress hardening.
-
-## Required Work
-1. Do not replace the active baseline with Phase 33.
-2. Implement signal-level cost robustness inside the router rather than post-hoc filter replay.
-3. Search for variants that retain materially more PnL/trades than Phase 33 while improving PF/DD/stress over Combined Router v1.
-4. Re-run 15-scenario stress and multi-asset validation.
-5. Keep NOT_REAL_CAPITAL_READY until Binance testnet shadow proof exists.
+## Requirements
+1. Preserve Strategy #1 as the primary baseline.
+2. Implement selected candidate rules before trade execution, not as post-hoc trade-log filtering.
+3. Generate independent trade logs for each sleeve.
+4. Build diagnostic fusion only after sleeve proof exists.
+5. Preserve the Phase 33 classification as research-only unless a future engine-run fusion beats Strategy #1.
+6. Keep NOT_REAL_CAPITAL_READY until exchange shadow validation exists.

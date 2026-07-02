@@ -1,0 +1,19 @@
+check,status,detail
+trade_count_557,PASS,557
+required_column_entry_time,PASS,entry_time
+required_column_exit_time,PASS,exit_time
+required_column_side,PASS,side
+required_column_entry_price,PASS,entry_price
+required_column_exit_price,PASS,exit_price
+required_column_size,PASS,size
+required_column_net_pnl,PASS,net_pnl
+required_column_fees,PASS,fees
+required_column_slippage,PASS,slippage
+required_column_stop_loss,PASS,stop_loss
+required_column_take_profit,PASS,take_profit
+required_column_reason,PASS,reason
+exit_time_gte_entry_time,PASS,0
+same_candle_classified,PASS,46
+no_forced_metrics_in_live_path,PASS,research_lab audit required
+no_lookahead_in_live_path,PASS,research_lab audit required
+metrics_computed_from_trade_log,PASS,phase34 reproduction metrics

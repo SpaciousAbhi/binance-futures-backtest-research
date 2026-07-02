@@ -1,0 +1,16 @@
+system,scenario,net_pnl,profit_factor,max_dd_pct,trades,verdict
+Strategy #1 Combined Router v1,normal,11205.2,1.2522,16.2186,557,PASS
+Strategy #1 Combined Router v1,double fees,-15287.89,0.7311,150.1754,557,FAIL
+Strategy #1 Combined Router v1,triple fees,-41780.98,0.4015,385.8161,557,FAIL
+Strategy #1 Combined Router v1,double slippage,-2041.35,0.9597,54.0742,557,FAIL
+Strategy #1 Combined Router v1,triple slippage,-15287.89,0.7311,150.1754,557,FAIL
+Strategy #1 Combined Router v1,double fees + double slippage,-28534.44,0.5484,266.2826,557,FAIL
+Strategy #1 Combined Router v1,delay 1 candle,-2041.35,0.9597,54.0742,557,FAIL
+Strategy #1 Combined Router v1,delay 2 candles,-15287.89,0.7311,150.1754,557,FAIL
+Strategy #1 Combined Router v1,missed fills 10%,8383.69,1.2045,17.8346,502,PASS
+Strategy #1 Combined Router v1,missed fills 20%,8028.78,1.2211,18.1841,446,PASS
+Strategy #1 Combined Router v1,missed fills 30%,5141.31,1.1582,23.9301,390,PASS
+Strategy #1 Combined Router v1,stale cancel,9384.22,1.2189,18.0993,530,PASS
+Strategy #1 Combined Router v1,partial fill,10364.81,1.2522,15.6343,557,PASS
+Strategy #1 Combined Router v1,high funding,11205.2,1.2522,16.2186,557,PASS
+Strategy #1 Combined Router v1,combined adverse,-39138.38,0.3919,359.586,502,FAIL

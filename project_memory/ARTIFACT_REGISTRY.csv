@@ -100,3 +100,24 @@ reports/phase33_1_source_lock.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliat
 reports/phase33_1_phase33_vs_baseline_comparison.csv,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,f86f34600341,0.4,YES,VALID
 reports/phase33_1_codex_reconciliation_baseline_recovery_and_truth_lock_report.md,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,c09d3c206717,2.1,YES,VALID
 reports/phase33_1_audit_manifest.json,phase33_1_artifact,33.1,Phase 33.1 reconciliation and baseline recovery artifact,0815dc90e3fb,2.2,YES,VALID
+reports/phase34_strategy_1_combined_router_v1_vault.md,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,7c4723e115e9,21.7,YES,VALID
+reports/phase34_strategy_1_trade_log_copy.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,e1262d4b8cb3,234.3,YES,VALID
+reports/phase34_strategy_1_reproduction_metrics.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,6b3bff838c6a,0.5,YES,VALID
+reports/phase34_strategy_1_reproduction_audit.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,6f994ea50c07,0.8,YES,VALID
+reports/phase34_strategy_1_integrity_audit.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,6f994ea50c07,0.8,YES,VALID
+reports/phase34_strategy_1_live_execution_audit.md,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,16270a525faf,0.5,YES,VALID
+reports/phase34_strategy_1_stress_retest.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,ce0b74fd6175,1.2,YES,VALID
+reports/phase34_candidate_registry.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,0b0bdd2dbc09,195.7,YES,VALID
+reports/phase34_candidate_results.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,f079f21bc101,856.5,YES,VALID
+reports/phase34_candidate_cluster_report.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,103142dfff38,15.2,YES,VALID
+reports/phase34_top_candidate_trade_logs_summary.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,0615de0b44d0,2.2,YES,VALID
+reports/phase34_candidate_integrity_audit.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,5b5060de8a9d,0.7,YES,VALID
+reports/phase34_selected_candidate_building_blocks.md,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,1b034b7dbba6,5.2,YES,VALID
+reports/phase34_diagnostic_fusion_preview.csv,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,0f4396e8acbb,0.8,YES,VALID
+reports/phase34_strategy_vault_and_candidate_discovery_report.md,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,4541c3e4c012,1.1,YES,VALID
+reports/phase34_audit_manifest.json,phase34_artifact,34,Phase 34 Strategy #1 vault and candidate discovery artifact,1f6bae51d1f7,3.6,YES,VALID
+reports/phase34_candidate_P34_0217_trade_log.csv,phase34_candidate_trade_log,34,Selected candidate trade log P34_0217,8770fd4760ef,173.8,YES,VALID
+reports/phase34_candidate_P34_0007_trade_log.csv,phase34_candidate_trade_log,34,Selected candidate trade log P34_0007,ad5faa4bd795,142.1,YES,VALID
+reports/phase34_candidate_P34_0219_trade_log.csv,phase34_candidate_trade_log,34,Selected candidate trade log P34_0219,3fb1d1af3f87,109.8,YES,VALID
+reports/phase34_candidate_P34_0218_trade_log.csv,phase34_candidate_trade_log,34,Selected candidate trade log P34_0218,f20126ff3edf,138.9,YES,VALID
+reports/phase34_candidate_P34_0002_trade_log.csv,phase34_candidate_trade_log,34,Selected candidate trade log P34_0002,a0eed28f98fa,179.4,YES,VALID

@@ -1,34 +1,38 @@
 # CURRENT HANDOFF
-## Last Updated: 2026-07-02 (Phase 33.1 - Codex Phase 33 Reconciliation)
+## Last Updated: 2026-07-02 (Phase 34 - Strategy #1 Vault and Candidate Discovery)
 
-## Latest Completed Phase: Phase 33.1
+## Latest Completed Phase: Phase 34
 
-**Verdict:** `PHASE33_1_PASS_CODEX_WORK_RECONCILED_BASELINE_RECOVERED_AND_PROTECTED`
+**Verdict:** `PHASE34_PASS_STRATEGY1_VAULT_LOCKED_AND_CANDIDATES_FOUND`
 
-### Active Primary Executable Baseline
+### Strategy #1 Vault Lock
+- Strategy #1 is Combined Router v1.
+- Vault file: `reports/phase34_strategy_1_combined_router_v1_vault.md`
+- Active primary executable baseline remains Strategy #1.
 - Combined Router v1 remains the active primary executable baseline.
-- Source: Phase 31.1 acceptance / Phase 32 baseline / Phase 33.1 recovered trade log.
 - Net PnL: $11,205.20
 - Trades: 557
 - Profit Factor: 1.2522
 - Max Drawdown: 16.2186%
-- Win Rate: 0.5404
-- Winning/Losing Trades: 301 / 256
-- Monthly Stats: 52 positive / 25 negative / 0 zero
-- Phase 32 stress truth: PASS=7 / FAIL=8, combined adverse PnL -$39,138.38, combined adverse DD 359.59%, status STRESS_FRAGILE.
+- Winners/Losses: 301 / 256
+- Months: 52 positive / 25 negative / 0 zero
+- Phase 32 stress truth remains: PASS=7 / FAIL=8, combined adverse -$39,138.38, combined adverse DD 359.59%, STRESS_FRAGILE.
+- Status: BACKTEST_VERIFIED_NOT_SHADOWED, NOT_REAL_CAPITAL_READY.
 
-### Codex Phase 33 Classification
-- Phase 33 did not damage the baseline files.
+### Candidate Discovery
+- Registered candidates: 2,000.
+- Executed candidates: 300 deterministic candidate gates over Strategy #1 engine-generated trade stream.
+- Selected building blocks: 5.
+- Selected IDs: P34_0217, P34_0007, P34_0219, P34_0218, P34_0002
+- No final fusion was promoted. Diagnostic preview only.
+
+### Phase 33 Classification
+- Phase 33 remains RESEARCH_ONLY_CONSERVATIVE_STRESS_VARIANT and does not replace Strategy #1.
 - Phase 33 did not replace the primary baseline.
-- Phase 33 best fusion is classified as RESEARCH_ONLY_CONSERVATIVE_STRESS_VARIANT.
-- Phase 33 result: $3,517.69, 62 trades, PF 1.6751, DD 6.4164%, stress 12/15, combined adverse $-2,696.50.
 
-### Historical Context Required By Existing Tests
-- Phase 31.1 acceptance locked Combined Router v1 as the first real executable baseline.
+### Historical Context Required By Memory Protocol
 - Phase 29.6 5m Engine remains historical engine progress: -$9,940.72, 3,111 trades, PF 0.64.
-
-### Live Status
-NOT_REAL_CAPITAL_READY. No exchange shadow/live proof exists.
+- Phase 31.1 acceptance locked Combined Router v1 as the first real executable baseline.
 
 ### Next Phase
-Phase 34 should build a balanced fusion recovery: preserve more of the $11,205 PnL / 557-trade baseline activity while borrowing Phase 33 PF/DD/stress robustness ideas. The older Teacher Trade Replay gap remains documented, but the current active baseline is Combined Router v1.
+Phase 35 should convert the selected Phase 34 building blocks into signal-level independent sleeves, then test a true fusion without post-hoc trade-log filtering. Live status remains NOT_REAL_CAPITAL_READY.

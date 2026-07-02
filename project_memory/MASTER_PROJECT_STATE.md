@@ -168,3 +168,13 @@ The next open problems are:
 - Baseline recovered exactly from trade log: $11,205.20, 557 trades, PF 1.2522, DD 16.2186%.
 - Phase 33 did not replace the baseline because PnL/trade count collapsed despite PF/DD/stress improvement.
 - Live status remains NOT_REAL_CAPITAL_READY.
+
+
+## Phase 34 Strategy Vault Status
+
+- Strategy #1: Combined Router v1.
+- Permanent vault: reports/phase34_strategy_1_combined_router_v1_vault.md.
+- Strategy #1 is real/reproducible but stress-fragile.
+- Candidate building blocks discovered: 5.
+- No final fusion promotion in Phase 34.
+- Live status remains NOT_REAL_CAPITAL_READY.

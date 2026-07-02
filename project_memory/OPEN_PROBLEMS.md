@@ -167,3 +167,11 @@ After Phase 29.7, add unit tests for:
 - [OPEN] Stress fragility remains: Phase 32/33.1 baseline stress PASS=7 / FAIL=8 and combined adverse is negative.
 - [OPEN] Build balanced Phase 34 fusion that preserves baseline PnL/trades while borrowing Phase 33 cost-hardening filters.
 - [OPEN] NOT_REAL_CAPITAL_READY until exchange shadow proof exists.
+
+
+## Phase 34 Open Problems
+
+- [OPEN] Strategy #1 is real and vaulted but stress-fragile.
+- [OPEN] Phase 34 selected candidates are building blocks; they require signal-level implementation before promotion.
+- [OPEN] Build true fusion in Phase 35 without post-hoc trade-log filtering.
+- [OPEN] NOT_REAL_CAPITAL_READY until exchange shadow proof exists.
