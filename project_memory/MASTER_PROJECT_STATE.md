@@ -178,3 +178,12 @@ The next open problems are:
 - Candidate building blocks discovered: 5.
 - No final fusion promotion in Phase 34.
 - Live status remains NOT_REAL_CAPITAL_READY.
+
+
+## Phase 35 Independent Sleeve Conversion Status
+
+- Strategy #1 remains Combined Router v1 and is unchanged.
+- Phase 34 building blocks were decoded and converted into independent signal-level sleeve attempts.
+- Selected Strategy #2-#6 candidate sleeves: none.
+- Diagnostic fusion is not promoted.
+- Live status remains NOT_REAL_CAPITAL_READY.

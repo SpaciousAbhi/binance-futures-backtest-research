@@ -144,8 +144,8 @@ def test_selected_candidate_report_and_diagnostic_preview_exist():
 
 def test_project_memory_mentions_phase34_vault_and_no_promotion():
     handoff = read(memory("CURRENT_HANDOFF.md"))
-    assert "Latest Completed Phase: Phase 34" in handoff
-    assert "Strategy #1 is Combined Router v1" in handoff
+    assert "Strategy #1 remains Combined Router v1" in handoff or "Strategy #1 is Combined Router v1" in handoff
+    assert "phase34_strategy_1_combined_router_v1_vault.md" in handoff
     assert "No final fusion was promoted" in handoff
     assert "NOT_REAL_CAPITAL_READY" in handoff
 

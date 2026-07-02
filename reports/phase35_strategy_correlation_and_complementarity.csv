@@ -1,0 +1,7 @@
+sleeve_id,trade_overlap_count,trade_overlap_pct_of_sleeve,monthly_pnl_correlation_vs_strategy1,shared_losing_months,unique_months_profitable_when_strategy1_loses,complementarity_note
+STRAT2_P35_COST_ATR_BREAKOUT,47,0.2238,0.0077,12,3,Lower overlap/correlation is more useful for Phase 36 fusion.
+STRAT3_P35_PROJECTED_NET_R,31,0.2366,-0.1131,7,5,Lower overlap/correlation is more useful for Phase 36 fusion.
+STRAT4_P35_SESSION_EXPANSION,71,0.1455,0.0563,16,6,Lower overlap/correlation is more useful for Phase 36 fusion.
+STRAT5_P35_STRESS_HARDENED,46,0.2335,0.0016,13,4,Lower overlap/correlation is more useful for Phase 36 fusion.
+STRAT6_P35_LOW_R_FRICTION,22,0.1477,-0.1628,11,8,Lower overlap/correlation is more useful for Phase 36 fusion.
+P35_CONSERVATIVE_QUALITY_PLUS,43,0.2118,0.1029,14,5,Lower overlap/correlation is more useful for Phase 36 fusion.

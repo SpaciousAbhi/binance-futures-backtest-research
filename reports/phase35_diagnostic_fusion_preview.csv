@@ -1,0 +1,2 @@
+fusion_name,net_pnl,gross_profit,gross_loss,profit_factor,max_drawdown_pct,trades,win_rate,winning_trades,losing_trades,average_win,average_loss,expectancy,largest_win,largest_loss,positive_months,negative_months,zero_months,best_month,worst_month,classification,note
+NO_PASSING_SLEEVES,0.0,0.0,0.0,0.0,0.0,0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0,DIAGNOSTIC_ONLY_NOT_PROMOTED,"No independent sleeve passed candidate gates, so no diagnostic fusion was constructed."

@@ -175,3 +175,10 @@ After Phase 29.7, add unit tests for:
 - [OPEN] Phase 34 selected candidates are building blocks; they require signal-level implementation before promotion.
 - [OPEN] Build true fusion in Phase 35 without post-hoc trade-log filtering.
 - [OPEN] NOT_REAL_CAPITAL_READY until exchange shadow proof exists.
+
+
+## Phase 35 Open Problems
+
+- [OPEN] Strategy #1 is still stress-fragile and remains NOT_REAL_CAPITAL_READY.
+- [OPEN] Phase 35 sleeves are candidate sleeves, not locked strategies.
+- [OPEN] Diagnostic fusion is not promoted until it beats Strategy #1 with stress and reproduction proof.

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "phase35_P35_CONSERVATIVE_QUALITY_PLUS_trade_log.csv": "ad1c215e3cc63eea4669ac0ba793aba27955ac9bb839c6896354d9e05c444b96",
+    "phase35_STRAT2_P35_COST_ATR_BREAKOUT_trade_log.csv": "c8e1cbda0595cecac90e1b6558a9e26daa5ef4f7e56151dd9c771a86d08bd570",
+    "phase35_STRAT3_P35_PROJECTED_NET_R_trade_log.csv": "fe3a8d35855abda0d4553d5b5da787cc4a8fbdc440768face5b487b2a979518b",
+    "phase35_STRAT4_P35_SESSION_EXPANSION_trade_log.csv": "cc0ee1ea11c80df9041f0d917eddb6c6c4d1fecc1ae96344c858111f3ad4ad17",
+    "phase35_STRAT5_P35_STRESS_HARDENED_trade_log.csv": "067251f5c08ba0c3239924e6114a7f67f0daa4bfa74cbd45b52760b851f77701",
+    "phase35_STRAT6_P35_LOW_R_FRICTION_trade_log.csv": "5d00d76aa4535e3f9938ce9e31928aa1f29837262c90dbc8f2cac5959a5926aa",
+    "phase35_building_block_decoder.csv": "8e2adcd3312dbd9418290001fc09942979553e07315a0b85826b626e0f249915",
+    "phase35_diagnostic_fusion_preview.csv": "fc4067f59df02abdfe5a20ec4755b90a9ff9c6d539ef068a1a5abe1b1bb26dd4",
+    "phase35_independent_sleeve_conversion_and_fusion_readiness_report.md": "b1f7457bd834be7a0752c1523f6a9ae4b226a9ba6442fcebca2d5e9241bbb469",
+    "phase35_independent_sleeve_integrity_audit.csv": "eb7736030dd2720025656a909f689edf65a51a8c65fdba96c14fccd80ec3246e",
+    "phase35_independent_sleeve_monthly_summary.csv": "40fbdf574077b37f2ecd26e13e7bc349650193a629425e5a065b6de593ed9b94",
+    "phase35_independent_sleeve_results.csv": "18e7d2eef9c6b41c765f05f70b879f04b912aece1660d2971532d6e3bcac67d7",
+    "phase35_independent_sleeve_stress_summary.csv": "4ac8bc22ca60cd474a4f8a82722625d37ebc1379279c97675dc56189033e2f1d",
+    "phase35_independent_sleeve_trade_log_index.csv": "d9f73d2cfda09bdd7f37716a8f423c550bef2272c8f8d204866f9f69eb24b463",
+    "phase35_signal_level_sleeve_specs.md": "22294f85cf5af6d2c712783762b4d8289050876e06e586e6682479d15a40e965",
+    "phase35_strategy_2_to_6_candidate_vaults.md": "9061f72bf2bfad93697aa6ce312194bb298993a75fd2640ac322133a3eab8a07",
+    "phase35_strategy_correlation_and_complementarity.csv": "468cdc1df65f893486963704f4453de652b2af542d357ee3662f9d6f24390e9f"
+  },
+  "phase": "35",
+  "rules": {
+    "live_status": "NOT_REAL_CAPITAL_READY",
+    "no_forced_metrics": true,
+    "no_trade_log_only_filter_promotion": true,
+    "strategy1_unchanged": true
+  },
+  "verdict": "PHASE35_RESEARCH_ONLY_BUILDING_BLOCKS_NOT_YET_EXECUTABLE"
+}

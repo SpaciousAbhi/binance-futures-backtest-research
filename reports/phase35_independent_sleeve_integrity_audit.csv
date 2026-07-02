@@ -1,0 +1,37 @@
+system,check,status,detail
+STRAT2_P35_COST_ATR_BREAKOUT,independent_signal_level_execution,PASS,Sleeve generated signals directly from candle/indicator data through engine.
+STRAT2_P35_COST_ATR_BREAKOUT,no_trade_log_filter_promotion,PASS,"Phase 34 trade logs used only for decoding, not for emitted trades."
+STRAT2_P35_COST_ATR_BREAKOUT,metrics_recompute_from_trade_log,PASS,reported trades=210 rows=210
+STRAT2_P35_COST_ATR_BREAKOUT,valid_timestamps,PASS,exit_time >= entry_time
+STRAT2_P35_COST_ATR_BREAKOUT,live_known_rules,PASS,Rules use closed OHLCV/indicator/session/funding estimates available at signal time.
+STRAT2_P35_COST_ATR_BREAKOUT,not_real_capital_ready,PASS,No exchange shadow/live proof exists.
+STRAT3_P35_PROJECTED_NET_R,independent_signal_level_execution,PASS,Sleeve generated signals directly from candle/indicator data through engine.
+STRAT3_P35_PROJECTED_NET_R,no_trade_log_filter_promotion,PASS,"Phase 34 trade logs used only for decoding, not for emitted trades."
+STRAT3_P35_PROJECTED_NET_R,metrics_recompute_from_trade_log,PASS,reported trades=131 rows=131
+STRAT3_P35_PROJECTED_NET_R,valid_timestamps,PASS,exit_time >= entry_time
+STRAT3_P35_PROJECTED_NET_R,live_known_rules,PASS,Rules use closed OHLCV/indicator/session/funding estimates available at signal time.
+STRAT3_P35_PROJECTED_NET_R,not_real_capital_ready,PASS,No exchange shadow/live proof exists.
+STRAT4_P35_SESSION_EXPANSION,independent_signal_level_execution,PASS,Sleeve generated signals directly from candle/indicator data through engine.
+STRAT4_P35_SESSION_EXPANSION,no_trade_log_filter_promotion,PASS,"Phase 34 trade logs used only for decoding, not for emitted trades."
+STRAT4_P35_SESSION_EXPANSION,metrics_recompute_from_trade_log,PASS,reported trades=488 rows=488
+STRAT4_P35_SESSION_EXPANSION,valid_timestamps,PASS,exit_time >= entry_time
+STRAT4_P35_SESSION_EXPANSION,live_known_rules,PASS,Rules use closed OHLCV/indicator/session/funding estimates available at signal time.
+STRAT4_P35_SESSION_EXPANSION,not_real_capital_ready,PASS,No exchange shadow/live proof exists.
+STRAT5_P35_STRESS_HARDENED,independent_signal_level_execution,PASS,Sleeve generated signals directly from candle/indicator data through engine.
+STRAT5_P35_STRESS_HARDENED,no_trade_log_filter_promotion,PASS,"Phase 34 trade logs used only for decoding, not for emitted trades."
+STRAT5_P35_STRESS_HARDENED,metrics_recompute_from_trade_log,PASS,reported trades=197 rows=197
+STRAT5_P35_STRESS_HARDENED,valid_timestamps,PASS,exit_time >= entry_time
+STRAT5_P35_STRESS_HARDENED,live_known_rules,PASS,Rules use closed OHLCV/indicator/session/funding estimates available at signal time.
+STRAT5_P35_STRESS_HARDENED,not_real_capital_ready,PASS,No exchange shadow/live proof exists.
+STRAT6_P35_LOW_R_FRICTION,independent_signal_level_execution,PASS,Sleeve generated signals directly from candle/indicator data through engine.
+STRAT6_P35_LOW_R_FRICTION,no_trade_log_filter_promotion,PASS,"Phase 34 trade logs used only for decoding, not for emitted trades."
+STRAT6_P35_LOW_R_FRICTION,metrics_recompute_from_trade_log,PASS,reported trades=149 rows=149
+STRAT6_P35_LOW_R_FRICTION,valid_timestamps,PASS,exit_time >= entry_time
+STRAT6_P35_LOW_R_FRICTION,live_known_rules,PASS,Rules use closed OHLCV/indicator/session/funding estimates available at signal time.
+STRAT6_P35_LOW_R_FRICTION,not_real_capital_ready,PASS,No exchange shadow/live proof exists.
+P35_CONSERVATIVE_QUALITY_PLUS,independent_signal_level_execution,PASS,Sleeve generated signals directly from candle/indicator data through engine.
+P35_CONSERVATIVE_QUALITY_PLUS,no_trade_log_filter_promotion,PASS,"Phase 34 trade logs used only for decoding, not for emitted trades."
+P35_CONSERVATIVE_QUALITY_PLUS,metrics_recompute_from_trade_log,PASS,reported trades=203 rows=203
+P35_CONSERVATIVE_QUALITY_PLUS,valid_timestamps,PASS,exit_time >= entry_time
+P35_CONSERVATIVE_QUALITY_PLUS,live_known_rules,PASS,Rules use closed OHLCV/indicator/session/funding estimates available at signal time.
+P35_CONSERVATIVE_QUALITY_PLUS,not_real_capital_ready,PASS,No exchange shadow/live proof exists.

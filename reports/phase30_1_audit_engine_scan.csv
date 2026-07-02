@@ -150,4 +150,9 @@ tests\test_phase33_cost_robustness.py,171,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_
 tests\test_phase33_cost_robustness.py,171,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase33_cost_robustness.py,171,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase33_cost_robustness.py,171,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase35_independent_sleeve_conversion.py,133,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase35_independent_sleeve_conversion.py,134,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase35_independent_sleeve_conversion.py,135,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase35_independent_sleeve_conversion.py,136,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+tests\test_phase35_independent_sleeve_conversion.py,137,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_project_memory_protocol.py,129,SAMPLE_REPLACE,INFO,.sample(replace=True,ALLOWED_HISTORICAL_CONTEXT,Test validation check pattern.
