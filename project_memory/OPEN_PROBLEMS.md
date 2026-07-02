@@ -1,6 +1,35 @@
 # OPEN PROBLEMS
 ## Current Unsolved Research Problems
-## Last Updated: 2026-07-02 (Phase 30)
+## Last Updated: 2026-07-02 (Phase 39.1 — Truth Reconciliation)
+
+---
+
+## Problem 0 — Stress Harness Combined Adverse Model Is Flawed [URGENT — BLOCKS STRATEGY #1.2 PROMOTION]
+
+**Status:** OPEN — Must be resolved in Phase 40 before Strategy #1.2 can be confirmed or demoted
+
+**Description:**
+The research stress test harness applies fee and slippage multipliers as flat per-trade dollar amounts
+without scaling by position size (notional = size × price). This creates an artificially large combined
+adverse penalty (~$30,000+) that is mathematically unreachable in real live trading.
+
+**Impact:**
+- Strategy #1.2 (P39_CAND_0551) currently has 8/15 stress passes
+- Track C promotion requires 10/15 — fails by 2 passes
+- Combined adverse is counted as FAIL but the model producing that result is flawed
+- Until the harness is corrected, it is unknown whether Strategy #1.2 truly fails stress or not
+
+**Root Cause:**
+In the stress runner, fee/slippage are multiplied by a flat factor per trade:
+`stress_pnl = trade_pnl - extra_fees` where `extra_fees = fee_rate × n_times` (not scaled by size×price).
+This means large BTC position sizes and small position sizes are treated identically,
+which is wrong. Real fees scale with notional: `fee = fee_rate × size × price`.
+
+**Fix Required:**
+Scale stress fees/slippage by `size × entry_price` per trade before applying multiplier.
+Rerun stress on Strategy #1, #1.1, and #1.2 with corrected harness.
+
+**Phase to address this:** Phase 40 — Stress Harness Repair and Strategy #1.2 Final Verdict
 
 ---
 

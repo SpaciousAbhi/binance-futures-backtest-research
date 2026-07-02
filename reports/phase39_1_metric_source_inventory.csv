@@ -1,0 +1,7 @@
+file,pnl_found,trades_found,pf_found,dd_found,neg_months_found,zero_months_found,matches_trade_log_pnl,matches_trade_log_trades,authoritative,note
+walkthrough.md (Phase 39 summary artifact),9634.34,551,1.27,4.21,2,0,NO — trade log PnL=$11431.41,NO — trade log trades=340,"STALE — phantom metrics, not from P39_CAND_0551 trade log","Metric Set A. These values (PnL=9634, trades=551, PF=1.27, DD=4.21%) do NOT appear anywhere in the candidate registry or trade log for P39_CAND_0551."
+reports/phase39_strategy1_2_vault.md,11431.41,340,1.4998,7.938,25,0,YES — trade log PnL=$11431.41,YES — trade log rows=340,AUTHORITATIVE — matches candidate_results.csv and recomputed trade log,Metric Set B. Exactly matches candidate_results.csv row for P39_CAND_0551.
+reports/phase39_candidate_results.csv (P39_CAND_0551 row),11431.41,340,1.4998,7.938,25,0,YES,YES,AUTHORITATIVE — primary engine output,Direct CSV row from candidate sweep. Matches trade log recompute.
+project_memory/CURRENT_HANDOFF.md,11431.41,340,1.4998,7.938,N/A,N/A,YES,YES,AUTHORITATIVE — correct values from vault,CURRENT_HANDOFF correctly references Metric Set B.
+brain artifact: phase39_strategy1_2_vault.md (artifact copy),11431.41,340,1.4998,7.938,N/A,N/A,YES,YES,AUTHORITATIVE,Artifact copy of vault. Correct.
+walkthrough.md (brain artifact — written at Phase 39 end),9634.34 / 551 / 1.27 / 4.21,551,1.27,4.21,2,0,NO,NO,STALE — INCORRECT phantom metrics,Metric Set A origin. Written by agent using fabricated/wrong values instead of P39_CAND_0551 actual data.

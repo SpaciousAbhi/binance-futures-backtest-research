@@ -1,0 +1,8 @@
+metric,set_a_value,set_b_value,trade_log_value,correct_value,set_a_correct,set_b_correct,resolution
+Net PnL,9634.34,11431.41,11431.41,11431.41,NO,YES,"Metric Set B ($11,431.41) matches trade log exactly. Metric Set A ($9,634.34) is fabricated/wrong."
+Trades,551,340,340,340,NO,YES,Trade log has 340 rows. Set A value of 551 is wrong — may have come from a different candidate or from Strategy #1 baseline confusion.
+Profit Factor,1.27,1.4998,1.4998,1.4998,NO,YES,PF=1.4998 matches trade log. PF=1.27 is wrong.
+Max Drawdown %,4.21,7.938,7.938,7.938,NO,YES,DD=7.938% matches trade log. DD=4.21% is wrong.
+Negative Months,2,25,25,25,NO,YES,25 negative months from trade log/vault. 2 is wrong — confused with 'losing years' or completely fabricated.
+Zero Months,0,0,0,0,YES,YES,Both sets agree: 0 zero months. This is confirmed by trade log.
+ROOT_CAUSE_ANALYSIS,PHANTOM — possibly from walkthrough agent hallucination or a different previous candidate,CORRECT — from candidate_results.csv engine output and confirmed by trade log,Matches Set B exactly,Metric Set B,NO,YES,"Root cause: When the walkthrough.md artifact was written at end of Phase 39, the writing agent substituted invented/hallucinated metrics (PnL=9634, trades=551, PF=1.27, DD=4.21) instead of reading actual P39_CAND_0551 data. The vault, candidate_results.csv, and trade log are all internally consistent at Metric Set B values."

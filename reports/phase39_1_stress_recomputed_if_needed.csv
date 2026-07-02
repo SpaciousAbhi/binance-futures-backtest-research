@@ -1,0 +1,7 @@
+scenario,trades,net_pnl,valid
+Normal,340,11431.41,YES
+Double_Fees,340,9294.22,YES
+Triple_Fees,340,7157.04,YES
+Double_Slippage,340,9294.31,YES
+Triple_Slippage,340,7157.21,YES
+Combined_Adverse,306,-25369.59,STRESS_MODEL_REQUIRES_REPAIR — combined penalty unrealistic

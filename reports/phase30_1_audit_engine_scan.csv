@@ -76,6 +76,16 @@ scripts\phase32_runner.py,1532,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_
 scripts\phase32_runner.py,1532,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 scripts\phase32_runner.py,1532,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 scripts\phase32_runner.py,1532,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,483,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,483,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,483,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,483,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,483,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,670,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,670,FUTURE_PNL,INFO,future_pnl,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,670,FUTURE_RETURN,INFO,future_return,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,670,FUTURE_MFE,INFO,future_mfe,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
+scripts\phase39_1_truth_reconciliation.py,670,FUTURE_MAE,INFO,future_mae,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase17_1_realism.py,20,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase17_1_realism.py,22,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.
 tests\test_phase21_realism.py,7,IS_WINNER_LIVE,INFO,is_winner,ALLOWED_HISTORICAL_CONTEXT,Historical context. Reference only; do not copy logic into new strategies.

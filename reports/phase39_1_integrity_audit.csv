@@ -1,0 +1,6 @@
+file,hardcoded_pnl,future_labels,direct_metric_assignment,post_trade_r_filter,hardcoded_pf,verdict
+scripts/phase39_strategy1_2_discovery.py,False,False,False,False,False,PASS — no critical violations detected
+walkthrough.md (artifact),True,False,True,False,True,"FAIL — contains phantom metrics (PnL=9634.34, trades=551, PF=1.27, DD=4.21). Will be corrected in WS8."
+reports/phase39_strategy1_2_vault.md,False,False,False,False,False,PASS — metrics match trade log
+reports/phase39_candidate_results.csv,False,False,False,False,False,"PASS — engine output, not hardcoded"
+reports/phase39_P39_CAND_0551_trade_log.csv,False,False,False,False,False,PASS — no future labels found

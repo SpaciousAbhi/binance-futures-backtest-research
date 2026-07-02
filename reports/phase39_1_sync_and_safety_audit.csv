@@ -1,0 +1,14 @@
+field,value
+latest_commit,"ca3f2a1 Phase 39 â€” Strategy #1.2 discovery, stress hardening, and promotion; update project memory"
+branch,master
+remote,https://github.com/SpaciousAbhi/binance-futures-backtest-research.git
+git_status,"?? reports/phase39_1_metric_conflict_reconciliation.csv
+?? reports/phase39_1_metric_source_inventory.csv
+?? reports/phase39_1_p39_cand_0551_recomputed_metrics.csv
+?? reports/phase39_1_promotion_gate_audit.csv
+?? reports/phase39_1_sync_and_safety_audit.csv
+?? scripts/phase39_1_truth_reconciliation.py"
+safety_tag,backup_before_phase39_1_truth_reconciliation
+phase39_commit_confirmed,YES — ca3f2a1
+pull_result,Already up to date
+audit_timestamp,2026-07-02T16:45:37.509823

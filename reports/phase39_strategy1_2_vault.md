@@ -4,8 +4,12 @@
 
 - **Candidate ID:** `P39_CAND_0551`
 - **Family:** `Double_ATR_TakeProfit`
-- **Status:** `VALID_PROMOTED_CANDIDATE` (Live status: `NOT_REAL_CAPITAL_READY`)
+- **Status:** `PROVISIONAL` (Pending stress harness repair — see Phase 39.1)
 - **Promotion Reason:** Upgrade champion of Strategy #1.1 with improved profit factor, reduced drawdown, and higher stress tolerance.
+
+> [!WARNING]
+> **Phase 39.1 Reconciliation Note:** Strategy #1.2 promotion gates were NOT fully met with the corrected (trade-log-verified) metrics. Closest track is Track C (Stress), which fails only on stress pass count (8/15 actual vs 10/15 required). Status changed to PROVISIONAL pending stress harness repair in Phase 40.
+
 
 ---
 

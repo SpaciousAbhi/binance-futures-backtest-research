@@ -1,0 +1,6 @@
+track,req_pnl,act_pnl,pnl_pass,req_trades,act_trades,trades_pass,req_pf,act_pf,pf_pass,req_dd,act_dd,dd_pass,req_stress_or_monthly,act_stress_or_monthly,stress_or_monthly_pass,overall_pass
+A_High_PnL,>=11500,11431.41,False,>=400,340,False,>=1.40,1.4998,True,<=9.5%,7.938,True,>=9/15,8,False,False
+B_Quality,>=10000,11431.41,True,>=350,340,False,>=1.50,1.4998,False,<=7.5%,7.938,False,>=9/15,8,False,False
+C_Stress,>=8500,11431.41,True,>=300,340,True,>=1.35,1.4998,True,<=10%,7.938,True,>=10/15,8,False,False
+D_Monthly,>=9500,11431.41,True,>=350,340,False,>=1.35,1.4998,True,<=10%,7.938,True,N/A,N/A,N/A,False
+SUMMARY,Any track must pass,11431.41,True,,340,False,,1.4998,True,,7.938,True,,8,False,False

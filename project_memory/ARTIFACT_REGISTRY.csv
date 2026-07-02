@@ -206,4 +206,17 @@ reports/phase39_candidate_results.csv,phase39_artifact,39,Backtest results of 60
 reports/phase39_candidate_registry.csv,phase39_artifact,39,Registry of 2304 generated candidates,computed_on_read,500.0,YES,VALID,,,
 reports/phase39_strategy1_2_discovery_and_promotion_report.md,phase39_artifact,39,Main Phase 39 report,computed_on_read,5.0,YES,VALID,,,
 reports/phase39_audit_manifest.json,phase39_artifact,39,Phase 39 manifest hash lock,computed_on_read,2.0,YES,VALID,,,
+reports/phase39_1_sync_and_safety_audit.csv,phase39_1_artifact,39.1,Git sync and safety tag audit,computed_on_read,1.0,YES,VALID,,,
+reports/phase39_1_metric_source_inventory.csv,phase39_1_artifact,39.1,All metric sources for P39_CAND_0551 mapped and classified,computed_on_read,2.0,YES,VALID,,,
+reports/phase39_1_p39_cand_0551_recomputed_metrics.csv,phase39_1_artifact,39.1,Trade-log recomputed ground-truth metrics for P39_CAND_0551,computed_on_read,1.0,YES,VALID,,,
+reports/phase39_1_metric_conflict_reconciliation.csv,phase39_1_artifact,39.1,Resolution of Metric Set A vs Set B conflict,computed_on_read,2.0,YES,VALID,,,
+reports/phase39_1_promotion_gate_audit.csv,phase39_1_artifact,39.1,Track A/B/C/D promotion gate audit using recomputed metrics,computed_on_read,2.0,YES,VALID,,,
+reports/phase39_1_candidate_construction_audit.md,phase39_1_artifact,39.1,Live-known construction classification for P39_CAND_0551,computed_on_read,3.0,YES,VALID,,,
+reports/phase39_1_stress_harness_audit.md,phase39_1_artifact,39.1,Stress model assessment — combined adverse flagged as flawed,computed_on_read,3.0,YES,VALID,,,
+reports/phase39_1_stress_recomputed_if_needed.csv,phase39_1_artifact,39.1,Recomputed stress scenarios using trade log data,computed_on_read,1.0,YES,VALID,,,
+reports/phase39_1_integrity_audit.csv,phase39_1_artifact,39.1,Lookahead and hardcoding integrity audit,computed_on_read,2.0,YES,VALID,,,
+reports/phase39_1_strategy1_2_final_decision.md,phase39_1_artifact,39.1,Final decision document — Strategy #1.2 PROVISIONAL,computed_on_read,3.0,YES,VALID,,,
+reports/phase39_1_strategy1_2_truth_reconciliation_report.md,phase39_1_artifact,39.1,Main Phase 39.1 reconciliation report,computed_on_read,5.0,YES,VALID,,,
+scripts/phase39_1_truth_reconciliation.py,phase39_1_artifact,39.1,All-in-one reconciliation script,computed_on_read,10.0,YES,VALID,,,
+
 
