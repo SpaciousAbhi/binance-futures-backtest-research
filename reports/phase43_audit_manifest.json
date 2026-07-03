@@ -1,0 +1,26 @@
+{
+  "phase": "Phase 43",
+  "timestamp": "2026-07-03T13:45:08.686203+00:00",
+  "verdict": "PASS_NEW_STRATEGY_IMPROVEMENT_PROMOTED",
+  "promoted_candidate": "P43_CAND_0005",
+  "strategy_label": "Strategy #1.3",
+  "param_change": "max_abs_funding: 0.0015 -> 0.0012",
+  "metrics": {
+    "net_pnl": 11599.38,
+    "trades": 333,
+    "profit_factor": 1.5115,
+    "max_drawdown_pct": 7.9437,
+    "win_rate": 0.5676,
+    "positive_months": 47,
+    "negative_months": 24,
+    "stress_pass_count": 15,
+    "combined_adverse_pnl": 6143.51
+  },
+  "file_hashes": {
+    "trade_log": "0149b7ef321109570601c73e08e61b7fb57206b967855e0d131c6f4a41eb3e33",
+    "candidate_results": "d1f3e3519d6342d9e202c8d8179e3470c5eea1d93aa7009c3a632f28f3e8de0f",
+    "stress_results": "13602ac7843d77abef805fbe4497db31a338a4099dac26142f60b1a6061d4191"
+  },
+  "candidates_run": 479,
+  "live_status": "NOT_REAL_CAPITAL_READY"
+}

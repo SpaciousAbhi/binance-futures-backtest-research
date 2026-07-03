@@ -1,0 +1,11 @@
+check,status,detail
+trade_log_exists,PASS,
+metrics_from_trade_log,PASS,
+no_lookahead_filter,PASS,max_abs_funding checked before signal is accepted; value known at bar close
+no_outcome_filter,PASS,No net_pnl/R/MFE/MAE used as entry condition
+live_known_only,PASS,fundingRate available in live feed every 8h; checked at candle close
+no_hardcoded_metrics,PASS,
+timestamp_order,PASS,
+trade_count_sufficient,PASS,
+stress_15_15,PASS,
+combined_adverse_positive,PASS,
