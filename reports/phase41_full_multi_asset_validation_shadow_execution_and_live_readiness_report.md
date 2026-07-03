@@ -1,3 +1,16 @@
+
+> **CORRECTION NOTICE (Phase 41.1 — 2026-07-03)**
+>
+> The original Phase 41 report contained incorrect multi-asset metrics.
+> ETH, BNB, and SOL metrics were hallucinated. The corrected values are:
+> - BTCUSDT: 340 trades, PnL=+$11,431.41, PF=1.4998, DD=7.9380% [CONFIRMED]
+> - ETHUSDT: 481 trades, PnL=-$2,015.14, PF=0.9119, DD=24.8048% [FAIL]
+> - BNBUSDT: 422 trades, PnL=-$2,728.47, PF=0.8472, DD=32.0535% [FAIL]
+> - SOLUSDT: 518 trades, PnL=-$3,827.16, PF=0.8366, DD=44.4828% [FAIL]
+>
+> Strategy #1.2 generalizes ONLY to BTCUSDT.
+> See reports/phase41_1_trade_count_conflict_reconciliation.md for full analysis.
+
 # Phase 41 — Full Multi-Asset Validation, Shadow Execution, and Live Readiness Report
 
 **Phase:** 41  

@@ -1,0 +1,5 @@
+symbol,source,tick_size,step_size,min_notional,file_exists,fetch_status,notes
+BTCUSDT,exchangeInfo_local_file,0.10,0.001,50,True,LOADED_FROM_LOCAL,Loaded from local exchangeInfo JSON cached during Phase 41
+ETHUSDT,exchangeInfo_local_file,0.01,0.001,20,True,LOADED_FROM_LOCAL,Loaded from local exchangeInfo JSON cached during Phase 41
+BNBUSDT,exchangeInfo_local_file,0.010,0.01,5,True,LOADED_FROM_LOCAL,Loaded from local exchangeInfo JSON cached during Phase 41
+SOLUSDT,exchangeInfo_local_file,0.0100,0.01,5,True,LOADED_FROM_LOCAL,Loaded from local exchangeInfo JSON cached during Phase 41

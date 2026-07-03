@@ -1,0 +1,33 @@
+check,result,output
+research_lab status,PASS,"============================================================
+PRECISION FUSION RESEARCH LAB STATUS
+============================================================
+Latest Completed Phase Context:
+## Latest"
+research_lab preflight,PASS,"============================================================
+PREFLIGHT RUNTIME VERIFICATION
+============================================================
+[1] Verifying data registry...
+  [PASS] BTCUSDT_1h_processed.csv exists
+  [PASS] BTCUSDT_15m_processed.csv exists
+[2] Auditing memory index...
+  [P"
+research_lab postflight,PASS,"============================================================
+POSTFLIGHT BUILD & REPORT COMPLIANCE
+============================================================
+[1] Validating generated report schemas...
+  [PASS] phase38_research_lab_idea_engine_and_trade_intelligence_upgrade_report.md
+[2] Lock manife"
+pytest test_project_memory_protocol,PASS,"syncio_default_test_loop_scope=function
+collected 55 items
+
+tests\test_project_memory_protocol.py .................................. [ 61%]
+.....................                                                    [100%]
+
+============================= 55 passed in 0.26s =============================="
+pytest full suite,FAIL,"nce Futures Testnet shadow execution of Strategy #1.2 — BTCUSDT ONLY.\n\...ty (Do Not Delete)\n- Historical continuity references: Phase 33, Phase 37, Phase 39, Phase 40, Phase 41, Phase 41.1\n'
+=========================== short test summary info ===========================
+FAILED tests/test_phase37_strategy1_1_optimization.py::test_project_memory_updated_for_phase37
+1 failed, 653 passed in 21.30s"
+git diff --check,WARN,"project_memory/NEXT_PHASE_PLAN.md:20: trailing whitespace.
++### P2 â€” Websocket kline_1h Closed-Candle Listener"

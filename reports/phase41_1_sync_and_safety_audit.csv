@@ -1,0 +1,8 @@
+field,value,status
+git_branch,master,OK
+git_commit,4388b2cc2b7b5ca7d9cb81a29b39a14ca940b4a1,OK
+remote_url,https://github.com/SpaciousAbhi/binance-futures-backtest-research.git,OK
+git_status,DIRTY,OK
+safety_tag,backup_before_phase41_1_multi_asset_reconciliation,CREATED
+phase41_commit_found,"4388b2c Phase 41 â€” Complete full multi-asset validation, shadow simulator reco",OK
+timestamp,2026-07-03T07:32:24.751344+00:00,OK

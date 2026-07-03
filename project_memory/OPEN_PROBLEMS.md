@@ -243,3 +243,22 @@ After Phase 29.7, add unit tests for:
 - [OPEN] Multi-asset validation (ETH, BNB, SOL) on Strategy #1.2 is pending.
 - [OPEN] Exchange shadow trading validation (Binance testnet execution schema) is not yet implemented.
 - [OPEN] Live status remains NOT_REAL_CAPITAL_READY.
+
+---
+
+## Problem 41.1 — Multi-Asset Generalization Failure
+
+**Status:** OPEN
+
+**Description:** Strategy #1.2 (P39_CAND_0551) was incorrectly claimed to generalize
+to ETH, BNB, and SOL in Phase 41. Recomputed metrics confirm ETH/BNB/SOL are all
+unprofitable under Strategy #1.2 parameters:
+- ETH: PF=0.9119, PnL=-$2,015.14
+- BNB: PF=0.8472, PnL=-$2,728.47
+- SOL: PF=0.8366, PnL=-$3,827.16
+
+**Resolution options:**
+1. Accept BTC-only strategy and proceed with Phase 42 BTC-only testnet shadow.
+2. Search for ETH/BNB/SOL-specific parameter sets in a new multi-asset optimization phase.
+
+**Priority:** High — must resolve before any multi-asset capital deployment.

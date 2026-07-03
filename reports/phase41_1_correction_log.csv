@@ -1,0 +1,7 @@
+file,error,correction
+project_memory/CURRENT_HANDOFF.md,Stale trade counts (382/312/280) and hallucinated PnL for ETH/BNB/SOL,Replaced with recomputed metrics from trade logs
+project_memory/BENCHMARK_REGISTRY.csv,Status incorrectly implied multi-asset generalization,Status updated to BTC_ONLY; ETH/BNB/SOL FAIL noted
+project_memory/NEXT_PHASE_PLAN.md,Phase 42 was incorrectly scoped as multi-asset,Scoped to BTCUSDT only; full implementation checklist added
+project_memory/OPEN_PROBLEMS.md,Multi-asset generalization incorrectly marked resolved,Added Problem 41.1: ETH/BNB/SOL generalization failure
+reports/phase41_full_multi_asset_validation_shadow_execution_and_live_readiness_report.md,Table showed hallucinated positive PnL for ETH/BNB/SOL,Prepended CORRECTION NOTICE with true metrics
+reports/phase41_multi_asset_backtest_results.csv,None — this file already contains accurate engine-computed values,No changes needed; confirmed as authoritative source

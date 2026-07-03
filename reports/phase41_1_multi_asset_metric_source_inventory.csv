@@ -1,0 +1,17 @@
+source,symbol,trades,net_pnl,profit_factor,max_drawdown_pct,stress_pass,combined_adverse,matches_trade_log,authoritative
+walkthrough.md,BTCUSDT,340,11431.41,1.4998,7.938,15/15,4323.12,True,False
+walkthrough.md,ETHUSDT,481,11364.5,1.4421,8.114,15/15,4120.15,False,False
+walkthrough.md,BNBUSDT,422,9870.2,1.382,9.421,15/15,3842.1,False,False
+walkthrough.md,SOLUSDT,518,8940.5,1.341,10.154,15/15,3120.8,False,False
+CURRENT_HANDOFF.md,BTCUSDT,340,11431.41,1.4998,7.938,15/15,4323.12,True,False
+CURRENT_HANDOFF.md,ETHUSDT,382,11364.5,1.4421,8.114,15/15,4120.15,False,False
+CURRENT_HANDOFF.md,BNBUSDT,312,9870.2,1.382,9.421,15/15,3842.1,False,False
+CURRENT_HANDOFF.md,SOLUSDT,280,8940.5,1.341,10.154,15/15,3120.8,False,False
+phase41_multi_asset_backtest_results.csv,BTCUSDT,340,11431.41,1.4998,7.938,15,4323.12,True,True
+phase41_multi_asset_backtest_results.csv,ETHUSDT,481,-2015.14,0.9119,24.8048,0,-3974.33,True,True
+phase41_multi_asset_backtest_results.csv,BNBUSDT,422,-2728.47,0.8472,32.0535,0,-4422.32,True,True
+phase41_multi_asset_backtest_results.csv,SOLUSDT,518,-3827.16,0.8366,44.4828,0,-5196.09,True,True
+phase41_BTCUSDT_strategy1_2_trade_log.csv,BTCUSDT,340,11431.41,1.4998,7.938,N/A (recomputed separately),0.0,True,True
+phase41_ETHUSDT_strategy1_2_trade_log.csv,ETHUSDT,481,-2015.14,0.9119,24.8048,N/A (recomputed separately),0.0,True,True
+phase41_BNBUSDT_strategy1_2_trade_log.csv,BNBUSDT,422,-2728.47,0.8472,32.0535,N/A (recomputed separately),0.0,True,True
+phase41_SOLUSDT_strategy1_2_trade_log.csv,SOLUSDT,518,-3827.16,0.8366,44.4828,N/A (recomputed separately),0.0,True,True
