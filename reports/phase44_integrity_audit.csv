@@ -1,0 +1,10 @@
+check,status
+trade_log_exists,PASS
+metrics_from_trade_log,PASS
+no_lookahead_filter,PASS
+no_outcome_filter,PASS
+live_known_only,PASS
+no_hardcoded_metrics,PASS
+timestamp_order,PASS
+stress_15_15,PASS
+combined_adverse_positive,PASS

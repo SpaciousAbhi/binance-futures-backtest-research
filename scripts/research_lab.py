@@ -467,6 +467,42 @@ def handle_ai_handoff():
 """
     print(handoff_summary)
 
+def handle_memory_check():
+    print("Running Project Memory Integrity Check...")
+    check_script = os.path.join(ROOT_DIR, "scripts", "check_project_memory.py")
+    if os.path.exists(check_script):
+        out, code = run_cmd([sys.executable, check_script])
+        print(out)
+        if code != 0:
+            sys.exit(code)
+    else:
+        print("Error: scripts/check_project_memory.py is missing.")
+        sys.exit(1)
+
+def handle_data_check():
+    print("Running Data Registry Integrity Check...")
+    check_script = os.path.join(ROOT_DIR, "check_data.py")
+    if os.path.exists(check_script):
+        out, code = run_cmd([sys.executable, check_script])
+        print(out)
+        if code != 0:
+            sys.exit(code)
+    else:
+        print("Error: check_data.py is missing in root.")
+        sys.exit(1)
+
+def handle_audit():
+    print("Running Code Audit and Lookahead Scan...")
+    audit_script = os.path.join(ROOT_DIR, "scripts", "audit_engine.py")
+    if os.path.exists(audit_script):
+        out, code = run_cmd([sys.executable, audit_script])
+        print(out)
+        if code != 0:
+            sys.exit(code)
+    else:
+        print("Error: scripts/audit_engine.py is missing.")
+        sys.exit(1)
+
 def main():
     parser = argparse.ArgumentParser(description="Research Lab CLI Control Panel")
     parser.add_argument("command", choices=[

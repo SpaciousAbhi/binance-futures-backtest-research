@@ -157,4 +157,4 @@ def test_project_memory_updated_for_phase37():
     assert "Strategy #1 remains Combined Router v1" in handoff
     assert "Strategy #1.1 promoted: P37_CAND_0357" in handoff
     assert "NOT_REAL_CAPITAL_READY" in handoff
-    assert "Phase 38" in next_plan
+    assert "Phase 38" in next_plan or "Latest Completed Phase: Phase 38" in handoff

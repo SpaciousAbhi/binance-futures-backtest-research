@@ -1,0 +1,45 @@
+{
+  "phase": "Phase 44",
+  "timestamp": "2026-07-03T14:50:36.852041+00:00",
+  "verdict": "PHASE44_PARTIAL_PASS_TESTS_GREEN_NO_STRATEGY_UPGRADE",
+  "promoted_candidate": "NO_UPGRADE",
+  "params": {
+    "allowed_sessions": [
+      "LONDON",
+      "NEW_YORK"
+    ],
+    "allowed_sources": null,
+    "disallowed_sources": [
+      "Low-Activity Filler Long"
+    ],
+    "max_abs_funding": 0.0012,
+    "max_cost_to_risk": 0.15,
+    "min_adx": 15,
+    "min_atr_pct": 0.3,
+    "min_bb_width": 0.03,
+    "min_expected_R": 0.0,
+    "min_projected_net_R": 0.85,
+    "min_stop_atr": 0.0,
+    "off_hours_min_expected_R": 0.0,
+    "sl_atr_mult": 1.8,
+    "tp_atr_mult": 3.0
+  },
+  "metrics": {
+    "net_pnl": 11599.38,
+    "trades": 333,
+    "profit_factor": 1.5115,
+    "max_drawdown_pct": 7.9437,
+    "win_rate": 0.5676,
+    "positive_months": 47,
+    "negative_months": 24,
+    "stress_pass_count": 15,
+    "combined_adverse_pnl": 6143.51
+  },
+  "file_hashes": {
+    "trade_log": "N/A",
+    "candidate_results": "a00f36409327d1b86fbc8239dc008604e78d820645c0de299cb7406d1b5bb8c8",
+    "stress_results": "8db072c28c92de08ffb68b75d15cc3572bdb8a23a0c2203c88870e7f94e5ea12"
+  },
+  "candidates_run": 199,
+  "live_status": "NOT_REAL_CAPITAL_READY"
+}

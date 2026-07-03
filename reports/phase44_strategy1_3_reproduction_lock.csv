@@ -1,0 +1,7 @@
+metric,expected,observed,status
+net_pnl,11599.38,11599.38,PASS
+trades,333.0,333.0,PASS
+profit_factor,1.5115,1.5115,PASS
+max_drawdown_pct,7.9437,7.9437,PASS
+stress_pass_count,15.0,15.0,PASS
+combined_adverse_pnl,6143.51,6143.51,PASS
