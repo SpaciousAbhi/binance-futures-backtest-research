@@ -1,0 +1,16 @@
+system,harness,scenario,net_pnl,profit_factor,max_dd_pct,trades,verdict
+Strategy #1 (Combined Router v1),FIXED,normal,11205.2,1.2522,16.2186,557,PASS
+Strategy #1 (Combined Router v1),FIXED,double fees,6983.71,1.1505,22.2334,557,PASS
+Strategy #1 (Combined Router v1),FIXED,triple fees,2762.23,1.0571,32.1181,557,PASS
+Strategy #1 (Combined Router v1),FIXED,double slippage,9094.45,1.2002,19.0547,557,PASS
+Strategy #1 (Combined Router v1),FIXED,triple slippage,6983.71,1.1505,22.2334,557,PASS
+Strategy #1 (Combined Router v1),FIXED,double fees + double slippage,4872.97,1.1028,25.8506,557,PASS
+Strategy #1 (Combined Router v1),FIXED,delay 1 candle,9094.45,1.2002,19.0547,557,PASS
+Strategy #1 (Combined Router v1),FIXED,delay 2 candles,6983.71,1.1505,22.2334,557,PASS
+Strategy #1 (Combined Router v1),FIXED,missed fills 10%,8383.69,1.2045,17.8346,502,PASS
+Strategy #1 (Combined Router v1),FIXED,missed fills 20%,8028.78,1.2211,18.1841,446,PASS
+Strategy #1 (Combined Router v1),FIXED,missed fills 30%,5141.31,1.1582,23.9301,390,PASS
+Strategy #1 (Combined Router v1),FIXED,stale cancel,9384.22,1.2189,18.0993,530,PASS
+Strategy #1 (Combined Router v1),FIXED,partial fill,10364.81,1.2522,15.6343,557,PASS
+Strategy #1 (Combined Router v1),FIXED,high funding,8585.49,1.1887,20.0259,557,PASS
+Strategy #1 (Combined Router v1),FIXED,combined adverse,811.53,1.0182,38.6002,502,PASS

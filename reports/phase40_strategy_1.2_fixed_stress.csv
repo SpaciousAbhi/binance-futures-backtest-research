@@ -1,0 +1,16 @@
+system,harness,scenario,net_pnl,profit_factor,max_dd_pct,trades,verdict
+Strategy #1.2 (P39_CAND_0551),FIXED,normal,11431.41,1.4998,7.938,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,double fees,9293.9,1.3907,9.3951,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,triple fees,7156.39,1.2897,11.6485,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,double slippage,10362.65,1.4442,8.5978,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,triple slippage,9293.9,1.3907,9.3951,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,double fees + double slippage,8225.15,1.3392,10.257,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,delay 1 candle,10362.65,1.4442,8.5978,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,delay 2 candles,9293.9,1.3907,9.3951,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,missed fills 10%,8144.39,1.377,10.881,306,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,missed fills 20%,7264.04,1.3789,11.072,272,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,missed fills 30%,6786.22,1.4091,9.3195,238,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,stale cancel,11877.11,1.5581,7.7268,323,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,partial fill,10574.05,1.4998,7.6014,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,high funding,9922.14,1.4228,9.119,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,combined adverse,4323.12,1.1853,14.7223,306,PASS

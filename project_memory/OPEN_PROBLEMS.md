@@ -6,7 +6,7 @@
 
 ## Problem 0 — Stress Harness Combined Adverse Model Is Flawed [URGENT — BLOCKS STRATEGY #1.2 PROMOTION]
 
-**Status:** OPEN — Must be resolved in Phase 40 before Strategy #1.2 can be confirmed or demoted
+**Status:** RESOLVED in Phase 40 — Stress harness corrected. Strategy #1.2 final decision: CONFIRMED_PROMOTED
 
 **Description:**
 The research stress test harness applies fee and slippage multipliers as flat per-trade dollar amounts

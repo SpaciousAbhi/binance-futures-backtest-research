@@ -1,0 +1,29 @@
+﻿pytest : C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytest_asyncio\plugin.py:217: 
+PytestDeprecationWarning: The configuration option "asyncio_default_fixture_loop_scope" is unset.
+At line:1 char:32
++ ... NG='utf-8'; pytest tests/test_phase33_1_reconciliation.py::test_proje ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\HP\App...cope" is unset.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+The event loop scope for asynchronous fixtures will default to the fixture caching scope. Future versions of 
+pytest-asyncio will default the loop scope for asynchronous fixtures to function scope. Set the default fixture loop 
+scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: "function", 
+"class", "module", "package", "session"
+
+  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
+============================= test session starts =============================
+platform win32 -- Python 3.13.1, pytest-8.3.5, pluggy-1.6.0 -- C:\Users\HP\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\HP\.gemini\antigravity\scratch\binance_futures_backtest
+configfile: pyproject.toml
+plugins: anyio-4.13.0, asyncio-0.26.0, mock-3.15.1
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 4 items
+
+tests/test_phase33_1_reconciliation.py::test_project_memory_protects_baseline_and_demotes_phase33 PASSED [ 25%]
+tests/test_phase33_cost_robustness.py::test_phase32_stress_contradiction_corrected_in_memory PASSED [ 50%]
+tests/test_phase34_strategy_vault.py::test_project_memory_mentions_phase34_vault_and_no_promotion PASSED [ 75%]
+tests/test_phase37_strategy1_1_optimization.py::test_project_memory_updated_for_phase37 PASSED [100%]
+
+============================== 4 passed in 1.11s ==============================

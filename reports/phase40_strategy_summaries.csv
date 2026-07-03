@@ -1,0 +1,4 @@
+strategy,trade_log,trades,net_pnl,profit_factor,max_drawdown_pct,win_rate,positive_months,negative_months,zero_months,old_stress_pass,new_stress_pass,stress_pass_delta,old_combined_adverse,new_combined_adverse,any_promotion_track_pass,stress_verdict
+Strategy #1 (Combined Router v1),phase33_1_baseline_recovery_trade_log.csv,557,11205.2,1.2522,16.2186,0.5404,52,25,0,7,15,8,-39138.38,811.53,False,IMPROVED
+Strategy #1.1 (P37_CAND_0357),phase37_strategy1_1_trade_log.csv,404,11231.08,1.3862,9.3716,0.547,46,24,0,9,15,6,-24447.46,4767.16,True,IMPROVED
+Strategy #1.2 (P39_CAND_0551),phase39_P39_CAND_0551_trade_log.csv,340,11431.41,1.4998,7.938,0.5647,46,25,0,9,15,6,-20775.68,4323.12,True,IMPROVED

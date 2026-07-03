@@ -1,0 +1,15 @@
+﻿--- project_memory/CURRENT_HANDOFF.md ---
+  '359.59': True
+  'STRESS_FRAGILE': False
+  'PASS=7 / FAIL=8': True
+  '-39138': False
+--- project_memory/MASTER_PROJECT_STATE.md ---
+  '359.59': False
+  'STRESS_FRAGILE': True
+  'PASS=7 / FAIL=8': True
+  '-39138': False
+--- project_memory/BENCHMARK_REGISTRY.csv ---
+  '359.59': False
+  'STRESS_FRAGILE': True
+  'PASS=7 / FAIL=8': True
+  '-39138': True

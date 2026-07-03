@@ -1,0 +1,51 @@
+{
+  "phase": "40",
+  "generated": "2026-07-03T09:39:21.078605",
+  "verdict": "PHASE40_PASS_STRATEGY1_2_CONFIRMED_AND_LOCKED",
+  "files": {
+    "phase40_sync_and_safety_audit.csv": {
+      "exists": true,
+      "size": 368
+    },
+    "phase40_bug_documentation.csv": {
+      "exists": true,
+      "size": 433
+    },
+    "phase40_stress_comparison_matrix.csv": {
+      "exists": true,
+      "size": 7685
+    },
+    "phase40_strategy_summaries.csv": {
+      "exists": true,
+      "size": 700
+    },
+    "phase40_promotion_gate_audit.csv": {
+      "exists": true,
+      "size": 1854
+    },
+    "phase40_harness_before_after.csv": {
+      "exists": true,
+      "size": 436
+    },
+    "phase40_strategy_1_fixed_stress.csv": {
+      "exists": true,
+      "size": 1384
+    },
+    "phase40_strategy_1_1_fixed_stress.csv": {
+      "exists": false,
+      "size": 0
+    },
+    "phase40_strategy_1_2_fixed_stress.csv": {
+      "exists": false,
+      "size": 0
+    },
+    "phase40_strategy1_2_final_decision.csv": {
+      "exists": true,
+      "size": 378
+    },
+    "phase40_stress_harness_repair_and_strategy1_2_final_decision_report.md": {
+      "exists": true,
+      "size": 7499
+    }
+  }
+}

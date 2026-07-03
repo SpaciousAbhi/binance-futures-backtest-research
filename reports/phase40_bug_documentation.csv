@@ -1,0 +1,9 @@
+field,value
+avg_position_size_btc,0.186179
+avg_entry_price_usd,47298.69
+old_double_fee_total_adj_usd,16081.56
+new_double_fee_total_adj_usd,2137.51
+overestimation_ratio,7.5235
+root_cause,fee_adj = (fee_mult-1)*TAKER_FEE*2*entry_price  [MISSING *size]
+fix,fee_adj = (fee_mult-1)*TAKER_FEE*2*entry_price*size   [CORRECT]
+impact_note,"Old harness applied fee penalty as if 1 BTC traded per trade, ignoring actual position size"

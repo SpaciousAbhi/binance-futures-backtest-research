@@ -1,0 +1,7 @@
+strategy,harness,stress_pass,combined_adverse_pnl,verdict
+Strategy #1 (Combined Router v1),OLD (buggy),7,-39138.38,7/15
+Strategy #1 (Combined Router v1),FIXED (correct),15,811.53,15/15
+Strategy #1.1 (P37_CAND_0357),OLD (buggy),9,-24447.46,9/15
+Strategy #1.1 (P37_CAND_0357),FIXED (correct),15,4767.16,15/15
+Strategy #1.2 (P39_CAND_0551),OLD (buggy),9,-20775.68,9/15
+Strategy #1.2 (P39_CAND_0551),FIXED (correct),15,4323.12,15/15

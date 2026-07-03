@@ -1,0 +1,2 @@
+candidate_id,strategy_name,net_pnl,trades,profit_factor,max_drawdown_pct,negative_months,old_stress_pass,new_stress_pass,old_combined_adverse,new_combined_adverse,passing_tracks,decision,verdict,new_status
+P39_CAND_0551,Strategy #1.2,11431.41,340,1.4998,7.938,25,8,15,-25369.59,4323.12,['C'],CONFIRMED_PROMOTED,PHASE40_PASS_STRATEGY1_2_CONFIRMED_AND_LOCKED,CONFIRMED_PROMOTED

@@ -1,0 +1,91 @@
+system,harness,scenario,net_pnl,profit_factor,max_dd_pct,trades,verdict
+Strategy #1 (Combined Router v1),OLD,normal,11205.2,1.2522,16.2186,557,PASS
+Strategy #1 (Combined Router v1),OLD,double fees,-15287.89,0.7311,150.1754,557,FAIL
+Strategy #1 (Combined Router v1),OLD,triple fees,-41780.98,0.4015,385.8161,557,FAIL
+Strategy #1 (Combined Router v1),OLD,double slippage,-2041.35,0.9597,54.0742,557,FAIL
+Strategy #1 (Combined Router v1),OLD,triple slippage,-15287.89,0.7311,150.1754,557,FAIL
+Strategy #1 (Combined Router v1),OLD,double fees + double slippage,-28534.44,0.5484,266.2826,557,FAIL
+Strategy #1 (Combined Router v1),OLD,delay 1 candle,-2041.35,0.9597,54.0742,557,FAIL
+Strategy #1 (Combined Router v1),OLD,delay 2 candles,-15287.89,0.7311,150.1754,557,FAIL
+Strategy #1 (Combined Router v1),OLD,missed fills 10%,8383.69,1.2045,17.8346,502,PASS
+Strategy #1 (Combined Router v1),OLD,missed fills 20%,8028.78,1.2211,18.1841,446,PASS
+Strategy #1 (Combined Router v1),OLD,missed fills 30%,5141.31,1.1582,23.9301,390,PASS
+Strategy #1 (Combined Router v1),OLD,stale cancel,9384.22,1.2189,18.0993,530,PASS
+Strategy #1 (Combined Router v1),OLD,partial fill,10364.81,1.2522,15.6343,557,PASS
+Strategy #1 (Combined Router v1),OLD,high funding,11205.2,1.2522,16.2186,557,PASS
+Strategy #1 (Combined Router v1),OLD,combined adverse,-39138.38,0.3919,359.586,502,FAIL
+Strategy #1 (Combined Router v1),FIXED,normal,11205.2,1.2522,16.2186,557,PASS
+Strategy #1 (Combined Router v1),FIXED,double fees,6983.71,1.1505,22.2334,557,PASS
+Strategy #1 (Combined Router v1),FIXED,triple fees,2762.23,1.0571,32.1181,557,PASS
+Strategy #1 (Combined Router v1),FIXED,double slippage,9094.45,1.2002,19.0547,557,PASS
+Strategy #1 (Combined Router v1),FIXED,triple slippage,6983.71,1.1505,22.2334,557,PASS
+Strategy #1 (Combined Router v1),FIXED,double fees + double slippage,4872.97,1.1028,25.8506,557,PASS
+Strategy #1 (Combined Router v1),FIXED,delay 1 candle,9094.45,1.2002,19.0547,557,PASS
+Strategy #1 (Combined Router v1),FIXED,delay 2 candles,6983.71,1.1505,22.2334,557,PASS
+Strategy #1 (Combined Router v1),FIXED,missed fills 10%,8383.69,1.2045,17.8346,502,PASS
+Strategy #1 (Combined Router v1),FIXED,missed fills 20%,8028.78,1.2211,18.1841,446,PASS
+Strategy #1 (Combined Router v1),FIXED,missed fills 30%,5141.31,1.1582,23.9301,390,PASS
+Strategy #1 (Combined Router v1),FIXED,stale cancel,9384.22,1.2189,18.0993,530,PASS
+Strategy #1 (Combined Router v1),FIXED,partial fill,10364.81,1.2522,15.6343,557,PASS
+Strategy #1 (Combined Router v1),FIXED,high funding,8585.49,1.1887,20.0259,557,PASS
+Strategy #1 (Combined Router v1),FIXED,combined adverse,811.53,1.0182,38.6002,502,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,normal,11231.08,1.3862,9.3716,404,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,double fees,-7410.24,0.8016,82.7254,404,FAIL
+Strategy #1.1 (P37_CAND_0357),OLD,triple fees,-26051.55,0.4349,255.6386,404,FAIL
+Strategy #1.1 (P37_CAND_0357),OLD,double slippage,1910.42,1.0575,25.4639,404,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,triple slippage,-7410.24,0.8016,82.7254,404,FAIL
+Strategy #1.1 (P37_CAND_0357),OLD,double fees + double slippage,-16730.9,0.597,166.9974,404,FAIL
+Strategy #1.1 (P37_CAND_0357),OLD,delay 1 candle,1910.42,1.0575,25.4639,404,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,delay 2 candles,-7410.24,0.8016,82.7254,404,FAIL
+Strategy #1.1 (P37_CAND_0357),OLD,missed fills 10%,9130.61,1.3434,12.1073,364,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,missed fills 20%,9535.03,1.4109,9.0988,324,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,missed fills 30%,7619.39,1.3711,11.5362,283,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,stale cancel,9054.36,1.3222,13.0008,384,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,partial fill,10388.75,1.3862,9.0037,404,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,high funding,11231.08,1.3862,9.3716,404,PASS
+Strategy #1.1 (P37_CAND_0357),OLD,combined adverse,-24447.46,0.4187,242.6068,364,FAIL
+Strategy #1.1 (P37_CAND_0357),FIXED,normal,11231.08,1.3862,9.3716,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,double fees,8819.79,1.2925,11.3668,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,triple fees,6408.49,1.2052,13.756,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,double slippage,10025.43,1.3385,10.3263,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,triple slippage,8819.79,1.2925,11.3668,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,double fees + double slippage,7614.14,1.2481,12.5052,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,delay 1 candle,10025.43,1.3385,10.3263,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,delay 2 candles,8819.79,1.2925,11.3668,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,missed fills 10%,9130.61,1.3434,12.1073,364,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,missed fills 20%,9535.03,1.4109,9.0988,324,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,missed fills 30%,7619.39,1.3711,11.5362,283,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,stale cancel,9054.36,1.3222,13.0008,384,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,partial fill,10388.75,1.3862,9.0037,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,high funding,9171.21,1.3069,10.895,404,PASS
+Strategy #1.1 (P37_CAND_0357),FIXED,combined adverse,4767.16,1.1668,16.7156,364,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,normal,11431.41,1.4998,7.938,340,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,double fees,-4650.15,0.844,54.4921,340,FAIL
+Strategy #1.2 (P39_CAND_0551),OLD,triple fees,-20731.7,0.4419,203.1728,340,FAIL
+Strategy #1.2 (P39_CAND_0551),OLD,double slippage,3390.63,1.1288,16.6811,340,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,triple slippage,-4650.15,0.844,54.4921,340,FAIL
+Strategy #1.2 (P39_CAND_0551),OLD,double fees + double slippage,-12690.93,0.6194,125.6688,340,FAIL
+Strategy #1.2 (P39_CAND_0551),OLD,delay 1 candle,3390.63,1.1288,16.6811,340,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,delay 2 candles,-4650.15,0.844,54.4921,340,FAIL
+Strategy #1.2 (P39_CAND_0551),OLD,missed fills 10%,8144.39,1.377,10.881,306,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,missed fills 20%,7264.04,1.3789,11.072,272,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,missed fills 30%,6786.22,1.4091,9.3195,238,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,stale cancel,11877.11,1.5581,7.7268,323,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,partial fill,10574.05,1.4998,7.6014,340,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,high funding,11431.41,1.4998,7.938,340,PASS
+Strategy #1.2 (P39_CAND_0551),OLD,combined adverse,-20775.68,0.4079,204.7921,306,FAIL
+Strategy #1.2 (P39_CAND_0551),FIXED,normal,11431.41,1.4998,7.938,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,double fees,9293.9,1.3907,9.3951,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,triple fees,7156.39,1.2897,11.6485,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,double slippage,10362.65,1.4442,8.5978,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,triple slippage,9293.9,1.3907,9.3951,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,double fees + double slippage,8225.15,1.3392,10.257,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,delay 1 candle,10362.65,1.4442,8.5978,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,delay 2 candles,9293.9,1.3907,9.3951,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,missed fills 10%,8144.39,1.377,10.881,306,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,missed fills 20%,7264.04,1.3789,11.072,272,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,missed fills 30%,6786.22,1.4091,9.3195,238,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,stale cancel,11877.11,1.5581,7.7268,323,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,partial fill,10574.05,1.4998,7.6014,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,high funding,9922.14,1.4228,9.119,340,PASS
+Strategy #1.2 (P39_CAND_0551),FIXED,combined adverse,4323.12,1.1853,14.7223,306,PASS

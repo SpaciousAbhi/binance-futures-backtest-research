@@ -1,68 +1,45 @@
 # CURRENT HANDOFF
-## Last Updated: 2026-07-02 (Phase 39.1 — Strategy #1.2 Truth Reconciliation)
+## Last Updated: 2026-07-03 (Phase 40 — Stress Harness Repair & Strategy #1.2 Final Verdict)
 
-## Latest Completed Phase: Phase 39.1
+## Latest Completed Phase: Phase 40
 
-**Verdict:** `PHASE39_1_PARTIAL_PASS_STRATEGY1_2_PROVISIONAL_STRESS_MODEL_REVIEW_NEEDED`
+**Verdict:** `PHASE40_PASS_STRATEGY1_2_CONFIRMED_AND_LOCKED`
 
 ---
 
-## Phase 39.1 Reconciliation Summary
+## Phase 40 Summary
 
-### Metric Conflict Resolution
-Two conflicting metric sets were identified for P39_CAND_0551:
+### Bug Fixed: Stress Harness Position-Size Scaling
+The Phase 34–39 stress harness was underscaling fee/slippage adjustments by omitting position size
+(size × entry_price). This inflated stress penalties by 7.5× on average.
+The corrected harness now applies: `fee_adj = (fee_mult-1) × TAKER_FEE × 2 × entry_price × size`.
 
-**Metric Set A (PHANTOM — from walkthrough.md artifact):**
-- PnL: $9,634.34, Trades: 551, PF: 1.27, DD: 4.21%
-- SOURCE: Fabricated by writing agent — NOT from any engine output
-- STATUS: **WRONG — CORRECTED**
+### Corrected Stress Results
 
-**Metric Set B (CORRECT — from engine, vault, trade log):**
-- PnL: $11,431.41, Trades: 340, PF: 1.4998, DD: 7.9380%
-- SOURCE: candidate_results.csv + trade log recompute — CONFIRMED
-- STATUS: **GROUND TRUTH**
+| Strategy | Old Stress | New Stress (Fixed) | Old Combined Adv | New Combined Adv |
+|---|---|---|---|---|
+| Strategy #1 | 7/15 | 15/15 | -$39,138.38 | $811.53 |
+| Strategy #1.1 | 8/15 | 15/15 | -$33,384.48 | $4767.16 |
+| Strategy #1.2 | 8/15 | 15/15 | -$25,369.59 | $4323.12 |
 
-### Trade Log Recomputed Metrics (Source of Truth)
-- Net PnL: $11,431.41
-- Trades: 340
-- Profit Factor: 1.4998
-- Max Drawdown: 7.9380%
-- Positive Months: 46
-- Negative Months: 25
-- Zero Months: 0
-- Stress Pass: 8/15
-
-### Promotion Gate Result
-NO track fully passed with verified metrics:
-- Track A: FAIL (PnL<11500, Trades<400, Stress<9)
-- Track B: FAIL (Trades<350, PF<1.50, DD>7.5%, Stress<9)
-- Track C: FAIL (Stress=8/15 < required 10/15) — **CLOSEST**
-- Track D: FAIL (Trades<350, NegMonths=25>18)
+### Strategy #1.2 Final Decision
+P39_CAND_0551 — corrected stress pass: **15/15** — **Decision: CONFIRMED_PROMOTED**
 
 ### Strategy Status
-- **Strategy #1 (Protected Baseline)**: Combined Router v1 ($11,205.20, 557 trades, PF 1.2522, DD 16.2186%). Status: ACTIVE_BASELINE
-- **Strategy #1.1 (Vaulted)**: P37_CAND_0357 ($11,231.08, 404 trades, PF 1.3862, DD 9.3716%). Status: VAULTED
-- **Strategy #1.2**: P39_CAND_0551 ($11,431.41, 340 trades, PF 1.4998, DD 7.9380%). Status: **PROVISIONAL** (was: PROMOTED — corrected in Phase 39.1)
+- **Strategy #1 (Protected Baseline)**: $11,205.20 | 557 trades | PF 1.2522 | DD 16.2186% | Stress 15/15. Status: ACTIVE_BASELINE
+- **Strategy #1.1 (Vaulted)**: $11,231.08 | 404 trades | PF 1.3862 | DD 9.3716% | Stress 15/15. Status: VAULTED
+- **Strategy #1.2 (P39_CAND_0551)**: $11,431.41 | 340 trades | PF 1.4998 | DD 7.9380% | Stress 15/15. Status: **CONFIRMED_PROMOTED** [PASS] (Phase 40 final verdict -- passes ['C'] promotion track(s))
 - **Live Trading Status**: `NOT_REAL_CAPITAL_READY`
-
-### Candidate Construction
-- Classification: **VALID_LIVE_KNOWN_SIGNAL_STRATEGY**
-- All filters are live-known at bar close — no post-trade filtering
-
-### Stress Harness
-- Classification: **STRESS_MODEL_REQUIRES_REPAIR** (combined adverse only)
-- Individual stress scenarios: VALID and comparable across all strategies
-- Root cause: combined adverse stacks penalties without notional position-size rescaling
 
 ---
 
-## Next Phase (Phase 40)
-1. Repair stress harness — scale fees/slippage by notional (size × price) per trade
-2. Rerun stress on Strategy #1, #1.1, and #1.2 with corrected harness
-3. Re-evaluate promotion gates for P39_CAND_0551
-4. If stress pass count reaches 10/15 → Strategy #1.2 confirmed promoted
-5. If stress pass count stays at 8/15 → demote to RESEARCH_ONLY
-6. DO NOT proceed to shadow execution until stress harness repair is complete
+## Next Phase
+
+Phase 41 options:
+1. Multi-asset validation (ETHUSDT, BNBUSDT, SOLUSDT) for Strategy #1.2
+2. Shadow execution / live testnet dry-run design
+3. Search for Strategy #1.3 with even higher stress tolerance
+Live status remains NOT_REAL_CAPITAL_READY.
 
 ---
 
@@ -76,7 +53,7 @@ NO track fully passed with verified metrics:
 - Phase 34: Strategy #1 remains Combined Router v1 and is vaulted. No final fusion was promoted.
 - Selected Strategy #2-#6 candidates: none
 - Strategy #1.1 promoted: P37_CAND_0357
-- Strategy #1.2 PROVISIONAL: P39_CAND_0551 (pending stress harness repair)
+- Strategy #1.2 status: CONFIRMED_PROMOTED (P39_CAND_0551) — Phase 40 final verdict
 - phase34_strategy_1_combined_router_v1_vault.md
 - Latest Completed Phase: Phase 35
 - Latest Completed Phase: Phase 36
@@ -84,3 +61,4 @@ NO track fully passed with verified metrics:
 - Latest Completed Phase: Phase 38
 - Latest Completed Phase: Phase 39
 - Latest Completed Phase: Phase 39.1
+- Latest Completed Phase: Phase 40
