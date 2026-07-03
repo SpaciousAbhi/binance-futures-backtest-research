@@ -1,0 +1,9 @@
+symbol,timeframe,total_rows,duplicate_rows,missing_candles,gaps_detected,funding_nans,path,hash,status
+BTCUSDT,1h,56953,0,0,0,0,data/processed/BTCUSDT_1h_processed.csv,7862e2a9719b73afb9e0bca33ad73b91db943a2ad3edc01e6af1314610ff39fc,PASS
+BTCUSDT,5m,683425,0,0,0,0,data/processed/BTCUSDT_5m_processed.csv,baaf3f447bd86c0fa6af7c3302dbc5d901332650be15514a2df0b67cad6ae671,PASS
+ETHUSDT,1h,56953,0,0,0,0,data/processed/ETHUSDT_1h_processed.csv,ea3529b3549a2a03bbe23daa326e2cd70902172a7be8b7ca683ad59434f674ff,PASS
+ETHUSDT,5m,52129,0,0,0,0,data/processed/ETHUSDT_5m_processed.csv,754ff53b7fb7f7174c56aa712552dc30af31e2e657cb0a0793518c0b55534b06,PASS
+BNBUSDT,1h,55985,0,0,0,0,data/processed/BNBUSDT_1h_processed.csv,dc1d2861426eea0555f5bd8b10b7c1d7fe3e0fa82123151380b89c72a193df2e,PASS
+BNBUSDT,5m,52129,0,0,0,0,data/processed/BNBUSDT_5m_processed.csv,d95aef3f03465616e80e6c807c126dff667b4f817e5c64fdb6030672f771f6cb,PASS
+SOLUSDT,1h,50778,0,0,0,0,data/processed/SOLUSDT_1h_processed.csv,8d62ffb82137f1dee46a944ce459be97e1f169d02d6984dfc37f2cc3ea5d076a,PASS
+SOLUSDT,5m,52129,0,0,0,0,data/processed/SOLUSDT_5m_processed.csv,c28449a0b8f0190c53d6de69cba0fb14861343cb864e99ef9f36cda7c898ac05,PASS

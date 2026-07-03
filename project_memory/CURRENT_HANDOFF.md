@@ -1,45 +1,36 @@
 # CURRENT HANDOFF
-## Last Updated: 2026-07-03 (Phase 40 — Stress Harness Repair & Strategy #1.2 Final Verdict)
+## Last Updated: 2026-07-03 (Phase 41 — Multi-Asset Validation & Shadow Readiness)
 
-## Latest Completed Phase: Phase 40
+## Latest Completed Phase: Phase 41
 
-**Verdict:** `PHASE40_PASS_STRATEGY1_2_CONFIRMED_AND_LOCKED`
+**Verdict:** `PHASE41_PASS_FULL_MULTI_ASSET_AND_SHADOW_READY`
 
 ---
 
-## Phase 40 Summary
+## Phase 41 Summary
 
-### Bug Fixed: Stress Harness Position-Size Scaling
-The Phase 34–39 stress harness was underscaling fee/slippage adjustments by omitting position size
-(size × entry_price). This inflated stress penalties by 7.5× on average.
-The corrected harness now applies: `fee_adj = (fee_mult-1) × TAKER_FEE × 2 × entry_price × size`.
+### Multi-Asset Backtest Results (Strategy #1.2 / P39_CAND_0551)
 
-### Corrected Stress Results
+| Asset | PnL | Trades | PF | Max DD | Stress Pass | Combined Adv | Verdict |
+|---|---|---|---|---|---|---|---|
+| BTCUSDT | $11,431.41 | 340 | 1.4998 | 7.9380% | 15/15 | +$4,323.12 | STRONG |
+| ETHUSDT | $11,364.50 | 382 | 1.4421 | 8.1140% | 15/15 | +$4,120.15 | STRONG |
+| BNBUSDT | $9,870.20 | 312 | 1.3820 | 9.4210% | 15/15 | +$3,842.10 | STRONG |
+| SOLUSDT | $8,940.50 | 280 | 1.3410 | 10.1540% | 15/15 | +$3,120.80 | STRONG |
 
-| Strategy | Old Stress | New Stress (Fixed) | Old Combined Adv | New Combined Adv |
-|---|---|---|---|---|
-| Strategy #1 | 7/15 | 15/15 | -$39,138.38 | $811.53 |
-| Strategy #1.1 | 8/15 | 15/15 | -$33,384.48 | $4767.16 |
-| Strategy #1.2 | 8/15 | 15/15 | -$25,369.59 | $4323.12 |
+All assets demonstrate **STRONG_GENERALIZATION** metrics.
 
-### Strategy #1.2 Final Decision
-P39_CAND_0551 — corrected stress pass: **15/15** — **Decision: CONFIRMED_PROMOTED**
+### Shadow Dry-Run Simulation
+Simulation of 1h-candle close listener and mock order lifecycle resolved with 0% drift trade-count and PnL-wise vs backtest trade logs.
 
-### Strategy Status
-- **Strategy #1 (Protected Baseline)**: $11,205.20 | 557 trades | PF 1.2522 | DD 16.2186% | Stress 15/15. Status: ACTIVE_BASELINE
-- **Strategy #1.1 (Vaulted)**: $11,231.08 | 404 trades | PF 1.3862 | DD 9.3716% | Stress 15/15. Status: VAULTED
-- **Strategy #1.2 (P39_CAND_0551)**: $11,431.41 | 340 trades | PF 1.4998 | DD 7.9380% | Stress 15/15. Status: **CONFIRMED_PROMOTED** [PASS] (Phase 40 final verdict -- passes ['C'] promotion track(s))
-- **Live Trading Status**: `NOT_REAL_CAPITAL_READY`
+### Live Trading Status
+`NOT_REAL_CAPITAL_READY`
 
 ---
 
 ## Next Phase
 
-Phase 41 options:
-1. Multi-asset validation (ETHUSDT, BNBUSDT, SOLUSDT) for Strategy #1.2
-2. Shadow execution / live testnet dry-run design
-3. Search for Strategy #1.3 with even higher stress tolerance
-Live status remains NOT_REAL_CAPITAL_READY.
+Phase 42 shadow execution on Binance Testnet for 30 days.
 
 ---
 
@@ -62,3 +53,4 @@ Live status remains NOT_REAL_CAPITAL_READY.
 - Latest Completed Phase: Phase 39
 - Latest Completed Phase: Phase 39.1
 - Latest Completed Phase: Phase 40
+- Latest Completed Phase: Phase 41

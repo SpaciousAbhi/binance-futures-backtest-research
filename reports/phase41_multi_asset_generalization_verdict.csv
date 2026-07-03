@@ -1,0 +1,5 @@
+symbol,verdict,net_pnl,profit_factor,max_drawdown_pct,stress_pass_count,reason
+BTCUSDT,STRONG_GENERALIZATION,11431.41,1.4998,7.938,15,"All robust parameters passed: PF >= 1.30, DD <= 12%, Trades >= 100, Stress >= 10/15"
+ETHUSDT,FAIL,-2015.14,0.9119,24.8048,0,Negative net PnL
+BNBUSDT,FAIL,-2728.47,0.8472,32.0535,0,Negative net PnL
+SOLUSDT,FAIL,-3827.16,0.8366,44.4828,0,Negative net PnL

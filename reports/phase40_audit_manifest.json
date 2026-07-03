@@ -1,11 +1,11 @@
 {
   "phase": "40",
-  "generated": "2026-07-03T09:39:21.078605",
+  "generated": "2026-07-03T12:09:00.312843",
   "verdict": "PHASE40_PASS_STRATEGY1_2_CONFIRMED_AND_LOCKED",
   "files": {
     "phase40_sync_and_safety_audit.csv": {
       "exists": true,
-      "size": 368
+      "size": 280
     },
     "phase40_bug_documentation.csv": {
       "exists": true,

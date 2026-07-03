@@ -1,0 +1,9 @@
+field,value
+git_branch,master
+git_commit,f7ab24e4b02f0470557bfd6ae30077272770c6db
+remote_url,https://github.com/SpaciousAbhi/binance-futures-backtest-research.git
+git_status,DIRTY
+safety_tag,backup_before_phase41_full_multi_asset_validation
+strategy1_2_vault_exists,True
+strategy1_2_trade_log_exists,True
+timestamp,2026-07-03T06:39:00.926285+00:00
